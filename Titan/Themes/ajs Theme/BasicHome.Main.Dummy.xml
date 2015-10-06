@@ -162,7 +162,7 @@
     <posX>0</posX>
     <posY>0</posY>
     <width>1</width>
-    <visible>control.HasFocus(200) | control.HasFocus(300) | control.HasFocus(400) | control.HasFocus(500) | control.HasFocus(600) | control.HasFocus(700) | control.isvisible(90209) | control.isvisible(19091)</visible>         
+    <visible>control.HasFocus(200) | control.HasFocus(300) | control.HasFocus(400) | control.HasFocus(500) | control.HasFocus(600) | control.HasFocus(700) | control.isvisible(90209) | control.isvisible(19091) | control.isvisible(50092)</visible>         
   </control>
 
   <control>

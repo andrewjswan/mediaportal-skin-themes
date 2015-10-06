@@ -46,7 +46,6 @@
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
     </control>
-
    
     <control>
       <description>Poster 1</description>
@@ -86,6 +85,7 @@
         <animation effect="fade" start="0" end="100" time="450" reversible="false" delay="1200">Visible</animation>
         <animation effect="fade" time="250">WindowOpen</animation>
         <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="slide" start="0,0" end="-10,-10" time="200" condition="control.hasfocus(91919988)">conditional</animation>
     </control>  
 
     <control>
@@ -163,6 +163,7 @@
         <animation effect="fade" start="0" end="100" time="450" reversible="false" delay="1200">Visible</animation>
         <animation effect="fade" time="250">WindowOpen</animation>
         <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="slide" start="0,0" end="-10,-10" time="200" condition="control.hasfocus(91919989)">conditional</animation>
     </control>  
 
     <control>
@@ -240,6 +241,7 @@
         <animation effect="fade" start="0" end="100" time="450" reversible="false" delay="1200">Visible</animation>
         <animation effect="fade" time="250">WindowOpen</animation>
         <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="slide" start="0,0" end="-10,-10" time="200" condition="control.hasfocus(91919990)">conditional</animation>
     </control>  
 
     <control>

@@ -29,28 +29,17 @@
   	    <visible allowhiddenfocus="true">![Control.IsVisible(70081)|Control.IsVisible(70091)|control.isvisible(90109)|control.hasfocus(99999)]+[Control.IsVisible(1009)|Control.IsVisible(1109)|Control.IsVisible(10101)]</visible>
 	</control>
 
-   <control Style="HomePictureMenuNew">
-       <description>New indicator</description>
-       <id>0</id>
-       <type>image</type>
-       <posX>#L21lefttext</posX>
-       <posY>#L21toptext</posY>
-       <visible>control.isvisible(3)+string.equals(#latestMediaHandler.picture.hasnew,true)</visible>
-   </control>
+    <!--            :: NEW ::            -->
 
-   <!--control>
-       <description>new indicator</description>
-       <id>0</id>
-       <type>image</type>
-       <posX>#L21leftnew</posX>
-       <posY>#L21topnew</posY>
-       <width>50</width>
-       <height>50</height>
-       <texture>basichome_new_indicator.png</texture>
-       <visible>control.isvisible(3)+string.equals(#latestMediaHandler.picture.hasnew,true)</visible>
-       <animation effect="slide" start="0,0" end="-5,0" time="200" condition="control.hasfocus(3)">conditional</animation>
-       <animation effect="fade" time="250">WindowOpen</animation>
-       <animation effect="fade" time="150">WindowClose</animation>
-   </control-->  
+    <control Style="HomePictureMenuNew">
+        <description>New indicator</description>
+        <id>0</id>
+        <type>image</type>
+        <posX>#L21lefttext</posX>
+        <posY>#L21toptext</posY>
+        <visible>control.isvisible(3)+string.equals(#latestMediaHandler.picture.hasnew,true)</visible>
+        <animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(3)">conditional</animation>
+    </control>
+
 </controls>
 </window>

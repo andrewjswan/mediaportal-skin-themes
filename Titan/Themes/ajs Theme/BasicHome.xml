@@ -225,7 +225,7 @@
   <!--[latest]include>BasicHome.Latest\[P2.L21.Blank].xml</include[latest]--> 
   <include>BasicHome.Latest\P2.L12.WorldWeatherLite.xml</include> 
   <include>BasicHome.Latest\P2.L22.Trakt.xml</include> 
-  <!--[latest]include>BasicHome.Latest\[P2.L13.Blank].xml</include[latest]--> 
+  <include>BasicHome.Latest\P2.L13.OnlineVideos.xml</include> 
   <!--[latest]include>BasicHome.Latest\[P2.L23.Blank].xml</include[latest]--> 
 
   <!-- :::::::::: GROUP 2 L1-1 ::::::::::  -->

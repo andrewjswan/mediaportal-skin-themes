@@ -8,7 +8,7 @@
       <posX>0</posX>
       <posY>0</posY>
       <width>1</width>
-      <visible>plugin.isenabled(Trakt)+control.hasfocus(500)+!string.equals(#Trakt.Movie.0.Title,)</visible>
+      <visible>plugin.isenabled(Trakt)+[control.hasfocus(500)|control.hasfocus(98302)|control.hasfocus(98301)]+!string.equals(#Trakt.Movie.0.Title,)</visible>
     </control> 
 
     <control>
@@ -29,17 +29,6 @@
         <width>1907</width>
         <height>329</height>
         <texture>BasicHomeLatestBG.png</texture>
-      </control>
-      <control>
-        <description>LATEST MEDIA BACKGROUND</description>
-        <type>image</type>
-        <id>0</id>
-        <posX>8</posX>
-        <posY>150</posY>
-        <width>1907</width>
-        <height>329</height>
-        <texture>BasicHomeLatestBG.png</texture>
-        <visible>control.isvisible(50092)</visible>
       </control>
       <control>
         <description>Trending Movies label</description>
@@ -72,9 +61,9 @@
           <type>filmstrip</type>
           <dimColor>ffffffff</dimColor>
           <id>98302</id>
-          <onup>98301</onup>
+          <onup>400</onup>
           <onleft>98302</onleft>
-          <ondown>98302</ondown>
+          <ondown>500</ondown>
           <onright>98301</onright>
           <posX>500</posX>
           <posY>196</posY>
@@ -117,9 +106,10 @@
           <type>filmstrip</type>
           <dimColor>ffffffff</dimColor>
           <id>98301</id>
-          <onup>98301</onup>
+          <onup>400</onup>
           <onleft>98302</onleft>
           <onright>98301</onright>
+          <ondown>500</ondown>
           <posX>983</posX>
           <posY>196</posY>
           <width>500</width>
