@@ -20,7 +20,7 @@
 		<posX>#L13lefttext</posX>
 	    <posY>#L13toptext</posY>
         <hyperlink>4755</hyperlink>
-        <label>Online Videos</label>
+        <label>#OnlineVideos.HomeScreenName</label>
 		<onright>#P2L13ToRight</onright>
 		<onleft>400</onleft>
       	<onup>600</onup>
