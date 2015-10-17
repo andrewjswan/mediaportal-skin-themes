@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <window>
   <!-- set #basichome.onlinevideos.latest.mode property to cover, thumb, square or icon -->
-  <define property="true" evaluateNow="true">#basichome.onlinevideos.latest.mode:thumb</define>
+  <define property="true" evaluateNow="true">#basichome.onlinevideos.latest.mode:cover</define>
   
-  <control>
-    <description>DUMMY Visible</description>
-    <type>label</type>
-    <id>60092</id>
-    <posX>0</posX>
-    <posY>0</posY>
-    <width>1</width>
-    <visible>plugin.isenabled(OnlineVideos)+control.hasfocus(600)</visible>
-  </control> 
-
   <controls>
     <control>
       <description>GROUP: RecentlyAdded OnlineVideos</description>
       <type>group</type>
       <dimColor>0xffffffff</dimColor>
-      <visible>control.isvisible(60092)</visible>
+      <visible>plugin.isenabled(OnlineVideos)+control.hasfocus(600)</visible>
       <animation effect="fade" start="0" end="100" time="250" delay="550">visible</animation>
       <animation effect="fade" start="100" end="0" time="0">hidden</animation>
       <animation effect="fade" time="250">WindowOpen</animation>

@@ -172,6 +172,7 @@
     
     <import>common.facade.pictures.xml</import>
     <import>mypics.hiddenmenu.xml</import>
+    <import>mypics.folderchanged.xml</import>
     <import>common.overlay.xml</import>
 </controls>
 </window>

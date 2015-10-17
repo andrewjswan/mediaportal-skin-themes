@@ -14,10 +14,10 @@
           <description>LATEST MEDIA BACKGROUND</description>
           <type>image</type>
           <id>40002</id>
-          <posX>7</posX>
-          <posY>209</posY>
+          <posX>8</posX>
+          <posY>150</posY>
           <width>1907</width>
-          <height>250</height>
+          <height>329</height>
           <texture>BasicHomeLatestBG.png</texture>
         </control>
 
@@ -26,7 +26,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>1570</posX>
-        <posY>350</posY>
+        <posY>320</posY>
         <font>TitanLight12</font>
         <textcolor>ffffff</textcolor>
         <label>#WorldWeather.ForecastDay4Day</label>
@@ -37,7 +37,7 @@
         <type>label</type>
         <id>0</id>
         <posX>1570</posX>
-        <posY>380</posY>
+        <posY>350</posY>
 		<align>left</align>
         <label>#WorldWeather.ForecastDay4High/#WorldWeather.ForecastDay4Low</label>
         <font>fontB14</font>
@@ -49,7 +49,7 @@
 		<type>image</type>
 		<id>0</id>
 		<posX>1560</posX>
-		<posY>240</posY>
+		<posY>210</posY>
 		<height>120</height>
 		<width>120</width>
 		<texture>#WorldWeather.ForecastDay4IconImage</texture>
@@ -61,7 +61,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>1370</posX>
-        <posY>350</posY>
+        <posY>320</posY>
         <font>TitanLight12</font>
         <textcolor>ffffff</textcolor>
         <label>#WorldWeather.ForecastDay3Day</label>
@@ -72,7 +72,7 @@
         <type>label</type>
         <id>0</id>
         <posX>1370</posX>
-        <posY>380</posY>
+        <posY>350</posY>
 		<align>left</align>
         <label>#WorldWeather.ForecastDay3High/#WorldWeather.ForecastDay3Low</label>
         <font>fontB14</font>
@@ -84,7 +84,7 @@
 		<type>image</type>
 		<id>0</id>
 		<posX>1360</posX>
-		<posY>240</posY>
+		<posY>210</posY>
 		<height>120</height>
 		<width>120</width>
 		<texture>#WorldWeather.ForecastDay3IconImage</texture>
@@ -96,7 +96,7 @@
         <type>label</type>
         <id>0</id>
         <posX>1170</posX>
-        <posY>350</posY>
+        <posY>320</posY>
         <font>TitanLight12</font>
         <textcolor>ffffff</textcolor>
         <label>#WorldWeather.ForecastDay2Day</label>
@@ -107,7 +107,7 @@
         <type>label</type>
         <id>0</id>
         <posX>1170</posX>
-        <posY>380</posY>
+        <posY>350</posY>
 		<align>left</align>
         <label>#WorldWeather.ForecastDay2High/#WorldWeather.ForecastDay2Low</label>
         <font>fontB14</font>
@@ -119,7 +119,7 @@
 		<type>image</type>
 		<id>0</id>
 		<posX>1160</posX>
-		<posY>240</posY>
+		<posY>210</posY>
 		<height>120</height>
 		<width>120</width>
 		<texture>#WorldWeather.ForecastDay2IconImage</texture>
@@ -131,7 +131,7 @@
         <type>label</type>
         <id>0</id>
         <posX>970</posX>
-        <posY>350</posY>
+        <posY>320</posY>
         <font>TitanLight12</font>
         <textcolor>ffffff</textcolor>
         <label>#WorldWeather.ForecastDay1Day</label>
@@ -142,7 +142,7 @@
         <type>label</type>
         <id>0</id>
         <posX>970</posX>
-        <posY>380</posY>
+        <posY>350</posY>
 		<align>left</align>
         <label>#WorldWeather.ForecastDay1High/#WorldWeather.ForecastDay1Low</label>
         <font>fontB14</font>
@@ -154,7 +154,7 @@
 		<type>image</type>
 		<id>0</id>
 		<posX>960</posX>
-		<posY>240</posY>
+		<posY>210</posY>
 		<height>120</height>
 		<width>120</width>
 		<texture>#WorldWeather.ForecastDay1IconImage</texture>
@@ -166,7 +166,7 @@
         <type>label</type>
         <id>0</id>
         <posX>770</posX>
-        <posY>350</posY>
+        <posY>320</posY>
         <font>TitanLight12</font>
         <textcolor>ffffff</textcolor>
         <label>#WorldWeather.ForecastDay0Day</label>
@@ -177,7 +177,7 @@
         <type>label</type>
         <id>0</id>
         <posX>770</posX>
-        <posY>380</posY>
+        <posY>350</posY>
 		<align>left</align>
         <label>#WorldWeather.ForecastDay0High/#WorldWeather.ForecastDay0Low</label>
         <font>fontB14</font>
@@ -189,7 +189,7 @@
 		<type>image</type>
 		<id>0</id>
 		<posX>760</posX>
-		<posY>240</posY>
+		<posY>210</posY>
 		<height>120</height>
 		<width>120</width>
 		<texture>#WorldWeather.ForecastDay0IconImage</texture>
@@ -201,7 +201,7 @@
         <type>label</type>
         <id>0</id>
         <posX>350</posX>
-        <posY>250</posY>
+        <posY>220</posY>
         <label>#(string.rtrim(L(143),':'))</label>
         <font>TitanLight20</font>
         <textcolor>ffffffff</textcolor>
@@ -212,7 +212,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>355</posX>
-        <posY>325</posY>
+        <posY>295</posY>
 		<width>320</width>
         <label>#WorldWeather.TodayCondition</label>
         <font>fontB12</font>
@@ -224,7 +224,7 @@
         <type>label</type>
         <id>0</id>
         <posX>355</posX>
-        <posY>360</posY>
+        <posY>330</posY>
         <label>#WorldWeather.TodayTemperature / #WorldWeather.ForecastDay0Low</label>
         <font>fontB20</font>
         <textcolor>FFffffff</textcolor>
@@ -235,7 +235,7 @@
 		<type>image</type>
 		<id>0</id>
 		<posX>100</posX>
-		<posY>215</posY>
+		<posY>185</posY>
 		<height>236</height>
 		<width>236</width>
 		<texture>#WorldWeather.TodayIconImage</texture>
