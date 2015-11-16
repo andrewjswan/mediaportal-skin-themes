@@ -46,7 +46,7 @@
 		<posY>295</posY>
         <width>234</width>
         <height>234</height>
-      	<texture>..\..\..\Thumbs\CDArt\Music\CD.png</texture>
+      	<texture>CD.png</texture>
 		<keepaspectratio>yes</keepaspectratio>
 		<centered>yes</centered>	
 	  	<visible>string.equals(#skin.mymusic.info,AlbumInfo)+![control.hasthumb(55555)|control.hasthumb(55055)]</visible>

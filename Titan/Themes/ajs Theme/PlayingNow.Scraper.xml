@@ -20,6 +20,7 @@
         <posY>1015</posY>
         <label>Fanart #fanartHandler.scraper.task: #fanarthandler.scraper.percent.completed%</label>
         <visible>control.isvisible(91919280)</visible>
+        <textcolor>#(iif(eq(#music.simple,'true'),FFFFFFFF,FF000000))</textcolor>
         <animation effect="fade" time="250">WindowOpen</animation>
         <animation effect="fade" time="250">WindowClose</animation>
     </control>

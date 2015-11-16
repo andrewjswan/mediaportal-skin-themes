@@ -138,11 +138,11 @@
                 <textureNoFocus>-</textureNoFocus>
                 <label>#RadioTime.Translation.Search.Label</label>
                 <width>499</width>
-                <height>69</height>
+                <height>64</height>
                 <textXOff>62</textXOff>
                 <textYOff>16</textYOff>
                 <onright>50</onright>
-                <onup>11</onup>
+                <onup>55</onup>
                 <ondown>7</ondown>
             </control>
             
@@ -154,7 +154,7 @@
                 <textureNoFocus>-</textureNoFocus>
                 <label>#RadioTime.Translation.SearchArtist.Label</label>
                 <width>499</width>
-                <height>69</height>
+                <height>64</height>
                 <textXOff>62</textXOff>
                 <textYOff>16</textYOff>
                 <onright>50</onright>
@@ -170,7 +170,7 @@
                 <textureNoFocus>-</textureNoFocus>
                 <label></label>
                 <width>499</width>
-                <height>69</height>
+                <height>64</height>
                 <textXOff>62</textXOff>
                 <textYOff>16</textYOff>
                 <offsetSortButtonX>421</offsetSortButtonX>
@@ -188,7 +188,7 @@
                 <textureNoFocus>-</textureNoFocus>
                 <label></label>
                 <width>499</width>
-                <height>69</height>
+                <height>64</height>
                 <textXOff>62</textXOff>
                 <textYOff>16</textYOff>
                 <onright>50</onright>
@@ -204,7 +204,7 @@
                 <textureNoFocus>-</textureNoFocus>
                 <label>#RadioTime.Translation.Home.Label</label>
                 <width>499</width>
-                <height>69</height>
+                <height>64</height>
                 <textXOff>62</textXOff>
                 <textYOff>16</textYOff>
                 <onright>50</onright>
@@ -220,7 +220,7 @@
                 <textureNoFocus>-</textureNoFocus>
                 <label>#RadioTime.Translation.Genres.Label</label>
                 <width>499</width>
-                <height>69</height>
+                <height>64</height>
                 <textXOff>62</textXOff>
                 <textYOff>16</textYOff>
                 <onright>50</onright>
@@ -236,7 +236,7 @@
                 <textureNoFocus>-</textureNoFocus>
                 <label>#RadioTime.Translation.Presets.Label</label>
                 <width>499</width>
-                <height>69</height>
+                <height>64</height>
                 <textXOff>62</textXOff>
                 <textYOff>16</textYOff>
                 <onright>50</onright>
@@ -252,7 +252,7 @@
                 <textureNoFocus>-</textureNoFocus>
                 <label>#RadioTime.Translation.NowPlaying.Label</label>
                 <width>499</width>
-                <height>69</height>
+                <height>64</height>
                 <textXOff>62</textXOff>
                 <textYOff>16</textYOff>
                 <onright>50</onright>
@@ -268,7 +268,7 @@
                 <textureNoFocus>-</textureNoFocus>
                 <label>#RadioTime.Translation.Random.Label</label>
                 <width>499</width>
-                <height>69</height>
+                <height>64</height>
                 <textXOff>62</textXOff>
                 <textYOff>16</textYOff>
                 <onright>50</onright>
@@ -284,14 +284,35 @@
                 <textureNoFocus>-</textureNoFocus>
                 <label>#RadioTime.Translation.FastPresets.Label</label>
                 <width>499</width>
-                <height>69</height>
+                <height>64</height>
                 <textXOff>62</textXOff>
                 <textYOff>16</textYOff>
                 <onright>50</onright>
                 <onup>10</onup>
-                <ondown>5</ondown>
+                <ondown>55</ondown>
             </control>
             
+            <control>
+                <description>FanArtHandler Slideshow</description>
+                <type>checkbutton</type>
+                <id>55</id>
+				<width>499</width>
+				<height>64</height>
+				<textXOff>62</textXOff>
+				<textYOff>16</textYOff>
+                <textureFocus>hiddenmenu_item_selected.png</textureFocus>
+                <textureNoFocus>-</textureNoFocus>
+                <textcolor>FFFFFFFF</textcolor>
+                <colordiffuse>ffffffff</colordiffuse>
+                <textcolorNoFocus>ff393939</textcolorNoFocus>
+                <label>#fanarthandler.pictures.slideshow.translation</label>
+                <selected>#(skin.hassetting('#skin.fanarthandler.pictures.slideshow.enabled'))</selected>
+                <onclick>#(skin.togglesetting('#skin.fanarthandler.pictures.slideshow.enabled'))</onclick>
+				<onright>50</onright>
+                <onup>11</onup>
+                <ondown>5</ondown>
+                <visible>plugin.isenabled(Fanart Handler)+string.equals(#fanarthandler.pictures.slideshow.enabled,true)</visible>
+            </control>
         </control>
     </control>
 
@@ -494,6 +515,8 @@
         <animation effect="fade" time="250">Hidden</animation>
         <!--visible>![facadeview.filmstrip|facadeview.coverflow]</visible-->
         <shouldCache>false</shouldCache>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
     </control>
     <!-- -->
     <import>common.overlay.xml</import>

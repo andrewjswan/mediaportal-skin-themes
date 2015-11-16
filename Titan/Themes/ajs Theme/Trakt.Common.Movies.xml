@@ -11,6 +11,8 @@
        		<width>250</width>
        		<height>140</height>
     		<texture>..\..\..\Thumbs\ClearArt\Movies\#(string.trim(#Trakt.Movie.ImdbId)).png</texture>
+            <animation effect="fade" time="250">WindowOpen</animation>
+            <animation effect="fade" time="250">WindowClose</animation>
        	</control>  
 
     	<!-- ClearLogo -->
@@ -24,6 +26,8 @@
        		<height>140</height>
         	<visible>!control.hasthumb(159357)</visible>
     		<texture>..\..\..\Thumbs\ClearLogo\Movies\#(string.trim(#Trakt.Movie.ImdbId)).png</texture>
+            <animation effect="fade" time="250">WindowOpen</animation>
+            <animation effect="fade" time="250">WindowClose</animation>
        	</control>  
 
     <!--            :: LIST / THUMBVIEW ::            -->

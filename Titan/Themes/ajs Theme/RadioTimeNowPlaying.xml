@@ -5,6 +5,8 @@
 <allowoverlay>no</allowoverlay>
 <define>#usePlayFanart:Yes</define>
 <define>#header.hover:#(iif(#skin.background.useHover, 'hover_radiotime.png', 'background.png'))</define>       
+<define property="true" evaluateNow="true">#music.simple:#(iif(or(and(plugin.isenabled('Fanart Handler'),eq(#fanarthandler.pictures.slideshow.enabled,'true'),eq(#skin.fanarthandler.pictures.slideshow.enabled,'True')),eq(#skin.music.nowplaying.simple,'True')),'true','false'))</define>
+<define>#music.filetype:#(iif(string.contains(#Play.Current.FileType,'mp3'),'mp3',iif(string.contains(#Play.Current.FileType,'flac'),'flac',iif(string.contains(#Play.Current.FileType,'ape'),'ape',iif(string.contains(#Play.Current.FileType,'ogg'),'ogg',#Play.Current.FileType)))))</define>
 <controls>
     
   <!--            :: BACKGROUNDS ::              -->
@@ -47,9 +49,12 @@
       <posY>580</posY>
       <width>200</width>
       <height>75</height>           
+      <valign>bottom</valign>
       <texture>#fanarthandler.music.artistclearart.play</texture>
       <animation effect="fade" time="500">VisibleChange</animation>
       <shouldCache>false</shouldCache>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
     </control>
 
     <control>
@@ -61,24 +66,14 @@
       <width>200</width>
       <height>75</height>           
       <animation effect="fade" time="500">VisibleChange</animation>
+      <valign>bottom</valign>
       <texture>..\..\..\Thumbs\ClearArt\Music\#Play.Current.Artist.png</texture>
       <visible>!control.hasthumb(258456951)</visible>
       <shouldCache>false</shouldCache>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
     </control>
 
-    <control>
-      <description>ClearArt</description>
-      <type>image</type>
-      <id>0</id>
-      <posX>1650</posX>
-      <posY>580</posY>
-      <width>200</width>
-      <height>75</height>           
-      <animation effect="fade" time="500">VisibleChange</animation>
-      <texture>..\..\..\Thumbs\ClearArt\Music\#RadioTime.Play.Artist.png</texture>
-      <visible>![control.hasthumb(258456951)+control.hasthumb(258456952)]</visible>
-      <shouldCache>false</shouldCache>
-    </control>
   <!-- -->
 
     <control>
@@ -421,6 +416,7 @@
     </control>
 
     <!-- CDArt -->
+
     <control>
       <description>CDArt</description>
       <type>image</type>
@@ -437,6 +433,8 @@
       <valign>top</valign>
       <animation effect="rotate" delay="0" end="-360" time="8000" loop="true" condition="!player.paused">Conditional</animation>
       <animation effect="fade" time="500">VisibleChange</animation>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
     </control>
 
     <control>
@@ -447,7 +445,7 @@
       <posY>717</posY>
       <width>234</width>
       <height>234</height>
-      <texture>..\..\..\Thumbs\CDArt\Music\#RadioTime.Play.Artist - #RadioTime.Play.Album.png</texture>
+      <texture>#fanarthandler.music.albumcd.play</texture>
       <keepaspectratio>yes</keepaspectratio>
       <centered>yes</centered>
       <align>center</align>
@@ -457,7 +455,8 @@
       <animation effect="rotate" delay="0" end="-360" time="8000" loop="true" condition="!player.paused">Conditional</animation>
       <animation effect="fade" time="500">VisibleChange</animation>
     </control>
-  <!-- -->
+
+    <!-- -->
 
     <control>
       <description>FANART IMAGE 1</description>
@@ -468,7 +467,7 @@
       <width>416</width>
       <height>234</height>
       <texture>#fanarthandler.music.backdrop1.play</texture>
-      <visible>control.isvisible(91919295)+control.isvisible(91919294)+![control.hasthumb(159357)+control.hasthumb(159358)]</visible>
+      <visible>control.isvisible(91919295)+control.isvisible(91919294)+!control.hasthumb(159357)+!control.hasthumb(159358)</visible>
       <animation effect="fade" time="300">visible</animation>
       <animation effect="fade" time="300" delay="300">hidden</animation>
     </control>
@@ -482,7 +481,7 @@
       <width>416</width>
       <height>234</height>
       <texture>#fanarthandler.music.backdrop2.play</texture>
-      <visible>control.isvisible(91919296)+control.isvisible(91919294)+![control.hasthumb(159357)+control.hasthumb(159358)]</visible>
+      <visible>control.isvisible(91919296)+control.isvisible(91919294)+!control.hasthumb(159357)+!control.hasthumb(159358)</visible>
       <animation effect="fade" time="300">visible</animation>           
       <animation effect="fade" time="300" delay="300">hidden</animation>
     </control>

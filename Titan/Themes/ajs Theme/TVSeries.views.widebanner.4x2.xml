@@ -72,6 +72,8 @@
       <texture>Logos\Studios\#(string.trim(#TVSeries.Series.Network)).png</texture>
       <keepaspectratio>yes</keepaspectratio>
 	  <visible>![facadeview.filmstrip|facadeview.coverflow]</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
     </control>
 
     <control>
@@ -85,6 +87,8 @@
       <texture>Logos\Studios\#(string.trim(#TVSeries.Series.Network)).png</texture>
       <keepaspectratio>yes</keepaspectratio>
 	  <visible>[facadeview.filmstrip|facadeview.coverflow]</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
     </control>
 
 	<!-- 			:: DVD COVER (SEASON/EPISODE) :: -->

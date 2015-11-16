@@ -59,6 +59,7 @@
         <ondown>12</ondown>
         <onright>91919972</onright>
         <onleft>3</onleft>
+        <onESC>#(skin.setfocus(35,3))</onESC>
         <textureFocus>#latestMediaHandler.picture.latest1.thumb</textureFocus>
         <textureNoFocus>#latestMediaHandler.picture.latest1.thumb</textureNoFocus>
         <visible allowhiddenfocus="true">control.isvisible(30091)</visible>
@@ -121,6 +122,7 @@
         <ondown>12</ondown>
         <onright>91919973</onright>
         <onleft>91919971</onleft>
+        <onESC>#(skin.setfocus(35,3))</onESC>
         <textureFocus>#latestMediaHandler.picture.latest2.thumb</textureFocus>
         <textureNoFocus>#latestMediaHandler.picture.latest2.thumb</textureNoFocus>
    		<!--keepaspectratio>yes</keepaspectratio>
@@ -183,6 +185,7 @@
         <ondown>12</ondown>
         <onright>5</onright>
         <onleft>91919972</onleft>
+        <onESC>#(skin.setfocus(35,3))</onESC>
         <textureFocus>#latestMediaHandler.picture.latest3.thumb</textureFocus>
         <textureNoFocus>#latestMediaHandler.picture.latest3.thumb</textureNoFocus>
    		<!--keepaspectratio>yes</keepaspectratio>

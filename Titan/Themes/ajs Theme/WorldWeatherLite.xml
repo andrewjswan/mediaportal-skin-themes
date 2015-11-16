@@ -8,14 +8,7 @@
 	
     <!--            :: BACKGROUNDS ::           	 -->
 		
-  <control>
-    <description>default background</description>
-    <type>image</type>
-    <id>0</id>
-    <width>1920</width>
-    <height>1080</height>
-    <texture>background.png</texture>
-  </control>
+  <import>common.default.background.xml</import>
 
   <control>
     <description>Wheather Selected Fanart</description>
@@ -97,7 +90,7 @@
 		<posX>96</posX>
 		<posY>1015</posY>
 		<width>1725</width>
-    <label>#WorldWeather.TranslationProvider #WorldWeather.Provider (#WorldWeather.TranslationCurrentCondition) + #WorldWeather.ForecastProvider (#WorldWeather.TranslationForecastCondition)</label>
+        <label>#WorldWeather.TranslationProvider #WorldWeather.Provider (#WorldWeather.TranslationCurrentCondition) + #WorldWeather.ForecastProvider (#WorldWeather.TranslationForecastCondition)</label>
 		<animation effect="fade" time="250">WindowOpen</animation>
 		<animation effect="fade" time="250">WindowClose</animation>
 	</control>
@@ -106,13 +99,34 @@
 		<description>Provider</description>
 		<type>image</type>
 		<id>0</id>
-		<posX>200</posX>
-		<posY>750</posY>
-		<width>200</width>
-		<height>100</height>
+		<posX>100</posX>
+		<posY>990</posY>
+		<width>150</width>
+		<height>50</height>
 		<centered>yes</centered>    
+		<align>left</align>    
+		<valign>middle</valign>    
 		<keepaspectratio>yes</keepaspectratio>
         <texture>weather\provider\#(string.trim(#WorldWeather.Provider)).png</texture>
+        <animation effect="fade" start="100" end="0" time="450" reversible="false">Hidden</animation>
+        <animation effect="fade" start="0" end="100" time="450" reversible="false">Visible</animation>
+        <animation effect="fade" start="0" end="100" time="250" delay="350">WindowOpen</animation>
+        <animation effect="fade" start="100" end="0" time="250" delay="0">WindowClose</animation>
+	</control>
+
+	<control>
+		<description>Forecast Provider</description>
+		<type>image</type>
+		<id>0</id>
+		<posX>1670</posX>
+		<posY>990</posY>
+		<width>150</width>
+		<height>50</height>
+		<centered>yes</centered>    
+		<align>right</align>    
+		<valign>middle</valign>    
+		<keepaspectratio>yes</keepaspectratio>
+        <texture>weather\provider\#(string.trim(#WorldWeather.ForecastProvider)).png</texture>
         <animation effect="fade" start="100" end="0" time="450" reversible="false">Hidden</animation>
         <animation effect="fade" start="0" end="100" time="450" reversible="false">Visible</animation>
         <animation effect="fade" start="0" end="100" time="250" delay="350">WindowOpen</animation>
@@ -129,7 +143,7 @@
       <layout>StackLayout(18, Horizontal, true)</layout>
 			<animation effect="fade" time="250">WindowOpen</animation>
 			<animation effect="fade" time="250">WindowClose</animation>
-			
+		
 			<control Style="SettingsButton">
         <description>Location</description>
         <type>button</type>
@@ -137,7 +151,7 @@
         <label>Location</label>
         <onup>3</onup>
         <ondown>3</ondown>
-				<onleft>3</onleft>
+				<onleft>55</onleft>
 				<onright>3</onright>
       </control>
 			
@@ -859,6 +873,106 @@
       <textcolor>FFFFFFFF</textcolor>
 			<animation effect="fade" time="250">WindowOpen</animation>
 			<animation effect="fade" time="250">WindowClose</animation>
+    </control>
+
+    <!--                        :: HIDDEN MENU ::                        -->
+    
+    <control>
+        <id>1</id>
+        <type>image</type>
+        <posX>0</posX>
+        <posY>440</posY>
+        <width>64</width>
+        <height>199</height>
+        <texture>hiddenmenu_tab.png</texture>
+        <visible>!Control.HasFocus(55)</visible>
+        <animation effect="slide" start="-60,0" end="0,0" tween="quadratic" easing="in" time="250" delay="400">WindowOpen</animation>
+        <animation effect="slide" start="0,0" end="-60,0" tween="quadratic" easing="in" time="250" delay="100">WindowClose</animation>
+    </control>
+        
+    <control>
+        <type>actiongroup</type>
+        <description>action menu</description>
+        <defaultcontrol>55</defaultcontrol>
+        <onexit>2</onexit>
+        <dimColor>00ffffff</dimColor>
+        <buttonX>0</buttonX>
+        <buttonY>0</buttonY>
+        <buttonwidth>521</buttonwidth>
+        <buttonheight>1080</buttonheight>       
+        <control>
+            <type>image</type>
+            <id>0</id>
+            <width>1920</width>
+            <height>1080</height>
+            <texture>semi_trans_back_hidden_menu.png</texture>
+            <visible>Control.HasFocus(55)</visible>
+            <animation effect="fade" time="450">visible</animation>
+            <animation effect="fade" time="400">hidden</animation>
+        </control>  
+        <control>
+            <type>image</type>
+            <id>0</id>
+            <posY>0</posY>
+            <posX>0</posX>
+            <width>612</width>
+            <height>1074</height>
+            <texture>menu_bg.png</texture>
+            <visible>Control.HasFocus(55)</visible>
+            <animation effect="fade" time="0">WindowClose</animation>
+            <animation effect="slide" start="-150,0" time="100">visible</animation>
+            <animation effect="fade" time="50">visible</animation>
+            <animation effect="fade" time="0">hidden</animation>
+        </control>
+        <control>
+            <description>Menu label</description>
+            <type>label</type>
+            <id>1</id>
+            <posX>116</posX>
+            <posY>100</posY>
+            <label>924</label>
+            <font>fontB16</font>
+            <textcolor>393939</textcolor>
+            <visible>Control.HasFocus(55)</visible>
+            <animation effect="fade" time="0">WindowClose</animation>
+            <animation effect="slide" start="-150,0" time="100">visible</animation>
+            <animation effect="fade" time="50">visible</animation>
+            <animation effect="fade" time="0">hidden</animation>
+        </control>      
+        <control>
+            <type>group</type>
+            <description>group element</description>
+            <visible>Control.HasFocus(55)</visible>
+            <animation effect="fade" time="0">WindowClose</animation>
+            <animation effect="slide" start="-150,0" time="100">visible</animation>
+            <animation effect="fade" time="50">visible</animation>
+            <animation effect="fade" time="0">hidden</animation>
+            <posX>53</posX>
+            <posY>155</posY>
+            <layout>StackLayout(0, Vertical, true)</layout> 
+    
+            <control>
+                <description>Weather Forecast on Clock</description>
+                <type>checkbutton</type>
+                <id>55</id>
+				<width>499</width>
+				<height>64</height>
+				<textXOff>62</textXOff>
+				<textYOff>16</textYOff>
+                <textureFocus>hiddenmenu_item_selected.png</textureFocus>
+                <textureNoFocus>-</textureNoFocus>
+                <textcolor>FFFFFFFF</textcolor>
+                <colordiffuse>ffffffff</colordiffuse>
+                <textcolorNoFocus>ff393939</textcolorNoFocus>
+                <label>Weather forecast on clock</label>
+                <selected>#(skin.hassetting('#skin.enable.Weather.Forecast.Clock.enabled'))</selected>
+                <onclick>#(skin.togglesetting('#skin.enable.Weather.Forecast.Clock.enabled'))</onclick>
+				<onright>2</onright>
+                <onup>55</onup>
+                <ondown>55</ondown>
+                <visible allowhiddenfocus="true">Control.HasFocus(55)</visible>
+            </control>
+        </control>
     </control>
   </controls>
 </window>

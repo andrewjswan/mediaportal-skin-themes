@@ -26,7 +26,7 @@
         <onright>4</onright>
         <onleft>#P1L11ToLeft</onleft>
         <oninfo>#(skin.setfocus(35,12001))</oninfo>
-        <visible allowhiddenfocus="true">![control.IsVisible(60081)|Control.IsVisible(60091)|control.IsVisible(90109)|control.hasfocus(99999)]+[Control.IsVisible(1009)|Control.IsVisible(1109)|Control.IsVisible(10101)]</visible>   
+        <visible allowhiddenfocus="true">![control.IsVisible(20081)|control.IsVisible(60081)|Control.IsVisible(60091)|control.IsVisible(90109)|control.hasfocus(99999)]+[Control.IsVisible(1009)|Control.IsVisible(1109)|Control.IsVisible(10101)]</visible>   
 	</control>
 
     <!--            :: NEW ::            -->
@@ -35,8 +35,8 @@
         <description>New indicator</description>
         <id>0</id>
         <type>image</type>
-        <posX>#L21lefttext</posX>
-        <posY>#L21toptext</posY>
+        <posX>#L11lefttext</posX>
+        <posY>#L11toptext</posY>
         <visible>control.isvisible(2)+string.equals(#latestMediaHandler.music.hasnew,true)</visible>
         <animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(2)">conditional</animation>
     </control>
@@ -46,8 +46,8 @@
     <description>Background</description>
     <id>20081</id>
     <type>image</type>
-    <posX>#L11left</posX>
-    <posY>#L11top</posY>
+    <posX>#L11lefttext</posX>
+    <posY>#L11toptext</posY>
     <width>593</width>
     <height>241</height>
     <texture>submenu_bg.png</texture>
@@ -62,7 +62,7 @@
   <control>
     <description>group element</description>
     <type>group</type>
-    <layout>StackLayout(0, Vertical,true)</layout>
+    <layout>StackLayout(1, Vertical,true)</layout>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="200">WindowClose</animation>
     <animation effect="fade" time="350" delay="0">visible</animation>
@@ -82,7 +82,7 @@
       <textureNoFocus>-</textureNoFocus>
       <hyperlink>501</hyperlink>
       <label>249</label>
-      <font>fontB14</font>
+      <font>font12</font>
       <textcolor>FFFFFFFF</textcolor>
       <textalign>center</textalign>
       <textcolorNoFocus>FF000000</textcolorNoFocus>
@@ -91,6 +91,7 @@
       <onleft>2</onleft>
       <ondown>12002</ondown>
       <onup>12006</onup>
+      <onESC>#(skin.setfocus(35,2))</onESC>
       <visible allowhiddenfocus="true">Control.IsVisible(20081)</visible>
     </control>
     <control>
@@ -103,7 +104,7 @@
       <textureNoFocus>-</textureNoFocus>
       <hyperlink>30</hyperlink>
       <label>862</label>
-      <font>fontB14</font>
+      <font>font12</font>
       <textcolor>FFFFFFFF</textcolor>
       <textalign>center</textalign>
       <textcolorNoFocus>FF000000</textcolorNoFocus>
@@ -112,6 +113,7 @@
       <onleft>2</onleft>
       <ondown>12003</ondown>
       <onup>12001</onup>
+      <onESC>#(skin.setfocus(35,2))</onESC>
       <visible>Control.IsVisible(20081) + plugin.isenabled(Radio)</visible>
     </control>
     <control>
@@ -124,7 +126,7 @@
       <textureNoFocus>-</textureNoFocus>
       <hyperlink>25650</hyperlink>
       <label>RadioTime</label>
-      <font>fontB14</font>
+      <font>font12</font>
       <textcolor>FFFFFFFF</textcolor>
       <textalign>center</textalign>
       <textcolorNoFocus>FF000000</textcolorNoFocus>
@@ -133,6 +135,7 @@
       <onleft>2</onleft>
       <onup>12002</onup>
       <ondown>12004</ondown>
+      <onESC>#(skin.setfocus(35,2))</onESC>
       <visible>Control.IsVisible(20081) + plugin.isenabled(TuneIn)</visible>
     </control>
     <control>
@@ -145,7 +148,7 @@
       <textureNoFocus>-</textureNoFocus>
       <hyperlink>47286</hyperlink>
       <label>#Rockstar.PluginName</label>
-      <font>fontB14</font>
+      <font>font12</font>
       <textcolor>FFFFFFFF</textcolor>
       <textalign>center</textalign>
       <textcolorNoFocus>FF000000</textcolorNoFocus>
@@ -154,6 +157,7 @@
       <onleft>2</onleft>
       <onup>12003</onup>
       <ondown>12005</ondown>
+      <onESC>#(skin.setfocus(35,2))</onESC>
       <visible>Control.IsVisible(20081) + plugin.isenabled(Rockstar)</visible>
     </control>
     <control>
@@ -166,16 +170,18 @@
       <textureNoFocus>-</textureNoFocus>
       <hyperlink>112011</hyperlink>
       <label>#mvCentral.Settings.HomeScreenName</label>
-      <font>fontB14</font>
+      <font>font12</font>
       <textcolor>FFFFFFFF</textcolor>
       <textalign>center</textalign>
       <textcolorNoFocus>FF000000</textcolorNoFocus>
       <textYOff>0</textYOff>
-      <onright>4</onright>
+      <onright>91919997</onright>
       <onleft>2</onleft>
       <onup>12004</onup>
       <ondown>12006</ondown>
-      <visible>Control.IsVisible(20081) + plugin.isenabled(mvCentral)</visible>
+      <onESC>#(skin.setfocus(35,2))</onESC>
+      <!--visible>Control.IsVisible(20081) + plugin.isenabled(mvCentral)</visible-->
+      <visible>Control.IsVisible(20081) + !string.equals(#mvCentral.Settings.HomeScreenName,)</visible>
     </control>
     <control>
       <description>Playlist</description>
@@ -187,15 +193,16 @@
       <textureNoFocus>-</textureNoFocus>
       <hyperlink>500</hyperlink>
       <label>983</label>
-      <font>fontB14</font>
+      <font>font12</font>
       <textcolor>FFFFFFFF</textcolor>
       <textalign>center</textalign>
       <textcolorNoFocus>FF000000</textcolorNoFocus>
       <textYOff>0</textYOff>
-      <onright>4</onright>
+      <onright>91919997</onright>
       <onleft>2</onleft>
       <onup>12005</onup>
       <ondown>12001</ondown>
+      <onESC>#(skin.setfocus(35,2))</onESC>
       <visible>Control.IsVisible(20081)</visible>
     </control>
   </control>

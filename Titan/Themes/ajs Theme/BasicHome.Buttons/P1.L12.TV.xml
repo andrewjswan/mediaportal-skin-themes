@@ -2,6 +2,23 @@
 <window>
 <controls> 
 
+	<control>
+      <description>Background</description>
+      <id>400081</id>
+      <type>image</type>
+      <posX>1203</posX>
+      <posY>409</posY>
+      <width>709</width>
+      <height>329</height>
+      <texture>basichome_submenu_bg_r.png</texture>
+      <visible>control.HasFocus(400001) | control.HasFocus(400011) | control.HasFocus(400021) | control.HasFocus(400031) | control.HasFocus(400041)  | control.HasFocus(400051)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="200">WindowClose</animation>
+      <animation effect="fade" time="350" delay="0">visible</animation>
+      <animation effect="slide" start="-300" end="0" time="350">visible</animation>
+      <animation effect="fade" time="0">hidden</animation>	
+	</control>
+
    	<control Style="HomeButtonPicture">
         <description>BasicHome TV NoFocus</description>
         <type>image</type>
@@ -51,30 +68,13 @@
         <description>New indicator</description>
         <id>0</id>
         <type>image</type>
-        <posX>#L21lefttext</posX>
-        <posY>#L21toptext</posY>
+        <posX>#L12lefttext</posX>
+        <posY>#L12toptext</posY>
         <visible>control.isvisible(4)+string.equals(#latestMediaHandler.tvrecordings.hasnew,true)</visible>
         <animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(2)">conditional</animation>
     </control>
 
  	<!--            :: TV ::            -->
- 	
-	<control>
-      <description>Background</description>
-      <id>400081</id>
-      <type>image</type>
-      <posX>1203</posX>
-      <posY>409</posY>
-      <width>709</width>
-      <height>329</height>
-      <texture>basichome_submenu_bg_r.png</texture>
-      <visible>control.HasFocus(400001) | control.HasFocus(400011) | control.HasFocus(400021) | control.HasFocus(400031) | control.HasFocus(400041)  | control.HasFocus(400051)</visible>
-      <animation effect="fade" time="250">WindowOpen</animation>
-      <animation effect="fade" time="200">WindowClose</animation>
-      <animation effect="fade" time="350" delay="0">visible</animation>
-      <animation effect="slide" start="-300" end="0" time="350">visible</animation>
-      <animation effect="fade" time="0">hidden</animation>	
-	</control>
  	
   <control>
     <description>group element</description>
@@ -85,8 +85,8 @@
 	<animation effect="fade" time="350" delay="250">visible</animation>
 	<animation effect="fade" time="0">hidden</animation>	
     <dimColor>0xffffffff</dimColor>
+    <posY>#L12topcontext</posY>
 	<posX>1296</posX>
-    <posY>478</posY>
 		
 	<control>
   	  <description>TV Home</description>

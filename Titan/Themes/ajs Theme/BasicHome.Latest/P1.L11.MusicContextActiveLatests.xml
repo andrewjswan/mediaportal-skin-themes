@@ -8,7 +8,7 @@
       <posX>0</posX>
       <posY>0</posY>
       <width>1</width>
-      <visible>[control.hasfocus(2)|control.isvisible(20081)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)|control.isvisible(20081)]+string.equals(#latestMediaHandler.music.latest.enabled,true)</visible>
+      <visible>[control.hasfocus(2)|control.isvisible(20081)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]+string.equals(#latestMediaHandler.music.latest.enabled,true)</visible>
     </control>
 
     <control>
@@ -61,12 +61,13 @@
         <ondown>3</ondown>
         <onright>91919998</onright>
         <onleft>2</onleft>
+        <onESC>#(skin.setfocus(35,2))</onESC>
         <animation effect="fade" start="100" end="0" time="0">Hidden</animation>
         <animation effect="zoom" start="50,50" end="100,100" time="1500">Visible</animation>
         <animation effect="fade" start="0" end="100" time="450" reversible="false" delay="1200">Visible</animation>
         <animation effect="fade" time="250">WindowOpen</animation>
         <animation effect="fade" time="250">WindowClose</animation>
-        <animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(91919997)">conditional</animation>
+        <animation effect="zoom" start="100,100" end="110,110" time="200" condition="control.hasfocus(91919997)">conditional</animation>
     </control>
     
     <control>
@@ -121,12 +122,13 @@
         <ondown>3</ondown>
         <onright>91919999</onright>
         <onleft>91919997</onleft>
+        <onESC>#(skin.setfocus(35,2))</onESC>
         <animation effect="fade" start="100" end="0" time="0">Hidden</animation>
         <animation effect="zoom" start="50,50" end="100,100" time="1500">Visible</animation>
         <animation effect="fade" start="0" end="100" time="450" reversible="false" delay="1200">Visible</animation>
         <animation effect="fade" time="250">WindowOpen</animation>
         <animation effect="fade" time="250">WindowClose</animation>
-        <animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(91919998)">conditional</animation>
+        <animation effect="zoom" start="100,100" end="110,110" time="200" condition="control.hasfocus(91919998)">conditional</animation>
     </control>
    
     <control>
@@ -181,12 +183,13 @@
         <ondown>3</ondown>
         <onright>4</onright>
         <onleft>91919998</onleft>
+        <onESC>#(skin.setfocus(35,2))</onESC>
         <animation effect="fade" start="100" end="0" time="0">Hidden</animation>
         <animation effect="zoom" start="50,50" end="100,100" time="1500">Visible</animation>
         <animation effect="fade" start="0" end="100" time="450" reversible="false" delay="1200">Visible</animation>
         <animation effect="fade" time="250">WindowOpen</animation>
         <animation effect="fade" time="250">WindowClose</animation>
-        <animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(91919999)">conditional</animation>
+        <animation effect="zoom" start="100,100" end="110,110" time="200" condition="control.hasfocus(91919999)">conditional</animation>
     </control>
        
     <control>

@@ -360,6 +360,8 @@
         <animation effect="fade" time="500">Visible</animation>
         <animation effect="fade" time="250">Hidden</animation>
         <shouldCache>false</shouldCache>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
     </control>  
     <control>
         <description>ClearArt</description>
@@ -374,6 +376,8 @@
         <animation effect="fade" time="500">Visible</animation>
         <animation effect="fade" time="250">Hidden</animation>
         <shouldCache>false</shouldCache>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
     </control>  
     <control>
         <description>ClearArt</description>
@@ -388,6 +392,8 @@
         <animation effect="fade" time="250">Hidden</animation>
         <visible>![facadeview.filmstrip|facadeview.coverflow]+!control.hasthumb(258456950)+!control.hasthumb(258456951)</visible>
         <shouldCache>false</shouldCache>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
     </control>
 
     <control>
@@ -403,6 +409,8 @@
         <animation effect="fade" time="500">Visible</animation>
         <animation effect="fade" time="250">Hidden</animation>
         <shouldCache>false</shouldCache>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
     </control>  
     <control>
         <description>ClearArt</description>
@@ -417,6 +425,8 @@
         <animation effect="fade" time="500">Visible</animation>
         <animation effect="fade" time="250">Hidden</animation>
         <shouldCache>false</shouldCache>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
     </control>  
     <control>
         <description>ClearArt</description>
@@ -427,10 +437,12 @@
         <width>200</width>
         <height>77</height>           
         <texture>..\..\..\Thumbs\ClearArt\Music\#(string.trim(#music.albumArtist)).png</texture>
-        <animation effect="fade" time="500">VisibleChange</animation>
+        <animation effect="fade" time="500">Visible</animation>
         <animation effect="fade" time="250">Hidden</animation>
         <visible>[facadeview.filmstrip|facadeview.coverflow]+!control.hasthumb(258456952)+!control.hasthumb(258456953)</visible>
         <shouldCache>false</shouldCache>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
     </control>
     <!-- -->
 </controls>

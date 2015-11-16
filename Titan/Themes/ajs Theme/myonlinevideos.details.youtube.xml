@@ -14,15 +14,14 @@
 		<width>625</width>
 		<label>#selecteditem</label>
 		<font>fontB16</font>
-    <textcolor>FF00b7ff</textcolor>
-    <shadowAngle>120</shadowAngle>
-    <shadowDistance>2</shadowDistance>
-    <shadowColor>FF000000</shadowColor>
+        <textcolor>FF00b7ff</textcolor>
+        <shadowAngle>120</shadowAngle>
+        <shadowDistance>2</shadowDistance>
+        <shadowColor>FF000000</shadowColor>
 		<visible>[facadeview.smallicons | facadeview.largeicons] + string.equals(#OnlineVideos.selectedSiteUtil, YouTube) + !string.contains(#selecteditem, ..)</visible>
-    <animation effect="fade" time="250">WindowOpen</animation>
-    <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
 	</control>
-    
 	
 	<control Style="InfoLabel">
 		<description>Release Date Label</description>
@@ -32,8 +31,8 @@
 		<posY>445</posY>
 		<label>#OnlineVideos.Translation.Airdate.Label</label>
 		<visible>[facadeview.smallicons | facadeview.largeicons] + !string.equals(#OnlineVideos.aired,) + string.equals(#OnlineVideos.selectedSiteUtil, YouTube) + !string.contains(#selecteditem, ..)</visible>
-    <animation effect="fade" time="250">WindowOpen</animation>
-    <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
 	</control>
 
 	<control Style="InfoValueSmall">
@@ -44,8 +43,8 @@
 		<posY>445</posY>
 		<label>#OnlineVideos.aired</label>
 		<visible>[facadeview.smallicons | facadeview.largeicons] + !string.equals(#OnlineVideos.aired,) + string.equals(#OnlineVideos.selectedSiteUtil, YouTube) + !string.contains(#selecteditem, ..)</visible>
-    <animation effect="fade" time="250">WindowOpen</animation>
-    <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
     </control>
 
 	<control Style="InfoLabel">
@@ -56,8 +55,8 @@
 		<posY>481</posY>
 		<label>#OnlineVideos.Translation.Runtime.Label</label>
 		<visible>[facadeview.smallicons | facadeview.largeicons] + !string.equals(#selecteditem2,) + string.equals(#OnlineVideos.selectedSiteUtil, YouTube) + !string.contains(#selecteditem, ..)</visible>
-    <animation effect="fade" time="250">WindowOpen</animation>
-    <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
     </control>
 	
 	<control Style="InfoValueSmall">
@@ -68,8 +67,8 @@
 		<posY>481</posY>
 		<label>#selecteditem2</label>
 		<visible>[facadeview.smallicons | facadeview.largeicons] + !string.equals(#selecteditem2,) + string.equals(#OnlineVideos.selectedSiteUtil, YouTube) + !string.contains(#selecteditem, ..)</visible>
-    <animation effect="fade" time="250">WindowOpen</animation>
-    <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
     </control>
 	
 	<control Style="InfoLabel">
@@ -80,8 +79,8 @@
 		<posY>516</posY>
 		<label>Uploader</label>
 		<visible>[facadeview.smallicons | facadeview.largeicons] + !string.equals(#OnlineVideos.Details.Uploader,) + string.equals(#OnlineVideos.selectedSiteUtil, YouTube) + !string.contains(#selecteditem, ..)</visible>
-    <animation effect="fade" time="250">WindowOpen</animation>
-    <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
     </control>
 	
 	<control Style="InfoValueSmall">
@@ -92,8 +91,8 @@
 		<posY>516</posY>
 		<label>#OnlineVideos.Details.Uploader</label>
 		<visible>[facadeview.smallicons | facadeview.largeicons] + !string.equals(#OnlineVideos.Details.Uploader,) + string.equals(#OnlineVideos.selectedSiteUtil, YouTube) + !string.contains(#selecteditem, ..)</visible>
-    <animation effect="fade" time="250">WindowOpen</animation>
-    <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
     </control>
 	
 	<control Style="InfoLabel">
@@ -104,8 +103,8 @@
 		<posY>554</posY>
 		<label>View Count</label>
 		<visible>[facadeview.smallicons | facadeview.largeicons] + !string.equals(#OnlineVideos.Details.ViewCount,) + string.equals(#OnlineVideos.selectedSiteUtil, YouTube) + !string.contains(#selecteditem, ..)</visible>
-    <animation effect="fade" time="250">WindowOpen</animation>
-    <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
     </control>
 	
 	<control Style="InfoValueSmall">
@@ -116,8 +115,8 @@
 		<posY>554</posY>
 		<label>#OnlineVideos.Details.ViewCount</label>
 		<visible>[facadeview.smallicons | facadeview.largeicons] + !string.equals(#OnlineVideos.Details.ViewCount,) + string.equals(#OnlineVideos.selectedSiteUtil, YouTube) + !string.contains(#selecteditem, ..)</visible>
-    <animation effect="fade" time="250">WindowOpen</animation>
-    <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
     </control>
 	
 	<control>
@@ -138,8 +137,8 @@
 		<imagesToDraw>5</imagesToDraw>
 		<percentage>#OnlineVideos.Details.Rating</percentage>
 		<visible>[facadeview.smallicons | facadeview.largeicons] + !string.equals(#OnlineVideos.Details.Rating,) + string.equals(#OnlineVideos.selectedSiteUtil, YouTube) + !string.contains(#selecteditem, ..)</visible>
-    <animation effect="fade" time="250">WindowOpen</animation>
-    <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
 	</control>
 	
     <control>
@@ -158,8 +157,9 @@
 		<ondown>1026</ondown>
 		<lineSpacing>0.92</lineSpacing>
 		<visible>[facadeview.smallicons | facadeview.largeicons] +string.equals(#OnlineVideos.selectedSiteUtil, YouTube) + !string.contains(#selecteditem, ..)</visible>
-    <animation effect="fade" time="250">WindowOpen</animation>
-    <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
 	</control>
+
   </controls>
 </window>

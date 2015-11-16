@@ -76,7 +76,7 @@
         	<valign>middle</valign>
         	<zoom>true</zoom>
           	<texture>#WorldWeather.ForecastDay1IconImage</texture>
-			<visible>string.equals(#skin.enable.Weather.Forecast.Clock,true)+[[window.isvisible(35) | window.isvisible(0)] | [!window.isvisible(35) + !window.isvisible(0) + !window.isvisible(96742) + !window.isvisible(7111992)] | [window.isvisible(96742) + Control.IsVisible(50)] | [window.isvisible(96742) + Control.IsVisible(51)]] + [plugin.isenabled(World Weather Lite)|plugin.isenabled(World Weather)]+!string.equals(#WorldWeather.TodayIconImage,#WorldWeather.ForecastDay1IconImage)</visible>
+			<visible>[[window.isvisible(35) | window.isvisible(0)] | [!window.isvisible(35) + !window.isvisible(0) + !window.isvisible(96742) + !window.isvisible(7111992)] | [window.isvisible(96742) + Control.IsVisible(50)] | [window.isvisible(96742) + Control.IsVisible(51)]] + [plugin.isenabled(World Weather Lite)|plugin.isenabled(World Weather)]+string.equals(#skin.enable.Weather.Forecast.Clock.enabled,true)+!string.equals('#WorldWeather.TodayIconImage','#WorldWeather.ForecastDay1IconImage')</visible>
     		<animation effect="fade" time="350">WindowOpen</animation>
     		<animation effect="fade" time="350">WindowClose</animation>
         </control>

@@ -7,20 +7,58 @@
 <define>#useSelectedFanart:Yes</define>
 <controls>
 
-  <control>
-    <description>DEFAULT BACKGROUND</description>
-    <type>image</type>
-    <id>0</id>
-    <posX>0</posX>
-    <posY>0</posY>
-    <width>1920</width>
-    <height>1080</height>
-    <texture>background.png</texture>
-    <shouldCache>true</shouldCache>
-  </control>
+    <import>common.default.background.xml</import>
   
+    <control>
+      <description>dummy button for backdrop display</description>
+      <type>button</type>
+      <id>456852</id>
+      <label>-</label>
+      <posX>0</posX>
+      <posY>0</posY>
+      <onup>2</onup>
+      <ondown>2</ondown>
+      <onleft>2</onleft>
+      <onright>2</onright>
+      <visible allowhiddenfocus="true">false</visible>
+      <textcolor>FF000000</textcolor>
+      <textcolorNoFocus>ffffffff</textcolorNoFocus>
+    </control>
+
 	<import>common.fanart.selected.xml</import>
 	
+   <control>
+       <description>right menu indicator</description>
+       <id>0</id>
+       <type>image</type>
+       <posX>1890</posX>
+       <posY>429</posY>
+       <width>30</width>
+       <height>149</height>
+       <texture>basichome_nextpage_right.png</texture>
+       <visible>control.hasfocus(456852)</visible>
+       <animation effect="slide" start="60,0" end="0,0" tween="quadratic" easing="in" time="250" delay="0">visible</animation>
+       <animation effect="slide" start="0,0" end="60,0" tween="quadratic" easing="in" time="250" delay="0">hidden</animation>
+       <animation effect="fade" time="250">WindowOpen</animation>
+       <animation effect="fade" time="250">WindowClose</animation>
+   </control>
+ 
+   <control>
+       <description>left menu indicator</description>
+       <id>0</id>
+       <type>image</type>
+       <posX>0</posX>
+       <posY>429</posY>
+       <width>30</width>
+       <height>149</height>
+       <texture>basichome_nextpage_left.png</texture>
+       <animation effect="slide" start="-60,0" end="0,0" tween="quadratic" easing="in" time="250" delay="0">visible</animation>
+       <animation effect="slide" start="0,0" end="-60,0" tween="quadratic" easing="in" time="250" delay="0">hidden</animation>
+       <animation effect="fade" time="250">WindowOpen</animation>
+       <animation effect="fade" time="250">WindowClose</animation>
+   </control>
+
+
 	<!-- ClearArt -->
    	<control>
    		<description>ClearArt</description>
@@ -31,6 +69,9 @@
    		<width>250</width>
    		<height>140</height>
 		<texture>..\..\..\Thumbs\ClearArt\Movies\#(string.trim(#imdbnumber)).png</texture>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
    	</control>  
 
 	<!-- ClearLogo -->
@@ -43,6 +84,9 @@
    		<width>390</width>
    		<height>140</height>
 		<texture>..\..\..\Thumbs\ClearLogo\Movies\#(string.trim(#imdbnumber)).png</texture>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
    	</control>  
 
 	<control>
@@ -56,6 +100,7 @@
 		<texture>fanart_overlay.png</texture>
 		<animation effect="fade" time="250">WindowOpen</animation>
 		<animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 	
   <control>
@@ -82,6 +127,7 @@
 		<visible>!Control.IsVisible(24)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 	
 	<control>
@@ -96,6 +142,7 @@
 		<visible>Control.IsVisible(24)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
     
  	<import>common.time.xml</import>
@@ -111,6 +158,7 @@
 		<texture>list_poster_shadow.png</texture>
 		<animation effect="fade" time="250">WindowOpen</animation>
 		<animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 	  
   <control>
@@ -124,6 +172,7 @@
 		<texture>#thumb</texture>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
   </control>
 		
   <control>
@@ -138,8 +187,25 @@
     <visible>string.equals(#iswatched,no)</visible>
 		<animation effect="fade" time="250">WindowOpen</animation>
 		<animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
   </control>
 		
+  <!-- Rating -->
+
+  <control>
+    <description>Rating</description>
+    <type>image</type>
+    <id>0</id>
+    <posX>388</posX>
+    <posY>360</posY>
+    <width>114</width>
+    <height>114</height>
+    <texture>traktHeart#(math.round(cflt(#rating))).png</texture>
+  	<animation effect="fade" time="250">WindowOpen</animation>
+  	<animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
+  </control>
+
   <control>
   	<description>Button group</description>
     <type>group</type>
@@ -156,10 +222,12 @@
 				<label>208</label>
 				<onup>97270</onup>
 				<ondown>3</ondown>
+				<onleft>456852</onleft>
 		    <textureFocus>myvideos_play_focus.png</textureFocus>
 		    <textureNoFocus>myvideos_play_nofocus.png</textureNoFocus>
     		<textcolor>FF000000</textcolor>
 				<textcolorNoFocus>ffffffff</textcolorNoFocus>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 			</control>
 
 			<control>
@@ -172,8 +240,10 @@
         <textYOff>12</textYOff>
 				<onup>2</onup>
 				<ondown>4</ondown>
+				<onleft>456852</onleft>
 		   	<textcolor>FF000000</textcolor>
 				<textcolorNoFocus>ffffffff</textcolorNoFocus>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 			</control>
 	
 			<control>
@@ -186,8 +256,10 @@
         <textYOff>12</textYOff>
 				<onup>3</onup>
 				<ondown>7</ondown>
+				<onleft>456852</onleft>
 		   	<textcolor>FF000000</textcolor>
 				<textcolorNoFocus>ffffffff</textcolorNoFocus>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 			</control>
 	
       <control>
@@ -200,8 +272,10 @@
         <textYOff>12</textYOff>
         <onup>4</onup>
         <ondown>5</ondown>
+				<onleft>456852</onleft>
 		   	<textcolor>FF000000</textcolor>
 				<textcolorNoFocus>ffffffff</textcolorNoFocus>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
       </control>
 	
 			<control>
@@ -211,8 +285,10 @@
 				<label>184</label>
 				<onup>7</onup>
 				<ondown>26</ondown>
+				<onleft>456852</onleft>
 		    <textcolor>FF000000</textcolor>
 				<textcolorNoFocus>ffffffff</textcolorNoFocus>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 			</control>
 	
       <control>
@@ -222,8 +298,10 @@
         <label>118</label>
         <onup>5</onup>
         <ondown>6</ondown>
+				<onleft>456852</onleft>
 		    <textcolor>FF000000</textcolor>
 				<textcolorNoFocus>ffffffff</textcolorNoFocus>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
       </control>
 	
 			<control>
@@ -236,8 +314,10 @@
         <textYOff>12</textYOff>
 				<onup>26</onup>
 				<ondown>97270</ondown>
+				<onleft>456852</onleft>
 		   	<textcolor>FF000000</textcolor>
 				<textcolorNoFocus>ffffffff</textcolorNoFocus>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 			</control>
 			
 			<control>
@@ -247,9 +327,11 @@
         <label>Trakt</label>
         <onup>6</onup>
         <ondown>2</ondown>
+				<onleft>456852</onleft>
 		    <textcolor>FF000000</textcolor>
 				<textcolorNoFocus>ffffffff</textcolorNoFocus>
 				<visible>plugin.isenabled(Trakt)</visible>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
       </control>
 	</control>
 
@@ -261,6 +343,7 @@
 		<posY>442</posY>
 		<texture>-</texture>
 		<visible>!Control.HasFocus(10)</visible>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 	
 	<control>
@@ -273,6 +356,7 @@
 		<height>36</height>
 		<texture>settings_button_medium_focus.png</texture>
 		<visible>Control.HasFocus(10)</visible>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 	
 	<control>
@@ -283,6 +367,7 @@
 		<posY>493</posY>
 		<texture>-</texture>
 		<visible>!Control.HasFocus(11)</visible>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 	
 	<control>
@@ -295,6 +380,7 @@
 		<height>36</height>
 		<texture>settings_button_medium_focus.png</texture>
 		<visible>Control.HasFocus(11)</visible>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 	
 	<control>
@@ -307,6 +393,7 @@
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
 		<textalign>left</textalign>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 
 	<control>
@@ -321,6 +408,7 @@
     <disabledcolor>ffffffff</disabledcolor>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 
 	<control>
@@ -333,6 +421,7 @@
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
 	  <textalign>right</textalign>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 
 	<control>
@@ -351,6 +440,7 @@
 		<showrange>no</showrange>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 
 	<control>
@@ -369,6 +459,7 @@
 		<visible>!Control.IsVisible(24)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
     
 	<control Style="InfoLabelDetails">
@@ -381,6 +472,7 @@
 		<visible>!Control.IsVisible(24)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 
   <control Style="InfoValueWide">
@@ -393,6 +485,7 @@
 		<visible>!Control.IsVisible(24)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 
 	<control Style="InfoLabelDetails">
@@ -405,6 +498,7 @@
 		<visible>!Control.IsVisible(24)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 	
   <control Style="InfoValueWide">
@@ -417,6 +511,7 @@
 		<visible>!Control.IsVisible(24)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 
 	<control Style="InfoLabelDetails">
@@ -429,6 +524,7 @@
 		<visible>!Control.IsVisible(24)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 	
   <control Style="InfoValueWide">
@@ -441,6 +537,7 @@
 		<visible>!Control.IsVisible(24)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 	
 	<control Style="InfoLabelDetails">
@@ -453,6 +550,7 @@
 		<visible>!Control.IsVisible(24)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 
   <control Style="InfoValueWide">
@@ -465,6 +563,7 @@
 		<visible>!Control.IsVisible(24)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 
 	<control Style="InfoLabelDetails">
@@ -477,6 +576,7 @@
 		<visible>!Control.IsVisible(24)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
   </control>
   
   <control Style="InfoValueWide">
@@ -490,6 +590,7 @@
 		<visible>!Control.IsVisible(24)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
   </control>
   
 	<control Style="InfoLabelDetails">
@@ -502,6 +603,7 @@
 		<visible>!Control.IsVisible(24)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
   </control>
   
   <control Style="InfoValueWide">
@@ -515,6 +617,7 @@
 		<visible>!Control.IsVisible(24)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
   </control>
 
 	<control>
@@ -531,6 +634,7 @@
 		<visible>!Control.IsVisible(24)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 	
   <control>
@@ -553,6 +657,7 @@
 		<visible>!Control.IsVisible(24)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 
 	<control Style="textBoxDetails">
@@ -571,6 +676,7 @@
 		<seperator>---------------------------------------------------------------------------------------------------------</seperator>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 
 	<control>
@@ -594,6 +700,7 @@
 		<spinColor>FFFFFFFF</spinColor>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 
 	<control Style="textBoxDetails">
@@ -612,6 +719,7 @@
 		<seperator>---------------------------------------------------------------------------------------------------------</seperator>
 		<animation effect="fade" time="250">WindowOpen</animation>
 		<animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 
 	<control>
@@ -626,6 +734,7 @@
 		<visible>!Control.IsVisible(24)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 
 	<control Style="smallTitle">
@@ -638,6 +747,7 @@
 		<visible>!Control.IsVisible(24)</visible>
 		<animation effect="fade" start="0" end="100" time="300" delay="350">WindowOpen</animation>
 		<animation effect="fade" start="100" end="0" time="0" delay="0">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 
 	<control>
@@ -653,6 +763,7 @@
 		<visible>!Control.IsVisible(24)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 
   <control>
@@ -669,6 +780,7 @@
 		<visible>Control.IsVisible(24)</visible>
 		<animation effect="fade" time="250">WindowOpen</animation>
 	 	<animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
   </control>
 
 	<control Style="smallTitle">
@@ -681,6 +793,7 @@
 		<visible>Control.IsVisible(24)</visible>
 		<animation effect="fade" start="0" end="100" time="300" delay="350">WindowOpen</animation>
 		<animation effect="fade" start="100" end="0" time="0" delay="0">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 
 	<control>
@@ -696,6 +809,7 @@
 		<visible>Control.IsVisible(24)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
 	</control>
 
   <control>
@@ -710,6 +824,7 @@
     <texture>#actorThumb</texture>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
   </control>
 
   <control>
@@ -734,6 +849,7 @@
     <keepaspectratio>yes</keepaspectratio>
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
   </control>
 
   <!--            :: MEDIAINFO ::            -->
@@ -751,6 +867,7 @@
 		<visible>!Control.IsVisible(24)</visible>
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
   </control>
   
   <control>
@@ -766,6 +883,7 @@
 		<visible>!Control.IsVisible(24)</visible>
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
   </control>
   
  	<control>
@@ -781,6 +899,7 @@
 		<visible>!Control.IsVisible(24)</visible>
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
   </control>
   
   <control>
@@ -796,6 +915,7 @@
 		<visible>!Control.IsVisible(24)</visible>
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
   </control>
 
  	<control>
@@ -811,6 +931,7 @@
 		<visible>!Control.IsVisible(24)</visible>
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
   </control>
   
 	<control>
@@ -826,6 +947,7 @@
 		<visible>!Control.IsVisible(24)</visible>
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
   </control>
   
 	<control>
@@ -841,6 +963,7 @@
 		<visible>!Control.IsVisible(24)</visible>
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
   </control>
 
     <control>
@@ -861,6 +984,7 @@
 	  <visible>!Control.IsVisible(24)</visible>
       <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
     </control>
 
     <control>
@@ -876,6 +1000,7 @@
 	  <visible>!Control.IsVisible(24)+!control.hasthumb(5551555)</visible>
       <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
     </control>
 
     <control>
@@ -891,6 +1016,7 @@
 	  <visible>!Control.IsVisible(24)+!control.hasthumb(5550555)</visible>
       <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
     </control>
 
     <!-- CDArt -->
@@ -905,11 +1031,13 @@
     	<texture>..\..\..\Thumbs\CDArt\Movies\#(string.trim(#imdbnumber)).png</texture>
         <keepaspectratio>yes</keepaspectratio>
     	<visible>!Control.IsVisible(24)</visible>
+        <animation effect="rotate" time="1000" start= "-100" end= "0" condition="true">conditional</animation>
       	<animation effect="fade" time="250" start= "100" end= "50" condition="true">conditional</animation>
    	    <animation effect="fade" time="250">WindowOpen</animation>
     	<animation effect="fade" time="250">WindowClose</animation>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
     </control>
-
+<import>DialogVideoInfo.watchedCount.xml</import>
 <import>common.overlay.xml</import>
 </controls>
 </window>

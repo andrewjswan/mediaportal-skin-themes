@@ -21,8 +21,10 @@
         <animation effect="fade" time="250">WindowOpen</animation>
         <animation effect="fade" time="250">WindowClose</animation>
     </control>
+
+    <import>common.time.xml</import>
     
-    <control>
+    <!--control>
         <id>0</id>
         <type>label</type>
         <posX>144</posX>
@@ -129,7 +131,7 @@
         <visible>string.equals(#WorldWeather.TodayIconImage,#WorldWeather.ForecastDay1IconImage)+!facadeview.smallicons + !facadeview.largeicons + [plugin.isenabled(World Weather Lite)|plugin.isenabled(World Weather)]</visible>
         <animation effect="fade" time="350">WindowOpen</animation>
         <animation effect="fade" time="350">WindowClose</animation>
-    </control>
+    </control-->
         
     <control>
         <description>Cover Art</description>

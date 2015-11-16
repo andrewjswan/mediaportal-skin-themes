@@ -28,17 +28,7 @@
 	</control>
 
     <!--            :: MOVIE BACKDROP ::            -->
-    <control>
-      <description>DEFAULT BACKGROUND</description>
-      <type>image</type>
-      <id>0</id>
-      <posX>0</posX>
-      <posY>0</posY>
-      <width>1920</width>
-      <height>1080</height>
-      <texture>background.png</texture>
-      <shouldCache>true</shouldCache>
-    </control>
+    <import>common.default.background.xml</import>
 	
     <control>
 		<description>Movie Backdrop</description>
@@ -1856,7 +1846,8 @@
 		<texture>..\..\..\Thumbs\ClearArt\Movies\#(string.trim(#myfilms.db.imdb_id.value)).png</texture>
 		<visible>!Control.HasFocus(10099)</visible>
 		<animation effect="fade" time="250">Visible</animation>
-		<animation effect="fade" time="0">WindowClose</animation>				
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
    	</control>  
 
 	<!-- CDArt -->
@@ -1873,7 +1864,8 @@
 		<visible>!Control.HasFocus(10001)+ !Control.HasFocus(10002) + !Control.HasFocus(10003) + !Control.HasFocus(10099)</visible>
       	<animation effect="fade" time="250" start= "100" end= "50" condition="true">conditional</animation>
 		<animation effect="fade" time="400">Visible</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
 	</control>
 
 	<!-- ClearLogo -->
@@ -1890,7 +1882,8 @@
 		<visible>!Control.HasFocus(20004)+!Control.HasFocus(10099)</visible>
       	<animation effect="fade" time="250" start= "100" end= "60" condition="true">conditional</animation>
 		<animation effect="fade" time="400">Visible</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
 	</control>
 
 	<!-- ClearLogo -->
@@ -1907,7 +1900,8 @@
 		<visible>Control.HasFocus(20004)+!Control.HasFocus(10099)</visible>
       	<animation effect="fade" time="250" start= "100" end= "60" condition="true">conditional</animation>
 		<animation effect="fade" time="400">Visible</animation>
-		<animation effect="fade" time="0">WindowClose</animation>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
 	</control>
 	
 	

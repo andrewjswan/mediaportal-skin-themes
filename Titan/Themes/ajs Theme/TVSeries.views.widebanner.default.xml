@@ -72,6 +72,8 @@
       <texture>Logos\Studios\#(string.trim(#TVSeries.Series.Network)).png</texture>
       <keepaspectratio>yes</keepaspectratio>
 	  <visible>![facadeview.filmstrip|facadeview.coverflow]</visible>
+      <animation effect="fade" time="500">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
     </control>
 
     <control>
@@ -85,6 +87,8 @@
       <texture>Logos\Studios\#(string.trim(#TVSeries.Series.Network)).png</texture>
       <keepaspectratio>yes</keepaspectratio>
 	  <visible>[facadeview.filmstrip|facadeview.coverflow]</visible>
+      <animation effect="fade" time="500">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
     </control>
 
 	<!-- 			:: DVD COVER (SEASON/EPISODE) :: -->
@@ -573,14 +577,37 @@
 	  <animation effect="fade" time="250">WindowClose</animation>
 	</control>
 	
-	
+	<control Style="InfoLabel">
+		<description>Season Label</description>
+		<type>label</type>
+		<label>#TVSeries.Translation.Season.Label</label>
+		<id>0</id>
+		<posX>565</posX>
+		<posY>451</posY>
+		<visible>facadeview.list+control.isvisible(1239)</visible>
+	  <animation effect="fade" time="250">WindowOpen</animation>
+	  <animation effect="fade" time="250">WindowClose</animation>
+	</control>
+			
+	<control Style="InfoValueSmall">
+		<description>Season</description>
+		<type>fadelabel</type>
+		<label>#TVSeries.Episode.SeasonLabel</label>
+		<id>0</id>
+		<posX>798</posX>
+		<posY>451</posY>
+		<visible>facadeview.list+control.isvisible(1239)</visible>
+	  <animation effect="fade" time="250">WindowOpen</animation>
+	  <animation effect="fade" time="250">WindowClose</animation>
+	</control>        
+
 	<control Style="InfoLabel">
 		<description>Director Label (Episode)</description>
 		<type>label</type>
 		<label>#TVSeries.Translation.Director.Label</label>
 		<id>0</id>
 		<posX>565</posX>
-		<posY>451</posY>
+		<posY>483</posY>
 		<visible>facadeview.list+control.isvisible(1239)+!string.equals(#TVSeries.Episode.Director,)</visible>
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
@@ -592,7 +619,7 @@
 		<label>#TVSeries.Episode.Director</label>
 		<id>0</id>
 		<posX>798</posX>
-		<posY>451</posY>
+		<posY>483</posY>
 		<visible>facadeview.list+control.isvisible(1239)</visible>
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
@@ -604,7 +631,7 @@
 		<label>#TVSeries.Translation.Writer.Label</label>
 		<id>0</id>
 		<posX>565</posX>
-		<posY>483</posY>
+		<posY>515</posY>
 		<visible>facadeview.list+control.isvisible(1239)+!string.equals(#TVSeries.Episode.Writer,)</visible>
 	  <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
@@ -614,30 +641,6 @@
 		<description>Writer</description>
 		<type>fadelabel</type>
 		<label>#TVSeries.Episode.Writer</label>
-		<id>0</id>
-		<posX>798</posX>
-		<posY>483</posY>
-		<visible>facadeview.list+control.isvisible(1239)</visible>
-	  <animation effect="fade" time="250">WindowOpen</animation>
-	  <animation effect="fade" time="250">WindowClose</animation>
-	</control>        
-	
-	<control Style="InfoLabel">
-		<description>Season Label</description>
-		<type>label</type>
-		<label>#TVSeries.Translation.Season.Label</label>
-		<id>0</id>
-		<posX>565</posX>
-		<posY>515</posY>
-		<visible>facadeview.list+control.isvisible(1239)</visible>
-	  <animation effect="fade" time="250">WindowOpen</animation>
-	  <animation effect="fade" time="250">WindowClose</animation>
-	</control>
-			
-	<control Style="InfoValueSmall">
-		<description>Season</description>
-		<type>fadelabel</type>
-		<label>#TVSeries.Episode.SeasonLabel</label>
 		<id>0</id>
 		<posX>798</posX>
 		<posY>515</posY>

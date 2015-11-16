@@ -346,6 +346,8 @@
     
   <!--            :: INFO ::            -->
 
+  <import>BasicHome.FHLMH.Update.xml</import>
+
   <import>common.Scraper.xml</import>
   <import>common.Latests.xml</import>
   <import>common.overlay.xml</import>

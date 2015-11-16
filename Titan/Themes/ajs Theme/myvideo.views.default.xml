@@ -152,8 +152,23 @@
 		<animation effect="fade" time="250">WindowOpen</animation>
 		<animation effect="fade" time="250">WindowClose</animation>
 	</control>
-    
-    
+
+    <!-- Rating -->
+
+    <control>
+      <description>Rating</description>
+      <type>image</type>
+      <id>0</id>
+      <posX>388</posX>
+      <posY>360</posY>
+      <width>114</width>
+      <height>114</height>
+      <texture>traktHeart#(math.round(cflt(#rating))).png</texture>
+      <visible>[facadeview.list|facadeview.playlist]+Control.IsVisible(50)</visible>
+      <animation effect="fade" time="0">Visible</animation>
+      <animation effect="fade" time="0">WindowClose</animation>
+    </control>
+
 	<!--            :: INFO LABELS ::            -->
 	
 	<control Style="InfoLabel">
@@ -174,7 +189,8 @@
 		<id>0</id>
 		<posX>798</posX>
 		<posY>387</posY>
-		<label>#year</label>
+		<!--label>#year</label-->
+		<label>#(iif(eq(#year,'1900'),' ','#year'))</label>
 		<visible>[facadeview.list|facadeview.playlist] + Control.IsVisible(50) + string.equals(#hideinfo, False)</visible>
 		<animation effect="fade" time="250">WindowOpen</animation>
 		<animation effect="fade" time="250">WindowClose</animation>
@@ -198,7 +214,8 @@
 		<id>0</id>
 		<posX>798</posX>
 		<posY>419</posY>
-		<label>#runtime</label>
+		<!--label>#runtime</label-->
+		<label>#(iif(eq(#runtime,'0 (#(L(2998))) (0:00)'),' ','#runtime'))</label>
 		<visible>[facadeview.list|facadeview.playlist] + Control.IsVisible(50) + string.equals(#hideinfo, False)</visible>
 		<animation effect="fade" time="250">WindowOpen</animation>
 		<animation effect="fade" time="250">WindowClose</animation>
@@ -358,7 +375,8 @@
 		<id>0</id>
 		<posX>350</posX>
 		<posY>445</posY>
-		<label>#year</label>
+		<!--label>#year</label-->
+		<label>#(iif(eq(#year,'1900'),' ','#year'))</label>
 		<visible>[facadeview.smallicons | facadeview.largeicons] + Control.IsVisible(50) + string.equals(#hideinfo, False)</visible>
 		<animation effect="fade" time="250">WindowOpen</animation>
 		<animation effect="fade" time="250">WindowClose</animation>
@@ -382,7 +400,8 @@
 		<id>0</id>
 		<posX>350</posX>
 		<posY>481</posY>
-		<label>#runtime</label>
+		<!--label>#runtime</label-->
+		<label>#(iif(eq(#runtime,'0 (#(L(2998))) (0:00)'),' ','#runtime'))</label>
 		<visible>[facadeview.smallicons | facadeview.largeicons] + Control.IsVisible(50) + string.equals(#hideinfo, False)</visible>
 		<animation effect="fade" time="250">WindowOpen</animation>
 		<animation effect="fade" time="250">WindowClose</animation>
@@ -576,7 +595,7 @@
     <!-- Studio --> 
     <control>
   	  <description>Studios Logos</description>
-      <id>0</id>
+      <id>7650567</id>
       <type>image</type>
       <texture>#fanarthandler.movie.studios.selected.all</texture>
       <posX>123</posX>
@@ -590,6 +609,46 @@
       <!--fixedheight>false</fixedheight-->
       <shouldCache>true</shouldCache>
 	  <visible>![facadeview.filmstrip|facadeview.coverflow]+!Control.IsVisible(24)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+	  <animation effect="fade" time="250">WindowClose</animation>
+    </control>
+
+    <control>
+  	  <description>Studios Logos</description>
+      <id>5670765</id>
+      <type>image</type>
+      <texture>#fanarthandler.movie.studios.selected</texture>
+      <posX>123</posX>
+      <posY>925</posY>
+      <width>379</width>
+      <height>60</height>
+      <align>center</align>
+      <valign>top</valign>
+      <!--zoom>false</zoom-->
+      <keepaspectratio>yes</keepaspectratio>
+      <!--fixedheight>false</fixedheight-->
+      <shouldCache>true</shouldCache>
+	  <visible>![facadeview.filmstrip|facadeview.coverflow]+!Control.IsVisible(24)+!control.hasthumb(7650567)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+	  <animation effect="fade" time="250">WindowClose</animation>
+    </control>
+
+    <control>
+  	  <description>Studios Logos</description>
+      <id>0</id>
+      <type>image</type>
+      <texture>Logos\Studios\#(string.trim(#studios)).png</texture>
+      <posX>123</posX>
+      <posY>925</posY>
+      <width>379</width>
+      <height>60</height>
+      <align>center</align>
+      <valign>top</valign>
+      <!--zoom>false</zoom-->
+      <keepaspectratio>yes</keepaspectratio>
+      <!--fixedheight>false</fixedheight-->
+      <shouldCache>true</shouldCache>
+	  <visible>![facadeview.filmstrip|facadeview.coverflow]+!Control.IsVisible(24)+!control.hasthumb(5670765)+!control.hasthumb(7650657)</visible>
       <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
     </control>

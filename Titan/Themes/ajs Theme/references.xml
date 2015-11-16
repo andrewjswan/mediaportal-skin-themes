@@ -190,16 +190,16 @@
     <width>623</width>
     <height>271</height>
     <animation effect="fade" time="250">Visible</animation><!--animation effect="fade" time="500">VisibleChange</animation-->
-    <!--animation effect="fade" time="250">WindowOpen</animation>
-    <animation effect="fade" time="250">WindowClose</animation-->
+    <animation effect="fade" time="250">WindowOpen</animation>
+    <animation effect="fade" time="100">WindowClose</animation>
   </style>
   <style Name="HomeButtonPictureDummy">
     <width>623</width>
     <height>271</height>
     <texture>basichome_button_dummy.png</texture>
     <animation effect="fade" time="250">Visible</animation><!--animation effect="fade" time="500">VisibleChange</animation-->
-    <!--animation effect="fade" time="250">WindowOpen</animation>
-    <animation effect="fade" time="250">WindowClose</animation-->
+    <animation effect="fade" time="250">WindowOpen</animation>
+    <animation effect="fade" time="100">WindowClose</animation>
   </style>
   <style Name="HomePictureMenuNew">
     <width>594</width>

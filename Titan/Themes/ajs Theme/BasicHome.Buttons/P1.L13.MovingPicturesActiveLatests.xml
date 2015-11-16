@@ -89,7 +89,6 @@
       <dimColor>0xffffffff</dimColor>
       <posX>728</posX>
       <posY>478</posY>
-  				
     	<control>
           <description>Categories</description>
           <type>button</type>
@@ -110,6 +109,7 @@
           <onleft>4</onleft>
           <ondown>600011</ondown>
           <onup>600041</onup>
+          <onESC>#(skin.setfocus(35,6))</onESC>
           <visible allowhiddenfocus="true">control.isVisible(600081)</visible>
         </control>
     		
@@ -134,6 +134,7 @@
           <onleft>4</onleft>
           <ondown>600021</ondown>
           <onup>600001</onup>
+          <onESC>#(skin.setfocus(35,6))</onESC>
           <visible allowhiddenfocus="true">control.isVisible(600081)</visible>
         </control>
         
@@ -158,6 +159,7 @@
           <onleft>4</onleft>
           <onup>600011</onup>
           <ondown>600031</ondown>
+          <onESC>#(skin.setfocus(35,6))</onESC>
           <visible allowhiddenfocus="true">control.isVisible(600081)</visible>
         </control>
         
@@ -182,6 +184,7 @@
           <onleft>4</onleft>
           <onup>600021</onup>
           <ondown>600041</ondown>
+          <onESC>#(skin.setfocus(35,6))</onESC>
           <visible allowhiddenfocus="true">control.isVisible(600081)</visible>
         </control>
           
@@ -205,6 +208,7 @@
           <onleft>4</onleft>
           <onup>600031</onup>
           <ondown>600001</ondown>
+          <onESC>#(skin.setfocus(35,6))</onESC>
           <visible allowhiddenfocus="true">control.isVisible(600081)</visible>
         </control>
         

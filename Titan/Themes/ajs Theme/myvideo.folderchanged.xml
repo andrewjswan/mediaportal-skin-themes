@@ -7,9 +7,10 @@
 		<animation effect="slide" start="0,0" end="-60,0" tween="quadratic" easing="in" time="250" delay="100">WindowClose</animation>
 		<id>0</id>
 		<type>image</type>
-		<posY>650</posY>
-		<width>64</width>
-		<height>199</height>
+		<posY>620</posY>
+		<width>30</width>
+		<height>149</height>
+		<keepaspectratio>no</keepaspectratio>
 		<texture>page_updated_left.png</texture>
 		<visible>string.equals(#VideoFolderChanged,true)</visible>
 	</control>

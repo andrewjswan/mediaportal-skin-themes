@@ -60,6 +60,7 @@
       <ondown>7</ondown>
       <onright>91915992</onright>
       <onleft>4</onleft>
+      <onESC>#(skin.setfocus(35,6))</onESC>
       <textureFocus>#latestMediaHandler.myvideo.latest1.thumb</textureFocus>
       <textureNoFocus>#latestMediaHandler.myvideo.latest1.thumb</textureNoFocus>
       <visible allowhiddenfocus="true">control.IsVisible(60091)</visible>              
@@ -138,6 +139,7 @@
       <ondown>7</ondown>
       <onright>91915993</onright>
       <onleft>91915991</onleft>
+      <onESC>#(skin.setfocus(35,6))</onESC>
       <textureFocus>#latestMediaHandler.myvideo.latest2.thumb</textureFocus>
       <textureNoFocus>#latestMediaHandler.myvideo.latest2.thumb</textureNoFocus>
       <visible>control.IsVisible(60091)</visible>              
@@ -216,6 +218,7 @@
       <ondown>7</ondown>
       <onright>6</onright>
       <onleft>91915992</onleft>
+      <onESC>#(skin.setfocus(35,6))</onESC>
       <textureFocus>#latestMediaHandler.myvideo.latest3.thumb</textureFocus>
       <textureNoFocus>#latestMediaHandler.myvideo.latest3.thumb</textureNoFocus>
       <visible>control.IsVisible(60091)</visible>              

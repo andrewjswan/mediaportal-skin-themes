@@ -6,6 +6,8 @@
       <type>group</type>
       <dimColor>0xffffffff</dimColor>
       	<visible>[plugin.isenabled(World Weather Lite)|plugin.isenabled(World Weather)]+control.hasfocus(400)</visible>
+            <animation effect="slide" start="100" end="0" time="350" delay="500" reversible="false">Visible</animation>
+            <animation effect="slide" start="-100" end="0" time="500" delay="500" reversible="false">Visible</animation>
 			<animation effect="fade" start="0" end="100" time="250" delay="550">visible</animation>
 			<animation effect="fade" start="100" end="0" time="0">hidden</animation>
 			<animation effect="fade" time="250">WindowOpen</animation>

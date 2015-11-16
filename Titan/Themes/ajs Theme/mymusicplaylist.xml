@@ -31,6 +31,8 @@
         <height>77</height>
         <texture>#fanarthandler.music.artistclearart.selected</texture>
         <visible>!facadeview.coverflow</visible>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
     </control>  
     <control>
         <description>ClearArt</description>
@@ -42,6 +44,8 @@
         <height>77</height>
         <texture>..\..\..\Thumbs\ClearArt\Music\#music.albumArtist.png</texture>
         <visible>!facadeview.coverflow+!control.hasthumb(258456953)</visible>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
     </control>  
     <!--            :: LISTVIEW ::            -->
     <control>

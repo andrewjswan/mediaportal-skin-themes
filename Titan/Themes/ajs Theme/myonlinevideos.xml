@@ -9,27 +9,19 @@
 
 		<!-- *** WINDOW DEFAULTS *** -->    
 
-		<control>
-			<description>BackGround</description>
-			<type>image</type>
-			<id>1</id>
-			<width>1920</width>
-			<height>1080</height>
-			<texture>background.png</texture>    
-			<shouldCache>true</shouldCache>  
-		</control>
+        <import>common.default.background.xml</import>
 
-	<control>
-	<description>BG</description>
-	<type>image</type>
-	<id>1</id>
-	<width>1920</width>
-	<height>1080</height>
-	<texture>hover_OnlineVideos.png</texture>
-	<shouldCache>true</shouldCache>
-      	<animation effect="fade" time="250">WindowOpen</animation>
-      	<animation effect="fade" time="250">WindowClose</animation>
-	</control>
+     	<control>
+     		<description>BG</description>
+     		<type>image</type>
+     		<id>1</id>
+     		<width>1920</width>
+     		<height>1080</height>
+     		<texture>hover_OnlineVideos.png</texture>
+     		<shouldCache>true</shouldCache>
+           	<animation effect="fade" time="250">WindowOpen</animation>
+           	<animation effect="fade" time="250">WindowClose</animation>
+     	</control>
 
 		<!--            :: Overlays ::            -->	
 
@@ -99,8 +91,6 @@
 			<animation effect="fade" time="250">WindowOpen</animation>
 			<animation effect="fade" time="250">WindowClose</animation>
 		</control>
-
-		<import>common.time.xml</import>
 
 		<control>
 			<description>number of current downloads</description>
@@ -207,11 +197,11 @@
 			<type>fadelabel</type>
 			<id>0</id>
 			<posX>72</posX>
-      <posY>94</posY>
-      <align>left</align>
-			<width>500</width>
-      <textcolor>FFFFFFFF</textcolor>
-      <font>TitanLight12</font>
+            <posY>94</posY>
+            <align>left</align>
+			<width>1000</width>
+            <textcolor>FFFFFFFF</textcolor>
+            <font>TitanLight12</font>
 			<label>#(L(97))#OnlineVideos.selectedSite</label>
 			<visible>!string.equals(#OnlineVideos.state,groups) + !string.equals(#OnlineVideos.state,sites)</visible>
 			<animation effect="fade" time="250">WindowOpen</animation>
@@ -230,7 +220,7 @@
 			<animation effect="fade" time="250">WindowClose</animation>
 		</control>    
 
-		<control Style="InfoLabel">
+		<!--control Style="InfoLabel">
 			<description>Buffering Label in videos view in thumbs mode</description>
 			<type>label</type>
 			<id>0</id>
@@ -252,7 +242,7 @@
 			<visible>string.equals(#OnlineVideos.IsBuffering, true) + !string.equals(#OnlineVideos.state,details) + [facadeview.smallicons | facadeview.largeicons]</visible>
 			<animation effect="fade" time="250">WindowOpen</animation>
 			<animation effect="fade" time="250">WindowClose</animation>
-		</control>
+		</control-->
 
 		<control>
 			<description>Description in List Mode</description>
@@ -440,14 +430,15 @@
 			<visible>!string.equals(#OnlineVideos.state, details) + [facadeview.smallicons | facadeview.largeicons]</visible>
 		</control>
 
-		<import>myonlinevideos.hiddenmenu.xml</import>
 		<import>myonlinevideos.details.xml</import>
 		<import>myonlinevideos.details.imdb.xml</import>
 		<import>myonlinevideos.details.youtube.xml</import>
 		<import>myonlinevideos.facade.xml</import>  
+		<import>common.time.xml</import>
+		<import>myonlinevideos.hiddenmenu.xml</import>
 		<import>common.overlay.xml</import>
 		
-		<control>
+		<!--control>
 			<description>Buffering Label in listview mode</description>
 			<type>label</type>
 			<id>0</id>
@@ -460,6 +451,23 @@
 			<textcolor>White</textcolor>
 			<label>#OnlineVideos.buffered%</label>
 			<visible>string.equals(#OnlineVideos.IsBuffering, true) + !string.equals(#OnlineVideos.state,details) + facadeview.list</visible>
+			<animation effect="fade" time="250">WindowOpen</animation>
+			<animation effect="fade" time="250">WindowClose</animation>
+		</control-->
+
+		<control>
+			<description>Buffering</description>
+			<type>label</type>
+			<id>0</id>
+            <posX>72</posX>
+            <posY>142</posY>
+			<width>500</width>
+			<align>left</align>
+			<valign>middle</valign>
+			<font>font11</font>
+			<textcolor>White</textcolor>
+			<label>#OnlineVideos.Translation.Buffered.Label #OnlineVideos.buffered%</label>
+			<visible>string.equals(#OnlineVideos.IsBuffering, true)</visible>
 			<animation effect="fade" time="250">WindowOpen</animation>
 			<animation effect="fade" time="250">WindowClose</animation>
 		</control>

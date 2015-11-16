@@ -5,6 +5,7 @@
   <allowoverlay>no</allowoverlay>
   <define>#header.label:#Trakt.Translation.Dashboard.Label</define>
   <define>#activityOnLeft:9</define>
+  <define>#useSelectedFanart:Yes</define>
   <rememberLastFocusedControl>yes</rememberLastFocusedControl>
   <controls>
     <import>Trakt.Common.Background.xml</import>
@@ -110,6 +111,7 @@
         <ondown>9</ondown>
       </control>
     </control>
+
     <control>
       <id>0</id>
       <type>image</type>
@@ -118,9 +120,74 @@
       <width>275</width>
       <texture>trakt.png</texture>
       <keepaspectratio>yes</keepaspectratio>
+      <visible>!control.isvisible(101)+!control.isvisible(202)+!control.isvisible(300)+!control.isvisible(301)</visible>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
     </control>
+
+    <!-- ClearArt -->
+    <control>
+      <description>ClearArt</description>
+      <type>image</type>
+      <id>101</id>
+      <posX>180</posX>
+      <posY>825</posY>
+      <width>275</width>
+      <height>140</height>
+      <keepaspectratio>yes</keepaspectratio>
+      <texture>..\..\..\Thumbs\ClearArt\Series\#(string.trim(#Trakt.Show.TvdbId)).png</texture>
+      <visible>control.hasfocus(98301)+control.hasthumb(101)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
+    </control>  
+
+    <!-- ClearArt -->
+    <control>
+      <description>ClearArt</description>
+      <type>image</type>
+      <id>202</id>
+      <posX>180</posX>
+      <posY>825</posY>
+      <width>275</width>
+      <height>140</height>
+      <keepaspectratio>yes</keepaspectratio>
+      <texture>..\..\..\Thumbs\ClearArt\Movies\#(string.trim(#Trakt.Movie.ImdbId)).png</texture>
+      <visible>control.hasfocus(98302)+control.hasthumb(202)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
+    </control>  
+
+    <!-- ClearArt -->
+    <control>
+      <description>ClearArt</description>
+      <type>image</type>
+      <id>300</id>
+      <posX>180</posX>
+      <posY>825</posY>
+      <width>275</width>
+      <height>140</height>
+      <keepaspectratio>yes</keepaspectratio>
+      <texture>..\..\..\Thumbs\ClearArt\Series\#(string.trim(#Trakt.Show.TvdbId)).png</texture>
+      <visible>control.hasfocus(98300)+control.hasthumb(300)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
+    </control>  
+
+    <!-- ClearArt -->
+    <control>
+      <description>ClearArt</description>
+      <type>image</type>
+      <id>301</id>
+      <posX>180</posX>
+      <posY>825</posY>
+      <width>275</width>
+      <height>140</height>
+      <keepaspectratio>yes</keepaspectratio>
+      <texture>..\..\..\Thumbs\ClearArt\Movies\#(string.trim(#Trakt.Movie.ImdbId)).png</texture>
+      <visible>control.hasfocus(98300)+control.hasthumb(301)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
+    </control>  
 
     <import>Trakt.Dashboard.xml</import>
     <import>common.overlay.xml</import>

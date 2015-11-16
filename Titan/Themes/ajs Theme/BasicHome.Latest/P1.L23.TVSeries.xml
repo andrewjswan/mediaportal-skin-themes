@@ -56,7 +56,7 @@
       <posY>741</posY>
       <width>134</width>
       <height>191</height>
-      <texture>#latestMediaHandler.tvseries.latest1.serieThumb</texture>
+      <texture>#(iif(eq(#latestMediaHandler.tvseries.latest.mode,'seasons'),#latestMediaHandler.tvseries.latest1.thumb,#latestMediaHandler.tvseries.latest1.serieThumb))</texture>
       <visible>control.isvisible(70091)</visible>              
       <animation effect="fade" start="100" end="0" time="0">Hidden</animation>
       <animation effect="zoom" start="50,50" end="100,100" time="1500">Visible</animation>
@@ -127,7 +127,7 @@
       <posY>741</posY>
       <width>134</width>
       <height>191</height>
-      <texture>#latestMediaHandler.tvseries.latest2.serieThumb</texture>
+      <texture>#(iif(eq(#latestMediaHandler.tvseries.latest.mode,'seasons'),#latestMediaHandler.tvseries.latest2.thumb,#latestMediaHandler.tvseries.latest2.serieThumb))</texture>
       <visible>control.isvisible(70091)</visible>              
       <animation effect="fade" start="100" end="0" time="0">Hidden</animation>
       <animation effect="zoom" start="50,50" end="100,100" time="1500">Visible</animation>
@@ -198,7 +198,7 @@
       <posY>741</posY>
       <width>134</width>
       <height>191</height>
-      <texture>#latestMediaHandler.tvseries.latest3.serieThumb</texture>
+      <texture>#(iif(eq(#latestMediaHandler.tvseries.latest.mode,'seasons'),#latestMediaHandler.tvseries.latest3.thumb,#latestMediaHandler.tvseries.latest3.serieThumb))</texture>
       <visible>control.isvisible(70091)</visible>              
       <animation effect="fade" start="100" end="0" time="0">Hidden</animation>
       <animation effect="zoom" start="50,50" end="100,100" time="1500">Visible</animation>

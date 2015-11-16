@@ -131,7 +131,7 @@
       <posX>144</posX>
       <posY>100</posY>
       <width>600</width>
-      <font>fontB14</font>
+      <font>TitanLight12</font>
       <align>left</align>
       <label>#(L(133)) #itemcount </label>
       <visible>control.isvisible(50)+string.equals(#mvCentral.ArtistView,true)</visible>
@@ -145,7 +145,7 @@
       <posX>144</posX>
       <posY>100</posY>
       <width>600</width>
-      <font>fontB14</font>
+      <font>TitanLight12</font>
       <align>left</align>
       <label>#(L(135)) #itemcount </label>
       <visible>control.isvisible(50)+string.equals(#mvCentral.GenreView,true)</visible>
@@ -159,7 +159,7 @@
       <posX>144</posX>
       <posY>100</posY>
       <width>600</width>
-      <font>fontB14</font>
+      <font>TitanLight12</font>
       <align>left</align>
       <label>#(L(132)) #itemcount</label>
       <visible>control.isvisible(50)+string.equals(#mvCentral.AlbumView,true)</visible>
@@ -173,7 +173,7 @@
       <posX>144</posX>
       <posY>100</posY>
       <width>600</width>
-      <font>fontB14</font>
+      <font>TitanLight12</font>
       <align>left</align>
       <label>#mvCentral.Translation.Videos.Label #itemcount</label>
       <visible>control.isvisible(50)+string.equals(#mvCentral.TrackView,true)</visible>

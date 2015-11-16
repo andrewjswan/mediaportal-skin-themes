@@ -35,8 +35,8 @@
         <description>New indicator</description>
         <id>0</id>
         <type>image</type>
-        <posX>#L21lefttext</posX>
-        <posY>#L21toptext</posY>
+        <posX>#L11lefttext</posX>
+        <posY>#L11toptext</posY>
         <visible>control.isvisible(2)+string.equals(#latestMediaHandler.music.hasnew,true)</visible>
         <animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(2)">conditional</animation>
     </control>
