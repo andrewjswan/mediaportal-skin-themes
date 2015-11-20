@@ -126,7 +126,7 @@
       <posY>1070</posY>
       <width>250</width>
       <height>5</height>
-      <texture>osd_progress_bg_music.png</texture>
+      <texture>osd_progress_simple_background.png</texture>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
       <visible>Player.HasMedia</visible>
@@ -143,9 +143,9 @@
       <height>3</height>
       <label>#percentage</label>
       <texturebg>-</texturebg>
-      <lefttexture>osd_progress_left.png</lefttexture>
-      <midtexture>osd_progress_mid.png</midtexture>
-      <righttexture>osd_progress_right.png</righttexture>
+      <lefttexture>osd_progress_simple_left.png</lefttexture>
+      <midtexture>osd_progress_simple_mid.png</midtexture>
+      <righttexture>osd_progress_simple_right.png</righttexture>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
       <visible>Player.HasMedia</visible>
@@ -209,6 +209,7 @@
         <type>fadelabel</type>          
         <description>Track</description>
         <id>0</id>
+        <!--label>#(iif(eq(#Play.Current.Track,''),'',string.format('{0:00}. ',cint(#Play.Current.Track))))#(string.toupper(#Play.Current.Title))</label-->
         <label>#(iif(eq(#Play.Current.Track,''),'',string.format('{0:00}. ',cint(#Play.Current.Track))))#Play.Current.Title</label>
         <posX>1500</posX>
         <posY>810</posY>
@@ -226,6 +227,7 @@
         <type>fadelabel</type>          
         <description>Title</description>
         <id>0</id>
+        <!--label>#(string.toupper(#Play.Current.Title))</label-->
         <label>#Play.Current.Title</label>
         <posX>1500</posX>
         <posY>810</posY>
@@ -268,7 +270,7 @@
         <id>0</id>
         <posX>1410</posX>
         <posY>867</posY>
-        <width>1000</width>
+        <width>1500</width>
         <height>38</height>
         <align>right</align>
         <label>#(iif(eq(#Play.Current.BitRate,''),'',string.format('{0} kbit/s',#Play.Current.BitRate)))</label>
@@ -314,7 +316,7 @@
         <id>0</id>
         <posX>1500</posX>
         <posY>895</posY>
-        <width>1000</width>
+        <width>1500</width>
         <height>38</height>
         <align>right</align>
         <label>#Play.Current.Artist</label>
@@ -331,7 +333,7 @@
         <label>#Play.Current.Album#(iif(eq(#Play.Current.Year,''),'',string.format(' [{0}]',#Play.Current.Year)))</label>
         <posX>1500</posX>
         <posY>940</posY>
-        <width>1000</width>
+        <width>1500</width>
         <height>38</height>
         <align>right</align>
         <font>TitanLight12</font>
@@ -346,7 +348,7 @@
         <label>#(iif(eq(#Play.Current.Year,''),'',string.format(' [{0}]',#Play.Current.Year)))</label>
         <posX>1500</posX>
         <posY>940</posY>
-        <width>1000</width>
+        <width>1500</width>
         <height>38</height>
         <align>right</align>
         <textcolor>FF00b7ff</textcolor>
@@ -362,7 +364,7 @@
         <id>0</id>
         <posX>1500</posX>
         <posY>985</posY>
-        <width>1000</width>
+        <width>1500</width>
         <height>38</height>
         <align>right</align>
         <label>Next: #(iif(eq(#Play.Next.Track,''),'',string.format('{0:00}. ',cint(#Play.Next.Track))))#Play.Next.Artist#(iif(eq(#Play.Next.Album,''),'',string.format(' - {0}',#Play.Next.Album)))#(iif(eq(#Play.Next.Title,''),'',string.format(' - {0}',#Play.Next.Title)))</label>
@@ -378,7 +380,7 @@
         <id>0</id>
         <posX>1500</posX>
         <posY>985</posY>
-        <width>1000</width>
+        <width>1500</width>
         <height>38</height>
         <align>right</align>
         <label>#(iif(eq(#Play.Next.Track,''),'',string.format('{0:00}. ',cint(#Play.Next.Track))))#Play.Next.Artist#(iif(eq(#Play.Next.Album,''),'',string.format(' - {0}',#Play.Next.Album)))#(iif(eq(#Play.Next.Title,''),'',string.format(' - {0}',#Play.Next.Title)))</label>

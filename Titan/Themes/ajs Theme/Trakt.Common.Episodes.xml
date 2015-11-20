@@ -2,7 +2,6 @@
 <window>
   <controls>
 
-
 	<!-- ClearArt -->
    	<control>
    		<description>ClearArt</description>
@@ -427,5 +426,6 @@
       <texture>Logos\Studios\#(string.trim(#Trakt.Show.Network)).png</texture>
       <keepaspectratio>yes</keepaspectratio>
     </control>
+
   </controls>
 </window>

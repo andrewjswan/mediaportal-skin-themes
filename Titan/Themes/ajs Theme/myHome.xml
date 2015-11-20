@@ -10,6 +10,20 @@
     <import>common.default.background.xml</import>
 
     <control>
+      <description>DEFAULT BACKGROUND</description>
+      <type>image</type>
+      <id>0</id>
+      <posX>0</posX>
+      <posY>0</posY>
+      <width>1920</width>
+      <height>1080</height>
+      <texture>fanart_overlay.png</texture>
+      <shouldCache>true</shouldCache>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
+    </control>
+		
+    <control>
       <description>Menu</description>
       <type>menu</type>
       <id>50</id>
@@ -46,21 +60,7 @@
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>       
     </control>
-		
-    <control>
-      <description>DEFAULT BACKGROUND</description>
-      <type>image</type>
-      <id>0</id>
-      <posX>0</posX>
-      <posY>0</posY>
-      <width>1920</width>
-      <height>1080</height>
-      <texture>fanart_overlay.png</texture>
-      <shouldCache>true</shouldCache>
-      <animation effect="fade" time="250">WindowOpen</animation>
-      <animation effect="fade" time="250">WindowClose</animation>
-    </control>
-		
+
     <control>
       <description>ICON</description>
       <type>image</type>
@@ -74,7 +74,21 @@
       <animation effect="fade" time="250">WindowClose</animation>
     </control>	
 		
-   <control>
+    <control>
+      <description>Panel</description>
+      <type>image</type>
+      <id>1</id>
+      <posX>565</posX>
+      <posY>145</posY>
+      <width>790</width>
+      <height>790</height>
+      <texture>panel_myhome.png</texture>
+      <shouldCache>true</shouldCache>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
+    </control>	
+
+    <control>
        <description>right menu indicator</description>
        <id>0</id>
        <type>image</type>
@@ -88,7 +102,7 @@
        <animation effect="slide" start="0,0" end="60,0" tween="quadratic" easing="in" time="250" delay="0">hidden</animation>
        <animation effect="fade" time="250">WindowOpen</animation>
        <animation effect="fade" time="250">WindowClose</animation>
-   </control>
+    </control>
 
 		
   <!--            :: RSS ::            -->
@@ -106,23 +120,9 @@
       <animation effect="fade" time="250">WindowClose</animation>
     </control>
 		
-  <include condition="#(and(plugin.isenabled('World News'),not(eq(#WorldNews.NewsTicker,''))))">MyHome.Main.RSS.WorldNews.xml</include>
-  <include condition="#(and(plugin.isenabled('InfoService'),eq(#infoservice.feed.enabled,'true')))">MyHome.Main.RSS.InfoServise.xml</include>
-
-    <control>
-      <description>Panel</description>
-      <type>image</type>
-      <id>1</id>
-      <posX>565</posX>
-      <posY>145</posY>
-      <width>790</width>
-      <height>790</height>
-      <texture>panel_myhome.png</texture>
-      <shouldCache>true</shouldCache>
-      <animation effect="fade" time="250">WindowOpen</animation>
-      <animation effect="fade" time="250">WindowClose</animation>
-    </control>	
-		
+    <include condition="#(and(plugin.isenabled('World News'),not(eq(#WorldNews.NewsTicker,''))))">MyHome.Main.RSS.WorldNews.xml</include>
+    <include condition="#(and(plugin.isenabled('InfoService'),eq(#infoservice.feed.enabled,'true')))">MyHome.Main.RSS.InfoServise.xml</include>
+	
     <import>common.time.xml</import>
     <import>myHome.exitmenu.xml</import> 
     <import>common.overlay.xml</import>
