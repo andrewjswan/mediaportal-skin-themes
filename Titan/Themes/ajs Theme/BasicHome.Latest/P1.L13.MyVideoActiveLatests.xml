@@ -84,7 +84,7 @@
         <visible>control.isvisible(60091)+control.HasFocus(91915991)</visible>
         <animation effect="fade" time="250">WindowOpen</animation>
         <animation effect="fade" time="250">WindowClose</animation>
-        <animation effect="fade" time="1000" start= "100" end= "25" reversible="false" delay="1500">Visible</animation>
+        <animation effect="fade" time="1000" start= "100" end= "50" reversible="false">Visible</animation>
     </control>  
 
     <control>
@@ -178,7 +178,7 @@
         <visible>control.isvisible(60091)+control.HasFocus(91915992)</visible>
         <animation effect="fade" time="250">WindowOpen</animation>
         <animation effect="fade" time="250">WindowClose</animation>
-        <animation effect="fade" time="1000" start= "100" end= "25" reversible="false" delay="1500">Visible</animation>
+        <animation effect="fade" time="1000" start= "100" end= "50" reversible="false">Visible</animation>
     </control>  
 
     <control>
@@ -272,7 +272,7 @@
         <visible>control.isvisible(60091)+control.HasFocus(91915993)</visible>
         <animation effect="fade" time="250">WindowOpen</animation>
         <animation effect="fade" time="250">WindowClose</animation>
-        <animation effect="fade" time="1000" start= "100" end= "25" reversible="false" delay="1500">Visible</animation>
+        <animation effect="fade" time="1000" start= "100" end= "50" reversible="false">Visible</animation>
     </control>  
 
     <control>
