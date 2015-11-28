@@ -59,6 +59,8 @@
       <ondown>12</ondown>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>       
+      <animation effect="fade" time="500" start="0" end="100" reversable="true" delay="0">VisibleChange</animation>
+      <visible allowhiddenfocus="true">Control.HasFocus(50)</visible>
     </control>
 
     <control>
@@ -86,6 +88,7 @@
       <shouldCache>true</shouldCache>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
+      <visible>Control.HasFocus(50)</visible>
     </control>	
 
     <control>

@@ -18,9 +18,10 @@
     <include condition="#(eq(#music.simple,'false'))">MyMusicPlayingNow.artistinfo.xml</include>
     <include condition="#(eq(#music.simple,'false'))">MyMusicPlayingNow.tags.xml</include>
 
+    <import>PlayingNow.Dummy.xml</import>
+
     <import>PlayingNow.Scraper.xml</import>
     <import>PlayingNow.Pause.xml</import>
-    <import>PlayingNow.Dummy.xml</import>
           
   </controls>
 

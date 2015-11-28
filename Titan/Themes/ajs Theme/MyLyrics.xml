@@ -25,9 +25,6 @@
       <texture>black.png</texture>
     </control>
  
-    <include condition="#(eq(#music.simple,'false'))">PlayingNow.Body.xml</include>
-    <include condition="#(eq(#music.simple,'true'))">PlayingNow.SimpleBody.xml</include>
-  
     <import>PlayingNow.Dummy.xml</import>
 
     <control>
@@ -38,41 +35,43 @@
       <posY>120</posY>
       <width>1120</width>
       <height>490</height>
-      <onleft>2</onleft>
-      <onright>2</onright>
-      <onup>2</onup>
-      <ondown>2</ondown>
+      <onleft>20</onleft>
+      <onright>20</onright>
+      <onup>20</onup>
+      <ondown>20</ondown>
       <image>icon-music.png</image>
       <seperator>----------------------------------------------------------------------------------------------</seperator>
       <text></text>
       <font>fontB14</font>
       <dimColor>ffffffff</dimColor>
-      <spinPosX>1484</spinPosX>
+      <spinPosX>450</spinPosX>
       <spinPosY>580</spinPosY>
       <spinColor>FFFFFFFF</spinColor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>textboxscrollup</type>
       <description>The Lyric area</description>
       <id>1020</id>
-     <posX>450</posX>
+      <posX>450</posX>
       <posY>120</posY>
       <width>1120</width>
       <height>450</height>
-      <onleft>2</onleft>
-      <onright>2</onright>
-      <onup>2</onup>
-      <ondown>2</ondown>
+      <onleft>1020</onleft>
+      <onright>1020</onright>
+      <onup>1020</onup>
+      <ondown>1020</ondown>
       <image>icon-music.png</image>
       <seperator>----------------------------------------------------------------------------------------------</seperator>
       <text></text>
       <font>fontB14</font>
       <dimColor>ffffffff</dimColor>
-      <spinPosX>1484</spinPosX>
+      <spinPosX>450</spinPosX>
       <spinPosY>580</spinPosY>
       <spinColor>FFFFFFFF</spinColor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -83,7 +82,8 @@
       <label></label>
       <font>fontB16</font>
       <textcolor>ffdddddd</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -93,7 +93,8 @@
       <posY>25</posY>
       <label>No media playing</label>
       <font>fontB16</font>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
       <textcolor>FFffffff</textcolor>
     </control>
     <control>
@@ -108,7 +109,8 @@
       <font>fontB14</font>
       <textcolor>90ffffff</textcolor>
       <disabledcolor>ffffffff</disabledcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -121,7 +123,8 @@
       <font>fontB14</font>
       <textcolor>ffffffff</textcolor>
       <disabledcolor>ffffffff</disabledcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -133,7 +136,8 @@
       <label>line 1</label>
       <font>fontB14</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -145,7 +149,8 @@
       <label>line 1</label>
       <font>fontB14</font>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -157,12 +162,14 @@
       <label>line 2</label>
       <font>fontB14</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
       <description>line 2</description>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
       <id>502</id>
       <width>1060</width>
       <posX>450</posX>
@@ -174,7 +181,8 @@
     <control>
       <type>label</type>
       <description>line 3</description>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
       <id>403</id>
       <width>1060</width>
       <posX>450</posX>
@@ -186,7 +194,8 @@
     <control>
       <type>label</type>
       <description>line 3</description>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
       <id>503</id>
       <width>1060</width>
       <posX>450</posX>
@@ -198,7 +207,8 @@
     <control>
       <type>label</type>
       <description>line 4</description>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
       <id>404</id>
       <width>1060</width>
       <posX>450</posX>
@@ -206,7 +216,8 @@
       <label>line 4</label>
       <font>fontB14</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -218,7 +229,8 @@
       <label>line 4</label>
       <font>fontB14</font>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -230,7 +242,8 @@
       <label>line 5</label>
       <font>fontB14</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -242,7 +255,8 @@
       <label>line 5</label>
       <font>fontB14</font>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -254,7 +268,8 @@
       <label>line 6</label>
       <font>fontB14</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -266,7 +281,8 @@
       <label>line 6</label>
       <font>fontB14</font>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -278,7 +294,8 @@
       <label>line 7</label>
       <font>fontB14</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -290,7 +307,8 @@
       <label>line 7</label>
       <font>fontB14</font>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -302,7 +320,8 @@
       <label>line 8</label>
       <font>fontB14</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -314,7 +333,8 @@
       <label>line 8</label>
       <font>fontB14</font>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -326,7 +346,8 @@
       <label>line 9</label>
       <font>fontB14</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -338,7 +359,8 @@
       <label>line 9</label>
       <font>fontB14</font>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -350,7 +372,8 @@
       <label>line 10</label>
       <font>fontB14</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -362,7 +385,8 @@
       <label>line 10</label>
       <font>fontB14</font>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -374,7 +398,8 @@
       <label>line 11</label>
       <font>fontB14</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -386,7 +411,8 @@
       <label>line 11</label>
       <font>fontB14</font>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -398,7 +424,8 @@
       <label>line 12</label>
       <font>fontB14</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -410,7 +437,8 @@
       <label>line 12</label>
       <font>fontB14</font>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -424,7 +452,8 @@
       <font>fontB14</font>
       <textcolor>90ffffff</textcolor>
       <disabledcolor>ffffffff</disabledcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -437,7 +466,8 @@
       <font>fontB14</font>
       <textcolor>ffffffff</textcolor>
       <disabledcolor>ffffffff</disabledcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -449,7 +479,8 @@
       <label>line 1</label>
       <font>fontB14</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -461,7 +492,8 @@
       <label>line 1</label>
       <font>fontB14</font>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -473,7 +505,8 @@
       <label>line 2</label>
       <font>fontB14</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -484,7 +517,8 @@
       <posY>200</posY>
       <label>line 2</label>
       <font>fontB14</font>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
       <textcolor>ffffffff</textcolor>
     </control>
     <control>
@@ -497,7 +531,8 @@
       <label>line 3</label>
       <font>fontB14</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -509,7 +544,8 @@
       <label>line 3</label>
       <font>fontB14</font>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -521,7 +557,8 @@
       <label>line 4</label>
       <font>fontB14</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -533,7 +570,8 @@
       <label>line 4</label>
       <font>fontB14</font>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -545,7 +583,8 @@
       <label>line 5</label>
       <font>fontB14</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -557,7 +596,8 @@
       <label>line 5</label>
       <font>fontB14</font>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -569,7 +609,8 @@
       <label>line 6</label>
       <font>fontB14</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -581,7 +622,8 @@
       <label>line 6</label>
       <font>fontB14</font>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -593,7 +635,8 @@
       <font>fontB14</font>
       <label>line 7</label>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -605,7 +648,8 @@
       <font>fontB14</font>
       <label>line 7</label>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -617,7 +661,8 @@
       <font>fontB14</font>
       <label>line 8</label>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -629,7 +674,8 @@
       <font>fontB14</font>
       <label>line 8</label>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -641,7 +687,9 @@
       <font>fontB14</font>
       <label>line 9</label>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
+
     </control>
     <control>
       <type>label</type>
@@ -653,7 +701,8 @@
       <font>fontB14</font>
       <label>line 9</label>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -665,7 +714,8 @@
       <font>fontB14</font>
       <label>line 10</label>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -677,7 +727,8 @@
       <font>fontB14</font>
       <label>line 10</label>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -689,7 +740,8 @@
       <font>fontB14</font>
       <label>line 11</label>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -701,7 +753,8 @@
       <font>fontB14</font>
       <label>line 11</label>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -713,7 +766,8 @@
       <font>fontB14</font>
       <label>line 12</label>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -725,7 +779,8 @@
       <label>line 12</label>
       <font>fontB14</font>
       <textcolor>ffffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -737,7 +792,8 @@
       <label>(xx:xx:xx)</label>
       <font>font10</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -749,7 +805,8 @@
       <label>(xx:xx:xx)</label>
       <font>font10</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -761,7 +818,8 @@
       <label>(xx:xx:xx)</label>
       <font>font10</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -773,7 +831,8 @@
       <label>(xx:xx:xx)</label>
       <font>font10</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -785,7 +844,8 @@
       <label>(xx:xx:xx)</label>
       <font>font10</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -797,7 +857,8 @@
       <label>(xx:xx:xx)</label>
       <font>font10</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -809,7 +870,8 @@
       <label>(xx:xx:xx)</label>
       <font>font10</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -821,7 +883,8 @@
       <label>(xx:xx:xx)</label>
       <font>font10</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -833,7 +896,8 @@
       <label>(xx:xx:xx)</label>
       <font>font10</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -845,7 +909,8 @@
       <label>(xx:xx:xx)</label>
       <font>font10</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -857,7 +922,8 @@
       <label>(xx:xx:xx)</label>
       <font>font10</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -869,7 +935,8 @@
       <label>(xx:xx:xx)</label>
       <font>font10</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
     <control>
       <type>label</type>
@@ -881,17 +948,20 @@
       <label>(xx:xx:xx)</label>
       <font>font10</font>
       <textcolor>90ffffff</textcolor>
-      <shadowColor>FF000000</shadowColor><shadowDistance>4</shadowDistance>
+      <shadowColor>FF000000</shadowColor>
+      <shadowDistance>4</shadowDistance>
     </control>
 
-    <control>
-      <description>video window</description>
-      <type>videowindow</type>
-      <id>99</id>
-      <posX>1</posX>
-      <posY>1</posY>
-      <visible>no</visible>
-    </control>
-      
-    </controls>
+
+    <include condition="#(eq(#music.simple,'true'))">PlayingNow.SimpleBody.xml</include>
+    <include condition="#(eq(#music.simple,'false'))">PlayingNow.FanartBody.xml</include>
+
+    <!--include condition="#(eq(#music.simple,'false'))">MyMusicPlayingNow.albuminfo.xml</include>
+    <include condition="#(eq(#music.simple,'false'))">MyMusicPlayingNow.artistinfo.xml</include>
+    <include condition="#(eq(#music.simple,'false'))">MyMusicPlayingNow.tags.xml</include-->
+
+    <import>PlayingNow.Scraper.xml</import>
+    <import>PlayingNow.Pause.xml</import>
+
+  </controls>
 </window>

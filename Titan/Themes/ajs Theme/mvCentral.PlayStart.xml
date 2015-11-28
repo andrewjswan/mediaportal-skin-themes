@@ -13,11 +13,12 @@
       <description>Movie/File Status Icons group</description>
       <type>group</type>
       <dimColor>ffffffff</dimColor>
-      <visible>!window.isosdvisible+!window.ispauseosdvisible+string.equals(#mvCentral.Play.Started,true)</visible>
+      <!--visible>!window.isosdvisible+!window.ispauseosdvisible+string.equals(#mvCentral.Play.Started,true)</visible-->
+      <visible>!window.isosdvisible+!window.ispauseosdvisible</visible>
       <animation effect="fade" time="300" delay="1000">VisibleChange</animation>
       <!-- <animation effect="slide" start="600,0" end="0,0" tween="quadratic" time="500" delay="100">VisibleChange</animation> -->
       <control>
-      	<id>55555</id>
+      	<id>0</id>
       	<description>CD Image</description>
       	<type>image</type>
       	<posX>15</posX>

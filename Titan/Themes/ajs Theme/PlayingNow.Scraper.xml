@@ -19,8 +19,23 @@
         <posX>510</posX>
         <posY>1015</posY>
         <label>Fanart #fanartHandler.scraper.task: #fanarthandler.scraper.percent.completed%</label>
-        <visible>control.isvisible(91919280)</visible>
-        <textcolor>#(iif(eq(#music.simple,'true'),FFFFFFFF,FF000000))</textcolor>
+        <visible>control.isvisible(91919280)+!string.equals(#music.simple,true)</visible>
+        <textcolor>FF000000</textcolor>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
+    </control>
+        
+    <control Style="smallTitle">
+        <description>Scraping Header</description>
+        <type>fadelabel</type>
+        <id>0</id>
+        <posX>20</posX>
+        <posY>1020</posY>
+        <align>left</align>
+        <label>Fanart #fanartHandler.scraper.task: #fanarthandler.scraper.percent.completed%</label>
+        <visible>control.isvisible(91919280)+string.equals(#music.simple,true)</visible>
+        <font>fontB16</font>
+        <textcolor>FFFFFFFF</textcolor>
         <animation effect="fade" time="250">WindowOpen</animation>
         <animation effect="fade" time="250">WindowClose</animation>
     </control>

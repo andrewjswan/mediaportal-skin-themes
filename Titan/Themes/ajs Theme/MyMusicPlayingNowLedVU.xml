@@ -14,13 +14,14 @@
     <include condition="#(eq(#music.simple,'false'))">PlayingNow.Body.xml</include>
     <include condition="#(eq(#music.simple,'true'))">PlayingNow.SimpleBody.xml</include>
 
-    <include>MyMusicPlayingNow.albuminfo.xml</include>
-    <include>MyMusicPlayingNow.artistinfo.xml</include>
-    <include>MyMusicPlayingNow.tags.xml</include>
+    <include condition="#(eq(#music.simple,'false'))">MyMusicPlayingNow.albuminfo.xml</include>
+    <include condition="#(eq(#music.simple,'false'))">MyMusicPlayingNow.artistinfo.xml</include>
+    <include condition="#(eq(#music.simple,'false'))">MyMusicPlayingNow.tags.xml</include>
+
+    <import>PlayingNow.Dummy.xml</import>
 
     <import>PlayingNow.Scraper.xml</import>
     <import>PlayingNow.Pause.xml</import>
-    <import>PlayingNow.Dummy.xml</import>
 
     <include>PlayingNow.LedVU.xml</include>
 			
