@@ -560,7 +560,7 @@
        		<align>center</align>
      		<zoom>no</zoom>
      		<valign>top</valign>
-     		<visible>!string.equals(#TVSeries.Episode.SeriesName,)</visible>
+     		<visible>!string.equals(#TVSeries.Episode.SeriesName,)+!control.isVisible(456852159)</visible>
 			<animation effect="fade" delay="0" start="0" end="100" time="2000">WindowOpen</animation>
 			<animation effect="fade" delay="5000" start="100" end="0" time="2000" condition="true">conditional</animation>
      	</control>
@@ -578,7 +578,7 @@
        		<align>center</align>
      		<zoom>no</zoom>
      		<valign>top</valign>
-     		<visible>!string.equals(#Play.Current.IMDBNumber,)</visible>
+     		<visible>!string.equals(#Play.Current.IMDBNumber,)+!control.isVisible(456852159)</visible>
 			<animation effect="fade" delay="0" start="0" end="100" time="2000">WindowOpen</animation>
 			<animation effect="fade" delay="5000" start="100" end="0" time="2000" condition="true">conditional</animation>
      	</control>
@@ -596,7 +596,7 @@
        		<align>center</align>
      		<zoom>no</zoom>
      		<valign>top</valign>
-     		<visible>!string.equals(#Play.Current.mvArtist,)</visible>
+     		<visible>!string.equals(#Play.Current.mvArtist,)+!control.isVisible(456852159)+!string.equals(#mvCentral.Play.Started,true)</visible>
 			<animation effect="fade" delay="0" start="0" end="100" time="2000">WindowOpen</animation>
 			<animation effect="fade" delay="5000" start="100" end="0" time="2000" condition="true">conditional</animation>
      	</control>
