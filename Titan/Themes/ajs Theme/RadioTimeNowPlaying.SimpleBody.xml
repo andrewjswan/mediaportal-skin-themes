@@ -166,7 +166,7 @@
       <texture>osd_progress_simple_background.png</texture>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
-      <visible>Player.HasMedia</visible>
+      <visible>!string.equals(#currentremaining,0:00)+Player.HasMedia</visible>
     </control>
 
     <control>
@@ -185,7 +185,7 @@
       <righttexture>osd_progress_simple_right.png</righttexture>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
-      <visible>Player.HasMedia</visible>
+      <visible>!string.equals(#currentremaining,0:00)+Player.HasMedia</visible>
     </control>
 
     <!-- ClearArt -->
@@ -283,7 +283,7 @@
         <height>15</height>
         <textureWidth>16</textureWidth>
         <textureHeight>14</textureHeight>
-        <percentage>#RadioTime.Selected.Reliability</percentage>
+        <percentage>#Play.Current.Rating</percentage>
         <imagesToDraw>5</imagesToDraw>
         <orientation>horizontal</orientation>
         <align>right</align>
@@ -299,6 +299,36 @@
       </control>
 
       <control>
+        <type>label</type>
+        <description>Bitrate</description>
+        <id>0</id>
+        <posX>1350</posX>
+        <posY>867</posY>
+        <width>1500</width>
+        <height>38</height>
+        <align>right</align>
+        <label>#(iif(eq(#Play.Current.BitRate,''),'',string.format('{0} kbit/s',#Play.Current.BitRate)))</label>
+        <font>TitanLight10</font>
+        <visible>Player.HasMedia</visible>
+      	<animation effect="fade" time="250">WindowOpen</animation>
+      	<animation effect="fade" time="250">WindowClose</animation>
+      </control>
+
+      <control>
+        <type>image</type>
+        <description>Format</description>
+        <id>0</id>
+        <posX>1360</posX>
+        <posY>867</posY>
+        <width>50</width>
+        <height>30</height>
+        <align>right</align>
+        <texture>Logos\Audio\#(iif(string.contains(#Play.Current.FileType,'mp3'),'mp3',iif(string.contains(#Play.Current.FileType,'flac'),'flac',iif(string.contains(#Play.Current.FileType,'ape'),'ape',iif(string.contains(#Play.Current.FileType,'ogg'),'ogg',#Play.Current.FileType))))).png</texture>
+        <visible>Player.HasMedia+!string.equals(#Play.Current.FileType,)</visible>
+      	<animation effect="fade" time="250">WindowOpen</animation>
+      	<animation effect="fade" time="250">WindowClose</animation>
+      </control>
+      <control>
         <type>image</type>
         <description>Format</description>
         <id>0</id>
@@ -308,7 +338,7 @@
         <height>30</height>
         <align>right</align>
         <texture>Logos\Audio\#(iif(string.contains(#RadioTime.Play.Format,'mp3'),'mp3',iif(string.contains(#RadioTime.Play.Format,'flac'),'flac',iif(string.contains(#RadioTime.Play.Format,'ape'),'ape',iif(string.contains(#RadioTime.Play.Format,'ogg'),'ogg',#RadioTime.Play.Format))))).png</texture>
-        <visible>Player.HasMedia</visible>
+        <visible>Player.HasMedia+string.equals(#Play.Current.FileType,)</visible>
       	<animation effect="fade" time="250">WindowOpen</animation>
       	<animation effect="fade" time="250">WindowClose</animation>
       </control>

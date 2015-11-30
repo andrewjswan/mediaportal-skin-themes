@@ -17,7 +17,7 @@
       <posY>#L11topfocus</posY>
       <animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(201)">conditional</animation>
       <animation effect="fade" time="250" condition="control.hasfocus(201)">conditional</animation>
-      <visible>control.isvisible(210)+ control.isvisible(10001)</visible>                
+      <visible>control.isvisible(210)+control.isvisible(10001)</visible>                
     </control>
         
     <control Style="HomeButtonMenuFocus">
@@ -28,7 +28,7 @@
       <posY>#L21topfocus</posY>
       <animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(301)">conditional</animation>
       <animation effect="fade" time="250" condition="control.hasfocus(301)">conditional</animation>
-      <visible>control.isvisible(310)+ control.isvisible(10001)</visible>                
+      <visible>control.isvisible(310)+control.isvisible(10001)</visible>                
     </control>
     
     <control Style="HomeButtonMenuFocus">
@@ -40,7 +40,7 @@
       <texture>basichome_button_focus.png</texture>
       <animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(401)">conditional</animation>
       <animation effect="fade" time="250" condition="control.hasfocus(401)">conditional</animation>
-      <visible>control.isvisible(410)+ control.isvisible(10001)</visible>                
+      <visible>control.isvisible(410)+control.isvisible(10001)</visible>                
     </control>
             
     <control Style="HomeButtonMenuFocus">
@@ -52,7 +52,7 @@
       <texture>basichome_button_focus.png</texture>
       <animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(501)">conditional</animation>
       <animation effect="fade" time="250" condition="control.hasfocus(501)">conditional</animation>
-      <visible>control.isvisible(510)+ control.isvisible(10001)</visible>                
+      <visible>control.isvisible(510)+control.isvisible(10001)</visible>                
     </control>
       
     <control Style="HomeButtonMenuFocus">
@@ -64,7 +64,7 @@
       <texture>basichome_button_focus.png</texture>
       <animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(601)">conditional</animation>
       <animation effect="fade" time="250" condition="control.hasfocus(601)">conditional</animation>
-      <visible>control.isvisible(610)+ control.isvisible(10001)</visible>                
+      <visible>control.isvisible(610)+control.isvisible(10001)</visible>                
     </control>
       
     <control Style="HomeButtonMenuFocus">
@@ -76,7 +76,7 @@
       <texture>basichome_button_focus.png</texture>
       <animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(701)">conditional</animation>
       <animation effect="fade" time="250" condition="control.hasfocus(701)">conditional</animation>
-      <visible>control.isvisible(710)+ control.isvisible(10001)</visible>                
+      <visible>control.isvisible(710)+control.isvisible(10001)</visible>                
     </control>
       
    </control>

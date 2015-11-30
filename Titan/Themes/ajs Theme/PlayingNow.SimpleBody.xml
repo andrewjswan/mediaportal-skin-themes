@@ -321,7 +321,7 @@
 
       <control>
         <type>image</type>
-        <description>Format</description>
+        <description>Channels</description>
         <id>0</id>
         <posX>1190</posX>
         <posY>867</posY>
