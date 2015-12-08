@@ -14,9 +14,9 @@
     <include condition="#(eq(#music.simple,'false'))">PlayingNow.Body.xml</include>
     <include condition="#(eq(#music.simple,'true'))">PlayingNow.SimpleBody.xml</include>
 
+    <include condition="#(eq(#music.simple,'false'))">MyMusicPlayingNow.tags.xml</include>
     <include condition="#(eq(#music.simple,'false'))">MyMusicPlayingNow.albuminfo.xml</include>
     <include condition="#(eq(#music.simple,'false'))">MyMusicPlayingNow.artistinfo.xml</include>
-    <include condition="#(eq(#music.simple,'false'))">MyMusicPlayingNow.tags.xml</include>
 
     <import>PlayingNow.Dummy.xml</import>
 

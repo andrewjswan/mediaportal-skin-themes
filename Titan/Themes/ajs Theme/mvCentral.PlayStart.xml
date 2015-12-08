@@ -113,6 +113,17 @@
       <height>250</height>
       <texture>#Play.Current.Thumb</texture>
     </control>
+    <control>
+      <type>image</type>
+      <description>Album Art image</description>
+      <id>0</id>
+      <posX>1525</posX>
+      <posY>810</posY>
+      <width>250</width>
+      <height>250</height>
+      <texture>#fanarthandler.music.artisthumb.play</texture>
+  	  <visible>string.equals(#Play.Current.Thumb,)</visible>
+    </control>
 
     <control>
       <id>0</id>

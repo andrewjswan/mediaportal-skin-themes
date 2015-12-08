@@ -34,7 +34,7 @@
        	<!-- Clear Art/Logo -->
 
     	<control>
-    		<description>DUMMY CONTROL FOR CLearArt/Logo VISIBILITY CONDITION</description>
+    		<description>DUMMY CONTROL FOR ClearArt/Logo VISIBILITY CONDITION</description>
     		<type>label</type>
     		<id>456852159</id>
     		<posX>0</posX>

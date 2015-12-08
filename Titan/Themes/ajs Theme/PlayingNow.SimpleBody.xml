@@ -134,10 +134,23 @@
       <posY>810</posY>
       <width>250</width>
       <height>250</height>
-      <texture>#Play.Current.Thumb</texture>
+      <texture>#fanarthandler.music.artisthumb.play</texture>
       <animation effect="fade" time="250">WindowOpen</animation>
   	  <animation effect="fade" time="250">WindowClose</animation>
   	  <visible>Player.HasMedia</visible>
+    </control>
+    <control>
+      <type>image</type>
+      <description>Album Art image</description>
+      <id>0</id>
+      <posX>1525</posX>
+      <posY>810</posY>
+      <width>250</width>
+      <height>250</height>
+      <texture>#Play.Current.Thumb</texture>
+      <animation effect="fade" time="250">WindowOpen</animation>
+  	  <animation effect="fade" time="250">WindowClose</animation>
+  	  <visible>Player.HasMedia+string.equals(#fanarthandler.music.artisthumb.play,)</visible>
     </control>
 
     <control>
@@ -394,7 +407,7 @@
         <label>Next: #(iif(eq(#Play.Next.Track,''),'',string.format('{0:00}. ',cint(#Play.Next.Track))))#Play.Next.Artist#(iif(eq(#Play.Next.Album,''),'',string.format(' - {0}',#Play.Next.Album)))#(iif(eq(#Play.Next.Title,''),'',string.format(' - {0}',#Play.Next.Title)))</label>
         <textcolor>FF00b7ff</textcolor>
         <font>TitanLight10</font>
-        <visible>Player.HasMedia</visible>
+        <visible>Player.HasMedia+![string.equals(#Play.Next.Track,)|string.equals(#Play.Next.Artist,)|string.equals(#Play.Next.Album,)|string.equals(#Play.Next.Title,)]</visible>
       	<animation effect="fade" time="250">WindowOpen</animation>
       	<animation effect="fade" time="250">WindowClose</animation>
       </control>
@@ -425,7 +438,7 @@
         <label>#currentplaytime / #duration</label>
         <align>right</align>
         <font>fontB16</font>
-        <visible>Player.HasMedia</visible>
+        <visible>!string.equals(#duration,)+Player.HasMedia</visible>
       	<animation effect="fade" time="250">WindowOpen</animation>
       	<animation effect="fade" time="250">WindowClose</animation>
       </control>
@@ -441,7 +454,7 @@
         <align>right</align>
         <textcolor>FF00b7ff</textcolor>
         <font>fontB16</font>
-        <visible>Player.HasMedia</visible>
+        <visible>!string.equals(#duration,)+Player.HasMedia</visible>
       	<animation effect="fade" time="250">WindowOpen</animation>
       	<animation effect="fade" time="250">WindowClose</animation>
       </control>
@@ -456,9 +469,24 @@
         <label>#duration</label>
         <align>right</align>
         <font>fontB16</font>
-        <visible>Player.HasMedia</visible>
+        <visible>!string.equals(#duration,)+Player.HasMedia</visible>
       	<animation effect="fade" time="250">WindowOpen</animation>
       	<animation effect="fade" time="250">WindowClose</animation>
+      </control>
+      <control>
+        <type>label</type>
+        <description>Track info</description>
+        <id>0</id>
+        <posX>1500</posX>
+        <posY>1020</posY>
+        <width>1020</width>
+        <height>38</height>
+        <label>#currentplaytime</label>
+        <align>right</align>
+        <font>fontB16</font>
+      	<animation effect="fade" time="250">WindowOpen</animation>
+      	<animation effect="fade" time="250">WindowClose</animation>
+        <visible>string.equals(#duration,)+Player.HasMedia</visible>
       </control>
 
   </controls>
