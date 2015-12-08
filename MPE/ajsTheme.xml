@@ -5,10 +5,18 @@
       <Version>2.0</Version>
       <Groups>
         <Items>
-          <GroupItem Name="Skin files">
-            <DisplayName>Skin files</DisplayName>
+          <GroupItem Name="SkinFiles">
+            <DisplayName>SkinFiles</DisplayName>
             <DefaulChecked>true</DefaulChecked>
-            <Description>Skin files</Description>
+            <Description>SkinFiles</Description>
+            <Files>
+              <Items />
+            </Files>
+          </GroupItem>
+          <GroupItem Name="Editor">
+            <DisplayName>Editor</DisplayName>
+            <DefaulChecked>true</DefaulChecked>
+            <Description>Editor</Description>
             <Files>
               <Items />
             </Files>
@@ -31,12 +39,12 @@
             </MinVersion>
             <MaxVersion>
               <Major>1</Major>
-              <Minor>1</Minor>
-              <Build>6</Build>
-              <Revision>27644</Revision>
+              <Minor>*</Minor>
+              <Build>*</Build>
+              <Revision>*</Revision>
             </MaxVersion>
-            <WarnOnly>false</WarnOnly>
-            <Message>requires MediaPortal version 1.1.6.27644 to 1.1.6.27644.</Message>
+            <WarnOnly>true</WarnOnly>
+            <Message>This version of ajs Theme for Titan requires MediaPortal 1.2.0 Beta or higher!</Message>
             <Name>MediaPortal</Name>
           </DependencyItem>
           <DependencyItem>
@@ -54,8 +62,8 @@
               <Build>0</Build>
               <Revision>0</Revision>
             </MaxVersion>
-            <WarnOnly>false</WarnOnly>
-            <Message>requires Skin version 1.4.0.0 to 1.4.0.0.</Message>
+            <WarnOnly>true</WarnOnly>
+            <Message>Requires Skin version 1.4.0.0 to 1.4.0.0.</Message>
             <Name>Skin</Name>
           </DependencyItem>
         </Items>
@@ -85,7 +93,7 @@ bugfixes and more.</ExtensionDescription>
 * Change mvCentral start playing window</VersionDescription>
         <DevelopmentStatus>Beta</DevelopmentStatus>
         <OnlineLocation />
-        <ReleaseDate>2015-11-30T14:47:12</ReleaseDate>
+        <ReleaseDate>2015-12-08T14:47:12</ReleaseDate>
         <Tags>ajs, titan, theme</Tags>
         <Location>D:\Work\Programming\Mediaportal\Skin Themes\BIN\ajs Theme for Titan.mpe1</Location>
         <Params>
