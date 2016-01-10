@@ -5,13 +5,14 @@
 		<id>0</id>
 		<type>image</type>
 		<posX>0</posX>
-		<posY>850</posY>
+		<posY>875</posY>
 		<width>30</width>
 		<height>149</height>
 		<texture>basichome_nextpage_left.png</texture>
 		<visible>!Control.IsVisible(70707)</visible>
 		<animation effect="slide" start="-60,0" time="250" delay="400">WindowOpen</animation>
 		<animation effect="slide" start="0,0" end="-60,0" time="250" delay="100">WindowClose</animation>
+        <animation effect="fade" time="1000" start= "100" end= "25" condition="!Control.IsVisible(70707)">conditional</animation>
 	</control>
 
 	<control>
@@ -82,6 +83,8 @@
                     <id>6100</id>
                     <label>Artist Information</label>
                     <font>TitanLight12</font>   
+                    <textcolor>ff000000</textcolor>
+                    <textcolorNoFocus>ff000000</textcolorNoFocus>
                     <selected>#(eq(#skin.mymusic.info,'ArtistInfo'))</selected>
                     <onclick>#(skin.setstring('#skin.mymusic.info',iif(eq(#skin.mymusic.info,'ArtistInfo'),'None','ArtistInfo')))</onclick>
                     <onup>6104</onup>
@@ -97,6 +100,8 @@
                     <id>6102</id>
                     <label>Album Information</label>
                     <font>TitanLight12</font>           
+                    <textcolor>ff000000</textcolor>
+                    <textcolorNoFocus>ff000000</textcolorNoFocus>
                     <selected>#(eq(#skin.mymusic.info,'AlbumInfo'))</selected>
                     <onclick>#(skin.setstring('#skin.mymusic.info',iif(eq(#skin.mymusic.info,'AlbumInfo'),'None','AlbumInfo')))</onclick>
                     <onup>6100</onup>
@@ -114,6 +119,8 @@
                     <id>6103</id>
                     <label>33011</label>
                     <font>TitanLight12</font>           
+                    <textcolor>ff000000</textcolor>
+                    <textcolorNoFocus>ff000000</textcolorNoFocus>
                     <selected>#(eq(#skin.mymusic.info,'TopTags'))</selected>
                     <onclick>#(skin.setstring('#skin.mymusic.info',iif(eq(#skin.mymusic.info,'TopTags'),'None','TopTags')))</onclick>
                     <onup>6102</onup>
@@ -131,6 +138,8 @@
                     <id>6104</id>
                     <label>Lyrics</label>
                     <font>TitanLight12</font>
+                    <textcolor>ff000000</textcolor>
+                    <textcolorNoFocus>ff000000</textcolorNoFocus>
                     <hyperlink>90478</hyperlink>
                     <onup>6103</onup>
                     <ondown>6105</ondown>
@@ -147,6 +156,8 @@
                     <id>6105</id>
                     <label>4555</label>
                     <font>TitanLight12</font>           
+                    <textcolor>ff000000</textcolor>
+                    <textcolorNoFocus>ff000000</textcolorNoFocus>
                     <hyperlink>500</hyperlink>
                     <onup>6104</onup>
                     <ondown>6100</ondown>
