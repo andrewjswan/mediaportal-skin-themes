@@ -220,7 +220,7 @@
 				<type>button</type>
 				<id>2</id>
 				<label>208</label>
-				<onup>97270</onup>
+				<onup>11899</onup>
 				<ondown>3</ondown>
 				<onleft>456852</onleft>
 		    <textureFocus>myvideos_play_focus.png</textureFocus>
@@ -327,12 +327,27 @@
         <label>Trakt</label>
         <onup>6</onup>
         <ondown>2</ondown>
+        <!--ondown>11899</ondown-->
 				<onleft>456852</onleft>
 		    <textcolor>FF000000</textcolor>
 				<textcolorNoFocus>ffffffff</textcolorNoFocus>
 				<visible>plugin.isenabled(Trakt)</visible>
         <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
       </control>
+
+      <!--control>
+        <description>Trailers</description>
+        <type>button</type>
+        <id>11899</id>
+        <label>#Trailers.Translation.Trailers.Label...</label>
+        <onup>97270</onup>
+        <ondown>2</ondown>
+	    <onleft>456852</onleft>
+        <textcolor>FF000000</textcolor>
+        <textcolorNoFocus>ffffffff</textcolorNoFocus>
+        <visible>plugin.isenabled(Trailers)</visible>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
+      </control-->
 	</control>
 
 	<control>
@@ -400,10 +415,12 @@
 		<description>spin control</description>
 		<type>spincontrol</type>
 		<id>10</id>
-		<posX>821</posX>
+		<posX>895</posX>
 		<posY>888</posY>
 		<onup>6</onup>
 		<ondown>11</ondown>
+		<align>right</align>
+		<buddycontrolid>30</buddycontrolid>
     <textcolor>ffffffff</textcolor>
     <disabledcolor>ffffffff</disabledcolor>
     <animation effect="fade" time="250">WindowOpen</animation>
@@ -428,12 +445,13 @@
 		<description>disc select</description>
 		<type>spincontrol</type>
 		<id>11</id>
-		<posX>821</posX>
+		<posX>895</posX>
 		<posY>934</posY>
 		<onup>10</onup>
 		<ondown>2</ondown>
 		<onleft>5</onleft>
 		<onright>5</onright>
+		<align>right</align>
     <textcolor>ffffffff</textcolor>
     <disabledcolor>ffffffff</disabledcolor>
 		<buddycontrolid>100</buddycontrolid>
@@ -456,7 +474,7 @@
     <shadowAngle>120</shadowAngle>
     <shadowDistance>2</shadowDistance>
     <shadowColor>FF000000</shadowColor>
-		<visible>!Control.IsVisible(24)</visible>
+		<visible>!Control.IsVisible(24)+!Control.IsVisible(23)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
         <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
@@ -469,7 +487,7 @@
 		<label>#(string.rtrim(L(172),' :'))</label>
 		<posX>1020</posX>
 		<posY>467</posY>
-		<visible>!Control.IsVisible(24)</visible>
+		<visible>!Control.IsVisible(24)+!Control.IsVisible(23)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
         <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
@@ -482,7 +500,7 @@
 		<label>#year</label>
 		<posX>1273</posX>
 		<posY>467</posY>
-		<visible>!Control.IsVisible(24)</visible>
+		<visible>!Control.IsVisible(24)+!Control.IsVisible(23)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
         <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
@@ -495,7 +513,7 @@
 		<label>725</label>
 		<posX>1020</posX>
 		<posY>531</posY>
-		<visible>!Control.IsVisible(24)</visible>
+		<visible>!Control.IsVisible(24)+!Control.IsVisible(23)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
         <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
@@ -508,7 +526,7 @@
 		<label>#genre</label>
 		<posX>1273</posX>
 		<posY>531</posY>
-		<visible>!Control.IsVisible(24)</visible>
+		<visible>!Control.IsVisible(24)+!Control.IsVisible(23)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
         <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
@@ -521,7 +539,7 @@
 		<label>#(string.rtrim(L(299),' :'))</label>
 		<posX>1020</posX>
 		<posY>499</posY>
-		<visible>!Control.IsVisible(24)</visible>
+		<visible>!Control.IsVisible(24)+!Control.IsVisible(23)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
         <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
@@ -534,7 +552,7 @@
 		<label>#runtime</label>
 		<posX>1273</posX>
 		<posY>499</posY>
-		<visible>!Control.IsVisible(24)</visible>
+		<visible>!Control.IsVisible(24)+!Control.IsVisible(23)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
         <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
@@ -547,7 +565,7 @@
 		<label>#(string.rtrim(L(199),' :'))</label>
 		<posX>1020</posX>
 		<posY>563</posY>
-		<visible>!Control.IsVisible(24)</visible>
+		<visible>!Control.IsVisible(24)+!Control.IsVisible(23)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
         <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
@@ -560,7 +578,7 @@
 		<posX>1273</posX>
 		<posY>563</posY>
 		<label>#director</label>
-		<visible>!Control.IsVisible(24)</visible>
+		<visible>!Control.IsVisible(24)+!Control.IsVisible(23)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
         <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
@@ -573,7 +591,7 @@
 		<posX>1020</posX>
     <posY>595</posY>
 		<label>#(string.rtrim(L(200),' :'))</label>
-		<visible>!Control.IsVisible(24)</visible>
+		<visible>!Control.IsVisible(24)+!Control.IsVisible(23)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
         <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
@@ -587,7 +605,7 @@
     <posY>595</posY>
     <width>580</width>
     <label>#credits</label>
-		<visible>!Control.IsVisible(24)</visible>
+		<visible>!Control.IsVisible(24)+!Control.IsVisible(23)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
         <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
@@ -600,7 +618,7 @@
 		<posX>1020</posX>
     <posY>627</posY>
 		<label>#(string.rtrim(L(1274),' :'))</label>
-		<visible>!Control.IsVisible(24)</visible>
+		<visible>!Control.IsVisible(24)+!Control.IsVisible(23)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
         <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
@@ -614,7 +632,7 @@
     <posY>627</posY>
     <width>560</width>
     <label>#studios</label>
-		<visible>!Control.IsVisible(24)</visible>
+		<visible>!Control.IsVisible(24)+!Control.IsVisible(23)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
         <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
@@ -631,7 +649,7 @@
 		<align>left</align>
 		<font>fontB12</font>
 		<textcolor>FF00b7ff</textcolor>
-		<visible>!Control.IsVisible(24)</visible>
+		<visible>!Control.IsVisible(24)+!Control.IsVisible(23)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
         <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
@@ -654,7 +672,7 @@
 		<align>left</align>
 		<imagesToDraw>10</imagesToDraw>
 		<percentage>#rating</percentage>
-		<visible>!Control.IsVisible(24)</visible>
+		<visible>!Control.IsVisible(24)+!Control.IsVisible(23)</visible>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
         <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
@@ -708,8 +726,8 @@
 		<type>textboxscrollup</type>
 		<id>23</id>
 		<posX>1020</posX>
-		<posY>670</posY>
-		<height>180</height>
+		<posY>360</posY>
+		<height>490</height>
 		<width>800</width>
 		<onleft>2</onleft>
 		<onright>2</onright>
@@ -816,7 +834,7 @@
     <description>Actors/Cast Image</description>
     <type>image</type>
     <id>25</id>
-		<posX>1076</posX>
+		<posX>1676</posX>
 		<posY>359</posY>
     <width>158</width>
     <height>235</height>
@@ -832,8 +850,8 @@
     <type>listcontrol</type>
     <id>24</id>
 		<posX>1022</posX>
-		<posY>609</posY>
-		<height>400</height>
+		<posY>360</posY>
+		<height>610</height>
 		<width>835</width>
     <onleft>2</onleft>
     <onright>2</onright>
