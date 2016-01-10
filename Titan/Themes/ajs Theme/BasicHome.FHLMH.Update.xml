@@ -10,9 +10,10 @@
     <posX>1520</posX>
     <posY>0</posY>
     <texture>hiddentab_lmh_update.png</texture>
-    <visible>string.equals(#mpei.fb03aa80-a2e3-4d77-a84d-4c0ae17eb49c.haveupdate,true)</visible>
+    <visible>string.equals(#mpei.fb03aa80_a2e3_4d77_a84d_4c0ae17eb49c.haveupdate,true)</visible>
     <animation effect="slide" start="0,-60" time="250" delay="400">WindowOpen</animation>
     <animation effect="slide" start="0,0" end="0,-60" time="250" delay="100">WindowClose</animation>
+    <animation effect="slide" start="0,-60" time="250">VisibleChange</animation>
   </control>
 
   <!-- Fanart Handler -->
@@ -23,9 +24,10 @@
     <posX>1720</posX>
     <posY>0</posY>
     <texture>hiddentab_fh_update.png</texture>
-    <visible>string.equals(#mpei.814a6918-0183-4323-a3b4-c00fac11b4f6.haveupdate,true)</visible>
+    <visible>string.equals(#mpei.814a6918_0183_4323_a3b4_c00fac11b4f6.haveupdate,true)</visible>
     <animation effect="slide" start="0,-60" time="250" delay="400">WindowOpen</animation>
     <animation effect="slide" start="0,0" end="0,-60" time="250" delay="100">WindowClose</animation>
+    <animation effect="slide" start="0,-60" time="250">VisibleChange</animation>
   </control>
 
 </controls>
