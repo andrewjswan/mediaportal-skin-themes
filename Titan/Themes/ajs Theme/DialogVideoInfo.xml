@@ -5,6 +5,7 @@
 <allowoverlay>yes</allowoverlay>
 <define>#header.label:3</define>
 <define>#useSelectedFanart:Yes</define>
+<define property="true" evaluateNow="true">#Skin.dialog.videoinfo.buttons.top:#(iif(and(plugin.isenabled('Trailers'),plugin.isenabled('Trakt')),300,360))</define>
 <controls>
 
     <import>common.default.background.xml</import>
@@ -212,7 +213,7 @@
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="250">WindowClose</animation>
   	<posX>571</posX>
-		<posY>360</posY>
+	<posY>#Skin.dialog.videoinfo.buttons.top</posY>
 		<layout>StackLayout(6, Vertical, true)</layout>
         
 			<control>
@@ -220,6 +221,7 @@
 				<type>button</type>
 				<id>2</id>
 				<label>208</label>
+				<!--onup>97270</onup-->
 				<onup>11899</onup>
 				<ondown>3</ondown>
 				<onleft>456852</onleft>
@@ -326,8 +328,8 @@
         <id>97270</id>
         <label>Trakt</label>
         <onup>6</onup>
-        <ondown>2</ondown>
-        <!--ondown>11899</ondown-->
+        <!--ondown>2</ondown-->
+        <ondown>11899</ondown>
 				<onleft>456852</onleft>
 		    <textcolor>FF000000</textcolor>
 				<textcolorNoFocus>ffffffff</textcolorNoFocus>
@@ -335,7 +337,7 @@
         <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
       </control>
 
-      <!--control>
+      <control>
         <description>Trailers</description>
         <type>button</type>
         <id>11899</id>
@@ -347,7 +349,7 @@
         <textcolorNoFocus>ffffffff</textcolorNoFocus>
         <visible>plugin.isenabled(Trailers)</visible>
         <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
-      </control-->
+      </control>
 	</control>
 
 	<control>
