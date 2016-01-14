@@ -5,7 +5,7 @@
 <allowoverlay>yes</allowoverlay>
 <define>#header.label:3</define>
 <define>#useSelectedFanart:Yes</define>
-<define property="true" evaluateNow="true">#Skin.dialog.videoinfo.buttons.top:#(iif(and(plugin.isenabled('Trailers'),plugin.isenabled('Trakt')),300,360))</define>
+<define property="true" evaluateNow="true">#Skin.dialog.videoinfo.buttons.top:#(iif(and(or(plugin.isenabled('Trailers'),plugin.isenabled('OnlineVideos')),plugin.isenabled('Trakt')),300,360))</define>
 <controls>
 
     <import>common.default.background.xml</import>
@@ -343,11 +343,27 @@
         <id>11899</id>
         <label>#Trailers.Translation.Trailers.Label...</label>
         <onup>97270</onup>
-        <ondown>2</ondown>
+        <ondown>4755</ondown>
 	    <onleft>456852</onleft>
         <textcolor>FF000000</textcolor>
         <textcolorNoFocus>ffffffff</textcolorNoFocus>
         <visible>plugin.isenabled(Trailers)</visible>
+        <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
+      </control>
+
+      <control>
+        <description>IMDb Trailer Button (Online Videos)</description>
+        <type>button</type>
+        <id>4755</id>
+        <label>5906</label>
+        <hyperlink>4755</hyperlink>
+        <hyperlinkParameter>site:IMDb Movie Trailers|search:#(iif(neq(#imdbnumber,''),#imdbnumber,#title))|return:Locked</hyperlinkParameter>
+        <onleft>456852</onleft>
+        <onup>11899</onup>
+        <ondown>2</ondown>
+        <textcolor>FF000000</textcolor>
+        <textcolorNoFocus>ffffffff</textcolorNoFocus>
+        <visible>!plugin.isenabled(Trailers)+plugin.isenabled(OnlineVideos)</visible>
         <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
       </control>
 	</control>
