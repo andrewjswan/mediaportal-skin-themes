@@ -363,7 +363,7 @@
         <type>fadelabel</type>          
         <description>Album</description>
         <id>0</id>
-        <label>Play.Current.AudioCodec.Texture - [#Play.Current.AudioCodec.Texture] #Play.Current.Genre</label>
+        <label>#Play.Current.Genre</label>
         <posX>1500</posX>
         <posY>940</posY>
         <width>1500</width>
