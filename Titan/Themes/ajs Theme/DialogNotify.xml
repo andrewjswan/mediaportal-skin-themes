@@ -13,54 +13,33 @@
           <animation effect="fade" time="0">WindowClose</animation>
 
           <control>
-            <id>0</id>
+            <description>Overlay</description>
             <type>image</type>
-            <posX>462</posX>
-            <posY>396</posY>
-            <width>998</width>
-            <height>579</height>
-            <texture>dialog_notify.png</texture>
+            <id>0</id>
+            <posX>0</posX>
+            <posY>800</posY>
+            <width>1920</width>
+            <height>280</height>
+            <texture>top_overlay.png</texture>
+            <shouldCache>true</shouldCache>
           </control>
     
           <control>
             <id>3</id>
             <description>Heading text label</description>
-            <type>label</type>
-            <posX>650</posX>
-            <posY>497</posY>
-            <width>720</width>
-            <font>fontB20</font>
-            <textcolor>393939</textcolor>
+            <type>label</type>          
             <label>181</label>
+            <posX>1500</posX>
+            <posY>810</posY>
+            <width>1500</width>
+            <height>38</height>
+            <align>right</align>
+            <font>fontB20</font>
             <animation effect="fade" time="250">WindowOpen</animation>
             <animation effect="slide" start="0,150" end="0,0" tween="quadratic" easing="in" time="200" delay="0">WindowOpen</animation>
             <animation effect="fade" time="0">WindowClose</animation>
           </control>
-            
-          <control>
-            <id>0</id>
-            <description>logo</description>
-            <type>image</type>
-            <visible>window.isvisible(602)+!string.contains(#thumb,MySleepTimer)</visible>
-            <posX>1102</posX>
-            <posY>504</posY>
-            <width>44</width>
-            <height>45</height>
-            <texture>tv_is_recording.png</texture>
-          </control>
-            
-          <control>
-            <id>0</id>
-            <description>logo</description>
-            <type>image</type>
-            <visible>window.isvisible(602)+!string.contains(#thumb,MySleepTimer)</visible>
-            <posX>580</posX>
-            <posY>745</posY>
-            <width>141</width>
-            <height>108</height>
-            <texture>osd_thumb_bg_notify.png</texture>
-          </control>
-            
+
           <control>
             <id>4</id>
             <description>OK button</description>
@@ -75,36 +54,37 @@
           </control>
           
           <control>
-            <id>5</id>
-            <description>logo</description>
             <type>image</type>
-            <posX>590</posX>
-            <posY>759</posY>
-            <width>120</width>
-            <height>80</height>
+            <description>logo</description>
+            <id>5</id>
+            <posX>1525</posX>
+            <posY>810</posY>
+            <width>250</width>
+            <height>250</height>
             <align>center</align>
             <texture>#thumb</texture>
             <keepaspectratio>yes</keepaspectratio>
           </control>
                 
           <control>
-            <id>6</id>
             <description>textarea</description>
             <type>textbox</type>
+            <id>6</id>
+            <posX>0</posX>
+            <posY>867</posY>
+            <width>1500</width>
+            <height>210</height>
+            <textalign>right</textalign>
+            <font>TitanLight10</font>
             <onleft>4</onleft>
             <onright>4</onright>
             <onup>4</onup>
             <ondown>4</ondown>
-            <posX>580</posX>
-            <posY>629</posY>
-            <width>745</width>
-            <height>210</height>
-            <textcolor>393939</textcolor>
             <spinPosX>1031</spinPosX>
             <spinPosY>-2000</spinPosY>
-            <font>fontB14</font>
             <label>-</label>
           </control>
+
         </control>
     </controls>
 </window>

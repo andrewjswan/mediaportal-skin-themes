@@ -742,6 +742,20 @@
 	</control>
     
     <control>
+		<description>Episode Rating</description>
+		<type>image</type>
+		<id>1</id>
+		<posX>380</posX>
+		<posY>360</posY>
+		<width>122</width>
+		<height>122</height>
+		<texture>#TVSeries.Episode.InfoPanelRatingThumb</texture>
+		<visible>control.isvisible(1239)+facadeview.list</visible>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="250">WindowClose</animation>
+	</control>
+
+    <control>
 		<description>Episode UserRating</description>
 		<type>image</type>
 		<id>1</id>

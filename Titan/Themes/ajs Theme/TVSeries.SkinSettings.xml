@@ -110,6 +110,7 @@
 <Enabled>1<Format><Episode.InfoPanelLine1Value><FormatAs>Eval(Round(<Episode.Rating>*10)/10)
 <Enabled>1<Format><Episode.InfoPanelLine7Value><FormatAs>Rated<Episode.myRating>.png
 <Enabled>1<Format><Episode.InfoPanelLine8Value><FormatAs>(<Episode.RatingCount> Trans(Votes))
+<Enabled>1<Format><Episode.InfoPanelRatingThumb><FormatAs>RatingEval(Round(<Episode.Rating>)).png
 <Enabled>1<Format><Episode.InfoPanelLine2Key><FormatAs>FILE SIZE
 <Enabled>1<Format><Episode.InfoPanelLine2Value><FormatAs><Episode.FileSize>
 <Enabled>1<Format><Episode.InfoPanelLine3Key><FormatAs>video INFO
