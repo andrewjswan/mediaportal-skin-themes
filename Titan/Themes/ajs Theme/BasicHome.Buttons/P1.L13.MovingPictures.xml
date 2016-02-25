@@ -24,7 +24,7 @@
 	  <onleft>4</onleft>
 	  <onup>6</onup>
 	  <ondown>7</ondown>
-	  <onclick>#(skin.setfocus(35,600001))</onclick>	
+	  <onclick>#(skin.setfocus(35,600001))</onclick>
 	  <visible allowhiddenfocus="true">![control.IsVisible(20081)|Control.IsVisible(20091)|Control.IsVisible(400081)|control.isvisible(90109)|control.hasfocus(99999)]+Control.IsVisible(10101)</visible>
     </control>
     

@@ -7,7 +7,7 @@
     <description>MPEIUPDATE:fb03aa80-a2e3-4d77-a84d-4c0ae17eb49c</description>
     <id>0</id>
     <type>image</type>
-    <posX>1520</posX>
+    <posX>1560</posX>
     <posY>0</posY>
     <texture>hiddentab_lmh_update.png</texture>
     <visible>string.equals(#mpei.fb03aa80_a2e3_4d77_a84d_4c0ae17eb49c.haveupdate,true)</visible>
@@ -21,7 +21,7 @@
     <description>MPEIUPDATE:814a6918-0183-4323-a3b4-c00fac11b4f6</description>
     <id>0</id>
     <type>image</type>
-    <posX>1720</posX>
+    <posX>1710</posX>
     <posY>0</posY>
     <texture>hiddentab_fh_update.png</texture>
     <visible>string.equals(#mpei.814a6918_0183_4323_a3b4_c00fac11b4f6.haveupdate,true)</visible>

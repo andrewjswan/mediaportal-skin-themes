@@ -21,7 +21,7 @@
         <width>1000</width>
         <textcolor>ffffffff</textcolor>
         <font>TitanLight12</font>
-        <label>Fanart #fanartHandler.scraper.task #fanarthandler.scraper.percent.completed#fanarthandler.scraper.percent.sign</label>
+        <label>Fanart #fanarthandler.scraper.task #fanarthandler.scraper.percent.completed#fanarthandler.scraper.percent.sign</label>
         <align>left</align>
         <visible>control.isvisible(91919280)</visible>
         <animation effect="fade" time="250">WindowOpen</animation>

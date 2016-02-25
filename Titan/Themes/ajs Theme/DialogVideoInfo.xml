@@ -1068,6 +1068,25 @@
         <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
     </control>
 
+    <control>
+  	  <description>Genres Logo</description>
+      <type>image</type>
+      <id>0</id>
+   	  <posX>85</posX>
+      <posY>360</posY>
+      <width>30</width>
+      <height>560</height>
+      <align>center</align>
+      <valign>bottom</valign>
+      <keepaspectratio>yes</keepaspectratio>
+      <shouldCache>true</shouldCache>
+      <texture>#fanarthandler.movie.genres.selected.verticalall</texture>
+	  <visible>!Control.IsVisible(24)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+	  <animation effect="fade" time="250">WindowClose</animation>
+      <animation effect="fade" time="250" condition="!control.hasfocus(456852)">conditional</animation>
+    </control>
+
     <!-- CDArt -->
     <control>
     	<description>Disc Image</description>

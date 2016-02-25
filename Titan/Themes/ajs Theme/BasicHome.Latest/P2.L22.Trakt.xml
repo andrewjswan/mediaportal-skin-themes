@@ -34,22 +34,22 @@
       </control>
       <control>
         <description>Trending Movies label</description>
-        <type>label</type>
+        <type>fadelabel</type>
         <id>0</id>
         <posX>87</posX>
         <posY>230</posY>
-        <width>590</width>
+        <width>550</width>
         <label>#Trakt.Translation.TrendingMovies.Label</label>
         <font>TitanLight20</font>
         <textcolor>FFFFFFFF</textcolor>
       </control>
       <control>
         <description>Trending Series label</description>
-        <type>label</type>
+        <type>fadelabel</type>
         <id>0</id>
         <posX>1474</posX>
         <posY>230</posY>
-        <width>590</width>
+        <width>550</width>
         <label>#Trakt.Translation.TrendingShows.Label</label>
         <font>TitanLight20</font>
         <textcolor>FFFFFFFF</textcolor>

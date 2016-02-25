@@ -153,6 +153,34 @@
 		<animation effect="fade" time="250">WindowClose</animation>
 	</control>
 
+    <control>
+        <description>Collection banner</description>
+        <id>0</id>
+        <type>image</type>
+        <posX>319</posX>
+        <posY>360</posY>
+        <width>183</width>
+        <height>183</height>
+        <texture>collection.png</texture>                                                  
+        <visible>[facadeview.list|facadeview.playlist]+Control.IsVisible(50)+string.equals(#plot,)+string.equals(#iscollection,yes)</visible>
+    	<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="250">WindowClose</animation>
+    </control>
+
+    <control>
+        <description>UserGroup banner</description>
+        <id>0</id>
+        <type>image</type>
+        <posX>319</posX>
+        <posY>360</posY>
+        <width>183</width>
+        <height>183</height>
+        <texture>group.png</texture>                                                  
+        <visible>[facadeview.list|facadeview.playlist]+Control.IsVisible(50)+string.equals(#plot,)+string.equals(#isgroup,yes)</visible>
+    	<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="250">WindowClose</animation>
+    </control>
+
     <!-- Rating -->
 
     <control>
@@ -300,6 +328,24 @@
 		<animation effect="fade" time="250">WindowClose</animation>
 	</control>
 	
+	<control Style="textBox">
+		<description>UserGroup | Movie Collection description</description>
+		<type>textboxscrollup</type>
+		<id>1025</id>
+		<posX>568</posX>
+		<posY>360</posY>
+		<height>540</height>
+		<label>#groupmovielist</label>
+		<seperator>---------------------------------------------------------------------------------------------------------</seperator>
+		<onleft>1026</onleft>
+		<onright>1026</onright>
+		<onup>1026</onup>
+		<ondown>1026</ondown>
+		<visible>[facadeview.list|facadeview.playlist]+Control.IsVisible(50)+string.equals(#plot,)</visible>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="250">WindowClose</animation>
+	</control>
+
 	<control>
 		<description>frame</description>
 		<type>image</type>
@@ -488,6 +534,26 @@
 		<animation effect="fade" time="250">WindowClose</animation>
 	</control>
     
+	<control Style="textBox">
+		<description>UserGroup | Movie Collection description</description>
+		<type>textboxscrollup</type>
+		<id>1025</id>
+		<posX>118</posX>
+		<posY>360</posY>
+		<width>555</width>
+		<height>205</height>
+		<label>#groupmovielist</label>
+		<seperator>---------------------------------------------------------------------------------------------------------</seperator>
+		<onleft>1026</onleft>
+		<onright>1026</onright>
+		<onup>1026</onup>
+		<ondown>1026</ondown>
+		<lineSpacing>0.92</lineSpacing>
+		<visible>[facadeview.smallicons | facadeview.largeicons]+Control.IsVisible(50)+string.equals(#plot,)</visible>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="250">WindowClose</animation>
+	</control>
+
 	<control>
 		<description>frame</description>
 		<type>image</type>
@@ -742,6 +808,25 @@
 	  <visible>[facadeview.filmstrip|facadeview.coverflow]+!Control.IsVisible(24)+!control.hasthumb(7770777)+!control.hasthumb(5550555)</visible>
       <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
+    </control>
+
+    <control>
+  	  <description>Genres Logo</description>
+      <type>image</type>
+      <id>0</id>
+   	  <posX>85</posX>
+      <posY>360</posY>
+      <width>30</width>
+      <height>560</height>
+      <align>center</align>
+      <valign>bottom</valign>
+      <keepaspectratio>yes</keepaspectratio>
+      <shouldCache>true</shouldCache>
+      <texture>#fanarthandler.movie.genres.selected.verticalall</texture>
+	  <visible>![facadeview.filmstrip|facadeview.coverflow]+!Control.IsVisible(24)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+	  <animation effect="fade" time="250">WindowClose</animation>
+      <!--animation effect="fade" time="1000" start= "100" end= "25" condition="true">conditional</animation-->
     </control>
 </controls>
 </window>
