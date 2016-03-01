@@ -88,12 +88,13 @@
 Clear/CD Art etc. support for Titan, 
 Weather icon on screen, 
 bugfixes and more.</ExtensionDescription>
-        <VersionDescription>* Add simple Now Playing window
-* Add simple Radio Time Now Playing window
-* Change mvCentral start playing window</VersionDescription>
-        <DevelopmentStatus>Beta</DevelopmentStatus>
+        <VersionDescription>Add studios, genres
+Studios clean
+Add support genres from latest FanartHandler
+Cosmetic</VersionDescription>
+        <DevelopmentStatus>Rc</DevelopmentStatus>
         <OnlineLocation />
-        <ReleaseDate>2015-12-08T14:47:12</ReleaseDate>
+        <ReleaseDate>2016-03-01T14:47:12</ReleaseDate>
         <Tags>ajs, titan, theme</Tags>
         <Location>D:\Work\Programming\Mediaportal\Skin Themes\BIN\ajs Theme for Titan.mpe1</Location>
         <Params>
