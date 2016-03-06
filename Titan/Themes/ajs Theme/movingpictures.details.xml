@@ -983,5 +983,41 @@ This file should contain the details view
         <animation effect="fade" time="250">WindowOpen</animation>
         <animation effect="fade" time="250">WindowClose</animation>
 	</control>
+
+    <control>
+  	  <description>Genres Logo</description>
+      <type>image</type>
+      <id>0</id>
+   	  <posX>85</posX>
+      <posY>360</posY>
+      <width>30</width>
+      <height>560</height>
+      <align>center</align>
+      <valign>bottom</valign>
+      <keepaspectratio>yes</keepaspectratio>
+      <shouldCache>true</shouldCache>
+      <texture>#fanarthandler.movie.genres.selected.verticalall</texture>
+      <visible>[!Control.IsVisible(50)+!Control.IsVisible(51)] + !Control.HasFocus(10005)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+	  <animation effect="fade" time="250">WindowClose</animation>
+    </control>
+
+    <control>
+  	  <description>Studios Logos</description>
+      <id>7650567</id>
+      <type>image</type>
+      <texture>#fanarthandler.movie.studios.selected.all</texture>
+      <posX>123</posX>
+      <posY>925</posY>
+      <width>379</width>
+      <height>60</height>
+      <align>center</align>
+      <valign>top</valign>
+      <keepaspectratio>yes</keepaspectratio>
+      <shouldCache>true</shouldCache>
+      <visible>[!Control.IsVisible(50)+!Control.IsVisible(51)] + !Control.HasFocus(10005)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+	  <animation effect="fade" time="250">WindowClose</animation>
+    </control>
   </controls>
 </window>

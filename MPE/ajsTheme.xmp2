@@ -22809,6 +22809,286 @@
               <ZipFileName>Installer{CopyFile}\{a8535858-c8da-45cf-8e2e-17b42291cd27}-RatingUser9.png</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\RatingUser9.png</DestinationFilename>
             </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\BasicHome.Background\P1.L22.Youtube.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{2674aaef-553e-4804-bd43-a1aaf4ae40a8}-P1.L22.Youtube.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\BasicHome.Background\P1.L22.Youtube.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\BasicHome.Buttons\P1.L22.Youtube.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{b94f1a45-2e04-4092-b025-a3094a0d2049}-P1.L22.Youtube.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\BasicHome.Buttons\P1.L22.Youtube.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\BasicHome.Fanart\P1.L22.Youtube.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{d47ca336-5350-41f7-a5a1-8c84831b9043}-P1.L22.Youtube.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\BasicHome.Fanart\P1.L22.Youtube.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media.Theme\basichome_button_youtube.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{95b67a20-96ab-43cf-a0b6-e7dc3d834816}-basichome_button_youtube.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\basichome_button_youtube.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\avatar.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{3a281112-ae61-4130-a44a-a2e1c57c58a8}-avatar.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\avatar.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\fish.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{9a984ee7-3ab6-46a0-8e04-5386b2f3f9ff}-fish.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\fish.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\shark.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{646e455b-77a0-450d-b445-fdddd2f4db20}-shark.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\shark.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\ant.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{885c8a27-7621-4809-8991-3813c6b7a0f6}-ant.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\ant.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\avatar.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{2561dcf2-9146-4d11-9428-0dc21b36e90b}-avatar.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\avatar.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\ballet.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{182f5707-fc4a-4e20-b58b-27d6b21be411}-ballet.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\ballet.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\bat.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{576408ec-0f4a-4aed-a6bc-da632afb008b}-bat.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\bat.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\battleship.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{2152d421-2a3b-496d-952c-760ea6aaa650}-battleship.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\battleship.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\bear.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e53f64c5-fb34-400c-8647-325de74cd8e7}-bear.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\bear.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\breaking bad.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{efac8927-83b5-413c-bf85-e05f0a654d0a}-breaking bad.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\breaking bad.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\bullet.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{6da9108e-7f8e-47ee-913d-f2fa1538149a}-bullet.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\bullet.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\compass.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{16389f48-cee9-49d6-b17e-86a75343f0d6}-compass.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\compass.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\cowboy.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{4352c452-e66f-463a-952b-0b766dbd9b94}-cowboy.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\cowboy.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\dog.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{abae33e0-3a17-49c6-a1d2-807efdc05f81}-dog.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\dog.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\dragonfly.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{062c50b2-bc95-4f8e-9242-a7065ca40cc3}-dragonfly.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\dragonfly.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\fish.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{2ace4a34-a9b4-4e52-a60e-76b2a12b2874}-fish.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\fish.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\frankenstein.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{172d5ad2-04fc-4255-93aa-8c73ec67ac8d}-frankenstein.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\frankenstein.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\green lantern.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{4207ae7f-9ad7-4bc9-8bce-0a77d953e8b8}-green lantern.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\green lantern.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\harry potter.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{4eeb5e20-ad67-4e1a-a7eb-04d02f3ddea2}-harry potter.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\harry potter.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\hobbit.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{0173f0d6-c9bc-4a37-b4c2-7e7dcb710898}-hobbit.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\hobbit.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\knight.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{c52bd664-7ad8-46fb-a525-3697440dbd76}-knight.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\knight.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\lamp of alladin.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{3869834e-07f2-43aa-ac19-40e3cc4343b1}-lamp of alladin.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\lamp of alladin.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\leopard.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{bf6df824-84af-4199-b723-2e2ab859867f}-leopard.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\leopard.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\lighthouse.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{10040361-554a-4600-9184-407c9fc33f7b}-lighthouse.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\lighthouse.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\magritte.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{ec905b64-4356-46cf-a5d2-84d683a8cb9e}-magritte.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\magritte.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\medal.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{1ab90d5d-ada7-4e3a-9c54-aabd635b2bfb}-medal.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\medal.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\next generation.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{0ca56943-dd30-4d53-a16a-2b273214b41f}-next generation.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\next generation.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\ninja.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{1319a73a-53cc-4231-bdcf-0a7f7f5d98bc}-ninja.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\ninja.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\pirate.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{0ee67d02-a582-4e01-be9d-0c416280ba6c}-pirate.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\pirate.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\pixar.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a674d141-c115-4a76-872f-66022ebad9e2}-pixar.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\pixar.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\planet.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{c94c8209-1379-41b8-91db-dc5f5fbdf4e0}-planet.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\planet.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\shark.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{f271706b-34b6-40a6-b5ce-69c9bfc02fbb}-shark.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\shark.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\star wars.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a01ca345-59ab-461f-b522-1ae0f4841b98}-star wars.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\star wars.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\titanic.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{7f95b683-cd71-449f-b234-3434599f2ac1}-titanic.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\titanic.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\unicorn.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{0b10dd26-588d-4db4-a5dc-aed6ac98431c}-unicorn.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\unicorn.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\x-men.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{eb5b9a95-edd0-4428-9b61-4c70f3dbbd4d}-x-men.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\x-men.png</DestinationFilename>
+            </FileItem>
           </Items>
         </Files>
       </GroupItem>
@@ -23054,13 +23334,13 @@ Click Next to continue or Cancel to exit Setup.</Value>
 Clear/CD Art etc. support for Titan, 
 Weather icon on screen, 
 bugfixes and more.</ExtensionDescription>
-    <VersionDescription>Add studios, genres
-Studios clean
-Add support genres from latest FanartHandler
-Cosmetic</VersionDescription>
+    <VersionDescription>Add Youtube to first screen
+Add Genres and Studios to Mpving Pictures
+Add color characters
+</VersionDescription>
     <DevelopmentStatus>Rc</DevelopmentStatus>
     <OnlineLocation />
-    <ReleaseDate>2016-03-01T14:47:12</ReleaseDate>
+    <ReleaseDate>2016-03-06T14:47:12</ReleaseDate>
     <Tags>ajs, titan, theme</Tags>
     <Location>D:\Work\Programming\Mediaportal\Skin Themes\BIN\ajs Theme for Titan.mpe1</Location>
     <Params>
@@ -45895,6 +46175,286 @@ Cosmetic</VersionDescription>
         <LocalFileName>..\Titan\Themes\ajs Theme\Media.Theme\RatingUser9.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{a8535858-c8da-45cf-8e2e-17b42291cd27}-RatingUser9.png</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\RatingUser9.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\BasicHome.Background\P1.L22.Youtube.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{2674aaef-553e-4804-bd43-a1aaf4ae40a8}-P1.L22.Youtube.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\BasicHome.Background\P1.L22.Youtube.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\BasicHome.Buttons\P1.L22.Youtube.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{b94f1a45-2e04-4092-b025-a3094a0d2049}-P1.L22.Youtube.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\BasicHome.Buttons\P1.L22.Youtube.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\BasicHome.Fanart\P1.L22.Youtube.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{d47ca336-5350-41f7-a5a1-8c84831b9043}-P1.L22.Youtube.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\BasicHome.Fanart\P1.L22.Youtube.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media.Theme\basichome_button_youtube.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{95b67a20-96ab-43cf-a0b6-e7dc3d834816}-basichome_button_youtube.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\basichome_button_youtube.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\avatar.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{3a281112-ae61-4130-a44a-a2e1c57c58a8}-avatar.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\avatar.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\fish.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{9a984ee7-3ab6-46a0-8e04-5386b2f3f9ff}-fish.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\fish.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\shark.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{646e455b-77a0-450d-b445-fdddd2f4db20}-shark.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\shark.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\ant.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{885c8a27-7621-4809-8991-3813c6b7a0f6}-ant.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\ant.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\avatar.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{2561dcf2-9146-4d11-9428-0dc21b36e90b}-avatar.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\avatar.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\ballet.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{182f5707-fc4a-4e20-b58b-27d6b21be411}-ballet.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\ballet.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\bat.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{576408ec-0f4a-4aed-a6bc-da632afb008b}-bat.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\bat.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\battleship.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{2152d421-2a3b-496d-952c-760ea6aaa650}-battleship.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\battleship.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\bear.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e53f64c5-fb34-400c-8647-325de74cd8e7}-bear.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\bear.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\breaking bad.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{efac8927-83b5-413c-bf85-e05f0a654d0a}-breaking bad.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\breaking bad.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\bullet.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{6da9108e-7f8e-47ee-913d-f2fa1538149a}-bullet.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\bullet.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\compass.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{16389f48-cee9-49d6-b17e-86a75343f0d6}-compass.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\compass.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\cowboy.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{4352c452-e66f-463a-952b-0b766dbd9b94}-cowboy.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\cowboy.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\dog.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{abae33e0-3a17-49c6-a1d2-807efdc05f81}-dog.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\dog.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\dragonfly.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{062c50b2-bc95-4f8e-9242-a7065ca40cc3}-dragonfly.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\dragonfly.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\fish.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{2ace4a34-a9b4-4e52-a60e-76b2a12b2874}-fish.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\fish.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\frankenstein.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{172d5ad2-04fc-4255-93aa-8c73ec67ac8d}-frankenstein.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\frankenstein.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\green lantern.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{4207ae7f-9ad7-4bc9-8bce-0a77d953e8b8}-green lantern.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\green lantern.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\harry potter.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{4eeb5e20-ad67-4e1a-a7eb-04d02f3ddea2}-harry potter.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\harry potter.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\hobbit.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{0173f0d6-c9bc-4a37-b4c2-7e7dcb710898}-hobbit.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\hobbit.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\knight.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{c52bd664-7ad8-46fb-a525-3697440dbd76}-knight.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\knight.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\lamp of alladin.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{3869834e-07f2-43aa-ac19-40e3cc4343b1}-lamp of alladin.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\lamp of alladin.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\leopard.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{bf6df824-84af-4199-b723-2e2ab859867f}-leopard.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\leopard.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\lighthouse.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{10040361-554a-4600-9184-407c9fc33f7b}-lighthouse.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\lighthouse.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\magritte.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{ec905b64-4356-46cf-a5d2-84d683a8cb9e}-magritte.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\magritte.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\medal.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{1ab90d5d-ada7-4e3a-9c54-aabd635b2bfb}-medal.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\medal.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\next generation.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{0ca56943-dd30-4d53-a16a-2b273214b41f}-next generation.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\next generation.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\ninja.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{1319a73a-53cc-4231-bdcf-0a7f7f5d98bc}-ninja.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\ninja.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\pirate.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{0ee67d02-a582-4e01-be9d-0c416280ba6c}-pirate.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\pirate.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\pixar.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a674d141-c115-4a76-872f-66022ebad9e2}-pixar.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\pixar.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\planet.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{c94c8209-1379-41b8-91db-dc5f5fbdf4e0}-planet.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\planet.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\shark.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{f271706b-34b6-40a6-b5ce-69c9bfc02fbb}-shark.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\shark.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\star wars.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a01ca345-59ab-461f-b522-1ae0f4841b98}-star wars.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\star wars.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\titanic.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{7f95b683-cd71-449f-b234-3434599f2ac1}-titanic.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\titanic.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\unicorn.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{0b10dd26-588d-4db4-a5dc-aed6ac98431c}-unicorn.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\unicorn.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\x-men.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{eb5b9a95-edd0-4428-9b61-4c70f3dbbd4d}-x-men.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\x-men.png</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
