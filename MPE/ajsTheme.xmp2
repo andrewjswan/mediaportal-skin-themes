@@ -22840,27 +22840,6 @@
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
               <UpdateOption>AlwaysOverwrite</UpdateOption>
-              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\avatar.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{3a281112-ae61-4130-a44a-a2e1c57c58a8}-avatar.png</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\avatar.png</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>AlwaysOverwrite</UpdateOption>
-              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\fish.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{9a984ee7-3ab6-46a0-8e04-5386b2f3f9ff}-fish.png</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\fish.png</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>AlwaysOverwrite</UpdateOption>
-              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\shark.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{646e455b-77a0-450d-b445-fdddd2f4db20}-shark.png</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\shark.png</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>AlwaysOverwrite</UpdateOption>
               <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\ant.png</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{885c8a27-7621-4809-8991-3813c6b7a0f6}-ant.png</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\ant.png</DestinationFilename>
@@ -46203,27 +46182,6 @@ Add color characters
         <LocalFileName>..\Titan\Themes\ajs Theme\Media.Theme\basichome_button_youtube.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{95b67a20-96ab-43cf-a0b6-e7dc3d834816}-basichome_button_youtube.png</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\basichome_button_youtube.png</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>AlwaysOverwrite</UpdateOption>
-        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\avatar.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{3a281112-ae61-4130-a44a-a2e1c57c58a8}-avatar.png</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\avatar.png</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>AlwaysOverwrite</UpdateOption>
-        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\fish.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{9a984ee7-3ab6-46a0-8e04-5386b2f3f9ff}-fish.png</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\fish.png</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>AlwaysOverwrite</UpdateOption>
-        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\shark.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{646e455b-77a0-450d-b445-fdddd2f4db20}-shark.png</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\shark.png</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
