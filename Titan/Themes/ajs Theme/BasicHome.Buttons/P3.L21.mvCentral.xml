@@ -6,8 +6,8 @@
         <description>BasicHome mvCentral No Focus</description>
         <type>image</type>
         <id>0</id>
-        <posX>#L11left</posX>
-        <posY>#L11top</posY>
+        <posX>#L21left</posX>
+        <posY>#L21top</posY>
         <texture>basichome_button_mvcentral.png</texture>
         <animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(350)">conditional</animation>
         <visible>!Control.IsVisible(60093)+control.IsVisible(10301)</visible>
@@ -17,12 +17,12 @@
         <description>BasicHome mvCentral</description>
         <type>button</type>
         <id>350</id>
-        <posX>#L11lefttext</posX>
-        <posY>#L11toptext</posY>
+        <posX>#L21lefttext</posX>
+        <posY>#L21toptext</posY>
         <hyperlink>112011</hyperlink>
         <label>mvCentral</label>
-        <onright>450</onright>
-        <onleft>600</onleft>
+        <onright>550</onright>
+        <onleft>700</onleft>
       	<onup>250</onup>
 		<ondown>312</ondown>  
         <visible allowhiddenfocus="true">![Control.IsVisible(60093)|control.isvisible(90309)|control.hasfocus(99999)]+Control.IsVisible(10301)</visible>

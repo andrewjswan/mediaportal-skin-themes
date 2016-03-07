@@ -23068,6 +23068,34 @@
               <ZipFileName>Installer{CopyFile}\{eb5b9a95-edd0-4428-9b61-4c70f3dbbd4d}-x-men.png</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\x-men.png</DestinationFilename>
             </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\BasicHome.xml.bak</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{3d9a7d3a-bebc-4fb0-95c5-1495fa33eea3}-BasicHome.xml.bak</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\BasicHome.xml.bak</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\BasicHome.Background\P3.L13.Pandora.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{5b61af1e-e23f-444a-8360-424ffc0ffdaf}-P3.L13.Pandora.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\BasicHome.Background\P3.L13.Pandora.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\BasicHome.Fanart\P3.L13.Pandora.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{eb62076a-76a4-4e91-ba90-b369f629f35b}-P3.L13.Pandora.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\BasicHome.Fanart\P3.L13.Pandora.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media.Theme\hover_Pandora.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{4d350aa0-1130-4b92-b0cf-08a319b2754b}-hover_Pandora.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\hover_Pandora.png</DestinationFilename>
+            </FileItem>
           </Items>
         </Files>
       </GroupItem>
@@ -23313,13 +23341,13 @@ Click Next to continue or Cancel to exit Setup.</Value>
 Clear/CD Art etc. support for Titan, 
 Weather icon on screen, 
 bugfixes and more.</ExtensionDescription>
-    <VersionDescription>Add Youtube to first screen
-Add Genres and Studios to Mpving Pictures
-Add color characters
+    <VersionDescription>Fixes for 3nf page
+Fixes for MyEmulator button
+Add Pandora hover image
 </VersionDescription>
     <DevelopmentStatus>Rc</DevelopmentStatus>
     <OnlineLocation />
-    <ReleaseDate>2016-03-06T14:47:12</ReleaseDate>
+    <ReleaseDate>2016-03-07T14:47:12</ReleaseDate>
     <Tags>ajs, titan, theme</Tags>
     <Location>D:\Work\Programming\Mediaportal\Skin Themes\BIN\ajs Theme for Titan.mpe1</Location>
     <Params>
@@ -46413,6 +46441,34 @@ Add color characters
         <LocalFileName>..\Titan\Themes\ajs Theme\Media\Logos\genres\characters\x-men.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{eb5b9a95-edd0-4428-9b61-4c70f3dbbd4d}-x-men.png</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\genres\characters\x-men.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\BasicHome.xml.bak</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{3d9a7d3a-bebc-4fb0-95c5-1495fa33eea3}-BasicHome.xml.bak</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\BasicHome.xml.bak</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\BasicHome.Background\P3.L13.Pandora.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{5b61af1e-e23f-444a-8360-424ffc0ffdaf}-P3.L13.Pandora.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\BasicHome.Background\P3.L13.Pandora.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\BasicHome.Fanart\P3.L13.Pandora.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{eb62076a-76a4-4e91-ba90-b369f629f35b}-P3.L13.Pandora.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\BasicHome.Fanart\P3.L13.Pandora.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media.Theme\hover_Pandora.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{4d350aa0-1130-4b92-b0cf-08a319b2754b}-hover_Pandora.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\hover_Pandora.png</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />

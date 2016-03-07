@@ -5,11 +5,19 @@
      <!--            :: MyEmulator ::            -->
         
     <control Style="HomeBasicFanart">
-        <description>MyEmulator Selected Fanart</description>
-        <type>image</type>
-        <id>0</id>
-        <texture>hover_MyEmulator.png</texture>
-        <visible>control.hasfocus(550)</visible>
+      <description>MyEmulator Selected Fanart</description>
+      <type>image</type>
+      <id>0</id>
+      <visible>control.hasfocus(550) + control.isvisible(91919297)</visible>
+      <texture>#fanarthandler.games.userdef.backdrop1.any</texture>
+    </control> 
+
+    <control Style="HomeBasicFanart">
+      <description>MyEmulator Selected Fanart</description>
+      <type>image</type>
+      <id>0</id>
+      <visible>control.hasfocus(550) + control.isvisible(91919298)</visible>
+      <texture>#fanarthandler.games.userdef.backdrop2.any</texture>
     </control> 
 
 </controls>
