@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <window>
 <controls>
-	
     
  	<control Style="smallTitle">
 		<description>Selected item Label</description>
@@ -826,7 +825,23 @@
 	  <visible>![facadeview.filmstrip|facadeview.coverflow]+!Control.IsVisible(24)</visible>
       <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
-      <!--animation effect="fade" time="1000" start= "100" end= "25" condition="true">conditional</animation-->
     </control>
-</controls>
+
+    <control>
+  	  <description>Awards</description>
+      <type>image</type>
+      <id>0</id>
+   	  <posX>960</posX>
+      <posY>330</posY>
+      <width>190</width>
+      <height>60</height>
+      <texture>#fanarthandler.movie.awards.selected.all</texture>
+      <align>right</align>
+      <valign>top</valign>
+      <keepaspectratio>yes</keepaspectratio>
+	  <visible>![facadeview.filmstrip|facadeview.coverflow]+!Control.IsVisible(24)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+	  <animation effect="fade" time="250">WindowClose</animation>
+    </control>
+  </controls>
 </window>
