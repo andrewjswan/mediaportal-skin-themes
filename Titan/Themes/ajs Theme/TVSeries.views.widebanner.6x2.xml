@@ -61,6 +61,15 @@
    	</control>  
 
 	<!-- Network -->
+    <control Style="smallTitle">
+		<type>label</type>
+		<description>Network</description>
+		<id>0</id>
+		<posX>-555</posX>
+		<posY>-555</posY>
+		<label>#TVSeries.Series.Network</label>
+    </control>
+
     <control>
   	  <description>Network Logo</description>
       <type>image</type>
@@ -69,7 +78,7 @@
       <posY>920</posY>
       <width>99</width>
       <height>65</height>
-      <texture>Logos\Studios\#(string.trim(#TVSeries.Series.Network)).png</texture>
+      <texture>#fanarthandler.movie.studios.selected.all</texture>
       <keepaspectratio>yes</keepaspectratio>
 	  <visible>![facadeview.filmstrip|facadeview.coverflow]</visible>
     </control>
@@ -82,7 +91,7 @@
       <posY>30</posY>
       <width>99</width>
       <height>65</height>
-      <texture>Logos\Studios\#(string.trim(#TVSeries.Series.Network)).png</texture>
+      <texture>#fanarthandler.movie.studios.selected.all</texture>
       <keepaspectratio>yes</keepaspectratio>
 	  <visible>[facadeview.filmstrip|facadeview.coverflow]</visible>
     </control>

@@ -124,6 +124,26 @@
       <animation effect="fade" time="250">WindowClose</animation>
     </control>
 
+    <!-- ClearArt Dummy -->
+    <control>
+      <description>ClearArt</description>
+      <type>label</type>
+      <label>#Trakt.Show.TvdbId</label>
+      <id>0</id>
+      <posX>-555</posX>
+      <posY>-555</posY>
+      <align>left</align>
+    </control>
+    <control>
+      <description>ClearArt</description>
+      <type>label</type>
+      <label>#Trakt.Movie.ImdbId</label>
+      <id>0</id>
+      <posX>-555</posX>
+      <posY>-555</posY>
+      <align>left</align>
+    </control>
+
     <!-- ClearArt -->
     <control>
       <description>ClearArt</description>

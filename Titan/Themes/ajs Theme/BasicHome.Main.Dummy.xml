@@ -184,7 +184,8 @@
     <posX>0</posX>
     <posY>0</posY>
     <width>1</width>
-    <visible>window.isactive(3004) | window.isactive(3005) | window.isvisible(3004) | window.isvisible(3005) | window.istopmost(3004) | window.istopmost(3005) | topbar.focused | topbar.visible</visible>         
+    <!--visible>window.isactive(3004) | window.isactive(3005) | window.isvisible(3004) | window.isvisible(3005) | window.istopmost(3004) | window.istopmost(3005) | topbar.focused | topbar.visible</visible-->
+    <visible>plugin.isenabled(Topbar) + [window.isactive(3004) | window.isactive(3005) | window.isvisible(3004) | window.isvisible(3005) | window.istopmost(3004) | window.istopmost(3005) | topbar.focused | topbar.visible</visible>
   </control>
 
   <control>

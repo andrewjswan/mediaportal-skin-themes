@@ -770,26 +770,11 @@
       <width>379</width>
       <height>65</height>
       <align>center</align>
-      <valign>top</valign>
+      <valign>middle</valign>
       <keepaspectratio>yes</keepaspectratio>
       <shouldCache>true</shouldCache>
       <texture>#fanarthandler.movie.studios.selected.all</texture>
 	  <visible>[facadeview.filmstrip|facadeview.coverflow]+!Control.IsVisible(24)</visible>
-      <animation effect="fade" time="250">WindowOpen</animation>
-	  <animation effect="fade" time="250">WindowClose</animation>
-    </control>
-
-    <control>
-  	  <description>Studio Logo</description>
-      <type>image</type>
-      <id>7770777</id>
-   	  <posX>915</posX>
-      <posY>30</posY>
-      <width>99</width>
-      <height>65</height>
-      <texture>#fanarthandler.movie.studios.selected</texture>
-      <keepaspectratio>yes</keepaspectratio>
-	  <visible>[facadeview.filmstrip|facadeview.coverflow]+!Control.IsVisible(24)+!control.hasthumb(5550555)</visible>
       <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
     </control>
@@ -804,7 +789,7 @@
       <height>65</height>
       <texture>Logos\Studios\#(string.trim(#studios)).png</texture>
       <keepaspectratio>yes</keepaspectratio>
-	  <visible>[facadeview.filmstrip|facadeview.coverflow]+!Control.IsVisible(24)+!control.hasthumb(7770777)+!control.hasthumb(5550555)</visible>
+	  <visible>[facadeview.filmstrip|facadeview.coverflow]+!Control.IsVisible(24)+!control.hasthumb(5550555)</visible>
       <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
     </control>
@@ -831,17 +816,18 @@
   	  <description>Awards</description>
       <type>image</type>
       <id>0</id>
-   	  <posX>960</posX>
+   	  <posX>950</posX>
       <posY>330</posY>
       <width>190</width>
       <height>60</height>
       <texture>#fanarthandler.movie.awards.selected.all</texture>
       <align>right</align>
-      <valign>top</valign>
+      <valign>middle</valign>
       <keepaspectratio>yes</keepaspectratio>
 	  <visible>![facadeview.filmstrip|facadeview.coverflow]+!Control.IsVisible(24)</visible>
       <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
     </control>
+
   </controls>
 </window>

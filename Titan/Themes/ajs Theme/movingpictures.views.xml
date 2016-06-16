@@ -767,7 +767,7 @@
       <valign>top</valign>
       <keepaspectratio>yes</keepaspectratio>
       <shouldCache>true</shouldCache>
-	  <visible>![facadeview.filmstrip|facadeview.coverflow]</visible>
+	  <visible>![facadeview.filmstrip|facadeview.coverflow]+Control.IsVisible(50)</visible>
       <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
     </control>
@@ -785,7 +785,7 @@
       <keepaspectratio>yes</keepaspectratio>
       <shouldCache>true</shouldCache>
       <texture>#fanarthandler.movie.studios.selected.all</texture>
-	  <visible>[facadeview.filmstrip|facadeview.coverflow]</visible>
+	  <visible>[facadeview.filmstrip|facadeview.coverflow]+Control.IsVisible(50)</visible>
       <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
     </control>
@@ -803,7 +803,7 @@
       <keepaspectratio>yes</keepaspectratio>
       <shouldCache>true</shouldCache>
       <texture>#fanarthandler.movie.genres.selected.verticalall</texture>
-	  <visible>![facadeview.filmstrip|facadeview.coverflow]</visible>
+	  <visible>![facadeview.filmstrip|facadeview.coverflow]+Control.IsVisible(50)</visible>
       <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
     </control>
