@@ -4791,6 +4791,405 @@
               <ZipFileName>Installer{CopyFile}\{4d350aa0-1130-4b92-b0cf-08a319b2754b}-hover_Pandora.png</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\hover_Pandora.png</DestinationFilename>
             </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\TVMiniGuide.3rows.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{d8f2f6d9-2c14-4285-b4e0-03f09257b4b3}-TVMiniGuide.3rows.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\TVMiniGuide.3rows.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\TVMiniGuide.8rows.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{dd6a2890-aef8-4a3b-881c-226eb273e10e}-TVMiniGuide.8rows.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\TVMiniGuide.8rows.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\BasicHome.Buttons\P2.L12.WorldWeatherConditionsButton.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{b7e537ca-40ae-4e7d-b9d7-97db70c95460}-P2.L12.WorldWeatherConditionsButton.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\BasicHome.Buttons\P2.L12.WorldWeatherConditionsButton.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\BasicHome.Buttons\P2.L12.WorldWeatherLiteConditionsButton.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{1df4ad84-02b8-4a81-b886-2052ee1b45c8}-P2.L12.WorldWeatherLiteConditionsButton.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\BasicHome.Buttons\P2.L12.WorldWeatherLiteConditionsButton.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media.Theme\osd_progress_bg_list.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{26b869b6-bfb1-448b-8309-db32e126b2cd}-osd_progress_bg_list.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\osd_progress_bg_list.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media.Theme\osd_progress_mid_guide.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{6ae658dd-fd28-4724-93d9-74afe692c79f}-osd_progress_mid_guide.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\osd_progress_mid_guide.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media.Theme\osd_progress_mid_lists.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{cc8c120e-8d41-4eb8-ae36-25cc2c9b0826}-osd_progress_mid_lists.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\osd_progress_mid_lists.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media.Theme\osd_progress_mid_lists_cap.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{8e0867f6-5f57-4cc1-a84d-0a25db59cb87}-osd_progress_mid_lists_cap.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\osd_progress_mid_lists_cap.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\0.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e1705a3f-6424-4083-8846-f772af3f69ad}-0.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\0.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{717cd7dc-c529-4a92-9e86-7d42872594c4}-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\10.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{0fa3d192-38b3-4f34-b796-b06d4cffc7e1}-10.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\10.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\11.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{c6974a3b-8f38-4e2c-a433-7516ed664cb8}-11.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\11.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\12.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{ab8bbc1e-b299-420e-869c-a8ca3d77a188}-12.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\12.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\13.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{68592c3f-034a-4414-a997-099618d2b141}-13.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\13.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\14.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{aa5121fe-6525-44c2-9227-d1a621c04fcc}-14.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\14.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\15.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{1912422c-9375-4e58-a3e6-9a6c3eb382c6}-15.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\15.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\16.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{dc93586e-b005-46e9-8d3a-f7ebd4bae13d}-16.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\16.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\17.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{efab7f2b-a257-4441-9093-ffdde2683f98}-17.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\17.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\18.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a1e9c3dd-d3ed-42fa-9b50-50a1c0ac786d}-18.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\18.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\19.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a231996d-60b0-4691-9193-cd4f78899a5f}-19.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\19.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\2.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{8bc976ab-2807-4964-adcb-34013d725a17}-2.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\2.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\20.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{f113e558-8106-41ab-a2e6-775b3691c888}-20.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\20.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\21.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{9e16cfec-21da-4d74-b5b2-593b7db47c45}-21.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\21.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\22.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{7fe01233-9449-4a71-8e3f-2ddf7d4eba85}-22.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\22.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\23.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a14c4124-6086-4992-b3a4-220441021697}-23.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\23.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\24.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{9a353596-c536-4b8b-8da0-e383b4635147}-24.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\24.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\25.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{50a8c3da-dcfc-4af4-bb14-f9a7d2e04efd}-25.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\25.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\26.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{cb151327-87cb-4822-adca-cca6d68464a6}-26.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\26.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\27.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{9b0f3a77-74c8-4169-aa28-ebbebf043047}-27.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\27.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\28.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{4134a5c1-b7ac-4eca-bf7b-614c07891013}-28.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\28.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\29.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{08193445-21d5-46d8-a391-e1776d2151a1}-29.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\29.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\3.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{30e5e5c7-7a0f-4f11-bbc3-9d5d57fd3956}-3.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\3.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\30.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{08340a2b-9f73-4df8-af5e-3ac284ec4775}-30.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\30.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\31.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{b49890e4-c74c-479c-8e67-7495a5d8240e}-31.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\31.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\32.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{cf282b4e-ebc6-480a-8889-568413040975}-32.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\32.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\33.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{dfbafa16-4a74-40ea-82ac-df4f729e5733}-33.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\33.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\34.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e2825507-628b-46d9-801b-4ca61464a801}-34.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\34.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\35.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{b5b223ea-efdb-439d-953a-05736de8e416}-35.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\35.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\36.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{497b6785-9abe-4ed0-9cc5-38e86ac58458}-36.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\36.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\37.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{9c3dfd95-2e09-416c-af38-f5ced96e04af}-37.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\37.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\38.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{19d6b33c-4de2-4169-a1ce-c0dbb26291d2}-38.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\38.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\39.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{34cd9e28-9d57-44f4-ab44-58ff2a8ff5b5}-39.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\39.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\4.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{3a49ef10-8609-4aae-80b6-ebe18e7139c8}-4.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\4.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\40.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{b21f9f3b-b4cc-493b-903d-e87bf52a4ea1}-40.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\40.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\41.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e7c27b72-3d54-4a05-8a89-6c3e3ee77522}-41.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\41.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\42.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{90193241-6e3e-40af-bb28-4608fb8307e1}-42.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\42.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\43.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{4f5bba26-ed05-4ece-8375-b87e2c71b13b}-43.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\43.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\44.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a71df4b9-020b-4cdb-b5e9-d58a84f602fe}-44.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\44.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\45.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{9e9b5b35-08ea-4408-b1c4-6691d59b116f}-45.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\45.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\46.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{25166f0f-07f2-4ad6-a4f2-7ac12f185abf}-46.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\46.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\47.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{52c8ed7e-38d5-47f2-841c-3e8097e2a990}-47.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\47.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\5.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{b7b2886d-1beb-44f8-95a7-74e25dfd93b9}-5.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\5.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\6.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{b0c28e54-21a7-464e-bc52-e0b174c68cec}-6.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\6.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\7.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{b2b4d9bc-02d0-406b-a1cc-e6612b9467a0}-7.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\7.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\8.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{12f878b1-e8bd-4564-833e-221e17c0abef}-8.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\8.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\9.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{2e5c841f-8fdf-4101-9a26-87e1d85f41e5}-9.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\9.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\NA.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a1c4040c-07f5-4571-84a5-ab417ed22357}-NA.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\NA.png</DestinationFilename>
+            </FileItem>
           </Items>
         </Files>
       </GroupItem>
@@ -5030,16 +5429,15 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <Major>2</Major>
       <Minor>0</Minor>
       <Build>0</Build>
-      <Revision>1</Revision>
+      <Revision>2</Revision>
     </Version>
     <ExtensionDescription>BasicHome editor
 Clear/CD Art etc. support for Titan, 
 Weather icon on screen, 
 bugfixes and more.</ExtensionDescription>
-    <VersionDescription>Fixes for 3nd page
-Fixes for MyEmulator button
-Add Pandora hover image
-Add Genres, Awards support</VersionDescription>
+    <VersionDescription>Fixes...
+Add Collection support
+Add Multi Weather support</VersionDescription>
     <DevelopmentStatus>Rc</DevelopmentStatus>
     <OnlineLocation>https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/build/ajs.Theme.for.Titan.mpe1</OnlineLocation>
     <ReleaseDate>2016-03-29T14:47:12</ReleaseDate>
@@ -9862,6 +10260,405 @@ Add Genres, Awards support</VersionDescription>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\TVMiniGuide.3rows.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{d8f2f6d9-2c14-4285-b4e0-03f09257b4b3}-TVMiniGuide.3rows.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\TVMiniGuide.3rows.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\TVMiniGuide.8rows.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{dd6a2890-aef8-4a3b-881c-226eb273e10e}-TVMiniGuide.8rows.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\TVMiniGuide.8rows.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\BasicHome.Buttons\P2.L12.WorldWeatherConditionsButton.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{b7e537ca-40ae-4e7d-b9d7-97db70c95460}-P2.L12.WorldWeatherConditionsButton.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\BasicHome.Buttons\P2.L12.WorldWeatherConditionsButton.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\BasicHome.Buttons\P2.L12.WorldWeatherLiteConditionsButton.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{1df4ad84-02b8-4a81-b886-2052ee1b45c8}-P2.L12.WorldWeatherLiteConditionsButton.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\BasicHome.Buttons\P2.L12.WorldWeatherLiteConditionsButton.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media.Theme\osd_progress_bg_list.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{26b869b6-bfb1-448b-8309-db32e126b2cd}-osd_progress_bg_list.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\osd_progress_bg_list.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media.Theme\osd_progress_mid_guide.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{6ae658dd-fd28-4724-93d9-74afe692c79f}-osd_progress_mid_guide.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\osd_progress_mid_guide.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media.Theme\osd_progress_mid_lists.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{cc8c120e-8d41-4eb8-ae36-25cc2c9b0826}-osd_progress_mid_lists.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\osd_progress_mid_lists.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media.Theme\osd_progress_mid_lists_cap.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{8e0867f6-5f57-4cc1-a84d-0a25db59cb87}-osd_progress_mid_lists_cap.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\osd_progress_mid_lists_cap.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\0.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e1705a3f-6424-4083-8846-f772af3f69ad}-0.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\0.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{717cd7dc-c529-4a92-9e86-7d42872594c4}-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\10.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{0fa3d192-38b3-4f34-b796-b06d4cffc7e1}-10.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\10.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\11.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{c6974a3b-8f38-4e2c-a433-7516ed664cb8}-11.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\11.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\12.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{ab8bbc1e-b299-420e-869c-a8ca3d77a188}-12.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\12.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\13.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{68592c3f-034a-4414-a997-099618d2b141}-13.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\13.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\14.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{aa5121fe-6525-44c2-9227-d1a621c04fcc}-14.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\14.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\15.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{1912422c-9375-4e58-a3e6-9a6c3eb382c6}-15.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\15.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\16.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{dc93586e-b005-46e9-8d3a-f7ebd4bae13d}-16.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\16.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\17.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{efab7f2b-a257-4441-9093-ffdde2683f98}-17.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\17.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\18.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a1e9c3dd-d3ed-42fa-9b50-50a1c0ac786d}-18.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\18.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\19.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a231996d-60b0-4691-9193-cd4f78899a5f}-19.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\19.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\2.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{8bc976ab-2807-4964-adcb-34013d725a17}-2.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\2.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\20.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{f113e558-8106-41ab-a2e6-775b3691c888}-20.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\20.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\21.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{9e16cfec-21da-4d74-b5b2-593b7db47c45}-21.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\21.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\22.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{7fe01233-9449-4a71-8e3f-2ddf7d4eba85}-22.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\22.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\23.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a14c4124-6086-4992-b3a4-220441021697}-23.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\23.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\24.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{9a353596-c536-4b8b-8da0-e383b4635147}-24.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\24.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\25.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{50a8c3da-dcfc-4af4-bb14-f9a7d2e04efd}-25.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\25.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\26.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{cb151327-87cb-4822-adca-cca6d68464a6}-26.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\26.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\27.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{9b0f3a77-74c8-4169-aa28-ebbebf043047}-27.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\27.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\28.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{4134a5c1-b7ac-4eca-bf7b-614c07891013}-28.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\28.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\29.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{08193445-21d5-46d8-a391-e1776d2151a1}-29.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\29.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\3.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{30e5e5c7-7a0f-4f11-bbc3-9d5d57fd3956}-3.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\3.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\30.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{08340a2b-9f73-4df8-af5e-3ac284ec4775}-30.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\30.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\31.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{b49890e4-c74c-479c-8e67-7495a5d8240e}-31.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\31.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\32.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{cf282b4e-ebc6-480a-8889-568413040975}-32.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\32.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\33.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{dfbafa16-4a74-40ea-82ac-df4f729e5733}-33.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\33.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\34.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e2825507-628b-46d9-801b-4ca61464a801}-34.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\34.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\35.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{b5b223ea-efdb-439d-953a-05736de8e416}-35.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\35.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\36.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{497b6785-9abe-4ed0-9cc5-38e86ac58458}-36.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\36.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\37.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{9c3dfd95-2e09-416c-af38-f5ced96e04af}-37.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\37.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\38.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{19d6b33c-4de2-4169-a1ce-c0dbb26291d2}-38.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\38.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\39.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{34cd9e28-9d57-44f4-ab44-58ff2a8ff5b5}-39.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\39.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\4.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{3a49ef10-8609-4aae-80b6-ebe18e7139c8}-4.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\4.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\40.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{b21f9f3b-b4cc-493b-903d-e87bf52a4ea1}-40.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\40.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\41.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e7c27b72-3d54-4a05-8a89-6c3e3ee77522}-41.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\41.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\42.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{90193241-6e3e-40af-bb28-4608fb8307e1}-42.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\42.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\43.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{4f5bba26-ed05-4ece-8375-b87e2c71b13b}-43.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\43.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\44.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a71df4b9-020b-4cdb-b5e9-d58a84f602fe}-44.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\44.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\45.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{9e9b5b35-08ea-4408-b1c4-6691d59b116f}-45.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\45.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\46.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{25166f0f-07f2-4ad6-a4f2-7ac12f185abf}-46.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\46.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\47.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{52c8ed7e-38d5-47f2-841c-3e8097e2a990}-47.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\47.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\5.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{b7b2886d-1beb-44f8-95a7-74e25dfd93b9}-5.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\5.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\6.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{b0c28e54-21a7-464e-bc52-e0b174c68cec}-6.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\6.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\7.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{b2b4d9bc-02d0-406b-a1cc-e6612b9467a0}-7.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\7.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\8.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{12f878b1-e8bd-4564-833e-221e17c0abef}-8.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\8.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\9.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{2e5c841f-8fdf-4101-9a26-87e1d85f41e5}-9.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\9.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\Media\Weather\Buttons\NA.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a1c4040c-07f5-4571-84a5-ab417ed22357}-NA.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Buttons\NA.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\Titan\Themes\ajs Theme\BasicHome.Editor\ajsTitanEditor.exe</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{98622be4-0134-4b0c-9bf2-5e86966f6b42}-ajsTitanEditor.exe</ZipFileName>
@@ -9878,7 +10675,7 @@ Add Genres, Awards support</VersionDescription>
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>themes.icon.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{dee0bc88-8626-4bf9-81ad-e0f8fe410265}-themes.icon.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{d743a3a0-31c3-4643-8b44-002f34e7d453}-themes.icon.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>
