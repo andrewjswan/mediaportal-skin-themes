@@ -43,6 +43,34 @@
 		<animation effect="fade" time="250">WindowClose</animation>
    	</control>  
 
+   	<control>
+   		<description>Collection ClearArt</description>
+   		<type>image</type>
+   		<id>0</id>
+   		<posX>120</posX>
+   		<posY>150</posY>
+   		<width>250</width>
+   		<height>140</height>
+   		<visible>![facadeview.filmstrip|facadeview.coverflow]+Control.IsVisible(50)</visible>
+		<texture>..\..\..\Thumbs\ClearArt\MoviesCollections\#(string.trim(string.getfilename(#moviecollection))).png</texture>
+		<animation effect="fade" time="500">WindowOpen</animation>
+		<animation effect="fade" time="250">WindowClose</animation>
+   	</control>  
+
+   	<control>
+   		<description>Collection ClearArt</description>
+   		<type>image</type>
+   		<id>0</id>
+   		<posX>1550</posX>
+   		<posY>150</posY>
+   		<width>250</width>
+   		<height>140</height>
+   		<visible>![facadeview.filmstrip|facadeview.coverflow]+Control.IsVisible(50)+string.equals(#plot,)+string.equals(#iscollection,yes)</visible>
+    	<texture>..\..\..\Thumbs\ClearArt\MoviesCollections\#(string.trim(string.getfilename(#selecteditem))).png</texture>
+		<animation effect="fade" time="500">WindowOpen</animation>
+		<animation effect="fade" time="250">WindowClose</animation>
+   	</control>  
+
 	<!-- ClearLogo -->
    	<control>
    		<description>ClearLogo</description>
@@ -84,6 +112,27 @@
         <shouldCache>false</shouldCache>
    		<visible>[facadeview.list|facadeview.playlist]+Control.IsVisible(50)</visible>
 		<texture>..\..\..\Thumbs\CDArt\Movies\#(string.trim(#imdbnumber)).png</texture>
+        <align>left</align>
+        <valign>top</valign>
+        <keepaspectratio>yes</keepaspectratio>
+		<animation effect="fade" time="100">WindowOpen</animation>
+		<animation effect="fade" time="100">WindowClose</animation>
+        <animation effect="fade" time="1000" start= "100" end= "25" condition="Control.HasThumb(357951)">conditional</animation>
+        <animation effect="rotate" time="1000" start= "0" end= "-50" condition="Control.HasThumb(357951)">conditional</animation>
+        <animation effect="rotate" time="5000" end= "-360" condition="Player.HasMedia" loop="true">conditional</animation>
+   	</control>  
+
+   	<control>
+   		<description>Collection CDArt</description>
+   		<type>image</type>
+   		<id>357951</id>
+   		<posX>250</posX>
+   		<posY>400</posY>
+   		<width>500</width>
+   		<height>500</height>
+        <shouldCache>false</shouldCache>
+   		<visible>[facadeview.list|facadeview.playlist]+Control.IsVisible(50)+string.equals(#plot,)+string.equals(#iscollection,yes)</visible>
+		<texture>..\..\..\Thumbs\CDArt\MoviesCollections\#(string.trim(string.getfilename(#selecteditem))).png</texture>
         <align>left</align>
         <valign>top</valign>
         <keepaspectratio>yes</keepaspectratio>

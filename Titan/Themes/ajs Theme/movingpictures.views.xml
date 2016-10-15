@@ -47,6 +47,20 @@
 		<animation effect="fade" time="250">WindowClose</animation>
    	</control>  
 
+   	<control>
+   		<description>Collection ClearArt</description>
+   		<type>image</type>
+   		<id>0</id>
+   		<posX>1550</posX>
+   		<posY>150</posY>
+   		<width>250</width>
+   		<height>140</height>
+		<texture>..\..\..\Thumbs\ClearArt\MoviesCollections\#(string.getfilename(string.trim(#selecteditem))).png</texture>
+		<visible>![facadeview.filmstrip|facadeview.coverflow]+Control.IsVisible(50)+string.equals(#MovingPictures.SelectedMovie.imdb_id,)</visible>
+		<animation effect="fade" time="500">WindowOpen</animation>
+		<animation effect="fade" time="250">WindowClose</animation>
+   	</control>  
+
 	<!-- ClearLogo -->
    	<control>
    		<description>ClearLogo</description>

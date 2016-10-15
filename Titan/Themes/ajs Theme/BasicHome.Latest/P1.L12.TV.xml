@@ -10,7 +10,6 @@
       <posY>0</posY>
       <width>1</width>
       <visible>string.equals(#latestMediaHandler.tvrecordings.latest.enabled,true)+control.IsVisible(400081)</visible>
-      <visible>control.IsVisible(400081)</visible>
     </control>
 
     <control>
