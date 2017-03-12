@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window>
+  <id>510</id>
+  <define>#usePlayFanart:Yes</define>
+  <define property="true" evaluateNow="true">#music.simple:#(iif(or(and(plugin.isenabled('Fanart Handler'),eq(#fanarthandler.pictures.slideshow.enabled,'true'),eq(#skin.fanarthandler.pictures.slideshow.enabled,'True')),eq(#skin.music.nowplaying.simple,'True')),'true','false'))</define>
+  <!--define property="true">#music.filetype:#(iif(string.contains(#Play.Current.FileType,'mp3'),'mp3',iif(string.contains(#Play.Current.FileType,'flac'),'flac',iif(string.contains(#Play.Current.FileType,'ape'),'ape',iif(string.contains(#Play.Current.FileType,'ogg'),'ogg',#Play.Current.FileType)))))</define-->
+  <defaultcontrol>6101</defaultcontrol>
+  <allowoverlay>no</allowoverlay>
+  <controls>
+        
+    <import>common.default.background.xml</import>
+    <import>common.music.play.fanart.xml</import>
+    
+    <include condition="#(eq(#music.simple,'false'))">PlayingNow.Body.xml</include>
+    <include condition="#(eq(#music.simple,'true'))">PlayingNow.SimpleBody.xml</include>
+    <include condition="#(eq(#music.simple,'true'))">PlayingNow.SimpleBody.hiddenmenu.xml</include>
+    
+    <!--include condition="#(eq(#music.simple,'false'))">MyMusicPlayingNow.tags.xml</include>
+    <include condition="#(eq(#music.simple,'false'))">MyMusicPlayingNow.albuminfo.xml</include>
+    <include condition="#(eq(#music.simple,'false'))">MyMusicPlayingNow.artistinfo.xml</include-->
+    <include>MyMusicPlayingNow.tags.xml</include>
+    <include>MyMusicPlayingNow.albuminfo.xml</include>
+    <include>MyMusicPlayingNow.artistinfo.xml</include>
+
+    <import>PlayingNow.Dummy.xml</import>
+
+    <import>PlayingNow.Scraper.xml</import>
+    <import>PlayingNow.Pause.xml</import>
+          
+  </controls>
+
+</window>

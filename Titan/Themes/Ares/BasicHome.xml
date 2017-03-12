@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<window>
+  <id>35</id>
+  <defaultcontrol>00512</defaultcontrol>
+  <allowoverlay>yes</allowoverlay>
+  <rememberLastFocusedControl>yes</rememberLastFocusedControl>
+  <define>#header.label:Home</define>
+  <controls>
+
+    <!-- :::::::::: DEFINES ::::::::::  -->
+
+    <import>PluginDefines.xml</import>	
+    <import>PluginDefines.Titan.xml</import>	
+
+    <import>BasicHomeDummyVisibility.xml</import>
+    <import>BasicHomeDummyVisibilityNew.xml</import>
+
+    <include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart.Define.xml</include> 
+    <include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart.Dummy.xml</include> 
+    <include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart.DummyVisibility.xml</include> 
+
+    <!-- :::::::::: BACKGROUND ::::::::::  -->
+
+    <control>
+      <description>DEFAULT BACKGROUND</description>
+      <type>image</type>
+      <id>0</id>
+      <posX>0</posX>
+      <posY>0</posY>
+      <width>1920</width>
+      <height>1080</height>
+      <texture>background.png</texture>
+      <shouldCache>true</shouldCache>
+    </control>
+
+    <include>BasicHome.Background.Hover.xml</include> 
+    <include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background.Selected.xml</include> 
+    <include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart.Selected.xml</include>
+    <include>BasicHome.Fanart.Play.xml</include> 
+	
+    <control>
+      <description>DEFAULT BACKGROUND</description>
+      <type>image</type>
+      <id>0</id>
+      <posX>0</posX>
+      <posY>0</posY>
+      <width>1920</width>
+      <height>1080</height>
+      <texture>fanart_overlay.png</texture>
+      <shouldCache>true</shouldCache>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
+    </control>
+   
+    <!--control>
+      <description>current temp label</description>
+      <type>fadelabel</type>
+      <id>0</id>
+      <posX>10</posX>
+      <posY>10</posY>
+      <height>71</height>
+      <width>1300</width>
+      <align>left</align>
+      <label>#skin.Anav18 | #tile18plugin.hyperlink | #skin.enable.latest.Trakt | #(iif(eq(#skin.manualimg,'yes'),'btn\unfocus\#tile15pluginImg.png',iif(and(or(eq(#tile15plugin.hyperlink,'WorldWeather'), eq(#tile15plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#WorldWeather.TodayIconNumber.png','btn\unfocus\#tile15plugin.hyperlink.png')))</label>
+      <wrapString> | </wrapString>
+      <font>font10</font>
+      <textcolor>ffffffff</textcolor>
+	  <visible>true</visible>
+    </control-->	
+
+	<!-- Expression test box (labels do not work with cint !! -->
+
+    <import>common.time.xml</import> 
+
+    <control>
+      <description>Home ICON</description>
+      <type>image</type>
+      <id>0</id>
+      <posX>66</posX>
+      <posY>38</posY>
+      <width>62</width>
+      <height>55</height>
+      <texture>icon_home.png</texture>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
+    </control>
+
+    <control>
+      <description>Bottom Menu Background</description>
+      <type>image</type>
+      <id>0</id>
+      <posX>52</posX>
+      <posY>958</posY>
+      <width>1820</width>
+      <height>84</height>
+      <texture>BasicHomeSubBG.png</texture>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
+    </control>      
+
+    <control>
+      <description>exit menu button</description>
+      <id>0</id>
+      <type>image</type>
+      <posX>935</posX>
+      <posY>995</posY>
+      <width>40</width>
+      <height>40</height>
+      <texture>basichome_button_exit.png</texture>
+      <keepaspectratio>yes</keepaspectratio>
+      <animation effect="fade" time="250" start="0" end="100">WindowOpen</animation>
+      <animation effect="fade" time="250" start="100" end="0">WindowClose</animation>
+      <animation effect="fade" time="350" start="100" end="60" condition="true">conditional</animation>
+      <animation effect="fade" time="350" start="60" end="0">hidden</animation>
+      <visible>!string.equals(#skin.rss.info,true)+![control.isvisible(8006555)|control.isvisible(8106555)|control.isvisible(8206555)|control.isvisible(8306555)|control.isvisible(8406555)]</visible>
+    </control>
+
+    <control>
+      <description>Shutdown label</description>
+      <type>label</type>
+      <id>0</id>
+      <posX>1100</posX>
+      <posY>995</posY>
+      <width>620</width>
+      <font>TitanLight14</font>
+      <label>1030</label>
+      <visible>control.hasfocus(8006555)|control.hasfocus(8106555)|control.hasfocus(8206555)|control.hasfocus(8306555)|control.hasfocus(8406555)</visible>
+      <animation effect="fade" time="450" delay="250">Visible</animation>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation> 
+    </control>
+    <control>
+      <description>Edit label</description>
+      <type>label</type>
+      <id>0</id>
+      <posX>1100</posX>
+      <posY>995</posY>
+      <width>620</width>
+      <font>TitanLight14</font>
+      <label>2076</label>
+      <visible>control.hasfocus(8005555)|control.hasfocus(8105555)|control.hasfocus(8205555)|control.hasfocus(8305555)|control.hasfocus(8405555)</visible>
+      <animation effect="fade" time="450" delay="250">Visible</animation>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation> 
+    </control>
+    <control>
+      <description>Settings label</description>
+      <type>label</type>
+      <id>0</id>
+      <posX>1100</posX>
+      <posY>995</posY>
+      <width>620</width>
+      <font>TitanLight14</font>
+      <label>5</label>
+      <visible>control.hasfocus(8001123)|control.hasfocus(8101123)|control.hasfocus(8201123)|control.hasfocus(8301123)|control.hasfocus(8401123)</visible>
+      <animation effect="fade" time="450" delay="250">Visible</animation>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation> 
+    </control>
+
+    <!--            :: RSS ::            -->
+
+	<include condition="#(eq(#skin.rss.info,'True'))">BasicHomeRSS.xml</include>
+	<!--include condition="#(eq(#skin.rss.info,'False'))">BasicHomePageInd.xml</include-->
+    <import>BasicHomePageInd.xml</import>
+
+	<import>BasicHomePage1.xml</import>	
+	<import>BasicHomePage2.xml</import>	
+    <import>BasicHomePage3.xml</import>	
+    <import>BasicHomePage4.xml</import>		
+    <import>BasicHomePage5.xml</import>
+
+	<import>BasicHome_CustomNames1.xml</import>
+	<import>BasicHome_CustomNames2.xml</import>
+	<import>BasicHome_CustomNames3.xml</import>
+	<import>BasicHome_CustomNames4.xml</import>
+	<import>BasicHome_CustomNames5.xml</import>
+
+    <include condition="#(or(eq(#skin.no.latestmedia,'True'),eq(#skin.no.weather,'True')))">BasicHome.Latests.xml</include>	
+    <import>BasicHome.Focus.xml</import>	
+
+	<import>BasicHome_Settings1.xml</import>
+    <import>BasicHome_Settings2.xml</import>	
+	<import>BasicHome_Settings3.xml</import>
+    <import>BasicHome_Settings4.xml</import>	
+	<import>BasicHome_Settings5.xml</import>
+
+	<import>BasicHome_Settings1Img.xml</import>
+	<import>BasicHome_Settings2Img.xml</import>
+	<import>BasicHome_Settings3Img.xml</import>
+	<import>BasicHome_Settings4Img.xml</import>
+	<import>BasicHome_Settings5Img.xml</import>
+
+	<import>BasicHomeDesc.xml</import>
+	<import>BasicHomeEdit.xml</import>
+	<!--import>mytvrecordings.locationDefines.xml</import-->
+		
+	<import>BasicHome.FHLMH.Update.xml</import>
+	<import>common.Scraper.xml</import>
+    <import>common.Latests.xml</import>
+    <import>common.overlay.xml</import>
+  </controls>
+</window>
+
+

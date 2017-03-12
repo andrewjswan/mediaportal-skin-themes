@@ -46,6 +46,19 @@
         <textcolor>FFffffff</textcolor>
       </control>
 	  
+      <control>
+        <description>Weather 6th Condition</description>
+        <type>fadelabel</type>
+        <id>0</id>
+        <posX>1570</posX>
+        <posY>380</posY>
+		<align>left</align>
+        <label>#WorldWeather.ForecastDay4Condition</label>
+        <font>fontB14</font>
+        <width>190</width>
+        <textcolor>FFffffff</textcolor>
+      </control>
+
 	<control>
 		<description>Weather 6th image</description>
 		<type>image</type>
@@ -78,6 +91,19 @@
 		<align>left</align>
         <label>#WorldWeather.ForecastDay3High/#WorldWeather.ForecastDay3Low</label>
         <font>fontB14</font>
+        <textcolor>FFffffff</textcolor>
+      </control>
+	  
+      <control>
+        <description>Weather 5th Condition</description>
+        <type>fadelabel</type>
+        <id>0</id>
+        <posX>1370</posX>
+        <posY>380</posY>
+		<align>left</align>
+        <label>#WorldWeather.ForecastDay3Condition</label>
+        <font>fontB14</font>
+        <width>190</width>
         <textcolor>FFffffff</textcolor>
       </control>
 	  
@@ -116,6 +142,19 @@
         <textcolor>FFffffff</textcolor>
       </control>
 	  
+      <control>
+        <description>Weather 4th Condition</description>
+        <type>fadelabel</type>
+        <id>0</id>
+        <posX>1170</posX>
+        <posY>380</posY>
+		<align>left</align>
+        <label>#WorldWeather.ForecastDay2Condition</label>
+        <font>fontB14</font>
+        <width>190</width>
+        <textcolor>FFffffff</textcolor>
+      </control>
+	  
 	<control>
 		<description>Weather 4th image</description>
 		<type>image</type>
@@ -151,6 +190,19 @@
         <textcolor>FFffffff</textcolor>
       </control>
 	  
+      <control>
+        <description>Weather 3th Condition</description>
+        <type>fadelabel</type>
+        <id>0</id>
+        <posX>970</posX>
+        <posY>380</posY>
+		<align>left</align>
+        <label>#WorldWeather.ForecastDay1Condition</label>
+        <font>fontB14</font>
+        <width>190</width>
+        <textcolor>FFffffff</textcolor>
+      </control>
+	  
 	<control>
 		<description>Weather 3th image</description>
 		<type>image</type>
@@ -183,6 +235,19 @@
 		<align>left</align>
         <label>#WorldWeather.ForecastDay0High/#WorldWeather.ForecastDay0Low</label>
         <font>fontB14</font>
+        <textcolor>FFffffff</textcolor>
+      </control>
+	  
+      <control>
+        <description>Weather 2th Condition</description>
+        <type>fadelabel</type>
+        <id>0</id>
+        <posX>770</posX>
+        <posY>380</posY>
+		<align>left</align>
+        <label>#WorldWeather.ForecastDay0Condition</label>
+        <font>fontB14</font>
+        <width>190</width>
         <textcolor>FFffffff</textcolor>
       </control>
 	  
