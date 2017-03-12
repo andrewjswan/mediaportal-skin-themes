@@ -13,6 +13,28 @@
     </control>
             
     <control>
+      <description>DUMMY Weather Visible Control</description>
+      <type>image</type>
+      <id>3330333</id>
+      <posX>0</posX>
+      <posY>0</posY>
+      <width>1</width>
+      <height>1</height>
+      <texture>#WorldWeather.TodayIconImage</texture>
+      <visible>false</visible>
+    </control>
+            
+    <control>
+      <description>DUMMY Weather Visible Control</description>
+      <type>label</type>
+      <id>3331333</id>
+      <posX>0</posX>
+      <posY>0</posY>
+      <width>1</width>
+      <visible>[plugin.isenabled(World Weather Lite)|plugin.isenabled(World Weather)]+control.hasthumb(3330333)</visible>
+    </control>
+
+    <control>
       <id>0</id>
       <type>label</type>
       <posX>144</posX>
@@ -38,7 +60,7 @@
       <textcolor>ffffff</textcolor>
       <label>#time</label>
       <align>right</align>
-      <visible>control.isvisible(3338333)+![plugin.isenabled(World Weather Lite)|plugin.isenabled(World Weather)]</visible>
+      <visible>control.isvisible(3338333)+!control.isvisible(3331333)</visible>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
     </control>
@@ -53,7 +75,7 @@
       <textcolor>ffffff</textcolor>
       <label>#date</label>
       <align>right</align>
-      <visible>control.isvisible(3338333)+![plugin.isenabled(World Weather Lite)|plugin.isenabled(World Weather)]</visible>
+      <visible>control.isvisible(3338333)+!control.isvisible(3331333)</visible>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
     </control>
@@ -69,8 +91,9 @@
       <align>center</align>
       <valign>middle</valign>
       <zoom>true</zoom>
+      <keepaspectratio>yes</keepaspectratio>
       <texture>#WorldWeather.TodayIconImage</texture>
-      <visible>control.isvisible(3338333)+[plugin.isenabled(World Weather Lite)|plugin.isenabled(World Weather)]</visible>
+      <visible>control.isvisible(3338333)+control.isvisible(3331333)</visible>
       <animation effect="fade" time="350">WindowOpen</animation>
       <animation effect="fade" time="350">WindowClose</animation>
     </control>
@@ -86,8 +109,9 @@
       <align>center</align>
       <valign>middle</valign>
       <zoom>true</zoom>
+      <keepaspectratio>yes</keepaspectratio>
       <texture>#WorldWeather.ForecastDay1IconImage</texture>
-      <visible>control.isvisible(3338333)+[plugin.isenabled(World Weather Lite)|plugin.isenabled(World Weather)]+string.equals(#skin.enable.Weather.Forecast.Clock.enabled,true)+!string.equals('#WorldWeather.TodayIconImage','#WorldWeather.ForecastDay1IconImage')</visible>
+      <visible>control.isvisible(3338333)+control.isvisible(3331333)+string.equals(#skin.Weather.Forecast.Clock.enabled,true)+!string.equals('#WorldWeather.TodayIconImage','#WorldWeather.ForecastDay1IconImage')</visible>
       <animation effect="fade" time="350">WindowOpen</animation>
       <animation effect="fade" time="350">WindowClose</animation>
     </control>
@@ -103,7 +127,7 @@
       <textcolor>ffffff</textcolor>
       <label>#time</label>
       <align>right</align>
-      <visible>control.isvisible(3338333)+[plugin.isenabled(World Weather Lite)|plugin.isenabled(World Weather)]</visible>
+      <visible>control.isvisible(3338333)+control.isvisible(3331333)</visible>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
     </control>
@@ -118,7 +142,7 @@
       <textcolor>ffffff</textcolor>
       <label>#date / #WorldWeather.TodayTemperature</label>
       <align>right</align>
-      <visible>control.isvisible(3338333)+[plugin.isenabled(World Weather Lite)|plugin.isenabled(World Weather)]</visible>
+      <visible>control.isvisible(3338333)+control.isvisible(3331333)</visible>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
     </control>

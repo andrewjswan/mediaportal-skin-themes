@@ -9,6 +9,16 @@
   		<posX>#L12left</posX>
        	<posY>#L12top</posY>
  	    <texture>basichome_button_worldweatherlite.png</texture>
+       	<animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(400)">conditional</animation>
+ 		<visible>control.IsVisible(10201)+!control.hasthumb(400999)</visible>  
+ 	</control>
+
+   	<control Style="HomeButtonPicture">
+		<description>BasicHome World Weather Lite No Focus</description>
+ 	    <type>image</type>
+ 	    <id>400999</id>
+  		<posX>#L12left</posX>
+       	<posY>#L12top</posY>
         <texture>weather\buttons\#WorldWeather.TodayIconNumber.png</texture>
        	<animation effect="zoom" start="100,100" end="102,102" time="200" condition="control.hasfocus(400)">conditional</animation>
  		<visible>control.IsVisible(10201)</visible>  
