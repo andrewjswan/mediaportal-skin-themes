@@ -20,16 +20,12 @@
 
 		  
      <control>
-	   <type>image</type>
+	   <type>label</type>
        <id>208802</id>
-	   <posX>0</posX>
-	   <posY>0</posY>
-	   <width>1920</width>
-	   <height>1080</height>
-       <texture>background_settings.png</texture>
-       <!--colordiffuse>59000000</colordiffuse-->
-	   <animation effect="fade" time="350" reversible="true">hidden</animation>
+	   <posX>7000</posX>
+	   <posY>7000</posY>
 	   <visible>control.hasfocus(20800)|control.hasfocus(20801)|control.hasfocus(20802)|control.hasfocus(20803)|control.hasfocus(20804)|control.hasfocus(20805)|control.hasfocus(20806)|control.hasfocus(20807)|control.hasfocus(20808)|control.hasfocus(20809)|control.hasfocus(20810)|control.hasfocus(20811)|control.hasfocus(20812)|control.hasfocus(20813)|control.hasfocus(20814)|control.hasfocus(20815)|control.hasfocus(20890)|control.hasfocus(20891)|control.hasfocus(20892)|control.hasfocus(20893)|control.hasfocus(20894)|control.hasfocus(20895)|control.hasfocus(20896)|control.hasfocus(20897)|control.hasfocus(20898)|control.hasfocus(20899)</visible>
+       <label />
 	 </control>
 		
 	  <control>

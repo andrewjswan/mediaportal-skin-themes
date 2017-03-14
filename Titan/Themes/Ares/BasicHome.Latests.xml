@@ -2219,197 +2219,205 @@
       <!-- ******************************** Recently added Trakt ************************************** -->
       <!-- ******************************************************************************************** -->
 
-
       <control>
-        <description>Trakt Background</description>
-        <type>image</type>
-        <id>0</id>
-        <posX>40</posX>
-        <posY>191</posY>
-        <width>1845</width>
-        <height>209</height>
-        <texture>Inf_gfx.png</texture>
+        <description>GROUP: Trakt</description>
+        <type>group</type>
+        <dimColor>ffffffff</dimColor>
+        <visible>control.isvisible(012016)</visible>
         <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(012016)">conditional</animation>
-        <visible>control.isvisible(012016)</visible>
-      </control>
 
-      <control>
-        <description>Trending Movies</description>
-        <type>facadeview</type>
-        <id>98302</id>
-        <visible>control.isvisible(012016)</visible>
         <control>
-          <type>filmstrip</type>
-          <dimColor>ffffffff</dimColor>
+          <description>Trakt Background</description>
+          <type>image</type>
+          <id>0</id>
+          <posX>40</posX>
+          <posY>191</posY>
+          <width>1845</width>
+          <height>209</height>
+          <texture>Inf_gfx.png</texture>
+          <!--animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(012016)">conditional</animation>
+          <visible>control.isvisible(012016)</visible-->
+        </control>
+
+        <control>
+          <description>Trending Movies</description>
+          <type>facadeview</type>
           <id>98302</id>
-          <onup>2</onup>
-          <onleft>#skin.currentTile</onleft>
-          <ondown>#skin.currentTile</ondown>
-          <onright>98301</onright>
-          <posX>85</posX>
-          <posY>199</posY>
-          <width>492</width>
-          <height>212</height>
-          <thumbWidth>132</thumbWidth>
-          <thumbHeight>189</thumbHeight>
-          <thumbPosX>0</thumbPosX>
-          <thumbPosY>0</thumbPosY>
-          <itemWidth>132</itemWidth>
-          <itemHeight>189</itemHeight>
-          <textureWidth>132</textureWidth>
-          <textureHeight>189</textureHeight>
-          <textYOff>-2000</textYOff>
-          <imageFolderFocus>-</imageFolderFocus>
-          <frame />
-          <frameFocus>play_overlayframe.png</frameFocus>
-          <background>-</background>
-          <thumbs />
-          <spinCanFocus>no</spinCanFocus>
-          <showFrame>yes</showFrame>
-          <showFolder>no</showFolder>
-          <showBackGround>no</showBackGround>
-          <showInfoImage>no</showInfoImage>
-          <scrollbarBackground>-</scrollbarBackground>
-          <scrollbarLeft>-</scrollbarLeft>
-          <scrollbarRight>-</scrollbarRight>
-          <scrollbarWidth>717</scrollbarWidth>
-          <scrollbarHeight>8</scrollbarHeight>
-          <scrollbarYOff>375</scrollbarYOff>
-          <keepaspectratio>no</keepaspectratio>
           <visible>control.isvisible(012016)</visible>
-          <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(012016)">conditional</animation>
-          <animation effect="zoom" reversible="false" start="10,10" end="100,100" time="1500">Visible</animation>
+          <control>
+            <type>filmstrip</type>
+            <dimColor>ffffffff</dimColor>
+            <id>98302</id>
+            <onup>2</onup>
+            <onleft>#skin.currentTile</onleft>
+            <ondown>#skin.currentTile</ondown>
+            <onright>98301</onright>
+            <posX>85</posX>
+            <posY>199</posY>
+            <width>492</width>
+            <height>212</height>
+            <thumbWidth>132</thumbWidth>
+            <thumbHeight>189</thumbHeight>
+            <thumbPosX>0</thumbPosX>
+            <thumbPosY>0</thumbPosY>
+            <itemWidth>132</itemWidth>
+            <itemHeight>189</itemHeight>
+            <textureWidth>132</textureWidth>
+            <textureHeight>189</textureHeight>
+            <textYOff>-2000</textYOff>
+            <imageFolderFocus>-</imageFolderFocus>
+            <frame />
+            <frameFocus>play_overlayframe.png</frameFocus>
+            <background>-</background>
+            <thumbs />
+            <spinCanFocus>no</spinCanFocus>
+            <showFrame>yes</showFrame>
+            <showFolder>no</showFolder>
+            <showBackGround>no</showBackGround>
+            <showInfoImage>no</showInfoImage>
+            <scrollbarBackground>-</scrollbarBackground>
+            <scrollbarLeft>-</scrollbarLeft>
+            <scrollbarRight>-</scrollbarRight>
+            <scrollbarWidth>717</scrollbarWidth>
+            <scrollbarHeight>8</scrollbarHeight>
+            <scrollbarYOff>375</scrollbarYOff>
+            <keepaspectratio>no</keepaspectratio>
+            <visible>control.isvisible(012016)</visible>
+            <!--animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(012016)">conditional</animation-->
+            <!--animation effect="zoom" reversible="false" start="10,10" end="100,100" time="1500">Visible</animation-->
+          </control>
         </control>
-      </control>
-      <control>
-        <description>Trending Shows</description>
-        <type>facadeview</type>
-        <id>98301</id>
-        <visible>control.isvisible(012016)</visible>
         <control>
-          <type>filmstrip</type>
-          <dimColor>ffffffff</dimColor>
+          <description>Trending Shows</description>
+          <type>facadeview</type>
           <id>98301</id>
-          <onup>2</onup>
-          <onleft>98302</onleft>
-          <onright>#skin.currentTile</onright>
-          <ondown>#skin.currentTile</ondown>
-          <posX>950</posX>
-          <posY>199</posY>
-          <width>492</width>
-          <height>212</height>
-          <thumbWidth>132</thumbWidth>
-          <thumbHeight>189</thumbHeight>
-          <thumbPosX>0</thumbPosX>
-          <thumbPosY>0</thumbPosY>
-          <itemWidth>132</itemWidth>
-          <itemHeight>189</itemHeight>
-          <textureWidth>132</textureWidth>
-          <textureHeight>189</textureHeight>
-          <textYOff>-2000</textYOff>
-          <imageFolderFocus>-</imageFolderFocus>
-          <frame />
-          <frameFocus>play_overlayframe.png</frameFocus>
-          <background>-</background>
-          <thumbs />
-          <showFrame>yes</showFrame>
-          <showFolder>no</showFolder>
-          <showBackGround>no</showBackGround>
-          <showInfoImage>no</showInfoImage>
-          <spinCanFocus>no</spinCanFocus>
-          <scrollbarBackground>-</scrollbarBackground>
-          <scrollbarLeft>-</scrollbarLeft>
-          <scrollbarRight>-</scrollbarRight>
-          <scrollbarWidth>717</scrollbarWidth>
-          <scrollbarHeight>8</scrollbarHeight>
-          <scrollbarYOff>375</scrollbarYOff>
-          <keepaspectratio>no</keepaspectratio>
           <visible>control.isvisible(012016)</visible>
-          <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(012016)">conditional</animation>
-          <animation effect="zoom" reversible="false" start="10,10" end="100,100" time="1500">Visible</animation>
-        </control>
-      </control>
-      <control>
-        <description>group element</description>
-        <type>group</type>
-        <posX>500</posX>
-        <posY>220</posY>
-        <dimColor>ffffffff</dimColor>
-        <visible>control.isvisible(012016)</visible>
-        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(012016)">conditional</animation>
-        <layout>StackLayout(50, Vertical, true)</layout>
-        <!--            :: Movie Titles ::            -->
-        <control>
-          <type>fadelabel</type>
-          <id>1</id>
-          <posX>87</posX>
-          <posY>455</posY>
-          <width>420</width>
-          <label>#Trakt.Movie.0.Title</label>
-          <textcolor>ffffffff</textcolor>
-          <font>font12</font>
-        </control>
-        <control>
-          <type>fadelabel</type>
-          <id>1</id>
-          <posX>87</posX>
-          <posY>493</posY>
-          <width>420</width>
-          <label>#Trakt.Movie.1.Title</label>
-          <textcolor>ffffffff</textcolor>
-          <font>font12</font>
-        </control>
-        <control>
-          <type>fadelabel</type>
-          <id>1</id>
-          <posX>87</posX>
-          <posY>531</posY>
-          <width>420</width>
-          <label>#Trakt.Movie.2.Title</label>
-          <textcolor>ffffffff</textcolor>
-          <font>font12</font>
-        </control>
-      </control>
-      <control>
-        <description>group element</description>
-        <type>group</type>
-        <posX>1370</posX>
-        <posY>220</posY>
-        <dimColor>ffffffff</dimColor>
-        <visible>control.isvisible(012016)</visible>
-        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(012016)">conditional</animation>
-        <layout>StackLayout(50, Vertical, true)</layout>
-        <!--            :: Series Titles ::            -->
-        <control>
-          <type>fadelabel</type>
-          <id>1</id>
-          <posX>1474</posX>
-          <posY>455</posY>
-          <width>420</width>
-          <label>#Trakt.Show.0.Title</label>
-          <textcolor>ffffffff</textcolor>
-          <font>font12</font>
+          <control>
+            <type>filmstrip</type>
+            <dimColor>ffffffff</dimColor>
+            <id>98301</id>
+            <onup>2</onup>
+            <onleft>98302</onleft>
+            <onright>#skin.currentTile</onright>
+            <ondown>#skin.currentTile</ondown>
+            <posX>950</posX>
+            <posY>199</posY>
+            <width>492</width>
+            <height>212</height>
+            <thumbWidth>132</thumbWidth>
+            <thumbHeight>189</thumbHeight>
+            <thumbPosX>0</thumbPosX>
+            <thumbPosY>0</thumbPosY>
+            <itemWidth>132</itemWidth>
+            <itemHeight>189</itemHeight>
+            <textureWidth>132</textureWidth>
+            <textureHeight>189</textureHeight>
+            <textYOff>-2000</textYOff>
+            <imageFolderFocus>-</imageFolderFocus>
+            <frame />
+            <frameFocus>play_overlayframe.png</frameFocus>
+            <background>-</background>
+            <thumbs />
+            <showFrame>yes</showFrame>
+            <showFolder>no</showFolder>
+            <showBackGround>no</showBackGround>
+            <showInfoImage>no</showInfoImage>
+            <spinCanFocus>no</spinCanFocus>
+            <scrollbarBackground>-</scrollbarBackground>
+            <scrollbarLeft>-</scrollbarLeft>
+            <scrollbarRight>-</scrollbarRight>
+            <scrollbarWidth>717</scrollbarWidth>
+            <scrollbarHeight>8</scrollbarHeight>
+            <scrollbarYOff>375</scrollbarYOff>
+            <keepaspectratio>no</keepaspectratio>
+            <visible>control.isvisible(012016)</visible>
+            <!--animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(012016)">conditional</animation-->
+            <!--animation effect="zoom" reversible="false" start="10,10" end="100,100" time="1500">Visible</animation-->
+          </control>
         </control>
         <control>
-          <type>fadelabel</type>
-          <id>1</id>
-          <posX>1474</posX>
-          <posY>493</posY>
-          <width>420</width>
-          <label>#Trakt.Show.1.Title</label>
-          <textcolor>ffffffff</textcolor>
-          <font>font12</font>
+          <description>group element</description>
+          <type>group</type>
+          <posX>500</posX>
+          <posY>220</posY>
+          <dimColor>ffffffff</dimColor>
+          <visible>control.isvisible(012016)</visible>
+          <!--animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(012016)">conditional</animation-->
+          <layout>StackLayout(50, Vertical, true)</layout>
+          <!--            :: Movie Titles ::            -->
+          <control>
+            <type>fadelabel</type>
+            <id>1</id>
+            <posX>87</posX>
+            <posY>455</posY>
+            <width>420</width>
+            <label>#Trakt.Movie.0.Title</label>
+            <textcolor>ffffffff</textcolor>
+            <font>font12</font>
+          </control>
+          <control>
+            <type>fadelabel</type>
+            <id>1</id>
+            <posX>87</posX>
+            <posY>493</posY>
+            <width>420</width>
+            <label>#Trakt.Movie.1.Title</label>
+            <textcolor>ffffffff</textcolor>
+            <font>font12</font>
+          </control>
+          <control>
+            <type>fadelabel</type>
+            <id>1</id>
+            <posX>87</posX>
+            <posY>531</posY>
+            <width>420</width>
+            <label>#Trakt.Movie.2.Title</label>
+            <textcolor>ffffffff</textcolor>
+            <font>font12</font>
+          </control>
         </control>
         <control>
-          <type>fadelabel</type>
-          <id>1</id>
-          <posX>1474</posX>
-          <posY>531</posY>
-          <width>420</width>
-          <label>#Trakt.Show.2.Title</label>
-          <textcolor>ffffffff</textcolor>
-          <font>font12</font>
+          <description>group element</description>
+          <type>group</type>
+          <posX>1370</posX>
+          <posY>220</posY>
+          <dimColor>ffffffff</dimColor>
+          <visible>control.isvisible(012016)</visible>
+          <!--animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(012016)">conditional</animation-->
+          <layout>StackLayout(50, Vertical, true)</layout>
+          <!--            :: Series Titles ::            -->
+          <control>
+            <type>fadelabel</type>
+            <id>1</id>
+            <posX>1474</posX>
+            <posY>455</posY>
+            <width>420</width>
+            <label>#Trakt.Show.0.Title</label>
+            <textcolor>ffffffff</textcolor>
+            <font>font12</font>
+          </control>
+          <control>
+            <type>fadelabel</type>
+            <id>1</id>
+            <posX>1474</posX>
+            <posY>493</posY>
+            <width>420</width>
+            <label>#Trakt.Show.1.Title</label>
+            <textcolor>ffffffff</textcolor>
+            <font>font12</font>
+          </control>
+          <control>
+            <type>fadelabel</type>
+            <id>1</id>
+            <posX>1474</posX>
+            <posY>531</posY>
+            <width>420</width>
+            <label>#Trakt.Show.2.Title</label>
+            <textcolor>ffffffff</textcolor>
+            <font>font12</font>
+          </control>
         </control>
+
       </control>
 
 
