@@ -5392,13 +5392,16 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <Build>0</Build>
       <Revision>7</Revision>
     </Version>
-    <ExtensionDescription>BasicHome editor
-Clear/CD Art etc. support for Titan, 
-Weather icon on screen, 
+    <ExtensionDescription>BasicHome editor
+
+Clear/CD Art etc. support for Titan, 
+
+Weather icon on screen, 
+
 bugfixes and more.</ExtensionDescription>
     <VersionDescription>Some cosmetic fixes</VersionDescription>
     <DevelopmentStatus>Rc</DevelopmentStatus>
-    <OnlineLocation>https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/build/ajs.Theme.for.Titan.mpe1</OnlineLocation>
+    <OnlineLocation>https://media.githubusercontent.com/media/andrewjswan/mediaportal-skin-themes/master/build/ajs.Theme.for.Titan.mpe1</OnlineLocation>
     <ReleaseDate>2019-02-16T14:47:12</ReleaseDate>
     <Tags>ajs, titan, theme</Tags>
     <Location>..\build\ajs.Theme.for.Titan.mpe1</Location>
