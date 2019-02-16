@@ -2078,20 +2078,6 @@
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\MyHome.Main.RSS.InfoServise.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{92ef33f8-73eb-4ada-b807-0447bb0f3719}-MyHome.Main.RSS.InfoServise.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\MyHome.Main.RSS.InfoServise.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\MyHome.Main.RSS.WorldNews.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{e7dfc5ba-4a01-4e2d-9dd6-9c12edc14035}-MyHome.Main.RSS.WorldNews.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\MyHome.Main.RSS.WorldNews.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>..\Titan\Themes\Common\myHome.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{1493ae44-82dc-4a09-b288-2dfb007d08a5}-myHome.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\myHome.xml</DestinationFilename>
@@ -2820,34 +2806,6 @@
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\Media\osd_progress_simple_background.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{e770d8c2-69f8-4cce-9b63-5c304082ecd1}-osd_progress_simple_background.png</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\osd_progress_simple_background.png</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\Media\osd_progress_simple_left.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{ba46d2e2-9481-4b27-a7fb-2665df54eba2}-osd_progress_simple_left.png</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\osd_progress_simple_left.png</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\Media\osd_progress_simple_mid.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{4425ca6e-4882-4847-ac8e-a6aa40263de7}-osd_progress_simple_mid.png</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\osd_progress_simple_mid.png</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\Media\osd_progress_simple_right.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{91cb2ec3-4a24-4097-8176-eefa79130dc3}-osd_progress_simple_right.png</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\osd_progress_simple_right.png</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>..\Titan\Themes\Common\Media\page_updated_left.png</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{7665bb92-79da-47d3-baa8-5ccf3c93eabc}-page_updated_left.png</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\page_updated_left.png</DestinationFilename>
@@ -3103,6 +3061,237 @@
               <LocalFileName>..\Titan\Themes\Common\Media\tvseries_unWatchedNA.png</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{ba73eada-664e-4d68-b1a5-3ae687a646e8}-tvseries_unWatchedNA.png</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\tvseries_unWatchedNA.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\certification\18+.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{c0706b0b-3598-49a9-a218-f7ca1ec31a9f}-18+.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\certification\18+.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\aac lc.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{0ab79377-650d-40b8-b08d-6887fc77fa7e}-aac lc.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\aac lc.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\aac version 4 lc.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{756ea544-e60b-4c1f-bd40-448ee8761867}-aac version 4 lc.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\aac version 4 lc.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\ac-3 es matrix.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{10db24bb-65bf-4ca2-92fe-160bad68deb8}-ac-3 es matrix.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\ac-3 es matrix.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\ac-3 es.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{30913d66-0f19-4af9-beeb-b55b81e222ff}-ac-3 es.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\ac-3 es.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\ac-3 ma.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{1df2c898-ca9a-4532-94d1-64679498af80}-ac-3 ma.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\ac-3 ma.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\ac-3 truehd.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{6c897bb3-9bc1-4cfb-8505-c20b2018c659}-ac-3 truehd.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\ac-3 truehd.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\ac-3plus.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{7eac8073-db52-41f9-a2d8-8943fbe72f54}-ac-3plus.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\ac-3plus.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\ac3.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{5e1a8438-bf78-4775-8b56-e26da36558b2}-ac3.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\ac3.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\amr.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{52908ad1-4796-429a-b70c-b7f1edf2a7d8}-amr.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\amr.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\dts es discrete.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{44ec3237-d776-40f5-bec4-c3b2fb857587}-dts es discrete.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\dts es discrete.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\dts es.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{23fd6a1d-52d8-42d1-bf5f-d92b6f7be7f5}-dts es.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\dts es.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\dts ma.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{637214bb-5327-4342-abdc-05a947438a72}-dts ma.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\dts ma.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\e-ac-3.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{663c9db0-6ac6-4a61-96e4-98dea5d7e9a6}-e-ac-3.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\e-ac-3.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\quicktime.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{71fb9652-d6d7-4e00-bcea-a1ea20d1958f}-quicktime.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\quicktime.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\ra.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{b2799c2b-e630-4645-ae9c-a3d87693b766}-ra.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\ra.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\LatestMediaHandler.SkinSettings.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{573a2bbb-7dda-4a9d-8e26-05804d03cf44}-LatestMediaHandler.SkinSettings.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\LatestMediaHandler.SkinSettings.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\myvideo.hiddenmenu.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{7f2d29fc-f49f-4ec5-98b0-b93f7c0f61c8}-myvideo.hiddenmenu.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\myvideo.hiddenmenu.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\BasicHomeSubBGFlat.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{6b406a1d-d4a8-4b1e-9901-a6cbc5a1c01f}-BasicHomeSubBGFlat.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\BasicHomeSubBGFlat.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\hbar1white.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{ccd0bce6-d777-4356-bbe2-e43faacdf52c}-hbar1white.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\hbar1white.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\icon_animated.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{6f0d03dc-11fc-4b9b-9fce-0ee0b5ffc5dd}-icon_animated.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_animated.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\icon_awards_focus.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{f18ba780-4dd0-4eb7-b1da-aa9a537af4b2}-icon_awards_focus.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_awards_focus.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\icon_awards_nofocus.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{56433791-62f1-4db2-b506-16f0bce65f53}-icon_awards_nofocus.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_awards_nofocus.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\icon_mpaa_focus.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{041e0342-4711-488c-9d29-d6d32ed34a2a}-icon_mpaa_focus.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_mpaa_focus.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\icon_mpaa_nofocus.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{bfc2218e-c9ea-4ee2-82ce-0a493f440ab4}-icon_mpaa_nofocus.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_mpaa_nofocus.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\icon_small_checkmark_checked.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{579f3c14-be9b-4378-844f-35fa4810fdd3}-icon_small_checkmark_checked.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_small_checkmark_checked.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\icon_small_checkmark_unchecked.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e764a94e-ce49-462c-a521-b439e71ab57f}-icon_small_checkmark_unchecked.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_small_checkmark_unchecked.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\icon_trailers_focus.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{2e99486a-d956-491c-a851-3498659afd41}-icon_trailers_focus.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_trailers_focus.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\icon_trailers_nofocus.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{6dd6495d-c7d4-4eb6-b1d9-c166022bfb55}-icon_trailers_nofocus.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_trailers_nofocus.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\icon_trakt_focus.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e9b9f73b-138f-4cb7-b2e6-24a19f56b607}-icon_trakt_focus.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_trakt_focus.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\icon_trakt_nofocus.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{42b2ef5e-7b3b-4346-920f-bb489ff1f4cc}-icon_trakt_nofocus.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_trakt_nofocus.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\New.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{b393ae13-63a2-4cbf-b1f3-8d3083766b4c}-New.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\New.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\scrollbar_bar_nib_hor.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{4e7357e1-2ce2-407b-ae53-5e0ea7752380}-scrollbar_bar_nib_hor.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\scrollbar_bar_nib_hor.png</DestinationFilename>
             </FileItem>
           </Items>
         </Files>
@@ -4941,6 +5130,27 @@
               <ZipFileName>Installer{CopyFile}\{367311db-c55f-40b7-b60d-094906dfe4ab}-submenu_bg.png</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\Normal\submenu_bg.png</DestinationFilename>
             </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\MyHome.Main.RSS.InfoServise.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{b13a2965-b72c-4bdf-9e26-15eb2a2bce11}-MyHome.Main.RSS.InfoServise.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\MyHome.Main.RSS.InfoServise.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\MyHome.Main.RSS.WorldNews.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{698564e5-ba04-4526-abf1-fd77e5d76f98}-MyHome.Main.RSS.WorldNews.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\MyHome.Main.RSS.WorldNews.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\ajs Theme\references.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{3a0af8a5-5484-4558-a826-ea26578615b2}-references.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\references.xml</DestinationFilename>
+            </FileItem>
           </Items>
         </Files>
       </GroupItem>
@@ -5180,16 +5390,16 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <Major>2</Major>
       <Minor>0</Minor>
       <Build>0</Build>
-      <Revision>5</Revision>
+      <Revision>7</Revision>
     </Version>
-    <ExtensionDescription>BasicHome editor
-Clear/CD Art etc. support for Titan, 
-Weather icon on screen, 
+    <ExtensionDescription>BasicHome editor
+Clear/CD Art etc. support for Titan, 
+Weather icon on screen, 
 bugfixes and more.</ExtensionDescription>
     <VersionDescription>Some cosmetic fixes</VersionDescription>
     <DevelopmentStatus>Rc</DevelopmentStatus>
     <OnlineLocation>https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/build/ajs.Theme.for.Titan.mpe1</OnlineLocation>
-    <ReleaseDate>2017-03-12T14:47:12</ReleaseDate>
+    <ReleaseDate>2019-02-16T14:47:12</ReleaseDate>
     <Tags>ajs, titan, theme</Tags>
     <Location>..\build\ajs.Theme.for.Titan.mpe1</Location>
     <Params>
@@ -7294,20 +7504,6 @@ bugfixes and more.</ExtensionDescription>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\MyHome.Main.RSS.InfoServise.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{92ef33f8-73eb-4ada-b807-0447bb0f3719}-MyHome.Main.RSS.InfoServise.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\MyHome.Main.RSS.InfoServise.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\MyHome.Main.RSS.WorldNews.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{e7dfc5ba-4a01-4e2d-9dd6-9c12edc14035}-MyHome.Main.RSS.WorldNews.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\MyHome.Main.RSS.WorldNews.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\Titan\Themes\Common\myHome.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{1493ae44-82dc-4a09-b288-2dfb007d08a5}-myHome.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\myHome.xml</DestinationFilename>
@@ -8036,34 +8232,6 @@ bugfixes and more.</ExtensionDescription>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\Media\osd_progress_simple_background.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{e770d8c2-69f8-4cce-9b63-5c304082ecd1}-osd_progress_simple_background.png</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\osd_progress_simple_background.png</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\Media\osd_progress_simple_left.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{ba46d2e2-9481-4b27-a7fb-2665df54eba2}-osd_progress_simple_left.png</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\osd_progress_simple_left.png</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\Media\osd_progress_simple_mid.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{4425ca6e-4882-4847-ac8e-a6aa40263de7}-osd_progress_simple_mid.png</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\osd_progress_simple_mid.png</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\Media\osd_progress_simple_right.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{91cb2ec3-4a24-4097-8176-eefa79130dc3}-osd_progress_simple_right.png</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\osd_progress_simple_right.png</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\Titan\Themes\Common\Media\page_updated_left.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{7665bb92-79da-47d3-baa8-5ccf3c93eabc}-page_updated_left.png</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\page_updated_left.png</DestinationFilename>
@@ -8319,6 +8487,237 @@ bugfixes and more.</ExtensionDescription>
         <LocalFileName>..\Titan\Themes\Common\Media\tvseries_unWatchedNA.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{ba73eada-664e-4d68-b1a5-3ae687a646e8}-tvseries_unWatchedNA.png</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\tvseries_unWatchedNA.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\certification\18+.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{c0706b0b-3598-49a9-a218-f7ca1ec31a9f}-18+.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\certification\18+.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\aac lc.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{0ab79377-650d-40b8-b08d-6887fc77fa7e}-aac lc.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\aac lc.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\aac version 4 lc.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{756ea544-e60b-4c1f-bd40-448ee8761867}-aac version 4 lc.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\aac version 4 lc.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\ac-3 es matrix.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{10db24bb-65bf-4ca2-92fe-160bad68deb8}-ac-3 es matrix.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\ac-3 es matrix.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\ac-3 es.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{30913d66-0f19-4af9-beeb-b55b81e222ff}-ac-3 es.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\ac-3 es.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\ac-3 ma.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{1df2c898-ca9a-4532-94d1-64679498af80}-ac-3 ma.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\ac-3 ma.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\ac-3 truehd.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{6c897bb3-9bc1-4cfb-8505-c20b2018c659}-ac-3 truehd.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\ac-3 truehd.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\ac-3plus.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{7eac8073-db52-41f9-a2d8-8943fbe72f54}-ac-3plus.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\ac-3plus.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\ac3.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{5e1a8438-bf78-4775-8b56-e26da36558b2}-ac3.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\ac3.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\amr.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{52908ad1-4796-429a-b70c-b7f1edf2a7d8}-amr.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\amr.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\dts es discrete.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{44ec3237-d776-40f5-bec4-c3b2fb857587}-dts es discrete.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\dts es discrete.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\dts es.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{23fd6a1d-52d8-42d1-bf5f-d92b6f7be7f5}-dts es.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\dts es.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\dts ma.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{637214bb-5327-4342-abdc-05a947438a72}-dts ma.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\dts ma.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\e-ac-3.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{663c9db0-6ac6-4a61-96e4-98dea5d7e9a6}-e-ac-3.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\e-ac-3.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\quicktime.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{71fb9652-d6d7-4e00-bcea-a1ea20d1958f}-quicktime.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\quicktime.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\ra.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{b2799c2b-e630-4645-ae9c-a3d87693b766}-ra.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\ra.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\LatestMediaHandler.SkinSettings.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{573a2bbb-7dda-4a9d-8e26-05804d03cf44}-LatestMediaHandler.SkinSettings.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\LatestMediaHandler.SkinSettings.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\myvideo.hiddenmenu.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{7f2d29fc-f49f-4ec5-98b0-b93f7c0f61c8}-myvideo.hiddenmenu.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\myvideo.hiddenmenu.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\BasicHomeSubBGFlat.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{6b406a1d-d4a8-4b1e-9901-a6cbc5a1c01f}-BasicHomeSubBGFlat.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\BasicHomeSubBGFlat.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\hbar1white.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{ccd0bce6-d777-4356-bbe2-e43faacdf52c}-hbar1white.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\hbar1white.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\icon_animated.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{6f0d03dc-11fc-4b9b-9fce-0ee0b5ffc5dd}-icon_animated.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_animated.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\icon_awards_focus.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{f18ba780-4dd0-4eb7-b1da-aa9a537af4b2}-icon_awards_focus.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_awards_focus.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\icon_awards_nofocus.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{56433791-62f1-4db2-b506-16f0bce65f53}-icon_awards_nofocus.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_awards_nofocus.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\icon_mpaa_focus.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{041e0342-4711-488c-9d29-d6d32ed34a2a}-icon_mpaa_focus.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_mpaa_focus.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\icon_mpaa_nofocus.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{bfc2218e-c9ea-4ee2-82ce-0a493f440ab4}-icon_mpaa_nofocus.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_mpaa_nofocus.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\icon_small_checkmark_checked.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{579f3c14-be9b-4378-844f-35fa4810fdd3}-icon_small_checkmark_checked.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_small_checkmark_checked.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\icon_small_checkmark_unchecked.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e764a94e-ce49-462c-a521-b439e71ab57f}-icon_small_checkmark_unchecked.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_small_checkmark_unchecked.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\icon_trailers_focus.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{2e99486a-d956-491c-a851-3498659afd41}-icon_trailers_focus.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_trailers_focus.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\icon_trailers_nofocus.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{6dd6495d-c7d4-4eb6-b1d9-c166022bfb55}-icon_trailers_nofocus.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_trailers_nofocus.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\icon_trakt_focus.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e9b9f73b-138f-4cb7-b2e6-24a19f56b607}-icon_trakt_focus.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_trakt_focus.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\icon_trakt_nofocus.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{42b2ef5e-7b3b-4346-920f-bb489ff1f4cc}-icon_trakt_nofocus.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\icon_trakt_nofocus.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\New.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{b393ae13-63a2-4cbf-b1f3-8d3083766b4c}-New.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\New.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\scrollbar_bar_nib_hor.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{4e7357e1-2ce2-407b-ae53-5e0ea7752380}-scrollbar_bar_nib_hor.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\scrollbar_bar_nib_hor.png</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
@@ -10149,6 +10548,27 @@ bugfixes and more.</ExtensionDescription>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\MyHome.Main.RSS.InfoServise.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{b13a2965-b72c-4bdf-9e26-15eb2a2bce11}-MyHome.Main.RSS.InfoServise.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\MyHome.Main.RSS.InfoServise.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\MyHome.Main.RSS.WorldNews.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{698564e5-ba04-4526-abf1-fd77e5d76f98}-MyHome.Main.RSS.WorldNews.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\MyHome.Main.RSS.WorldNews.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\ajs Theme\references.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{3a0af8a5-5484-4558-a826-ea26578615b2}-references.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\references.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\Titan\Themes\ajs Theme\BasicHome.Editor\ajsTitanEditor.exe</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{98622be4-0134-4b0c-9bf2-5e86966f6b42}-ajsTitanEditor.exe</ZipFileName>
@@ -10165,7 +10585,7 @@ bugfixes and more.</ExtensionDescription>
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>themes.icon.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{22480d96-c5c3-4590-a692-52ff738d7322}-themes.icon.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{10a0d374-6248-43fb-96f3-b134f4a384dd}-themes.icon.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>

@@ -22,7 +22,7 @@
         <type>image</type>
         <id>0</id>
         <posX>40</posX>
-        <posY>191</posY>
+        <posY>#home.latest.posy</posY>
         <width>1845</width>
         <height>209</height>
         <texture>Inf_gfx.png</texture>
@@ -40,10 +40,10 @@
 
         <control>
           <description>MovingPictures Latests label</description>
-          <type>textbox</type>
+          <type>fadelabel</type>
           <id>0</id>
           <posX>478</posX>
-          <posY>200</posY>
+          <posY>#home.latest.label.posy</posY>
           <width>1250</width>
           <height>30</height>
           <label>#latestMediaHandler.movingpicture.label</label>
@@ -54,39 +54,39 @@
         </control>
 
         <control>
-          <type>textbox</type>
+          <type>fadelabel</type>
           <id>0</id>
           <posX>478</posX>
-          <posY>245</posY>
+          <posY>#home.latest.line1.posy</posY>
           <width>1250</width>
           <height>30</height>
-          <label>1. #latestMediaHandler.movingpicture.latest1.title #latestMediaHandler.movingpicture.latest1.year</label>
+          <label>#(iif(eq(#latestMediaHandler.movingpicture.latest1.title,''),'','1. '))#latestMediaHandler.movingpicture.latest1.title #latestMediaHandler.movingpicture.latest1.year</label>
           <align>left</align>
           <font>font12</font>
           <textcolor>eaeaea</textcolor>
           <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010004)">conditional</animation>
         </control>
         <control>
-          <type>textbox</type>
+          <type>fadelabel</type>
           <id>0</id>
           <posX>478</posX>
-          <posY>290</posY>
+          <posY>#home.latest.line2.posy</posY>
           <width>1250</width>
           <height>30</height>
-          <label>2. #latestMediaHandler.movingpicture.latest2.title #latestMediaHandler.movingpicture.latest2.year</label>
+          <label>#(iif(eq(#latestMediaHandler.movingpicture.latest2.title,''),'','2. '))#latestMediaHandler.movingpicture.latest2.title #latestMediaHandler.movingpicture.latest2.year</label>
           <align>left</align>
           <font>font12</font>
           <textcolor>eaeaea</textcolor>
           <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010004)">conditional</animation>
         </control>
         <control>
-          <type>textbox</type>
+          <type>fadelabel</type>
           <id>0</id>
           <posX>478</posX>
-          <posY>335</posY>
+          <posY>#home.latest.line3.posy</posY>
           <width>1250</width>
           <height>30</height>
-          <label>3. #latestMediaHandler.movingpicture.latest3.title #latestMediaHandler.movingpicture.latest3.year</label>
+          <label>#(iif(eq(#latestMediaHandler.movingpicture.latest3.title,''),'','3. '))#latestMediaHandler.movingpicture.latest3.title #latestMediaHandler.movingpicture.latest3.year</label>
           <align>left</align>
           <font>font12</font>
           <textcolor>eaeaea</textcolor>
@@ -100,7 +100,7 @@
         <type>fadelabel</type>
         <id>041000</id>
         <posX>478</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>1380</width>
         <height>30</height>
         <label>#latestMediaHandler.movingpicture.latest1.title</label>
@@ -114,7 +114,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>1840</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>200</width>
         <height>140</height>
         <label>#latestMediaHandler.movingpicture.latest1.year</label>
@@ -128,7 +128,7 @@
         <type>textboxscrollup</type>
         <id>1</id>
         <posX>480</posX>
-        <posY>265</posY>
+        <posY>#home.latest.scroll.posy</posY>
         <width>1380</width>
         <height>85</height>
         <label>#latestMediaHandler.movingpicture.latest1.plotoutline</label>
@@ -146,7 +146,7 @@
         <type>fadelabel</type>
         <id>041001</id>
         <posX>478</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>1380</width>
         <height>30</height>
         <label>#latestMediaHandler.movingpicture.latest2.title</label>
@@ -160,7 +160,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>1840</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>200</width>
         <height>140</height>
         <label>#latestMediaHandler.movingpicture.latest2.year</label>
@@ -174,7 +174,7 @@
         <type>textboxscrollup</type>
         <id>1</id>
         <posX>480</posX>
-        <posY>265</posY>
+        <posY>#home.latest.scroll.posy</posY>
         <width>1380</width>
         <height>85</height>
         <label>#latestMediaHandler.movingpicture.latest2.plotoutline</label>
@@ -192,7 +192,7 @@
         <type>fadelabel</type>
         <id>041002</id>
         <posX>478</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>1380</width>
         <height>30</height>
         <label>#latestMediaHandler.movingpicture.latest3.title</label>
@@ -206,7 +206,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>1840</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>200</width>
         <height>140</height>
         <label>#latestMediaHandler.movingpicture.latest3.year</label>
@@ -220,7 +220,7 @@
         <type>textboxscrollup</type>
         <id>1</id>
         <posX>480</posX>
-        <posY>265</posY>
+        <posY>#home.latest.scroll.posy</posY>
         <width>1380</width>
         <height>85</height>
         <label>#latestMediaHandler.movingpicture.latest3.plotoutline</label>
@@ -239,7 +239,7 @@
         <type>image</type>
         <id>0</id>
         <posX>56</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>190</height>
         <width>137</width>
         <texture mask="CAmask_small.png">#latestMediaHandler.movingpicture.latest1.thumb</texture>
@@ -252,7 +252,7 @@
         <type>image</type>
         <id>0</id>
         <posX>193</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>190</height>
         <width>137</width>
         <texture mask="">#latestMediaHandler.movingpicture.latest2.thumb</texture>
@@ -265,7 +265,7 @@
         <type>image</type>
         <id>0</id>
         <posX>330</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>190</height>
         <width>137</width>
         <texture mask="">#latestMediaHandler.movingpicture.latest3.thumb</texture>
@@ -279,7 +279,7 @@
         <type>image</type>
         <id>0</id>
         <posX>56</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>50</height>
         <width>50</width>
         <align>left</align>
@@ -295,7 +295,7 @@
         <type>image</type>
         <id>0</id>
         <posX>193</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>50</height>
         <width>50</width>
         <align>left</align>
@@ -311,7 +311,7 @@
         <type>image</type>
         <id>0</id>
         <posX>330</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>50</height>
         <width>50</width>
         <align>left</align>
@@ -328,7 +328,7 @@
         <type>button</type>
         <id>91919991</id>
         <posX>56</posX>
-        <posY>338</posY>
+        <posY>#home.latest.play.posy</posY>
         <width>50</width>
         <height>50</height>
         <textureFocus>play_btn_white.png</textureFocus>
@@ -348,7 +348,7 @@
         <type>button</type>
         <id>91919992</id>
         <posX>193</posX>
-        <posY>338</posY>
+        <posY>#home.latest.play.posy</posY>
         <width>50</width>
         <height>50</height>
         <textureFocus>play_btn_white.png</textureFocus>
@@ -368,7 +368,7 @@
         <type>button</type>
         <id>91919993</id>
         <posX>330</posX>
-        <posY>338</posY>
+        <posY>#home.latest.play.posy</posY>
         <width>50</width>
         <height>50</height>
         <textureFocus>play_btn_white.png</textureFocus>
@@ -395,7 +395,7 @@
         <type>image</type>
         <id>0</id>
         <posX>40</posX>
-        <posY>191</posY>
+        <posY>#home.latest.posy</posY>
         <width>1845</width>
         <height>209</height>
         <texture>Inf_gfx.png</texture>
@@ -416,7 +416,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>478</posX>
-          <posY>200</posY>
+          <posY>#home.latest.label.posy</posY>
           <width>1250</width>
           <height>140</height>
           <label>#latestMediaHandler.tvseries.label</label>
@@ -430,10 +430,10 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>478</posX>
-          <posY>245</posY>
+          <posY>#home.latest.line1.posy</posY>
           <width>1250</width>
           <height>140</height>
-          <label>1. #latestMediaHandler.tvseries.latest1.serieName - #latestMediaHandler.tvseries.latest1.episodeName</label>
+          <label>#(iif(eq(#latestMediaHandler.tvseries.latest1.serieName,''),'','1. '))#latestMediaHandler.tvseries.latest1.serieName - #latestMediaHandler.tvseries.latest1.episodeName</label>
           <align>left</align>
           <font>font12</font>
           <textcolor>eaeaea</textcolor>
@@ -443,7 +443,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>1840</posX>
-          <posY>245</posY>
+          <posY>#home.latest.line1.posy</posY>
           <width>200</width>
           <height>140</height>
           <label>#(iif(neq(#latestMediaHandler.tvseries.latest1.seasonIndex,''),'S',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvseries.latest1.seasonIndex)))#(iif(neq(#latestMediaHandler.tvseries.latest1.episodeIndex,''),'E',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvseries.latest1.episodeIndex)))</label>
@@ -456,10 +456,10 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>478</posX>
-          <posY>290</posY>
+          <posY>#home.latest.line2.posy</posY>
           <width>1250</width>
           <height>140</height>
-          <label>2. #latestMediaHandler.tvseries.latest2.serieName - #latestMediaHandler.tvseries.latest2.episodeName</label>
+          <label>#(iif(eq(#latestMediaHandler.tvseries.latest2.serieName,''),'','2. '))#latestMediaHandler.tvseries.latest2.serieName - #latestMediaHandler.tvseries.latest2.episodeName</label>
           <align>left</align>
           <font>font12</font>
           <textcolor>eaeaea</textcolor>
@@ -469,7 +469,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>1840</posX>
-          <posY>290</posY>
+          <posY>#home.latest.line2.posy</posY>
           <width>200</width>
           <height>140</height>
           <label>#(iif(neq(#latestMediaHandler.tvseries.latest2.seasonIndex,''),'S',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvseries.latest2.seasonIndex)))#(iif(neq(#latestMediaHandler.tvseries.latest2.episodeIndex,''),'E',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvseries.latest2.episodeIndex)))</label>
@@ -482,10 +482,10 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>478</posX>
-          <posY>335</posY>
+          <posY>#home.latest.line3.posy</posY>
           <width>1250</width>
           <height>140</height>
-          <label>3. #latestMediaHandler.tvseries.latest3.serieName - #latestMediaHandler.tvseries.latest3.episodeName</label>
+          <label>#(iif(eq(#latestMediaHandler.tvseries.latest3.serieName,''),'','3. '))#latestMediaHandler.tvseries.latest3.serieName - #latestMediaHandler.tvseries.latest3.episodeName</label>
           <align>left</align>
           <font>font12</font>
           <textcolor>eaeaea</textcolor>
@@ -495,7 +495,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>1840</posX>
-          <posY>335</posY>
+          <posY>#home.latest.line3.posy</posY>
           <width>200</width>
           <height>140</height>
           <label>#(iif(neq(#latestMediaHandler.tvseries.latest3.seasonIndex,''),'S',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvseries.latest3.seasonIndex)))#(iif(neq(#latestMediaHandler.tvseries.latest3.episodeIndex,''),'E',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvseries.latest3.episodeIndex)))</label>
@@ -513,7 +513,7 @@
         <type>fadelabel</type>
         <id>041003</id>
         <posX>478</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>1380</width>
         <height>30</height>
         <label>#latestMediaHandler.tvseries.latest1.serieName - #latestMediaHandler.tvseries.latest1.episodeName</label>
@@ -527,7 +527,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>1840</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>200</width>
         <height>140</height>
         <label>#(iif(neq(#latestMediaHandler.tvseries.latest1.seasonIndex,''),'S',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvseries.latest1.seasonIndex)))#(iif(neq(#latestMediaHandler.tvseries.latest1.episodeIndex,''),'E',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvseries.latest1.episodeIndex)))</label>
@@ -541,7 +541,7 @@
         <type>textboxscrollup</type>
         <id>1</id>
         <posX>480</posX>
-        <posY>265</posY>
+        <posY>#home.latest.scroll.posy</posY>
         <width>1380</width>
         <height>85</height>
         <label>#latestMediaHandler.tvseries.latest1.plotoutline</label>
@@ -556,10 +556,10 @@
       </control>
 
       <control>
-        <type>textbox</type>
+        <type>fadelabel</type>
         <id>041004</id>
         <posX>478</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>1250</width>
         <height>140</height>
         <label>#latestMediaHandler.tvseries.latest2.serieName - #latestMediaHandler.tvseries.latest2.episodeName</label>
@@ -573,7 +573,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>1840</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>200</width>
         <height>140</height>
         <label>#(iif(neq(#latestMediaHandler.tvseries.latest2.seasonIndex,''),'S',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvseries.latest2.seasonIndex)))#(iif(neq(#latestMediaHandler.tvseries.latest2.episodeIndex,''),'E',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvseries.latest2.episodeIndex)))</label>
@@ -587,7 +587,7 @@
         <type>textboxscrollup</type>
         <id>1</id>
         <posX>480</posX>
-        <posY>265</posY>
+        <posY>#home.latest.scroll.posy</posY>
         <width>1380</width>
         <height>85</height>
         <label>#latestMediaHandler.tvseries.latest2.plotoutline</label>
@@ -602,10 +602,10 @@
       </control>
 
       <control>
-        <type>textbox</type>
+        <type>fadelabel</type>
         <id>041005</id>
         <posX>478</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>1250</width>
         <height>140</height>
         <label>#latestMediaHandler.tvseries.latest3.serieName - #latestMediaHandler.tvseries.latest3.episodeName</label>
@@ -619,7 +619,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>1840</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>200</width>
         <height>140</height>
         <label>#(iif(neq(#latestMediaHandler.tvseries.latest3.seasonIndex,''),'S',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvseries.latest3.seasonIndex)))#(iif(neq(#latestMediaHandler.tvseries.latest3.episodeIndex,''),'E',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvseries.latest3.episodeIndex)))</label>
@@ -633,7 +633,7 @@
         <type>textboxscrollup</type>
         <id>1</id>
         <posX>480</posX>
-        <posY>265</posY>
+        <posY>#home.latest.scroll.posy</posY>
         <width>1380</width>
         <height>85</height>
         <label>#latestMediaHandler.tvseries.latest3.plotoutline</label>
@@ -652,7 +652,7 @@
         <type>image</type>
         <id>0</id>
         <posX>56</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>190</height>
         <width>137</width>
         <texture mask="CAmask_small.png">#(iif(eq(#latestMediaHandler.tvseries.latest.mode,'seasons'),#latestMediaHandler.tvseries.latest1.thumb,#latestMediaHandler.tvseries.latest1.serieThumb))</texture>
@@ -665,7 +665,7 @@
         <type>image</type>
         <id>0</id>
         <posX>193</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>190</height>
         <width>137</width>
         <texture>#(iif(eq(#latestMediaHandler.tvseries.latest.mode,'seasons'),#latestMediaHandler.tvseries.latest2.thumb,#latestMediaHandler.tvseries.latest2.serieThumb))</texture>
@@ -678,7 +678,7 @@
         <type>image</type>
         <id>0</id>
         <posX>330</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>190</height>
         <width>137</width>
         <texture>#(iif(eq(#latestMediaHandler.tvseries.latest.mode,'seasons'),#latestMediaHandler.tvseries.latest3.thumb,#latestMediaHandler.tvseries.latest3.serieThumb))</texture>
@@ -692,7 +692,7 @@
         <type>image</type>
         <id>0</id>
         <posX>56</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>50</height>
         <width>50</width>
         <align>left</align>
@@ -708,7 +708,7 @@
         <type>image</type>
         <id>0</id>
         <posX>193</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>50</height>
         <width>50</width>
         <align>left</align>
@@ -724,7 +724,7 @@
         <type>image</type>
         <id>0</id>
         <posX>330</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>50</height>
         <width>50</width>
         <align>left</align>
@@ -741,7 +741,7 @@
         <type>button</type>
         <id>91919994</id>
         <posX>56</posX>
-        <posY>338</posY>
+        <posY>#home.latest.play.posy</posY>
         <width>50</width>
         <height>50</height>
         <textureFocus>play_btn_white.png</textureFocus>
@@ -761,7 +761,7 @@
         <type>button</type>
         <id>91919995</id>
         <posX>193</posX>
-        <posY>338</posY>
+        <posY>#home.latest.play.posy</posY>
         <width>50</width>
         <height>50</height>
         <textureFocus>play_btn_white.png</textureFocus>
@@ -781,7 +781,7 @@
         <type>button</type>
         <id>91919996</id>
         <posX>330</posX>
-        <posY>338</posY>
+        <posY>#home.latest.play.posy</posY>
         <width>50</width>
         <height>50</height>
         <textureFocus>play_btn_white.png</textureFocus>
@@ -808,7 +808,7 @@
         <type>image</type>
         <id>0</id>
         <posX>40</posX>
-        <posY>191</posY>
+        <posY>#home.latest.posy</posY>
         <width>1845</width>
         <height>209</height>
         <texture>Inf_gfx.png</texture>
@@ -820,7 +820,7 @@
         <type>image</type>
         <id>0</id>
         <posX>40</posX>
-        <posY>191</posY>
+        <posY>#home.latest.posy</posY>
         <width>1845</width>
         <height>209</height>
         <texture>Inf_gfx.png</texture>
@@ -837,10 +837,10 @@
         <visible>string.equals(#skin.latest.overview,true)+[control.isvisible(010009)|control.isvisible(019021)]</visible>
 
         <control>
-          <type>textbox</type>
+          <type>fadelabel</type>
           <id>0</id>
           <posX>628</posX>
-          <posY>200</posY>
+          <posY>#home.latest.label.posy</posY>
           <width>1250</width>
           <height>118</height>
           <label>#latestMediaHandler.tvrecordings.label</label>
@@ -852,13 +852,13 @@
         </control>
 
         <control>
-          <type>textbox</type>
+          <type>fadelabel</type>
           <id>0</id>
           <posX>628</posX>
-          <posY>245</posY>
+          <posY>#home.latest.line1.posy</posY>
           <width>1250</width>
           <height>118</height>
-          <label>1. #latestMediaHandler.tvrecordings.latest1.title #(iif(neq(#latestMediaHandler.tvrecordings.latest1.series,''),'S',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvrecordings.latest1.series)))#(iif(neq(#latestMediaHandler.tvrecordings.latest1.episode,''),'E',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvrecordings.latest1.episode)))</label>
+          <label>#(iif(eq(#latestMediaHandler.tvrecordings.latest1.title,''),'','1. '))#latestMediaHandler.tvrecordings.latest1.title #(iif(neq(#latestMediaHandler.tvrecordings.latest1.series,''),'S',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvrecordings.latest1.series)))#(iif(neq(#latestMediaHandler.tvrecordings.latest1.episode,''),'E',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvrecordings.latest1.episode)))</label>
           <align>left</align>
           <font>font12</font>
           <textcolor>eaeaea</textcolor>
@@ -866,13 +866,13 @@
           <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010012)">conditional</animation>
         </control>
         <control>
-          <type>textbox</type>
+          <type>fadelabel</type>
           <id>0</id>
           <posX>628</posX>
-          <posY>245</posY>
+          <posY>#home.latest.line1.posy</posY>
           <width>1250</width>
           <height>118</height>
-          <label>1. #latestMediaHandler.tvrecordings.latest1.title</label>
+          <label>#(iif(eq(#latestMediaHandler.tvrecordings.latest1.title,''),'','1. '))#latestMediaHandler.tvrecordings.latest1.title</label>
           <align>left</align>
           <font>font12</font>
           <textcolor>eaeaea</textcolor>
@@ -881,27 +881,27 @@
         </control>
 
         <control>
-          <type>textbox</type>
+          <type>fadelabel</type>
           <id>0</id>
           <posX>628</posX>
-          <posY>290</posY>
+          <posY>#home.latest.line2.posy</posY>
           <width>1250</width>
           <height>118</height>
-          <label>2. #latestMediaHandler.tvrecordings.latest2.title #(iif(neq(#latestMediaHandler.tvrecordings.latest2.series,''),'S',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvrecordings.latest2.series)))#(iif(neq(#latestMediaHandler.tvrecordings.latest2.episode,''),'E',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvrecordings.latest2.episode)))</label>
+          <label>#(iif(eq(#latestMediaHandler.tvrecordings.latest2.title,''),'','2. '))#latestMediaHandler.tvrecordings.latest2.title #(iif(neq(#latestMediaHandler.tvrecordings.latest2.series,''),'S',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvrecordings.latest2.series)))#(iif(neq(#latestMediaHandler.tvrecordings.latest2.episode,''),'E',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvrecordings.latest2.episode)))</label>
           <align>left</align>
           <font>font12</font>
           <textcolor>eaeaea</textcolor>
-          <visible>[[control.isvisible(010009)|control.isvisible(019021)]+string.equals(#latestMediaHandler.tvrecordings.latest1.episode)]+!control.isvisible(210013)</visible>
+          <visible>[[control.isvisible(010009)|control.isvisible(019021)]+string.equals(#latestMediaHandler.tvrecordings.latest2.episode)]+!control.isvisible(210013)</visible>
           <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010012)">conditional</animation>
         </control>
         <control>
-          <type>textbox</type>
+          <type>fadelabel</type>
           <id>0</id>
           <posX>628</posX>
-          <posY>290</posY>
+          <posY>#home.latest.line2.posy</posY>
           <width>1250</width>
           <height>118</height>
-          <label>2. #latestMediaHandler.tvrecordings.latest2.title</label>
+          <label>#(iif(eq(#latestMediaHandler.tvrecordings.latest2.title,''),'','2. '))#latestMediaHandler.tvrecordings.latest2.title</label>
           <align>left</align>
           <font>font12</font>
           <textcolor>eaeaea</textcolor>
@@ -914,10 +914,10 @@
       <!-- Common -->
 
       <control>
-        <type>textbox</type>
+        <type>fadelabel</type>
         <id>041006</id>
         <posX>8628</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>1250</width>
         <height>118</height>
         <label>#latestMediaHandler.tvrecordings.latest1.title</label>
@@ -928,10 +928,10 @@
         <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010012)">conditional</animation>
       </control>
       <control>
-        <type>textbox</type>
+        <type>fadelabel</type>
         <id>0</id>
         <posX>215</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>1250</width>
         <height>118</height>
         <label>Waiting for info from server...</label>
@@ -946,7 +946,7 @@
         <type>fadelabel</type>
         <id>030303</id>
         <posX>628</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>1380</width>
         <height>30</height>
         <label>#latestMediaHandler.tvrecordings.latest1.title #(iif(neq(#latestMediaHandler.tvrecordings.latest1.series,''),'S',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvrecordings.latest1.series)))#(iif(neq(#latestMediaHandler.tvrecordings.latest1.episode,''),'E',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvrecordings.latest1.episode)))</label>
@@ -960,7 +960,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>628</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>1380</width>
         <height>30</height>
         <label>#latestMediaHandler.tvrecordings.latest1.title</label>
@@ -974,7 +974,7 @@
         <type>textboxscrollup</type>
         <id>1</id>
         <posX>628</posX>
-        <posY>265</posY>
+        <posY>#home.latest.scroll.posy</posY>
         <width>1250</width>
         <height>85</height>
         <label>#latestMediaHandler.tvrecordings.latest1.summaryoutline</label>
@@ -991,7 +991,7 @@
         <type>fadelabel</type>
         <id>041007</id>
         <posX>628</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>1380</width>
         <height>30</height>
         <label>#latestMediaHandler.tvrecordings.latest2.title #(iif(neq(#latestMediaHandler.tvrecordings.latest2.series,''),'S',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvrecordings.latest2.series)))#(iif(neq(#latestMediaHandler.tvrecordings.latest2.episode,''),'E',''))#(string.format('{0:00}', cint(#latestMediaHandler.tvrecordings.latest2.episode)))</label>
@@ -1005,7 +1005,7 @@
         <type>textboxscrollup</type>
         <id>1</id>
         <posX>628</posX>
-        <posY>265</posY>
+        <posY>#home.latest.scroll.posy</posY>
         <width>1250</width>
         <height>85</height>
         <label>#latestMediaHandler.tvrecordings.latest2.summaryoutline</label>
@@ -1022,7 +1022,7 @@
         <type>image</type>
         <id>10000</id>
         <posX>56</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>190</height>
         <width>278</width>
         <zoomfromtop>middle</zoomfromtop>
@@ -1035,7 +1035,7 @@
         <type>image</type>
         <id>10000</id>
         <posX>334</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>190</height>
         <width>278</width>
         <zoomfromtop>middle</zoomfromtop>
@@ -1050,7 +1050,7 @@
         <type>button</type>
         <id>91919984</id>
         <posX>56</posX>
-        <posY>338</posY>
+        <posY>#home.latest.play.posy</posY>
         <width>50</width>
         <height>50</height>
         <textureFocus>play_btn_white.png</textureFocus>
@@ -1070,7 +1070,7 @@
         <type>button</type>
         <id>91919985</id>
         <posX>334</posX>
-        <posY>338</posY>
+        <posY>#home.latest.play.posy</posY>
         <width>50</width>
         <height>50</height>
         <textureFocus>play_btn_white.png</textureFocus>
@@ -1097,7 +1097,7 @@
         <type>image</type>
         <id>0</id>
         <posX>40</posX>
-        <posY>191</posY>
+        <posY>#home.latest.posy</posY>
         <width>1845</width>
         <height>209</height>
         <texture>Inf_gfx.png</texture>
@@ -1114,10 +1114,10 @@
         <visible>string.equals(#skin.latest.overview,true)+control.isvisible(010013)+!control.isvisible(210004)</visible>
         <control>
           <description>MyMusic Latest label</description>
-          <type>textbox</type>
+          <type>fadelabel</type>
           <id>0</id>
           <posX>638</posX>
-          <posY>200</posY>
+          <posY>#home.latest.label.posy</posY>
           <width>1250</width>
           <height>30</height>
           <label>#latestMediaHandler.music.label</label>
@@ -1131,10 +1131,10 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>638</posX>
-          <posY>245</posY>
+          <posY>#home.latest.line1.posy</posY>
           <width>1250</width>
           <height>30</height>
-          <label>1. #latestMediaHandler.music.latest1.artist#(iif(eq(#latestMediaHandler.music.latest1.album,''),'',string.format(' - {0}',#latestMediaHandler.music.latest1.album)))</label>
+          <label>#(iif(eq(#latestMediaHandler.music.latest1.artist,''),'','1. '))#latestMediaHandler.music.latest1.artist#(iif(eq(#latestMediaHandler.music.latest1.album,''),'',string.format(' - {0}',#latestMediaHandler.music.latest1.album)))</label>
           <align>left</align>
           <font>font12</font>
           <textcolor>eaeaea</textcolor>
@@ -1144,10 +1144,10 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>638</posX>
-          <posY>290</posY>
+          <posY>#home.latest.line2.posy</posY>
           <width>1250</width>
           <height>30</height>
-          <label>2. #latestMediaHandler.music.latest2.artist#(iif(eq(#latestMediaHandler.music.latest2.album,''),'',string.format(' - {0}',#latestMediaHandler.music.latest2.album)))</label>
+          <label>#(iif(eq(#latestMediaHandler.music.latest2.artist,''),'','2. '))#latestMediaHandler.music.latest2.artist#(iif(eq(#latestMediaHandler.music.latest2.album,''),'',string.format(' - {0}',#latestMediaHandler.music.latest2.album)))</label>
           <align>left</align>
           <font>font12</font>
           <textcolor>eaeaea</textcolor>
@@ -1157,10 +1157,10 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>638</posX>
-          <posY>335</posY>
+          <posY>#home.latest.line3.posy</posY>
           <width>1250</width>
           <height>30</height>
-          <label>3. #latestMediaHandler.music.latest3.artist#(iif(eq(#latestMediaHandler.music.latest3.album,''),'',string.format(' - {0}',#latestMediaHandler.music.latest3.album)))</label>
+          <label>#(iif(eq(#latestMediaHandler.music.latest3.artist,''),'','3. '))#latestMediaHandler.music.latest3.artist#(iif(eq(#latestMediaHandler.music.latest3.album,''),'',string.format(' - {0}',#latestMediaHandler.music.latest3.album)))</label>
           <align>left</align>
           <font>font12</font>
           <textcolor>eaeaea</textcolor>
@@ -1171,7 +1171,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>1840</posX>
-          <posY>245</posY>
+          <posY>#home.latest.line1.posy</posY>
           <width>200</width>
           <height>140</height>
           <label>#latestMediaHandler.music.latest1.year</label>
@@ -1184,7 +1184,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>1840</posX>
-          <posY>290</posY>
+          <posY>#home.latest.line2.posy</posY>
           <width>200</width>
           <height>140</height>
           <label>#latestMediaHandler.music.latest2.year</label>
@@ -1197,7 +1197,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>1840</posX>
-          <posY>335</posY>
+          <posY>#home.latest.line3.posy</posY>
           <width>200</width>
           <height>140</height>
           <label>#latestMediaHandler.music.latest3.year</label>
@@ -1214,7 +1214,7 @@
         <type>fadelabel</type>
         <id>041008</id>
         <posX>638</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>1380</width>
         <height>30</height>
         <label>#latestMediaHandler.music.latest1.artist#(iif(eq(#latestMediaHandler.music.latest1.album,''),'',string.format(' - {0}',#latestMediaHandler.music.latest1.album)))</label>
@@ -1228,7 +1228,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>1840</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>200</width>
         <height>140</height>
         <label>#latestMediaHandler.music.latest1.year</label>
@@ -1242,7 +1242,7 @@
         <type>textboxscrollup</type>
         <id>1</id>
         <posX>638</posX>
-        <posY>265</posY>
+        <posY>#home.latest.scroll.posy</posY>
         <width>1250</width>
         <height>90</height>
         <label>#latestMediaHandler.music.latest1.artistbiooutline</label>
@@ -1260,7 +1260,7 @@
         <type>fadelabel</type>
         <id>041009</id>
         <posX>638</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>1380</width>
         <height>30</height>
         <label>#latestMediaHandler.music.latest2.artist#(iif(eq(#latestMediaHandler.music.latest2.album,''),'',string.format(' - {0}',#latestMediaHandler.music.latest2.album)))</label>
@@ -1274,7 +1274,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>1840</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>200</width>
         <height>140</height>
         <label>#latestMediaHandler.music.latest2.year</label>
@@ -1288,7 +1288,7 @@
         <type>textboxscrollup</type>
         <id>1</id>
         <posX>638</posX>
-        <posY>265</posY>
+        <posY>#home.latest.scroll.posy</posY>
         <width>1250</width>
         <height>90</height>
         <label>#latestMediaHandler.music.latest2.artistbiooutline</label>
@@ -1306,7 +1306,7 @@
         <type>fadelabel</type>
         <id>041010</id>
         <posX>638</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>1380</width>
         <height>30</height>
         <label>#latestMediaHandler.music.latest3.artist#(iif(eq(#latestMediaHandler.music.latest3.album,''),'',string.format(' - {0}',#latestMediaHandler.music.latest3.album)))</label>
@@ -1320,7 +1320,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>1840</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>200</width>
         <height>140</height>
         <label>#latestMediaHandler.music.latest3.year</label>
@@ -1334,7 +1334,7 @@
         <type>textboxscrollup</type>
         <id>1</id>
         <posX>638</posX>
-        <posY>265</posY>
+        <posY>#home.latest.scroll.posy</posY>
         <width>1250</width>
         <height>90</height>
         <label>#latestMediaHandler.music.latest3.artistbiooutline</label>
@@ -1353,7 +1353,7 @@
         <type>image</type>
         <id>0</id>
         <posX>56</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>190</height>
         <width>190</width>
         <texture mask="MAmask.png">#latestMediaHandler.music.latest1.thumb</texture>
@@ -1366,7 +1366,7 @@
         <type>image</type>
         <id>0</id>
         <posX>246</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>190</height>
         <width>190</width>
         <texture mask="">#latestMediaHandler.music.latest2.thumb</texture>
@@ -1379,7 +1379,7 @@
         <type>image</type>
         <id>0</id>
         <posX>436</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>190</height>
         <width>190</width>
         <texture mask="">#latestMediaHandler.music.latest3.thumb</texture>
@@ -1393,7 +1393,7 @@
         <type>image</type>
         <id>0</id>
         <posX>56</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>50</height>
         <width>50</width>
         <align>left</align>
@@ -1409,7 +1409,7 @@
         <type>image</type>
         <id>0</id>
         <posX>246</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>50</height>
         <width>50</width>
         <align>left</align>
@@ -1425,7 +1425,7 @@
         <type>image</type>
         <id>0</id>
         <posX>436</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>50</height>
         <width>50</width>
         <align>left</align>
@@ -1442,7 +1442,7 @@
         <type>button</type>
         <id>91919997</id>
         <posX>56</posX>
-        <posY>338</posY>
+        <posY>#home.latest.play.posy</posY>
         <width>50</width>
         <height>50</height>
         <textureFocus>play_btn_white.png</textureFocus>
@@ -1462,7 +1462,7 @@
         <type>button</type>
         <id>91919998</id>
         <posX>246</posX>
-        <posY>338</posY>
+        <posY>#home.latest.play.posy</posY>
         <width>50</width>
         <height>50</height>
         <textureFocus>play_btn_white.png</textureFocus>
@@ -1482,7 +1482,7 @@
         <type>button</type>
         <id>91919999</id>
         <posX>436</posX>
-        <posY>338</posY>
+        <posY>#home.latest.play.posy</posY>
         <width>50</width>
         <height>50</height>
         <textureFocus>play_btn_white.png</textureFocus>
@@ -1509,7 +1509,7 @@
         <type>image</type>
         <id>0</id>
         <posX>40</posX>
-        <posY>191</posY>
+        <posY>#home.latest.posy</posY>
         <width>1845</width>
         <height>209</height>
         <texture>Inf_gfx.png</texture>
@@ -1527,10 +1527,10 @@
 
         <control>
           <description>MyVideo Latest label</description>
-          <type>textbox</type>
+          <type>fadelabel</type>
           <id>0</id>
           <posX>478</posX>
-          <posY>200</posY>
+          <posY>#home.latest.label.posy</posY>
           <width>1250</width>
           <height>140</height>
           <label>#latestMediaHandler.myvideo.label</label>
@@ -1541,39 +1541,39 @@
         </control>
 
         <control>
-          <type>textbox</type>
+          <type>fadelabel</type>
           <id>0</id>
           <posX>478</posX>
-          <posY>245</posY>
+          <posY>#home.latest.line1.posy</posY>
           <width>1250</width>
           <height>140</height>
-          <label>1. #latestMediaHandler.myvideo.latest1.title</label>
+          <label>#(iif(eq(#latestMediaHandler.myvideo.latest1.title,''),'','1. '))#latestMediaHandler.myvideo.latest1.title</label>
           <align>left</align>
           <font>font12</font>
           <textcolor>eaeaea</textcolor>
           <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010020)">conditional</animation>
         </control>
         <control>
-          <type>textbox</type>
+          <type>fadelabel</type>
           <id>0</id>
           <posX>478</posX>
-          <posY>290</posY>
+          <posY>#home.latest.line2.posy</posY>
           <width>1250</width>
           <height>140</height>
-          <label>2. #latestMediaHandler.myvideo.latest2.title</label>
+          <label>#(iif(eq(#latestMediaHandler.myvideo.latest2.title,''),'','2. '))#latestMediaHandler.myvideo.latest2.title</label>
           <align>left</align>
           <font>font12</font>
           <textcolor>eaeaea</textcolor>
           <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010020)">conditional</animation>
         </control>
         <control>
-          <type>textbox</type>
+          <type>fadelabel</type>
           <id>0</id>
           <posX>478</posX>
-          <posY>335</posY>
+          <posY>#home.latest.line3.posy</posY>
           <width>1250</width>
           <height>140</height>
-          <label>3. #latestMediaHandler.myvideo.latest3.title</label>
+          <label>#(iif(eq(#latestMediaHandler.myvideo.latest3.title,''),'','3. '))#latestMediaHandler.myvideo.latest3.title</label>
           <align>left</align>
           <font>font12</font>
           <textcolor>eaeaea</textcolor>
@@ -1584,7 +1584,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>1840</posX>
-          <posY>245</posY>
+          <posY>#home.latest.line1.posy</posY>
           <width>200</width>
           <height>140</height>
           <label>#latestMediaHandler.myvideo.latest1.year</label>
@@ -1597,7 +1597,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>1840</posX>
-          <posY>290</posY>
+          <posY>#home.latest.line2.posy</posY>
           <width>200</width>
           <height>140</height>
           <label>#latestMediaHandler.myvideo.latest2.year</label>
@@ -1610,7 +1610,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>1840</posX>
-          <posY>335</posY>
+          <posY>#home.latest.line3.posy</posY>
           <width>200</width>
           <height>140</height>
           <label>#latestMediaHandler.myvideo.latest3.year</label>
@@ -1624,10 +1624,10 @@
       <!-- Common -->
 
       <control>
-        <type>textbox</type>
+        <type>fadelabel</type>
         <id>041001</id>
         <posX>478</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>1160</width>
         <height>140</height>
         <label>#latestMediaHandler.myvideo.latest1.title</label>
@@ -1641,7 +1641,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>1840</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>200</width>
         <height>140</height>
         <label>#latestMediaHandler.myvideo.latest1.year</label>
@@ -1655,7 +1655,7 @@
         <type>textboxscrollup</type>
         <id>1</id>
         <posX>480</posX>
-        <posY>265</posY>
+        <posY>#home.latest.scroll.posy</posY>
         <width>1380</width>
         <height>85</height>
         <label>#latestMediaHandler.myvideo.latest1.plotoutline</label>
@@ -1670,10 +1670,10 @@
       </control>
 
       <control>
-        <type>textbox</type>
+        <type>fadelabel</type>
         <id>0</id>
         <posX>478</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>1250</width>
         <height>140</height>
         <label>#latestMediaHandler.myvideo.latest2.title</label>
@@ -1687,7 +1687,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>1840</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>200</width>
         <height>140</height>
         <label>#latestMediaHandler.myvideo.latest2.year</label>
@@ -1701,7 +1701,7 @@
         <type>textboxscrollup</type>
         <id>1</id>
         <posX>480</posX>
-        <posY>265</posY>
+        <posY>#home.latest.scroll.posy</posY>
         <width>1380</width>
         <height>85</height>
         <label>#latestMediaHandler.myvideo.latest2.plotoutline</label>
@@ -1716,10 +1716,10 @@
       </control>
 
       <control>
-        <type>textbox</type>
+        <type>fadelabel</type>
         <id>0</id>
         <posX>478</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>1250</width>
         <height>140</height>
         <label>#latestMediaHandler.myvideo.latest3.title</label>
@@ -1733,7 +1733,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>1840</posX>
-        <posY>215</posY>
+        <posY>#home.latest.title.posy</posY>
         <width>200</width>
         <height>140</height>
         <label>#latestMediaHandler.myvideo.latest3.year</label>
@@ -1747,7 +1747,7 @@
         <type>textboxscrollup</type>
         <id>1</id>
         <posX>480</posX>
-        <posY>265</posY>
+        <posY>#home.latest.scroll.posy</posY>
         <width>1380</width>
         <height>85</height>
         <label>#latestMediaHandler.myvideo.latest3.plotoutline</label>
@@ -1766,7 +1766,7 @@
         <type>image</type>
         <id>0</id>
         <posX>56</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>190</height>
         <width>137</width>
         <texture mask="CAmask_small.png">#latestMediaHandler.myvideo.latest1.thumb</texture>
@@ -1779,7 +1779,7 @@
         <type>image</type>
         <id>0</id>
         <posX>193</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>190</height>
         <width>137</width>
         <texture mask="">#latestMediaHandler.myvideo.latest2.thumb</texture>
@@ -1792,7 +1792,7 @@
         <type>image</type>
         <id>0</id>
         <posX>330</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>190</height>
         <width>137</width>
         <texture mask="">#latestMediaHandler.myvideo.latest3.thumb</texture>
@@ -1806,7 +1806,7 @@
         <type>image</type>
         <id>0</id>
         <posX>56</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>50</height>
         <width>50</width>
         <align>left</align>
@@ -1822,7 +1822,7 @@
         <type>image</type>
         <id>0</id>
         <posX>193</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>50</height>
         <width>50</width>
         <align>left</align>
@@ -1838,7 +1838,7 @@
         <type>image</type>
         <id>0</id>
         <posX>330</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
         <height>50</height>
         <width>50</width>
         <align>left</align>
@@ -1855,7 +1855,7 @@
         <type>button</type>
         <id>91915991</id>
         <posX>56</posX>
-        <posY>338</posY>
+        <posY>#home.latest.play.posy</posY>
         <width>50</width>
         <height>50</height>
         <textureFocus>play_btn_white.png</textureFocus>
@@ -1875,7 +1875,7 @@
         <type>button</type>
         <id>91915992</id>
         <posX>193</posX>
-        <posY>338</posY>
+        <posY>#home.latest.play.posy</posY>
         <width>50</width>
         <height>50</height>
         <textureFocus>play_btn_white.png</textureFocus>
@@ -1895,7 +1895,7 @@
         <type>button</type>
         <id>91915993</id>
         <posX>330</posX>
-        <posY>338</posY>
+        <posY>#home.latest.play.posy</posY>
         <width>50</width>
         <height>50</height>
         <textureFocus>play_btn_white.png</textureFocus>
@@ -1922,19 +1922,20 @@
         <type>image</type>
         <id>0</id>
         <posX>40</posX>
-        <posY>191</posY>
+        <posY>#home.latest.posy</posY>
         <width>1845</width>
         <height>209</height>
         <texture>Inf_gfx.png</texture>
         <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(013016)">conditional</animation>
         <visible>control.isvisible(013016)</visible>
       </control>
+
       <control>
         <description>Pictures Back</description>
         <type>image</type>
         <id>0</id>
         <posX>56</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
 		<height>190</height>
 		<width>190</width>
         <texture mask="MAmask.png">blue.png</texture>
@@ -1947,7 +1948,7 @@
         <type>image</type>
         <id>0</id>
         <posX>246</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
 		<height>190</height>
 		<width>190</width>
         <texture mask="">blue.png</texture>
@@ -1960,7 +1961,7 @@
         <type>image</type>
         <id>0</id>
         <posX>436</posX>
-        <posY>198</posY>
+        <posY>#home.latest.tile.posy</posY>
 		<height>190</height>
 		<width>190</width>
         <texture mask="">blue.png</texture>
@@ -1970,7 +1971,7 @@
       </control>	  
 
       <control>
-        <type>textbox</type>
+        <type>fadelabel</type>
         <id>0</id>
         <posX>643</posX>
         <posY>215</posY>
@@ -1984,7 +1985,7 @@
         <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(013016)">conditional</animation>
       </control>
       <control>
-        <type>textbox</type>
+        <type>fadelabel</type>
         <id>0</id>
         <posX>643</posX>
         <posY>265</posY>
@@ -1998,7 +1999,7 @@
         <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(013016)">conditional</animation>
       </control>
       <control>
-        <type>textbox</type>
+        <type>fadelabel</type>
         <id>0</id>
         <posX>643</posX>
         <posY>320</posY>
@@ -2231,7 +2232,7 @@
           <type>image</type>
           <id>0</id>
           <posX>40</posX>
-          <posY>191</posY>
+          <posY>#home.latest.posy</posY>
           <width>1845</width>
           <height>209</height>
           <texture>Inf_gfx.png</texture>
@@ -2253,7 +2254,7 @@
             <ondown>#skin.currentTile</ondown>
             <onright>98301</onright>
             <posX>85</posX>
-            <posY>199</posY>
+            <posY>#home.latest.tile.posy</posY>
             <width>492</width>
             <height>212</height>
             <thumbWidth>132</thumbWidth>
@@ -2301,7 +2302,7 @@
             <onright>#skin.currentTile</onright>
             <ondown>#skin.currentTile</ondown>
             <posX>950</posX>
-            <posY>199</posY>
+            <posY>#home.latest.tile.posy</posY>
             <width>492</width>
             <height>212</height>
             <thumbWidth>132</thumbWidth>
@@ -2339,7 +2340,7 @@
           <description>group element</description>
           <type>group</type>
           <posX>500</posX>
-          <posY>220</posY>
+          <posY>#home.latest.trakt.text.posy</posY>
           <dimColor>ffffffff</dimColor>
           <visible>control.isvisible(012016)</visible>
           <!--animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(012016)">conditional</animation-->
@@ -2349,7 +2350,7 @@
             <type>fadelabel</type>
             <id>1</id>
             <posX>87</posX>
-            <posY>455</posY>
+            <posY>#home.latest.trakt.line1.posy</posY>
             <width>420</width>
             <label>#Trakt.Movie.0.Title</label>
             <textcolor>ffffffff</textcolor>
@@ -2359,7 +2360,7 @@
             <type>fadelabel</type>
             <id>1</id>
             <posX>87</posX>
-            <posY>493</posY>
+            <posY>#home.latest.trakt.line2.posy</posY>
             <width>420</width>
             <label>#Trakt.Movie.1.Title</label>
             <textcolor>ffffffff</textcolor>
@@ -2369,7 +2370,7 @@
             <type>fadelabel</type>
             <id>1</id>
             <posX>87</posX>
-            <posY>531</posY>
+            <posY>#home.latest.trakt.line3.posy</posY>
             <width>420</width>
             <label>#Trakt.Movie.2.Title</label>
             <textcolor>ffffffff</textcolor>
@@ -2380,7 +2381,7 @@
           <description>group element</description>
           <type>group</type>
           <posX>1370</posX>
-          <posY>220</posY>
+          <posY>#home.latest.trakt.text.posy</posY>
           <dimColor>ffffffff</dimColor>
           <visible>control.isvisible(012016)</visible>
           <!--animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(012016)">conditional</animation-->
@@ -2390,7 +2391,7 @@
             <type>fadelabel</type>
             <id>1</id>
             <posX>1474</posX>
-            <posY>455</posY>
+            <posY>#home.latest.trakt.line1.posy</posY>
             <width>420</width>
             <label>#Trakt.Show.0.Title</label>
             <textcolor>ffffffff</textcolor>
@@ -2400,7 +2401,7 @@
             <type>fadelabel</type>
             <id>1</id>
             <posX>1474</posX>
-            <posY>493</posY>
+            <posY>#home.latest.trakt.line2.posy</posY>
             <width>420</width>
             <label>#Trakt.Show.1.Title</label>
             <textcolor>ffffffff</textcolor>
@@ -2410,7 +2411,7 @@
             <type>fadelabel</type>
             <id>1</id>
             <posX>1474</posX>
-            <posY>531</posY>
+            <posY>#home.latest.trakt.line3.posy</posY>
             <width>420</width>
             <label>#Trakt.Show.2.Title</label>
             <textcolor>ffffffff</textcolor>
@@ -2431,7 +2432,7 @@
         <type>image</type>
         <id>0</id>
         <posX>40</posX>
-        <posY>191</posY>
+        <posY>#home.latest.posy</posY>
         <width>1845</width>
         <height>209</height>
         <texture>Inf_gfx.png</texture>
@@ -2450,7 +2451,7 @@
           <type>image</type>
           <id>0</id>
           <posX>56</posX>
-          <posY>198</posY>
+          <posY>#home.latest.ov.cover.posy</posY>
           <height>190</height>
           <width>137</width>
           <texture mask="CAmask_small.png">blue.png</texture>
@@ -2462,7 +2463,7 @@
           <type>image</type>
           <id>0</id>
           <posX>193</posX>
-          <posY>198</posY>
+          <posY>#home.latest.ov.cover.posy</posY>
           <height>190</height>
           <width>137</width>
           <texture mask="">blue.png</texture>
@@ -2474,7 +2475,7 @@
           <type>image</type>
           <id>0</id>
           <posX>330</posX>
-          <posY>198</posY>
+          <posY>#home.latest.ov.cover.posy</posY>
           <height>190</height>
           <width>137</width>
           <texture mask="">blue.png</texture>
@@ -2486,7 +2487,7 @@
           <type>image</type>
           <id>0</id>
           <posX>467</posX>
-          <posY>198</posY>
+          <posY>#home.latest.ov.cover.posy</posY>
           <height>190</height>
           <width>137</width>
           <texture mask="">blue.png</texture>
@@ -2498,19 +2499,20 @@
           <type>image</type>
           <id>0</id>
           <posX>604</posX>
-          <posY>198</posY>
+          <posY>#home.latest.ov.cover.posy</posY>
           <height>190</height>
           <width>137</width>
           <texture mask="">blue.png</texture>
           <visible>[control.isvisible(5521125)+string.equals(#skin.latestOV, icon)]</visible>
           <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(5521125)">conditional</animation>
         </control>
+
         <control>
           <description>Thumb 1 (cover)</description>
           <type>image</type>
           <id>0</id>
           <posX>56</posX>
-          <posY>198</posY>
+          <posY>#home.latest.ov.cover.posy</posY>
           <height>190</height>
           <width>137</width>
           <texture mask="CAmask_small.png">#OnlineVideos.LatestVideo1.Thumb</texture>
@@ -2524,7 +2526,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>490</posX>
-          <posY>220</posY>
+          <posY>#home.latest.ov.line1.posy</posY>
           <width>931</width>
           <label>#OnlineVideos.LatestVideo1.Title</label>
           <font>font12</font>
@@ -2538,7 +2540,7 @@
           <type>image</type>
           <id>0</id>
           <posX>193</posX>
-          <posY>198</posY>
+          <posY>#home.latest.ov.cover.posy</posY>
           <height>190</height>
           <width>137</width>
           <texture>#OnlineVideos.LatestVideo2.Thumb</texture>
@@ -2552,7 +2554,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>490</posX>
-          <posY>270</posY>
+          <posY>#home.latest.ov.line2.posy</posY>
           <width>931</width>
           <label>#OnlineVideos.LatestVideo2.Title</label>
           <font>font12</font>
@@ -2566,7 +2568,7 @@
           <type>image</type>
           <id>0</id>
           <posX>330</posX>
-          <posY>198</posY>
+          <posY>#home.latest.ov.cover.posy</posY>
           <height>190</height>
           <width>137</width>
           <texture>#OnlineVideos.LatestVideo3.Thumb</texture>
@@ -2580,7 +2582,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>490</posX>
-          <posY>320</posY>
+          <posY>#home.latest.ov.line3.posy</posY>
           <width>931</width>
           <label>#OnlineVideos.LatestVideo3.Title</label>
           <font>font12</font>
@@ -2594,7 +2596,7 @@
           <type>image</type>
           <id>0</id>
           <posX>193</posX>
-          <posY>198</posY>
+          <posY>#home.latest.ov.cover.posy</posY>
           <height>190</height>
           <width>156</width>
           <texture mask="">home_shadows.png</texture>
@@ -2607,7 +2609,7 @@
           <type>image</type>
           <id>0</id>
           <posX>85</posX>
-          <posY>235</posY>
+          <posY>#home.latest.ov.thumb.posy</posY>
           <width>159</width>
           <height>118</height>
           <zoom>true</zoom>
@@ -2623,7 +2625,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>636</posX>
-          <posY>220</posY>
+          <posY>#home.latest.ov.line1.posy</posY>
           <width>859</width>
           <label>#OnlineVideos.LatestVideo1.Title</label>
           <font>font12</font>
@@ -2637,7 +2639,7 @@
           <type>image</type>
           <id>0</id>
           <posX>259</posX>
-          <posY>235</posY>
+          <posY>#home.latest.ov.thumb.posy</posY>
           <width>159</width>
           <height>118</height>
           <zoom>true</zoom>
@@ -2653,7 +2655,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>636</posX>
-          <posY>270</posY>
+          <posY>#home.latest.ov.line2.posy</posY>
           <width>859</width>
           <label>#OnlineVideos.LatestVideo2.Title</label>
           <font>font12</font>
@@ -2667,7 +2669,7 @@
           <type>image</type>
           <id>0</id>
           <posX>433</posX>
-          <posY>235</posY>
+          <posY>#home.latest.ov.thumb.posy</posY>
           <width>159</width>
           <height>118</height>
           <zoom>true</zoom>
@@ -2683,7 +2685,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>636</posX>
-          <posY>320</posY>
+          <posY>#home.latest.ov.line3.posy</posY>
           <width>859</width>
           <label>#OnlineVideos.LatestVideo3.Title</label>
           <font>font12</font>
@@ -2698,7 +2700,7 @@
           <type>image</type>
           <id>0</id>
           <posX>95</posX>
-          <posY>198</posY>
+          <posY>#home.latest.ov.square.posy</posY>
           <width>191</width>
           <height>191</height>
           <zoom>true</zoom>
@@ -2714,7 +2716,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>700</posX>
-          <posY>220</posY>
+          <posY>#home.latest.ov.line1.posy</posY>
           <width>766</width>
           <label>#OnlineVideos.LatestVideo1.Title</label>
           <font>font12</font>
@@ -2728,7 +2730,7 @@
           <type>image</type>
           <id>0</id>
           <posX>286</posX>
-          <posY>198</posY>
+          <posY>#home.latest.ov.square.posy</posY>
           <width>191</width>
           <height>191</height>
           <zoom>true</zoom>
@@ -2744,7 +2746,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>700</posX>
-          <posY>270</posY>
+          <posY>#home.latest.ov.line2.posy</posY>
           <width>766</width>
           <label>#OnlineVideos.LatestVideo2.Title</label>
           <font>font12</font>
@@ -2758,7 +2760,7 @@
           <type>image</type>
           <id>0</id>
           <posX>477</posX>
-          <posY>198</posY>
+          <posY>#home.latest.ov.square.posy</posY>
           <width>191</width>
           <height>191</height>
           <zoom>true</zoom>
@@ -2774,7 +2776,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>700</posX>
-          <posY>320</posY>
+          <posY>#home.latest.ov.line3.posy</posY>
           <width>766</width>
           <label>#OnlineVideos.LatestVideo3.Title</label>
           <font>font12</font>
@@ -2789,7 +2791,7 @@
           <type>image</type>
           <id>0</id>
           <posX>95</posX>
-          <posY>208</posY>
+          <posY>#home.latest.ov.icon.posy</posY>
           <width>170</width>
           <height>170</height>
           <zoom>true</zoom>
@@ -2804,7 +2806,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>769</posX>
-          <posY>220</posY>
+          <posY>#home.latest.ov.line1.posy</posY>
           <width>766</width>
           <label>#OnlineVideos.LatestVideo1.Title</label>
           <font>font12</font>
@@ -2818,7 +2820,7 @@
           <type>image</type>
           <id>0</id>
           <posX>301</posX>
-          <posY>208</posY>
+          <posY>#home.latest.ov.icon.posy</posY>
           <width>170</width>
           <height>170</height>
           <zoom>true</zoom>
@@ -2833,7 +2835,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>769</posX>
-          <posY>270</posY>
+          <posY>#home.latest.ov.line2.posy</posY>
           <width>766</width>
           <label>#OnlineVideos.LatestVideo2.Title</label>
           <font>font12</font>
@@ -2847,7 +2849,7 @@
           <type>image</type>
           <id>0</id>
           <posX>507</posX>
-          <posY>208</posY>
+          <posY>#home.latest.ov.icon.posy</posY>
           <width>170</width>
           <height>170</height>
           <zoom>true</zoom>
@@ -2862,7 +2864,7 @@
           <type>fadelabel</type>
           <id>0</id>
           <posX>769</posX>
-          <posY>320</posY>
+          <posY>#home.latest.ov.line3.posy</posY>
           <width>766</width>
           <label>#OnlineVideos.LatestVideo3.Title</label>
           <font>font12</font>
@@ -2876,7 +2878,7 @@
           <type>label</type>
           <id>0</id>
           <posX>1580</posX>
-          <posY>220</posY>
+          <posY>#home.latest.ov.line1.posy</posY>
           <width>280</width>
           <label>#OnlineVideos.LatestVideo1.Site</label>
           <font>font12</font>
@@ -2888,7 +2890,7 @@
           <type>label</type>
           <id>0</id>
           <posX>1580</posX>
-          <posY>270</posY>
+          <posY>#home.latest.ov.line2.posy</posY>
           <width>280</width>
           <label>#OnlineVideos.LatestVideo2.Site</label>
           <font>font12</font>
@@ -2900,7 +2902,7 @@
           <type>label</type>
           <id>0</id>
           <posX>1580</posX>
-          <posY>320</posY>
+          <posY>#home.latest.ov.line3.posy</posY>
           <width>280</width>
           <label>#OnlineVideos.LatestVideo3.Site</label>
           <font>font12</font>
@@ -2927,7 +2929,7 @@
         <type>image</type>
         <id>0</id>
         <posX>40</posX>
-        <posY>191</posY>
+        <posY>#home.latest.posy</posY>
         <width>1845</width>
         <height>209</height>
         <texture>Inf_gfx.png</texture>
@@ -2938,7 +2940,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>1590</posX>
-        <posY>285</posY>
+        <posY>#home.latest.w.name.posy</posY>
         <font>TitanLight12</font>
         <textcolor>ffffffff</textcolor>
         <label>#WorldWeather.ForecastDay4Day</label>
@@ -2949,7 +2951,7 @@
         <type>label</type>
         <id>0</id>
         <posX>1590</posX>
-        <posY>320</posY>
+        <posY>#home.latest.w.value.posy</posY>
 		<align>left</align>
         <label>#WorldWeather.ForecastDay4High | #WorldWeather.ForecastDay4Low</label>
         <font>font11</font>
@@ -2961,7 +2963,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>1590</posX>
-        <posY>350</posY>
+        <posY>#home.latest.w.condition.posy</posY>
 		<align>left</align>
         <label>#WorldWeather.ForecastDay4Condition</label>
         <font>font11</font>
@@ -2974,7 +2976,7 @@
 		<type>image</type>
 		<id>0</id>
 		<posX>1590</posX>
-		<posY>195</posY>
+		<posY>#home.latest.w.image.posy</posY>
 		<height>120</height>
 		<width>120</width>
 		<texture>#WorldWeather.ForecastDay4IconImage</texture>
@@ -2988,7 +2990,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>1370</posX>
-        <posY>285</posY>
+        <posY>#home.latest.w.name.posy</posY>
         <font>TitanLight12</font>
         <textcolor>ffffffff</textcolor>
         <label>#WorldWeather.ForecastDay3Day</label>
@@ -2999,7 +3001,7 @@
         <type>label</type>
         <id>0</id>
         <posX>1370</posX>
-        <posY>320</posY>
+        <posY>#home.latest.w.value.posy</posY>
 		<align>left</align>
         <label>#WorldWeather.ForecastDay3High | #WorldWeather.ForecastDay3Low</label>
         <font>font11</font>
@@ -3011,7 +3013,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>1370</posX>
-        <posY>350</posY>
+        <posY>#home.latest.w.condition.posy</posY>
 		<align>left</align>
         <label>#WorldWeather.ForecastDay3Condition</label>
         <font>font11</font>
@@ -3024,7 +3026,7 @@
 		<type>image</type>
 		<id>0</id>
 		<posX>1360</posX>
-		<posY>195</posY>
+		<posY>#home.latest.w.image.posy</posY>
 		<height>120</height>
 		<width>120</width>
 		<texture>#WorldWeather.ForecastDay3IconImage</texture>
@@ -3038,7 +3040,7 @@
         <type>label</type>
         <id>0</id>
         <posX>1140</posX>
-        <posY>285</posY>
+        <posY>#home.latest.w.name.posy</posY>
         <font>TitanLight12</font>
         <textcolor>ffffffff</textcolor>
         <label>#WorldWeather.ForecastDay2Day</label>
@@ -3049,7 +3051,7 @@
         <type>label</type>
         <id>0</id>
         <posX>1140</posX>
-        <posY>320</posY>
+        <posY>#home.latest.w.value.posy</posY>
 		<align>left</align>
         <label>#WorldWeather.ForecastDay2High | #WorldWeather.ForecastDay2Low</label>
         <font>font11</font>
@@ -3061,7 +3063,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>1140</posX>
-        <posY>350</posY>
+        <posY>#home.latest.w.condition.posy</posY>
 		<align>left</align>
         <label>#WorldWeather.ForecastDay2Condition</label>
         <font>font11</font>
@@ -3074,7 +3076,7 @@
 		<type>image</type>
 		<id>0</id>
 		<posX>1140</posX>
-		<posY>195</posY>
+		<posY>#home.latest.w.image.posy</posY>
 		<height>120</height>
 		<width>120</width>
 		<texture>#WorldWeather.ForecastDay2IconImage</texture>
@@ -3088,7 +3090,7 @@
         <type>label</type>
         <id>0</id>
         <posX>920</posX>
-        <posY>285</posY>
+        <posY>#home.latest.w.name.posy</posY>
         <font>TitanLight12</font>
         <textcolor>ffffffff</textcolor>
         <label>#WorldWeather.ForecastDay1Day</label>
@@ -3099,7 +3101,7 @@
         <type>label</type>
         <id>0</id>
         <posX>920</posX>
-        <posY>320</posY>
+        <posY>#home.latest.w.value.posy</posY>
 		<align>left</align>
         <label>#WorldWeather.ForecastDay1High | #WorldWeather.ForecastDay1Low</label>
         <font>font11</font>
@@ -3111,7 +3113,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>920</posX>
-        <posY>350</posY>
+        <posY>#home.latest.w.condition.posy</posY>
 		<align>left</align>
         <label>#WorldWeather.ForecastDay1Condition</label>
         <font>font11</font>
@@ -3124,7 +3126,7 @@
 		<type>image</type>
 		<id>0</id>
 		<posX>920</posX>
-		<posY>195</posY>
+		<posY>#home.latest.w.image.posy</posY>
 		<height>120</height>
 		<width>120</width>
 		<texture>#WorldWeather.ForecastDay1IconImage</texture>
@@ -3138,7 +3140,7 @@
         <type>label</type>
         <id>0</id>
         <posX>700</posX>
-        <posY>285</posY>
+        <posY>#home.latest.w.name.posy</posY>
         <font>TitanLight12</font>
         <textcolor>ffffffff</textcolor>
         <label>#WorldWeather.ForecastDay0Day</label>
@@ -3149,7 +3151,7 @@
         <type>label</type>
         <id>0</id>
         <posX>700</posX>
-        <posY>320</posY>
+        <posY>#home.latest.w.value.posy</posY>
 		<align>left</align>
         <label>#WorldWeather.ForecastDay0High | #WorldWeather.ForecastDay0Low</label>
         <font>font11</font>
@@ -3161,7 +3163,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>700</posX>
-        <posY>350</posY>
+        <posY>#home.latest.w.condition.posy</posY>
 		<align>left</align>
         <label>#WorldWeather.ForecastDay0Condition</label>
         <font>font11</font>
@@ -3174,7 +3176,7 @@
 		<type>image</type>
 		<id>0</id>
 		<posX>700</posX>
-		<posY>195</posY>
+		<posY>#home.latest.w.image.posy</posY>
 		<height>120</height>
 		<width>120</width>
 		<texture>#WorldWeather.ForecastDay0IconImage</texture>
@@ -3188,7 +3190,7 @@
         <type>label</type>
         <id>0</id>
         <posX>350</posX>
-        <posY>205</posY>
+        <posY>#home.latest.w.main.name.posy</posY>
         <label>#(string.rtrim(L(143),':'))</label>
         <font>TitanLight20</font>
         <textcolor>ffffffff</textcolor>
@@ -3199,7 +3201,7 @@
         <type>fadelabel</type>
         <id>0</id>
         <posX>355</posX>
-        <posY>260</posY>
+        <posY>#home.latest.w.main.condition.posy</posY>
 		<width>320</width>
         <label>#WorldWeather.TodayCondition</label>
         <font>fontB20</font>
@@ -3211,7 +3213,7 @@
         <type>label</type>
         <id>0</id>
         <posX>355</posX>
-        <posY>315</posY>
+        <posY>#home.latest.w.main.value.posy</posY>
         <label>#WorldWeather.TodayTemperature | #WorldWeather.ForecastDay0Low</label>
         <font>fontB20</font>
         <textcolor>cccccccc</textcolor>
@@ -3222,7 +3224,7 @@
 		<type>image</type>
 		<id>0</id>
 		<posX>100</posX>
-		<posY>185</posY>
+		<posY>#home.latest.w.main.image.posy</posY>
 		<height>236</height>
 		<width>236</width>
 		<texture>#WorldWeather.TodayIconImage</texture>
@@ -3230,6 +3232,471 @@
        	<valign>top</valign>
         <animation effect="zoom" reversible="false" start="10,10" end="100,100" time="1500">Visible</animation>
 	</control>
+  </control>
+
+      <!-- ******************************************************************************************** -->
+      <!-- ***************************   Latest MvCentral   ******************************************* -->
+      <!-- ******************************************************************************************** -->
+
+
+      <control>
+        <description>MvCentral Background</description>
+        <type>image</type>
+        <id>0</id>
+        <posX>40</posX>
+        <posY>#home.latest.posy</posY>
+        <width>1845</width>
+        <height>209</height>
+        <texture>Inf_gfx.png</texture>
+        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+        <visible>control.isvisible(010033)</visible>
+      </control>
+
+      <!-- Overview -->
+
+      <control>
+        <description>group element</description>
+        <type>group</type>
+        <dimColor>ffffffff</dimColor>
+        <visible>string.equals(#skin.latest.overview,true)+control.isvisible(010030)+!control.isvisible(210003)</visible>
+        <control>
+          <description>MvCentral Latest label</description>
+          <type>fadelabel</type>
+          <id>0</id>
+          <posX>638</posX>
+          <posY>#home.latest.label.posy</posY>
+          <width>1250</width>
+          <height>30</height>
+          <label>#latestMediaHandler.mvcentral.label</label>
+          <align>left</align>
+          <font>font13</font>
+          <textcolor>FFFFFFFF</textcolor>
+          <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+        </control>
+
+        <control>
+          <type>fadelabel</type>
+          <id>0</id>
+          <posX>638</posX>
+          <posY>#home.latest.line1.posy</posY>
+          <width>1250</width>
+          <height>30</height>
+          <label>#(iif(eq(#latestMediaHandler.mvcentral.latest1.artist,''),'','1. '))#latestMediaHandler.mvcentral.latest1.artist#(iif(eq(#latestMediaHandler.mvcentral.latest1.album,''),'',string.format(' - {0}',#latestMediaHandler.mvcentral.latest1.album)))</label>
+          <align>left</align>
+          <font>font12</font>
+          <textcolor>eaeaea</textcolor>
+          <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+        </control>
+        <control>
+          <type>fadelabel</type>
+          <id>0</id>
+          <posX>638</posX>
+          <posY>#home.latest.line2.posy</posY>
+          <width>1250</width>
+          <height>30</height>
+          <label>#(iif(eq(#latestMediaHandler.mvcentral.latest2.artist,''),'','2. '))#latestMediaHandler.mvcentral.latest2.artist#(iif(eq(#latestMediaHandler.mvcentral.latest2.album,''),'',string.format(' - {0}',#latestMediaHandler.mvcentral.latest2.album)))</label>
+          <align>left</align>
+          <font>font12</font>
+          <textcolor>eaeaea</textcolor>
+          <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+        </control>
+        <control>
+          <type>fadelabel</type>
+          <id>0</id>
+          <posX>638</posX>
+          <posY>#home.latest.line3.posy</posY>
+          <width>1250</width>
+          <height>30</height>
+          <label>#(iif(eq(#latestMediaHandler.mvcentral.latest3.artist,''),'','3. '))#latestMediaHandler.mvcentral.latest3.artist#(iif(eq(#latestMediaHandler.mvcentral.latest3.album,''),'',string.format(' - {0}',#latestMediaHandler.mvcentral.latest3.album)))</label>
+          <align>left</align>
+          <font>font12</font>
+          <textcolor>eaeaea</textcolor>
+          <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+        </control>
+
+        <control>
+          <type>fadelabel</type>
+          <id>0</id>
+          <posX>1840</posX>
+          <posY>#home.latest.line1.posy</posY>
+          <width>200</width>
+          <height>140</height>
+          <label>#latestMediaHandler.mvcentral.latest1.year</label>
+          <align>right</align>
+          <font>font12</font>
+          <textcolor>eaeaea</textcolor>
+          <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+        </control>
+        <control>
+          <type>fadelabel</type>
+          <id>0</id>
+          <posX>1840</posX>
+          <posY>#home.latest.line2.posy</posY>
+          <width>200</width>
+          <height>140</height>
+          <label>#latestMediaHandler.mvcentral.latest2.year</label>
+          <align>right</align>
+          <font>font12</font>
+          <textcolor>eaeaea</textcolor>
+          <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+        </control>
+        <control>
+          <type>fadelabel</type>
+          <id>0</id>
+          <posX>1840</posX>
+          <posY>#home.latest.line3.posy</posY>
+          <width>200</width>
+          <height>140</height>
+          <label>#latestMediaHandler.mvcentral.latest3.year</label>
+          <align>right</align>
+          <font>font12</font>
+          <textcolor>eaeaea</textcolor>
+          <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+        </control>
+      </control>
+
+      <!-- Common -->
+
+      <control>
+        <type>fadelabel</type>
+        <id>041011</id>
+        <posX>638</posX>
+        <posY>#home.latest.title.posy</posY>
+        <width>1380</width>
+        <height>30</height>
+        <label>#latestMediaHandler.mvcentral.latest1.artist#(iif(eq(#latestMediaHandler.mvcentral.latest1.album,''),'',string.format(' - {0}',#latestMediaHandler.mvcentral.latest1.album)))</label>
+        <align>left</align>
+        <font>font13</font>
+        <textcolor>eaeaea</textcolor>
+        <visible>[control.isvisible(010030)+!string.equals(#skin.latest.overview,true)]|[control.isvisible(210003)+string.equals(#skin.latest.overview,true)]</visible>
+        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+      </control>
+      <control>
+        <type>fadelabel</type>
+        <id>0</id>
+        <posX>1840</posX>
+        <posY>#home.latest.title.posy</posY>
+        <width>200</width>
+        <height>140</height>
+        <label>#latestMediaHandler.mvcentral.latest1.year</label>
+        <align>right</align>
+        <font>font13</font>
+        <textcolor>eaeaea</textcolor>
+        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+        <visible>[control.isvisible(010030)+!string.equals(#skin.latest.overview,true)]|[control.isvisible(210003)+string.equals(#skin.latest.overview,true)]</visible>
+      </control>
+      <control>
+        <type>textboxscrollup</type>
+        <id>1</id>
+        <posX>638</posX>
+        <posY>#home.latest.scroll.posy</posY>
+        <width>1250</width>
+        <height>90</height>
+        <label>#latestMediaHandler.mvcentral.latest1.artistbiooutline</label>
+        <align>left</align>
+        <font>font13</font>
+        <textcolor>99ffffff</textcolor>
+        <scrollStartDelaySec>20</scrollStartDelaySec>
+        <spaceBetweenItems>0</spaceBetweenItems>
+        <seperator>-------------------------------------------------------------------------------------------------------------------</seperator>
+        <visible>[control.isvisible(010030)+!string.equals(#skin.latest.overview,true)]|[control.isvisible(210003)+string.equals(#skin.latest.overview,true)]</visible>
+        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+      </control>
+
+      <control>
+        <type>fadelabel</type>
+        <id>041012</id>
+        <posX>638</posX>
+        <posY>#home.latest.title.posy</posY>
+        <width>1380</width>
+        <height>30</height>
+        <label>#latestMediaHandler.mvcentral.latest2.artist#(iif(eq(#latestMediaHandler.mvcentral.latest2.album,''),'',string.format(' - {0}',#latestMediaHandler.mvcentral.latest2.album)))</label>
+        <align>left</align>
+        <font>font13</font>
+        <textcolor>eaeaea</textcolor>
+        <visible>control.isvisible(010031)</visible>
+        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+      </control>
+      <control>
+        <type>fadelabel</type>
+        <id>0</id>
+        <posX>1840</posX>
+        <posY>#home.latest.title.posy</posY>
+        <width>200</width>
+        <height>140</height>
+        <label>#latestMediaHandler.mvcentral.latest2.year</label>
+        <align>right</align>
+        <font>font13</font>
+        <textcolor>eaeaea</textcolor>
+        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+        <visible>control.isvisible(010031)</visible>
+      </control>
+      <control>
+        <type>textboxscrollup</type>
+        <id>1</id>
+        <posX>638</posX>
+        <posY>#home.latest.scroll.posy</posY>
+        <width>1250</width>
+        <height>90</height>
+        <label>#latestMediaHandler.mvcentral.latest2.artistbiooutline</label>
+        <align>left</align>
+        <font>font13</font>
+        <textcolor>99ffffff</textcolor>
+        <scrollStartDelaySec>20</scrollStartDelaySec>
+        <spaceBetweenItems>0</spaceBetweenItems>
+        <seperator>-------------------------------------------------------------------------------------------------------------------</seperator>
+        <visible>control.isvisible(010031)</visible>
+        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+      </control>
+
+      <control>
+        <type>fadelabel</type>
+        <id>041013</id>
+        <posX>638</posX>
+        <posY>#home.latest.title.posy</posY>
+        <width>1380</width>
+        <height>30</height>
+        <label>#latestMediaHandler.mvcentral.latest3.artist#(iif(eq(#latestMediaHandler.mvcentral.latest3.album,''),'',string.format(' - {0}',#latestMediaHandler.mvcentral.latest3.album)))</label>
+        <align>left</align>
+        <font>font13</font>
+        <textcolor>eaeaea</textcolor>
+        <visible>control.isvisible(010032)</visible>
+        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+      </control>
+      <control>
+        <type>fadelabel</type>
+        <id>0</id>
+        <posX>1840</posX>
+        <posY>#home.latest.title.posy</posY>
+        <width>200</width>
+        <height>140</height>
+        <label>#latestMediaHandler.mvcentral.latest3.year</label>
+        <align>right</align>
+        <font>font13</font>
+        <textcolor>eaeaea</textcolor>
+        <visible>control.isvisible(010032)</visible>
+        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+      </control>
+      <control>
+        <type>textboxscrollup</type>
+        <id>1</id>
+        <posX>638</posX>
+        <posY>#home.latest.scroll.posy</posY>
+        <width>1250</width>
+        <height>90</height>
+        <label>#latestMediaHandler.mvcentral.latest3.artistbiooutline</label>
+        <align>left</align>
+        <font>font13</font>
+        <textcolor>99ffffff</textcolor>
+        <scrollStartDelaySec>20</scrollStartDelaySec>
+        <spaceBetweenItems>0</spaceBetweenItems>
+        <seperator>-------------------------------------------------------------------------------------------------------------------</seperator>
+        <visible>control.isvisible(010032)</visible>
+        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+      </control>
+
+      <control>
+        <description>BasicHome tile1</description>
+        <type>image</type>
+        <id>0</id>
+        <posX>56</posX>
+        <posY>#home.latest.tile.posy</posY>
+        <height>190</height>
+        <width>190</width>
+        <texture mask="MAmask.png">#latestMediaHandler.mvcentral.latest1.thumb</texture>
+        <visible>control.isvisible(010033)</visible>
+        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+        <animation effect="zoom" reversible="false" start="10,10" end="100,100" time="1500">Visible</animation>
+      </control>
+      <control>
+        <description>BasicHome tile2</description>
+        <type>image</type>
+        <id>0</id>
+        <posX>246</posX>
+        <posY>#home.latest.tile.posy</posY>
+        <height>190</height>
+        <width>190</width>
+        <texture mask="">#latestMediaHandler.mvcentral.latest2.thumb</texture>
+        <visible>control.isvisible(010033)</visible>
+        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+        <animation effect="zoom" reversible="false" start="10,10" end="100,100" time="1500">Visible</animation>
+      </control>
+      <control>
+        <description>BasicHome tile3</description>
+        <type>image</type>
+        <id>0</id>
+        <posX>436</posX>
+        <posY>#home.latest.tile.posy</posY>
+        <height>190</height>
+        <width>190</width>
+        <texture mask="">#latestMediaHandler.mvcentral.latest3.thumb</texture>
+        <visible>control.isvisible(010033)</visible>
+        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+        <animation effect="zoom" reversible="false" start="10,10" end="100,100" time="1500">Visible</animation>
+      </control>
+
+      <control>
+        <description>BasicHome New tile1</description>
+        <type>image</type>
+        <id>0</id>
+        <posX>56</posX>
+        <posY>#home.latest.tile.posy</posY>
+        <height>50</height>
+        <width>50</width>
+        <align>left</align>
+        <valign>top</valign>
+        <keepaspectratio>yes</keepaspectratio>
+        <texture>basichome_new_indicator.png</texture>
+        <visible>control.isvisible(010033)+string.equals(#latestMediaHandler.mvcentral.latest1.new,true)+string.equals(#skin.enable.latest.New,true)</visible>
+        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+        <animation effect="zoom" reversible="false" start="10,10" end="100,100" time="1500">Visible</animation>
+      </control>
+      <control>
+        <description>BasicHome New tile2</description>
+        <type>image</type>
+        <id>0</id>
+        <posX>246</posX>
+        <posY>#home.latest.tile.posy</posY>
+        <height>50</height>
+        <width>50</width>
+        <align>left</align>
+        <valign>top</valign>
+        <keepaspectratio>yes</keepaspectratio>
+        <texture>basichome_new_indicator.png</texture>
+        <visible>control.isvisible(010033)+string.equals(#latestMediaHandler.mvcentral.latest2.new,true)+string.equals(#skin.enable.latest.New,true)</visible>
+        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+        <animation effect="zoom" reversible="false" start="10,10" end="100,100" time="1500">Visible</animation>
+      </control>
+      <control>
+        <description>BasicHome New tile3</description>
+        <type>image</type>
+        <id>0</id>
+        <posX>436</posX>
+        <posY>#home.latest.tile.posy</posY>
+        <height>50</height>
+        <width>50</width>
+        <align>left</align>
+        <valign>top</valign>
+        <keepaspectratio>yes</keepaspectratio>
+        <texture>basichome_new_indicator.png</texture>
+        <visible>control.isvisible(010033)+string.equals(#latestMediaHandler.mvcentral.latest3.new,true)+string.equals(#skin.enable.latest.New,true)</visible>
+        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+        <animation effect="zoom" reversible="false" start="10,10" end="100,100" time="1500">Visible</animation>
+      </control>
+
+      <control>
+        <description>Play Button</description>
+        <type>button</type>
+        <id>91929928</id>
+        <posX>56</posX>
+        <posY>#home.latest.play.posy</posY>
+        <width>50</width>
+        <height>50</height>
+        <textureFocus>play_btn_white.png</textureFocus>
+        <textureNoFocus>play_btn_white.png</textureNoFocus>
+        <label />
+        <onleft>91929928</onleft>
+        <onright>91929929</onright>
+        <onup>2</onup>
+        <ondown>#skin.currentTile</ondown>
+        <font>font12</font>
+        <animation effect="fade" time="1000" start= "100" end= "50" reversible="false">Visible</animation>
+        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+        <visible allowhiddenfocus="true">control.hasfocus(91929928)</visible>
+      </control>
+      <control>
+        <description>Play Button</description>
+        <type>button</type>
+        <id>91929929</id>
+        <posX>246</posX>
+        <posY>#home.latest.play.posy</posY>
+        <width>50</width>
+        <height>50</height>
+        <textureFocus>play_btn_white.png</textureFocus>
+        <textureNoFocus>play_btn_white.png</textureNoFocus>
+        <label />
+        <onleft>91929928</onleft>
+        <onright>91929930</onright>
+        <onup>2</onup>
+        <ondown>#skin.currentTile</ondown>
+        <font>font12</font>
+        <animation effect="fade" time="1000" start= "100" end= "50" reversible="false">Visible</animation>
+        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+        <visible allowhiddenfocus="true">control.hasfocus(91929929)</visible>
+      </control>
+      <control>
+        <description>Play Button</description>
+        <type>button</type>
+        <id>91929930</id>
+        <posX>436</posX>
+        <posY>#home.latest.play.posy</posY>
+        <width>50</width>
+        <height>50</height>
+        <textureFocus>play_btn_white.png</textureFocus>
+        <textureNoFocus>play_btn_white.png</textureNoFocus>
+        <label />
+        <onleft>91929929</onleft>
+        <onright>91929930</onright>
+        <onup>2</onup>
+        <ondown>#skin.currentTile</ondown>
+        <font>font12</font>
+        <animation effect="fade" time="1000" start= "100" end= "50" reversible="false">Visible</animation>
+        <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+        <visible allowhiddenfocus="true">control.hasfocus(91929930)</visible>
+      </control>
+
+      <!-- ******************************************************************************************** -->
+      <!-- ***************************   Extensions   ************************************************* -->
+      <!-- ******************************************************************************************** -->
+
+    <control>
+      <description>GROUP: BasicHome Extensions Updates</description>
+      <type>group</type>
+      <dimColor>0xffffffff</dimColor>
+      <visible>control.isVisible(5100005)</visible>
+      <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isVisible(5100005)+!string.equals(#mpei.updates,'')">conditional</animation>
+
+      <control>
+        <description>Extensions Background</description>
+        <type>image</type>
+        <id>0</id>
+        <posX>40</posX>
+        <posY>#home.latest.posy</posY>
+        <width>1845</width>
+        <height>209</height>
+        <texture>Inf_gfx.png</texture>
+      </control>	
+
+      <control>
+        <description>Extensions</description>
+        <type>fadelabel</type>
+        <id>0</id>
+        <posX>80</posX>
+        <posY>#home.latest.label.posy</posY>
+        <label>350007</label>
+        <width>1250</width>
+        <height>30</height>
+        <align>left</align>
+        <font>font13</font>
+        <textcolor>FFFFFFFF</textcolor>
+      </control>
+
+      <control>
+        <description>Extensions</description>
+        <type>textboxscrollup</type>
+        <id>1</id>
+        <posX>80</posX>
+        <posY>#home.latest.scroll.posy</posY>
+        <width>1750</width>
+        <height>90</height>
+        <label>#mpei.updates</label>
+        <align>left</align>
+        <font>font13</font>
+        <textcolor>99ffffff</textcolor>
+        <scrollStartDelaySec>20</scrollStartDelaySec>
+        <spaceBetweenItems>0</spaceBetweenItems>
+        <seperator>-------------------------------------------------------------------------------------------------------------------------------------------------------------------</seperator>
+      </control>
   </control>
 
       <!-- ******************************************************************************************** -->
@@ -3241,7 +3708,7 @@
       <type>image</type>
       <id>0</id>
       <posX>193</posX>
-      <posY>198</posY>
+      <posY>#home.latest.shadow.posy</posY>
       <height>190</height>
       <width>156</width>
       <texture mask="">home_shadows.png</texture>
@@ -3254,7 +3721,7 @@
       <type>image</type>
       <id>0</id>
       <posX>193</posX>
-      <posY>198</posY>
+      <posY>#home.latest.shadow.posy</posY>
       <height>190</height>
       <width>156</width>
       <texture mask="">home_shadows.png</texture>
@@ -3267,7 +3734,7 @@
       <type>image</type>
       <id>0</id>
       <posX>193</posX>
-      <posY>198</posY>
+      <posY>#home.latest.shadow.posy</posY>
       <height>190</height>
       <width>156</width>
       <texture mask="">home_shadows.png</texture>
@@ -3280,7 +3747,7 @@
       <type>image</type>
       <id>0</id>
       <posX>246</posX>
-      <posY>198</posY>
+      <posY>#home.latest.shadow.posy</posY>
       <height>190</height>
       <width>209</width>
       <texture mask="">home_shadows2.png</texture>
@@ -3289,17 +3756,82 @@
       <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010016)">conditional</animation>
     </control>
     <control>
+      <description>BasicHome MvCentral shadow</description>
+      <type>image</type>
+      <id>0</id>
+      <posX>246</posX>
+      <posY>#home.latest.shadow.posy</posY>
+      <height>190</height>
+      <width>209</width>
+      <texture mask="">home_shadows2.png</texture>
+      <colordiffuse>ffffffff</colordiffuse>
+      <visible>control.isvisible(010033)</visible>
+      <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
+    </control>
+    <control>
       <description>BasicHome Pictures shadow</description>
       <type>image</type>
       <id>0</id>
       <posX>246</posX>
-      <posY>198</posY>
+      <posY>#home.latest.shadow.posy</posY>
       <height>190</height>
       <width>209</width>
       <texture mask="">home_shadows2.png</texture>
       <colordiffuse>ffffffff</colordiffuse>
       <visible>control.isvisible(013016)</visible>
       <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(013016)">conditional</animation>
+    </control>	
+    <control>
+      <description>BasicHome Trakt shadow</description>
+      <type>image</type>
+      <id>0</id>
+      <posX>246</posX>
+      <posY>#home.latest.shadow.posy</posY>
+      <height>190</height>
+      <width>209</width>
+      <texture mask="">home_shadows2.png</texture>
+      <colordiffuse>ffffffff</colordiffuse>
+      <visible>control.isvisible(013016)</visible>
+      <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(012016)">conditional</animation>
+    </control>	
+    <control>
+      <description>BasicHome OnlineVideos shadow</description>
+      <type>image</type>
+      <id>0</id>
+      <posX>246</posX>
+      <posY>#home.latest.shadow.posy</posY>
+      <height>190</height>
+      <width>209</width>
+      <texture mask="">home_shadows2.png</texture>
+      <colordiffuse>ffffffff</colordiffuse>
+      <visible>control.isvisible(013016)</visible>
+      <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(5521125)">conditional</animation>
+    </control>	
+    <control>
+      <description>BasicHome Weather shadow</description>
+      <type>image</type>
+      <id>0</id>
+      <posX>246</posX>
+      <posY>#home.latest.shadow.posy</posY>
+      <height>190</height>
+      <width>209</width>
+      <texture mask="">home_shadows2.png</texture>
+      <colordiffuse>ffffffff</colordiffuse>
+      <visible>control.isvisible(013016)</visible>
+      <animation effect="fade" time="350" delay="2000" reversible="false" condition="[control.isVisible(5100000)|control.isVisible(5100001)]">conditional</animation>
+    </control>	
+    <control>
+      <description>BasicHome Extensions shadow</description>
+      <type>image</type>
+      <id>0</id>
+      <posX>246</posX>
+      <posY>#home.latest.shadow.posy</posY>
+      <height>190</height>
+      <width>209</width>
+      <texture mask="">home_shadows2.png</texture>
+      <colordiffuse>ffffffff</colordiffuse>
+      <visible>control.isvisible(013016)</visible>
+      <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isVisible(5100005)">conditional</animation>
     </control>	
 
   </controls>

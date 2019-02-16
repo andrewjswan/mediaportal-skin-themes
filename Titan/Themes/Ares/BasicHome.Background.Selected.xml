@@ -109,6 +109,32 @@
 	  <visible>control.hasfocus(91919999)</visible>
     </control>		
 	
+    <!--:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::MVCENTRAL FANARTS:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->	
+
+	<control Style="HomeBasicFanart">
+      <description>background</description>
+      <type>image</type>
+      <id>0</id>
+      <texture>#latestMediaHandler.mvcentral.latest1.fanart</texture>
+	  <visible>control.hasfocus(91929928)</visible>
+    </control>		
+
+	<control Style="HomeBasicFanart">
+      <description>background</description>
+      <type>image</type>
+      <id>0</id>
+      <texture>#latestMediaHandler.mvcentral.latest2.fanart</texture>
+	  <visible>control.hasfocus(91929929)</visible>
+    </control>		
+
+	<control Style="HomeBasicFanart">
+      <description>background</description>
+      <type>image</type>
+      <id>0</id>
+      <texture>#latestMediaHandler.mvcentral.latest3.fanart</texture>
+	  <visible>control.hasfocus(91929930)</visible>
+    </control>		
+	
     <!--:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::PLAY BACKGROUND IMAGE:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->	
   
     <control Style="HomeBasicFanart">

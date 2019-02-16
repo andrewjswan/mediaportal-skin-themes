@@ -7,8 +7,8 @@
 		<description>button group</description>
 		<type>group</type>
         <dimColor>ffffffff</dimColor>
-		<posX>70</posX>
-		<posY>570</posY>
+		<posX>60</posX>
+		<posY>#home.button.settings3.posy</posY>
 		<layout>StackLayout(0, Horizontal, false)</layout>
 		<visible allowhiddenfocus="true">control.hasfocus(231)|control.hasfocus(230)|control.hasfocus(232)|control.hasfocus(233)|control.hasfocus(234)|control.hasfocus(235)|control.hasfocus(236)|control.hasfocus(237)|control.hasfocus(238)|control.hasfocus(239)|control.hasfocus(330)|control.hasfocus(331)|control.hasfocus(332)|control.hasfocus(333)|control.hasfocus(334)|control.hasfocus(335)|control.hasfocus(400)|control.hasfocus(401)|control.hasfocus(402)|control.hasfocus(403)|control.hasfocus(404)|control.hasfocus(605)|control.hasfocus(604)|control.hasfocus(603)|control.hasfocus(602)|control.hasfocus(601)</visible>   
 		
@@ -19,13 +19,13 @@
          <id>601</id>
          <label></label>
 		 <font>font12</font>
-		 <width>50</width>
+         <width>60</width>
 		 <textcolorNoFocus>99ffffff</textcolorNoFocus>
 		 <onESC>#(skin.setfocus(35,cint(#skin.currentTile)))</onESC>
-         <textureFocus>check_fo.png</textureFocus>
-		 <textureNoFocus></textureNoFocus>
-         <textureCheckmark>check-box.png</textureCheckmark>
-         <textureCheckmarkNoFocus>check-boxNF.png</textureCheckmarkNoFocus>
+         <textureFocus>basichome_nocheck_focus.png</textureFocus>
+		 <textureNoFocus>basichome_nocheck.png</textureNoFocus>
+         <textureCheckmarkFocus>basichome_check_focus.png</textureCheckmarkFocus>
+         <textureCheckmarkNoFocus>basichome_check_focus.png</textureCheckmarkNoFocus>
          <onfocus>#(skin.setstring('#skin.hint.description','Enable custom name for this tile'))</onfocus>
          <selected>#(skin.hassetting('#skin.tile1cne'))</selected>
          <onclick>#(skin.togglesetting('#skin.tile1cne'))</onclick>
@@ -39,7 +39,7 @@
         <description>DUMMY</description>
         <type>button</type>
         <id>0</id>
-        <width>320</width>
+        <width>300</width>
 		<height>32</height>
         <label></label>
 		<font>font11</font>
@@ -55,13 +55,13 @@
          <id>602</id>
          <label></label>
 		 <font>font12</font>
-		 <width>50</width>
+         <width>60</width>
 		 <textcolorNoFocus>99ffffff</textcolorNoFocus>
 		 <onESC>#(skin.setfocus(35,cint(#skin.currentTile)))</onESC>
-         <textureFocus>check_fo.png</textureFocus>
-		 <textureNoFocus></textureNoFocus>
-         <textureCheckmark>check-box.png</textureCheckmark>
-         <textureCheckmarkNoFocus>check-boxNF.png</textureCheckmarkNoFocus>
+         <textureFocus>basichome_nocheck_focus.png</textureFocus>
+		 <textureNoFocus>basichome_nocheck.png</textureNoFocus>
+         <textureCheckmarkFocus>basichome_check_focus.png</textureCheckmarkFocus>
+         <textureCheckmarkNoFocus>basichome_check_focus.png</textureCheckmarkNoFocus>
          <onfocus>#(skin.setstring('#skin.hint.description','Enable custom name for this tile'))</onfocus>
          <selected>#(skin.hassetting('#skin.tile2cne'))</selected>
          <onclick>#(skin.togglesetting('#skin.tile2cne'))</onclick>
@@ -91,13 +91,12 @@
          <id>603</id>
          <label></label>
 		 <font>font12</font>
-		 <width>50</width>
 		 <textcolorNoFocus>99ffffff</textcolorNoFocus>
 		 <onESC>#(skin.setfocus(35,cint(#skin.currentTile)))</onESC>
-         <textureFocus>check_fo.png</textureFocus>
-		 <textureNoFocus></textureNoFocus>
-         <textureCheckmark>check-box.png</textureCheckmark>
-         <textureCheckmarkNoFocus>check-boxNF.png</textureCheckmarkNoFocus>
+         <textureFocus>basichome_nocheck_focus.png</textureFocus>
+		 <textureNoFocus>basichome_nocheck.png</textureNoFocus>
+         <textureCheckmarkFocus>basichome_check_focus.png</textureCheckmarkFocus>
+         <textureCheckmarkNoFocus>basichome_check_focus.png</textureCheckmarkNoFocus>
          <onfocus>#(skin.setstring('#skin.hint.description','Enable custom name for this tile'))</onfocus>
          <selected>#(skin.hassetting('#skin.tile3cne'))</selected>
          <onclick>#(skin.togglesetting('#skin.tile3cne'))</onclick>
@@ -127,13 +126,13 @@
          <id>604</id>
          <label></label>
 		 <font>font12</font>
-		 <width>50</width>
+         <width>60</width>
 		 <textcolorNoFocus>99ffffff</textcolorNoFocus>
 		 <onESC>#(skin.setfocus(35,cint(#skin.currentTile)))</onESC>
-         <textureFocus>check_fo.png</textureFocus>
-		 <textureNoFocus></textureNoFocus>
-         <textureCheckmark>check-box.png</textureCheckmark>
-         <textureCheckmarkNoFocus>check-boxNF.png</textureCheckmarkNoFocus>
+         <textureFocus>basichome_nocheck_focus.png</textureFocus>
+		 <textureNoFocus>basichome_nocheck.png</textureNoFocus>
+         <textureCheckmarkFocus>basichome_check_focus.png</textureCheckmarkFocus>
+         <textureCheckmarkNoFocus>basichome_check_focus.png</textureCheckmarkNoFocus>
          <onfocus>#(skin.setstring('#skin.hint.description','Enable custom name for this tile'))</onfocus>
          <selected>#(skin.hassetting('#skin.tile4cne'))</selected>
          <onclick>#(skin.togglesetting('#skin.tile4cne'))</onclick>
@@ -149,7 +148,7 @@
         <description>DUMMY</description>
         <type>button</type>
         <id>0</id>
-        <width>320</width>
+        <width>300</width>
 		<height>32</height>
         <label></label>
 		<font>font11</font>
@@ -163,13 +162,13 @@
          <id>605</id>
          <label></label>
 		 <font>font12</font>
-		 <width>50</width>
+         <width>60</width>
 		 <textcolorNoFocus>99ffffff</textcolorNoFocus>
 		 <onESC>#(skin.setfocus(35,cint(#skin.currentTile)))</onESC>
-         <textureFocus>check_fo.png</textureFocus>
-		 <textureNoFocus></textureNoFocus>
-         <textureCheckmark>check-box.png</textureCheckmark>
-         <textureCheckmarkNoFocus>check-boxNF.png</textureCheckmarkNoFocus>
+         <textureFocus>basichome_nocheck_focus.png</textureFocus>
+		 <textureNoFocus>basichome_nocheck.png</textureNoFocus>
+         <textureCheckmarkFocus>basichome_check_focus.png</textureCheckmarkFocus>
+         <textureCheckmarkNoFocus>basichome_check_focus.png</textureCheckmarkNoFocus>
          <onfocus>#(skin.setstring('#skin.hint.description','Enable custom name for this tile'))</onfocus>
          <selected>#(skin.hassetting('#skin.tile5cne'))</selected>
          <onclick>#(skin.togglesetting('#skin.tile5cne'))</onclick>

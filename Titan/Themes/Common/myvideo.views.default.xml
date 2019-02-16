@@ -290,6 +290,34 @@
 		<animation effect="fade" time="250">WindowClose</animation>
 	</control>
 
+	<control>
+		<description>Cover Art Animated</description>
+		<type>image</type>
+		<id>609</id>
+		<posX>123</posX>
+		<posY>360</posY>
+		<width>379</width>
+		<height>563</height>
+		<texture>#fanarthandler.movie.animated.selected.thumb</texture>
+		<visible>[facadeview.list|facadeview.playlist]+Control.IsVisible(50)+system.idletime(10)</visible>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="250">WindowClose</animation>
+	</control>
+
+	<control>
+		<description>Cover Art Animated Logo</description>
+		<type>image</type>
+		<id>0</id>
+		<posX>485</posX>
+		<posY>905</posY>
+		<width>15</width>
+		<height>15</height>
+		<texture>icon_animated.png</texture>
+		<visible>[facadeview.list|facadeview.playlist]+Control.IsVisible(50)+!control.IsVisible(609)+!string.equals(#fanarthandler.movie.animated.selected.thumb,)</visible>
+		<animation effect="fade" time="250">WindowOpen</animation>
+		<animation effect="fade" time="250">WindowClose</animation>
+	</control>
+
     <control>
         <description>Collection banner</description>
         <id>0</id>

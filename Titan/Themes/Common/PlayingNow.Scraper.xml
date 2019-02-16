@@ -12,33 +12,38 @@
         <visible>no</visible>
     </control>       
 
-    <control Style="smallTitle">
-        <description>Scraping Header</description>
-        <type>fadelabel</type>
+    <control>
+        <description>Update Progress Control</description>
+        <type>progress</type>
         <id>0</id>
-        <posX>510</posX>
-        <posY>1015</posY>
-        <label>Fanart #fanarthandler.scraper.task: #fanarthandler.scraper.percent.completed%</label>
-        <visible>control.isvisible(91919280)+!string.equals(#music.simple,true)</visible>
-        <textcolor>FF000000</textcolor>
-        <animation effect="fade" time="250">WindowOpen</animation>
-        <animation effect="fade" time="250">WindowClose</animation>
+        <posX>0</posX>
+        <posY>1077</posY>
+        <width>1920</width>
+        <height>3</height>
+        <label>#fanarthandler.scraper.percent.completed</label>
+        <texturebg>black.png</texturebg>
+        <midtexture>white.png</midtexture>
+        <onlymidtexture>yes</onlymidtexture>
+        <midwidth>1920</midwidth>
+        <midheight>3</midheight>
+        <midoffsetX>-</midoffsetX>
+        <midoffsetY>0</midoffsetY>
+        <visible>control.isvisible(91919280)</visible>
     </control>
-        
-    <control Style="smallTitle">
-        <description>Scraping Header</description>
-        <type>fadelabel</type>
+
+    <control>
+        <description>Update Progress Animation</description>
+        <type>animation</type>
         <id>0</id>
-        <posX>20</posX>
-        <posY>1020</posY>
-        <align>left</align>
-        <label>Fanart #fanarthandler.scraper.task: #fanarthandler.scraper.percent.completed%</label>
-        <visible>control.isvisible(91919280)+string.equals(#music.simple,true)</visible>
-        <font>fontB16</font>
-        <textcolor>FFFFFFFF</textcolor>
-        <animation effect="fade" time="250">WindowOpen</animation>
-        <animation effect="fade" time="250">WindowClose</animation>
-    </control>
+        <posX>933</posX>
+        <posY>42</posY>
+        <width>54</width>
+        <height>53</height>
+        <textures>common.waiting.1.png;common.waiting.2.png;common.waiting.3.png;common.waiting.4.png;common.waiting.5.png;common.waiting.6.png;common.waiting.7.png;common.waiting.8.png</textures>
+        <Duration>0:0:01.5</Duration>
+        <visible>control.isvisible(91919280)</visible>
+        <keepaspectratio>yes</keepaspectratio>
+    </control> 	
         
   </controls>
         

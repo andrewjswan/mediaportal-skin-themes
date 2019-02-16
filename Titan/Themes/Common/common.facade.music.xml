@@ -479,5 +479,23 @@
       <animation effect="fade" time="250">WindowOpen</animation>
 	  <animation effect="fade" time="250">WindowClose</animation>
     </control>
+    <!-- Record Label --> 
+    <control>
+  	  <description>Record Label Logos</description>
+      <id>0</id>
+      <type>image</type>
+      <texture>#fanarthandler.music.labels.selected</texture>
+      <posX>123</posX>
+      <posY>920</posY>
+      <width>555</width>
+      <height>60</height>
+      <align>center</align>
+      <valign>top</valign>
+      <keepaspectratio>yes</keepaspectratio>
+      <shouldCache>true</shouldCache>
+	  <visible>facadeview.list+!Control.IsVisible(24)+!string.contains(#selecteditem, ..)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+	  <animation effect="fade" time="250">WindowClose</animation>
+    </control>
 </controls>
 </window>

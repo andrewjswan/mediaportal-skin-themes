@@ -558,7 +558,7 @@
       <texture></texture> 
       <visible>control.hasfocus(91919999)+plugin.isenabled(Latest Media Handler)+string.equals(#latestMediaHandler.music.latest.enabled,true)+string.equals(#skin.enable.latest.Music,true)</visible>	  
     </control>	
-	<control>
+    <control>
       <description>DUMMY MUSIC THUMBS</description>
       <type>image</type>
       <id>010016</id>
@@ -569,8 +569,7 @@
       <texture></texture> 
 	  <visible>[[string.equals(#tile1plugin.hyperlink,MyMusic)+control.hasfocus(00500)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile2plugin.hyperlink,MyMusic)+control.hasfocus(00501)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile3plugin.hyperlink,MyMusic)+control.hasfocus(00502)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile4plugin.hyperlink,MyMusic)+control.hasfocus(00503)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile5plugin.hyperlink,MyMusic)+control.hasfocus(00504)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile6plugin.hyperlink,MyMusic)+control.hasfocus(00505)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile7plugin.hyperlink,MyMusic)+control.hasfocus(00506)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile8plugin.hyperlink,MyMusic)+control.hasfocus(00507)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile9plugin.hyperlink,MyMusic)+control.hasfocus(00508)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile10plugin.hyperlink,MyMusic)+control.hasfocus(00509)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile11plugin.hyperlink,MyMusic)+control.hasfocus(00510)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile12plugin.hyperlink,MyMusic)+control.hasfocus(00511)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile13plugin.hyperlink,MyMusic)+control.hasfocus(00512)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile14plugin.hyperlink,MyMusic)+control.hasfocus(00513)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile15plugin.hyperlink,MyMusic)+control.hasfocus(00514)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile16plugin.hyperlink,MyMusic)+control.hasfocus(00515)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile17plugin.hyperlink,MyMusic)+control.hasfocus(00516)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile18plugin.hyperlink,MyMusic)+control.hasfocus(00517)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile19plugin.hyperlink,MyMusic)+control.hasfocus(00518)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile20plugin.hyperlink,MyMusic)+control.hasfocus(00519)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile21plugin.hyperlink,MyMusic)+control.hasfocus(00520)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile22plugin.hyperlink,MyMusic)+control.hasfocus(00521)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile23plugin.hyperlink,MyMusic)+control.hasfocus(00522)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile24plugin.hyperlink,MyMusic)+control.hasfocus(00523)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]|[string.equals(#tile25plugin.hyperlink,MyMusic)+control.hasfocus(00524)|control.hasfocus(91919997)|control.hasfocus(91919998)|control.hasfocus(91919999)]]+plugin.isenabled(Latest Media Handler)+string.equals(#latestMediaHandler.music.latest.enabled,True)+string.equals(#skin.enable.latest.Music,true)</visible>
     </control>	
-
-	<control>
+    <control>
       <description>DUMMY MUSIC</description>
       <type>image</type>
       <id>210004</id>
@@ -646,6 +645,127 @@
     </control>		
 	
 	
+    <!--:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::MVCENTRAL LATEST VISIBILITY:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
+
+
+	<control>
+      <description>DUMMY MVCENTRAL 1</description>
+      <type>image</type>
+      <id>010030</id>
+      <posX>7000</posX>
+      <posY>10</posY>
+      <width>10</width>
+      <height>10</height>
+      <texture></texture>  
+	  <visible>[[string.equals(#tile1plugin.hyperlink,MvCentral)+control.hasfocus(00500)|control.hasfocus(91929928)]|[string.equals(#tile2plugin.hyperlink,MvCentral)+control.hasfocus(00501)|control.hasfocus(91929928)]|[string.equals(#tile3plugin.hyperlink,MvCentral)+control.hasfocus(00502)|control.hasfocus(91929928)]|[string.equals(#tile4plugin.hyperlink,MvCentral)+control.hasfocus(00503)|control.hasfocus(91929928)]|[string.equals(#tile5plugin.hyperlink,MvCentral)+control.hasfocus(00504)|control.hasfocus(91929928)]|[string.equals(#tile6plugin.hyperlink,MvCentral)+control.hasfocus(00505)|control.hasfocus(91929928)]|[string.equals(#tile7plugin.hyperlink,MvCentral)+control.hasfocus(00506)|control.hasfocus(91929928)]|[string.equals(#tile8plugin.hyperlink,MvCentral)+control.hasfocus(00507)|control.hasfocus(91929928)]|[string.equals(#tile9plugin.hyperlink,MvCentral)+control.hasfocus(00508)|control.hasfocus(91929928)]|[string.equals(#tile10plugin.hyperlink,MvCentral)+control.hasfocus(00509)|control.hasfocus(91929928)]|[string.equals(#tile11plugin.hyperlink,MvCentral)+control.hasfocus(00510)|control.hasfocus(91929928)]|[string.equals(#tile12plugin.hyperlink,MvCentral)+control.hasfocus(00511)|control.hasfocus(91929928)]|[string.equals(#tile13plugin.hyperlink,MvCentral)+control.hasfocus(00512)|control.hasfocus(91929928)]|[string.equals(#tile14plugin.hyperlink,MvCentral)+control.hasfocus(00513)|control.hasfocus(91929928)]|[string.equals(#tile15plugin.hyperlink,MvCentral)+control.hasfocus(00514)|control.hasfocus(91929928)]|[string.equals(#tile16plugin.hyperlink,MvCentral)+control.hasfocus(00515)|control.hasfocus(91929928)]|[string.equals(#tile17plugin.hyperlink,MvCentral)+control.hasfocus(00516)|control.hasfocus(91929928)]|[string.equals(#tile18plugin.hyperlink,MvCentral)+control.hasfocus(00517)|control.hasfocus(91929928)]|[string.equals(#tile19plugin.hyperlink,MvCentral)+control.hasfocus(00518)|control.hasfocus(91929928)]|[string.equals(#tile20plugin.hyperlink,MvCentral)+control.hasfocus(00519)|control.hasfocus(91929928)]|[string.equals(#tile21plugin.hyperlink,MvCentral)+control.hasfocus(00520)|control.hasfocus(91929928)]|[string.equals(#tile22plugin.hyperlink,MvCentral)+control.hasfocus(00521)|control.hasfocus(91929928)]|[string.equals(#tile23plugin.hyperlink,MvCentral)+control.hasfocus(00522)|control.hasfocus(91929928)]|[string.equals(#tile24plugin.hyperlink,MvCentral)+control.hasfocus(00523)|control.hasfocus(91929928)]|[string.equals(#tile25plugin.hyperlink,MvCentral)+control.hasfocus(00524)|control.hasfocus(91929928)]]+plugin.isenabled(Latest Media Handler)+string.equals(#latestMediaHandler.mvcentral.latest.enabled,true)+string.equals(#skin.enable.latest.MvCentral,true)</visible>
+    </control>	
+	<control>
+      <description>DUMMY MVCENTRAL 2</description>
+      <type>image</type>
+      <id>010031</id>
+      <posX>7000</posX>
+      <posY>10</posY>
+      <width>10</width>
+      <height>10</height>
+      <texture></texture> 
+      <visible>control.hasfocus(91929929)+plugin.isenabled(Latest Media Handler)+string.equals(#latestMediaHandler.mvcentral.latest.enabled,true)+string.equals(#skin.enable.latest.MvCentral,true)</visible>	  
+    </control>	
+	<control>
+      <description>DUMMY MVCENTRAL 3</description>
+      <type>image</type>
+      <id>010032</id>
+      <posX>7000</posX>
+      <posY>10</posY>
+      <width>10</width>
+      <height>10</height>
+      <texture></texture> 
+      <visible>control.hasfocus(91929930)+plugin.isenabled(Latest Media Handler)+string.equals(#latestMediaHandler.mvcentral.latest.enabled,true)+string.equals(#skin.enable.latest.MvCentral,true)</visible>	  
+    </control>	
+    <control>
+      <description>DUMMY MVCENTRAL THUMBS</description>
+      <type>image</type>
+      <id>010033</id>
+      <posX>7000</posX>
+      <posY>10</posY>
+      <width>10</width>
+      <height>10</height>
+      <texture></texture> 
+	  <visible>[[string.equals(#tile1plugin.hyperlink,MvCentral)+control.hasfocus(00500)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile2plugin.hyperlink,MvCentral)+control.hasfocus(00501)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile3plugin.hyperlink,MvCentral)+control.hasfocus(00502)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile4plugin.hyperlink,MvCentral)+control.hasfocus(00503)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile5plugin.hyperlink,MvCentral)+control.hasfocus(00504)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile6plugin.hyperlink,MvCentral)+control.hasfocus(00505)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile7plugin.hyperlink,MvCentral)+control.hasfocus(00506)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile8plugin.hyperlink,MvCentral)+control.hasfocus(00507)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile9plugin.hyperlink,MvCentral)+control.hasfocus(00508)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile10plugin.hyperlink,MvCentral)+control.hasfocus(00509)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile11plugin.hyperlink,MvCentral)+control.hasfocus(00510)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile12plugin.hyperlink,MvCentral)+control.hasfocus(00511)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile13plugin.hyperlink,MvCentral)+control.hasfocus(00512)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile14plugin.hyperlink,MvCentral)+control.hasfocus(00513)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile15plugin.hyperlink,MvCentral)+control.hasfocus(00514)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile16plugin.hyperlink,MvCentral)+control.hasfocus(00515)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile17plugin.hyperlink,MvCentral)+control.hasfocus(00516)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile18plugin.hyperlink,MvCentral)+control.hasfocus(00517)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile19plugin.hyperlink,MvCentral)+control.hasfocus(00518)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile20plugin.hyperlink,MvCentral)+control.hasfocus(00519)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile21plugin.hyperlink,MvCentral)+control.hasfocus(00520)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile22plugin.hyperlink,MvCentral)+control.hasfocus(00521)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile23plugin.hyperlink,MvCentral)+control.hasfocus(00522)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile24plugin.hyperlink,MvCentral)+control.hasfocus(00523)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]|[string.equals(#tile25plugin.hyperlink,MvCentral)+control.hasfocus(00524)|control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]+plugin.isenabled(Latest Media Handler)+string.equals(#latestMediaHandler.mvcentral.latest.enabled,True)+string.equals(#skin.enable.latest.MvCentral,true)</visible>
+    </control>	
+    <control>
+      <description>DUMMY MVCENTRAL</description>
+      <type>image</type>
+      <id>210003</id>
+      <posX>7000</posX>
+      <posY>10</posY>
+      <width>10</width>
+      <height>10</height>
+      <texture></texture> 
+      <visible>control.hasfocus(91929928)+plugin.isenabled(Latest Media Handler)+string.equals(#latestMediaHandler.mvcentral.latest.enabled,true)+string.equals(#skin.enable.latest.MvCentral,true)</visible>	  
+    </control>	
+	
+
+	<!--#####################################DUMMY VISIBILTY FOR KEEPING TILES VISIBLE WHILE LATEST MEDIA SELECTED###############################################-->
+	
+	<control>
+      <description>DUMMY MvCentral PAGE1</description>
+      <type>image</type>
+      <id>5011121</id>
+      <posX>7000</posX>
+      <posY>10</posY>
+      <width>10</width>
+      <height>10</height>
+      <texture></texture> 
+	  <visible>[[string.equals(#tile1plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]|[string.equals(#tile2plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]|[string.equals(#tile3plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]|[string.equals(#tile4plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]|[string.equals(#tile5plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]]+!control.isvisible(5011122)+!control.isvisible(5011123)+!control.isvisible(5011124)+!control.isvisible(5011125)</visible>
+    </control>	
+
+	<control>
+      <description>DUMMY MvCentral PAGE2</description>
+      <type>image</type>
+      <id>5011122</id>
+      <posX>7000</posX>
+      <posY>10</posY>
+      <width>10</width>
+      <height>10</height>
+      <texture></texture> 
+	  <visible>[[string.equals(#tile6plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]|[string.equals(#tile7plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]|[string.equals(#tile8plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]|[string.equals(#tile9plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]|[string.equals(#tile10plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]]+!control.isvisible(5011121)+!control.isvisible(5011123)+!control.isvisible(5011124)+!control.isvisible(5011125)</visible>
+    </control>		
+	
+	<control>
+      <description>DUMMY MvCentral PAGE3</description>
+      <type>image</type>
+      <id>5011123</id>
+      <posX>7000</posX>
+      <posY>10</posY>
+      <width>10</width>
+      <height>10</height>
+      <texture></texture> 
+	  <visible>[[string.equals(#tile11plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]|[string.equals(#tile12plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]|[string.equals(#tile13plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]|[string.equals(#tile14plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]|[string.equals(#tile15plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]]+!control.isvisible(5011121)+!control.isvisible(5011122)+!control.isvisible(5011124)+!control.isvisible(5011125)</visible>
+    </control>	
+
+	<control>
+      <description>DUMMY MvCentral PAGE4</description>
+      <type>image</type>
+      <id>5011124</id>
+      <posX>7000</posX>
+      <posY>10</posY>
+      <width>10</width>
+      <height>10</height>
+      <texture></texture> 
+	  <visible>[[string.equals(#tile16plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]|[string.equals(#tile17plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]|[string.equals(#tile18plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]|[string.equals(#tile19plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]|[string.equals(#tile20plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]]+!control.isvisible(5011121)+!control.isvisible(5011122)+!control.isvisible(5011123)+!control.isvisible(5011125)</visible>
+    </control>	
+
+	<control>
+      <description>DUMMY MvCentral PAGE5</description>
+      <type>image</type>
+      <id>5011125</id>
+      <posX>7000</posX>
+      <posY>10</posY>
+      <width>10</width>
+      <height>10</height>
+      <texture></texture> 
+	  <visible>[[string.equals(#tile21plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]|[string.equals(#tile22plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]|[string.equals(#tile23plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]|[string.equals(#tile24plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]|[string.equals(#tile25plugin.hyperlink,MvCentral)+[control.hasfocus(91929928)|control.hasfocus(91929929)|control.hasfocus(91929930)]]]+!control.isvisible(5011121)+!control.isvisible(5011122)+!control.isvisible(5011123)+!control.isvisible(5011124)</visible>
+    </control>		
 	
 	<!--#####################################DUMMY VISIBILTY FOR KEEPING TILES VISIBLE WHILE WEATHER SELECTED###############################################-->
 
@@ -673,7 +793,19 @@
     </control>		
 	
 	
-	
+	<!--#####################################DUMMY VISIBILTY FOR KEEPING TILES VISIBLE WHILE EXTENSION SELECTED###############################################-->
+
+	<control>
+      <description>DUMMY Extension</description>
+      <type>image</type>
+      <id>5100005</id>
+      <posX>7000</posX>
+      <posY>10</posY>
+      <width>10</width>
+      <height>10</height>
+      <texture></texture>  
+	  <visible>[[string.equals(#tile1plugin.hyperlink,Extensions)+control.hasfocus(00500)]|[string.equals(#tile2plugin.hyperlink,Extensions)+control.hasfocus(00501)]|[string.equals(#tile3plugin.hyperlink,Extensions)+control.hasfocus(00502)]|[string.equals(#tile4plugin.hyperlink,Extensions)+control.hasfocus(00503)]|[string.equals(#tile5plugin.hyperlink,Extensions)+control.hasfocus(00504)]|[string.equals(#tile6plugin.hyperlink,Extensions)+control.hasfocus(00505)]|[string.equals(#tile7plugin.hyperlink,Extensions)+control.hasfocus(00506)]|[string.equals(#tile8plugin.hyperlink,Extensions)+control.hasfocus(00507)]|[string.equals(#tile9plugin.hyperlink,Extensions)+control.hasfocus(00508)]|[string.equals(#tile10plugin.hyperlink,Extensions)+control.hasfocus(00509)]|[string.equals(#tile11plugin.hyperlink,Extensions)+control.hasfocus(00510)]|[string.equals(#tile12plugin.hyperlink,Extensions)+control.hasfocus(00511)]|[string.equals(#tile13plugin.hyperlink,Extensions)+control.hasfocus(00512)]|[string.equals(#tile14plugin.hyperlink,Extensions)+control.hasfocus(00513)]|[string.equals(#tile15plugin.hyperlink,Extensions)+control.hasfocus(00514)]|[string.equals(#tile16plugin.hyperlink,Extensions)+control.hasfocus(00515)]|[string.equals(#tile17plugin.hyperlink,Extensions)+control.hasfocus(00516)]|[string.equals(#tile18plugin.hyperlink,Extensions)+control.hasfocus(00517)]|[string.equals(#tile19plugin.hyperlink,Extensions)+control.hasfocus(00518)]|[string.equals(#tile20plugin.hyperlink,Extensions)+control.hasfocus(00519)]|[string.equals(#tile21plugin.hyperlink,Extensions)+control.hasfocus(00520)]|[string.equals(#tile22plugin.hyperlink,Extensions)+control.hasfocus(00521)]|[string.equals(#tile23plugin.hyperlink,Extensions)+control.hasfocus(00522)]|[string.equals(#tile24plugin.hyperlink,Extensions)+control.hasfocus(00523)]|[string.equals(#tile25plugin.hyperlink,Extensions)+control.hasfocus(00524)]]+plugin.isenabled(Extensions)</visible>
+    </control>	
 	
 	
     <!--:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::TRAKT LATEST VISIBILITY:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::-->
@@ -853,9 +985,6 @@
     </control>	
 
 
-
-	
-	
   </controls>
 </window>
 

@@ -8,7 +8,7 @@
 		<type>group</type>
         <dimColor>ffffffff</dimColor>
 		<posX>60</posX>
-		<posY>420</posY>
+		<posY>#home.button.settings1.posy</posY>
 		<!-- Remove and Gaps when buttons are not visible -->
 		<layout>StackLayout(0, Horizontal, false)</layout>
 		<visible allowhiddenfocus="true">control.hasfocus(270)|control.hasfocus(271)|control.hasfocus(272)|control.hasfocus(273)|control.hasfocus(274)|control.hasfocus(275)|control.hasfocus(276)|control.hasfocus(277)|control.hasfocus(278)|control.hasfocus(279)|control.hasfocus(370)|control.hasfocus(371)|control.hasfocus(372)|control.hasfocus(373)|control.hasfocus(374)|control.hasfocus(375)|control.hasfocus(421)|control.hasfocus(422)|control.hasfocus(423)|control.hasfocus(424)|control.hasfocus(425)|control.hasfocus(621)|control.hasfocus(622)|control.hasfocus(623)|control.hasfocus(624)|control.hasfocus(625)</visible>   
@@ -29,11 +29,11 @@
         <onclick>#(skin.setstring('#tile21plugin.hyperlink',#selectedlabel270))</onclick>
         <binding>#tile21plugin.hyperlink</binding>
         <subitems>
-        <subitem>#pluginlist</subitem>
+        <subitem>#PluginList</subitem>
         </subitems>
         <textcolorNoFocus>70ffffff</textcolorNoFocus>
-        <textureFocus>pluge.png</textureFocus>
-		<textureNoFocus>plugd.png</textureNoFocus>
+        <textureFocus>basichome_plugin_focus.png</textureFocus>
+		<textureNoFocus>basichome_plugin.png</textureNoFocus>
 		<onup>270</onup>
         <onleft>270</onleft>
         <ondown>421</ondown>
@@ -52,8 +52,8 @@
 		<font>font11</font>
 		<textcolorNoFocus>99ffffff</textcolorNoFocus>
         <onclick>#(skin.setstring('#tile21plugin.name'))</onclick>
-        <textureFocus>lblfocus.png</textureFocus>
-		<textureNoFocus>lblnofocus.png</textureNoFocus>
+        <textureFocus>basichome_label_focus.png</textureFocus>
+		<textureNoFocus>basichome_label.png</textureNoFocus>
 		<onup>370</onup>
         <onleft>270</onleft>
         <ondown>00520</ondown>
@@ -86,8 +86,8 @@
         <label></label>
 		<font>font11</font>
 		<textcolorNoFocus>99ffffff</textcolorNoFocus>
-		<textureFocus>menu.png</textureFocus>
-		<textureNoFocus>menu.png</textureNoFocus>
+		<textureFocus>basichome_hyperlink_focus.png</textureFocus>
+		<textureNoFocus>basichome_hyperlink.png</textureNoFocus>
         <onclick>#(skin.setstring('#tile21plugin.parameter'))</onclick>
 		<onup>271</onup>
         <onleft>370</onleft>
@@ -130,11 +130,11 @@
         <onclick>#(skin.setstring('#tile22plugin.hyperlink',#selectedlabel272))</onclick>
         <binding>#tile22plugin.hyperlink</binding>
         <subitems>
-        <subitem>#pluginlist</subitem>
+        <subitem>#PluginList</subitem>
         </subitems>
         <textcolorNoFocus>70ffffff</textcolorNoFocus>
-        <textureFocus>pluge.png</textureFocus>
-		<textureNoFocus>plugd.png</textureNoFocus>
+        <textureFocus>basichome_plugin_focus.png</textureFocus>
+		<textureNoFocus>basichome_plugin.png</textureNoFocus>
 		<onup>272</onup>
         <onleft>271</onleft>
         <ondown>422</ondown>
@@ -153,8 +153,8 @@
 		<font>font11</font>
 		<textcolorNoFocus>99ffffff</textcolorNoFocus>
         <onclick>#(skin.setstring('#tile22plugin.name'))</onclick>
-        <textureFocus>lblfocus.png</textureFocus>
-		<textureNoFocus>lblnofocus.png</textureNoFocus>
+        <textureFocus>basichome_label_focus.png</textureFocus>
+		<textureNoFocus>basichome_label.png</textureNoFocus>
 		<onup>371</onup>
         <onleft>272</onleft>
         <ondown>00521</ondown>
@@ -188,8 +188,8 @@
         <label></label>
 		<font>font11</font>
 		<textcolorNoFocus>99ffffff</textcolorNoFocus>
-		<textureFocus>menu.png</textureFocus>
-		<textureNoFocus>menu.png</textureNoFocus>
+		<textureFocus>basichome_hyperlink_focus.png</textureFocus>
+		<textureNoFocus>basichome_hyperlink.png</textureNoFocus>
         <onclick>#(skin.setstring('#tile22plugin.parameter'))</onclick>
 		<onup>273</onup>
         <onleft>371</onleft>
@@ -232,11 +232,11 @@
         <onclick>#(skin.setstring('#tile23plugin.hyperlink',#selectedlabel274))</onclick>
         <binding>#tile23plugin.hyperlink</binding>
         <subitems>
-        <subitem>#pluginlist</subitem>
+        <subitem>#PluginList</subitem>
         </subitems>
         <textcolorNoFocus>70ffffff</textcolorNoFocus>
-        <textureFocus>pluge.png</textureFocus>
-		<textureNoFocus>plugd.png</textureNoFocus>
+        <textureFocus>basichome_plugin_focus.png</textureFocus>
+		<textureNoFocus>basichome_plugin.png</textureNoFocus>
 		<onup>274</onup>
         <onleft>273</onleft>
         <ondown>423</ondown>
@@ -255,8 +255,8 @@
 		<font>font11</font>
 		<textcolorNoFocus>99ffffff</textcolorNoFocus>
         <onclick>#(skin.setstring('#tile23plugin.name'))</onclick>
-        <textureFocus>lblfocus.png</textureFocus>
-		<textureNoFocus>lblnofocus.png</textureNoFocus>
+        <textureFocus>basichome_label_focus.png</textureFocus>
+		<textureNoFocus>basichome_label.png</textureNoFocus>
 		<onup>372</onup>
         <onleft>274</onleft>
         <ondown>00522</ondown>
@@ -290,8 +290,8 @@
         <label></label>
 		<font>font11</font>
 		<textcolorNoFocus>99ffffff</textcolorNoFocus>
-		<textureFocus>menu.png</textureFocus>
-		<textureNoFocus>menu.png</textureNoFocus>
+		<textureFocus>basichome_hyperlink_focus.png</textureFocus>
+		<textureNoFocus>basichome_hyperlink.png</textureNoFocus>
         <onclick>#(skin.setstring('#tile23plugin.parameter'))</onclick>
 		<onup>275</onup>
         <onleft>372</onleft>
@@ -334,11 +334,11 @@
         <onclick>#(skin.setstring('#tile24plugin.hyperlink',#selectedlabel276))</onclick>
         <binding>#tile24plugin.hyperlink</binding>
         <subitems>
-        <subitem>#pluginlist</subitem>
+        <subitem>#PluginList</subitem>
         </subitems>
         <textcolorNoFocus>70ffffff</textcolorNoFocus>
-        <textureFocus>pluge.png</textureFocus>
-		<textureNoFocus>plugd.png</textureNoFocus>
+        <textureFocus>basichome_plugin_focus.png</textureFocus>
+		<textureNoFocus>basichome_plugin.png</textureNoFocus>
 		<onup>276</onup>
         <onleft>275</onleft>
         <ondown>424</ondown>
@@ -357,8 +357,8 @@
 		<font>font11</font>
 		<textcolorNoFocus>99ffffff</textcolorNoFocus>
         <onclick>#(skin.setstring('#tile24plugin.name'))</onclick>
-        <textureFocus>lblfocus.png</textureFocus>
-		<textureNoFocus>lblnofocus.png</textureNoFocus>
+        <textureFocus>basichome_label_focus.png</textureFocus>
+		<textureNoFocus>basichome_label.png</textureNoFocus>
 		<onup>373</onup>
         <onleft>276</onleft>
         <ondown>00523</ondown>
@@ -392,8 +392,8 @@
         <label></label>
 		<font>font11</font>
 		<textcolorNoFocus>99ffffff</textcolorNoFocus>
-		<textureFocus>menu.png</textureFocus>
-		<textureNoFocus>menu.png</textureNoFocus>
+		<textureFocus>basichome_hyperlink_focus.png</textureFocus>
+		<textureNoFocus>basichome_hyperlink.png</textureNoFocus>
         <onclick>#(skin.setstring('#tile24plugin.parameter'))</onclick>
 		<onup>277</onup>
         <onleft>373</onleft>
@@ -437,11 +437,11 @@
         <onclick>#(skin.setstring('#tile25plugin.hyperlink',#selectedlabel278))</onclick>
         <binding>#tile25plugin.hyperlink</binding>
         <subitems>
-        <subitem>#pluginlist</subitem>
+        <subitem>#PluginList</subitem>
         </subitems>
         <textcolorNoFocus>70ffffff</textcolorNoFocus>
-        <textureFocus>pluge.png</textureFocus>
-		<textureNoFocus>plugd.png</textureNoFocus>
+        <textureFocus>basichome_plugin_focus.png</textureFocus>
+		<textureNoFocus>basichome_plugin.png</textureNoFocus>
 		<onup>278</onup>
         <onleft>277</onleft>
         <ondown>425</ondown>
@@ -460,8 +460,8 @@
 		<font>font11</font>
 		<textcolorNoFocus>99ffffff</textcolorNoFocus>
         <onclick>#(skin.setstring('#tile25plugin.name'))</onclick>
-        <textureFocus>lblfocus.png</textureFocus>
-		<textureNoFocus>lblnofocus.png</textureNoFocus>
+        <textureFocus>basichome_label_focus.png</textureFocus>
+		<textureNoFocus>basichome_label.png</textureNoFocus>
 		<onup>374</onup>
         <onleft>278</onleft>
         <ondown>00524</ondown>
@@ -496,8 +496,8 @@
         <label></label>
 		<font>font11</font>
 		<textcolorNoFocus>99ffffff</textcolorNoFocus>
-		<textureFocus>menu.png</textureFocus>
-		<textureNoFocus>menu.png</textureNoFocus>
+		<textureFocus>basichome_hyperlink_focus.png</textureFocus>
+		<textureNoFocus>basichome_hyperlink.png</textureNoFocus>
         <onclick>#(skin.setstring('#tile25plugin.parameter'))</onclick>
 		<onup>279</onup>
         <onleft>374</onleft>

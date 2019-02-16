@@ -219,18 +219,18 @@
     <!--dimColor>ffffffff</dimColor-->
   </style>
   <style Name="HomeButtonMenuFocus">
-    <height>571</height>
+    <height>#home.button.height</height>
     <width>367</width>
-    <texture>basichome_button_focus.png</texture>
+    <texture>btn\#home.button.type\basichome_button_focus.png</texture>
     <animation effect="fade" time="100">Hidden</animation>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="100">WindowClose</animation>
     <!--animation effect="fade" time="350" reversible="false">visible</animation-->
   </style>
   <style Name="HomeButtonMenuNew">
-    <height>571</height>
+    <height>#home.button.height</height>
     <width>367</width>
-    <texture>basichome_menu_item_new_overlay.png</texture>
+    <texture>btn\#home.button.type\basichome_menu_item_new_overlay.png</texture>
     <animation effect="fade" time="100">Hidden</animation>
     <animation effect="fade" time="250">WindowOpen</animation>
     <animation effect="fade" time="100">WindowClose</animation>

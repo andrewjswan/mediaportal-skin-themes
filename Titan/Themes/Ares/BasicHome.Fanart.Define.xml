@@ -12,6 +12,9 @@
 <define>#useRandomScoreCenterUserFanart:Yes</define> 
 <define>#useRandomTVUserFanart:Yes</define>
 <define>#useRandomTVSeriesFanart:Yes</define>
+<define>#useRandomShowTimesFanart:Yes</define>
+
+<define>#useRandomSpotLightsFanart:Yes</define>
 
 <define>#useRandomLatestsMusicFanart:Yes</define>
 <define>#useRandomLatestsMvCentralFanart:Yes</define>

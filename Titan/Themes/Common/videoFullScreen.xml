@@ -265,7 +265,7 @@
 		<control>
 			<description>Title Info</description>
 			<type>fadelabel</type>
-			<id>101</id>
+			<id>0</id>
     		<posX>240</posX>
 	    	<posY>990</posY>
             <width>1450</width>
@@ -280,10 +280,10 @@
 		<control>
 			<description>mvCentral Title Info</description>
 			<type>fadelabel</type>
-			<id>101</id>
-    		<posX>960</posX>
+			<id>0</id>
+    		<posX>240</posX>
 	    	<posY>990</posY>
-            <width>1500</width>
+            <width>1450</width>
 	    	<label>#(iif(eq(#Play.Current.mvArtist,''),'',string.format('{0} - ',#Play.Current.mvArtist)))#(iif(eq(#Play.Current.mvAlbum,''),'',string.format('{0} - ',#Play.Current.mvAlbum)))#Play.Current.Title#(iif(eq(#Play.Current.Year,''),'',' (#Play.Current.Year)'))</label>
 	    	<textcolor>ff000000</textcolor>
 	    	<align>center</align>

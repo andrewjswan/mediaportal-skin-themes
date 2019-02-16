@@ -14,7 +14,7 @@
       <type>image</type>
       <id>0</id>
       <posX>40</posX>
-      <posY>405</posY>
+      <posY>#home.button.posy</posY>
       <visible>[control.hasfocus(00500)|control.hasfocus(00505)|control.hasfocus(00510)|control.hasfocus(00515)|control.hasfocus(00520)]</visible>
       <animation effect="fade" time="250" condition="[control.hasfocus(00500)|control.hasfocus(00505)|control.hasfocus(00510)|control.hasfocus(00515)|control.hasfocus(00520)]">conditional</animation>
     </control>
@@ -24,7 +24,7 @@
       <type>image</type>
       <id>0</id>
       <posX>410</posX>
-      <posY>405</posY>
+      <posY>#home.button.posy</posY>
       <visible>[control.hasfocus(00501)|control.hasfocus(00506)|control.hasfocus(00511)|control.hasfocus(00516)|control.hasfocus(00521)]</visible>
       <animation effect="fade" time="250" condition="[control.hasfocus(00501)|control.hasfocus(00506)|control.hasfocus(00511)|control.hasfocus(00516)|control.hasfocus(00521)]">conditional</animation>
     </control>
@@ -34,7 +34,7 @@
       <type>image</type>
       <id>0</id>
       <posX>780</posX>
-      <posY>405</posY>
+      <posY>#home.button.posy</posY>
       <visible>[control.hasfocus(00502)|control.hasfocus(00507)|control.hasfocus(00512)|control.hasfocus(00517)|control.hasfocus(00522)]</visible>
       <animation effect="fade" time="250" condition="[control.hasfocus(00502)|control.hasfocus(00507)|control.hasfocus(00512)|control.hasfocus(00517)|control.hasfocus(00522)]">conditional</animation>
     </control>
@@ -44,7 +44,7 @@
       <type>image</type>
       <id>0</id>
       <posX>1150</posX>
-      <posY>405</posY>
+      <posY>#home.button.posy</posY>
       <visible>[control.hasfocus(00503)|control.hasfocus(00508)|control.hasfocus(00513)|control.hasfocus(00518)|control.hasfocus(00523)]</visible>
       <animation effect="fade" time="250" condition="[control.hasfocus(00503)|control.hasfocus(00508)|control.hasfocus(00513)|control.hasfocus(00518)|control.hasfocus(00523)]">conditional</animation>
     </control>
@@ -54,7 +54,7 @@
       <type>image</type>
       <id>0</id>
       <posX>1520</posX>
-      <posY>405</posY>
+      <posY>#home.button.posy</posY>
       <visible>[control.hasfocus(00504)|control.hasfocus(00509)|control.hasfocus(00514)|control.hasfocus(00519)|control.hasfocus(00524)]</visible>
       <animation effect="fade" time="250" condition="[control.hasfocus(00504)|control.hasfocus(00509)|control.hasfocus(00514)|control.hasfocus(00519)|control.hasfocus(00524)]">conditional</animation>
     </control>
@@ -68,7 +68,7 @@
        <id>0</id>
        <type>image</type>
        <posX>1890</posX>
-       <posY>629</posY>
+       <posY>#home.menu.indicator.posy</posY>
        <width>30</width>
        <height>149</height>
        <visible>[control.hasfocus(00504)|control.hasfocus(00509)|control.hasfocus(00514)|control.hasfocus(00519)|control.hasfocus(00524)]</visible>
@@ -84,7 +84,7 @@
        <id>0</id>
        <type>image</type>
        <posX>0</posX>
-       <posY>629</posY>
+       <posY>#home.menu.indicator.posy</posY>
        <width>30</width>
        <height>149</height>
        <texture>basichome_nextpage_left.png</texture>
@@ -110,75 +110,6 @@
        <animation effect="fade" time="250">WindowOpen</animation>
        <animation effect="fade" time="250">WindowClose</animation>
    </control>
-
-   <!--            :: NEW INDICATOR ::            -->
-   <!--
-      [string.equals(#latestMediaHandler.music.hasnew,true)+[[string.equals(#tile1plugin.hyperlink,MyMusic)+control.isvisible(00500)]|[string.equals(#tile6plugin.hyperlink,MyMusic)+control.isvisible(00505)]|[string.equals(#tile11plugin.hyperlink,MyMusic)+control.isvisible(00510)]|[string.equals(#tile16plugin.hyperlink,MyMusic)+control.isvisible(00515)]|[string.equals(#tile21plugin.hyperlink,MyMusic)+control.isvisible(00520)]]]
-      [string.equals(#latestMediaHandler.myvideo.hasnew,true)+[[string.equals(#tile1plugin.hyperlink,MyVideo)+control.isvisible(00500)]|[string.equals(#tile6plugin.hyperlink,MyVideo)+control.isvisible(00505)]|[string.equals(#tile11plugin.hyperlink,MyVideo)+control.isvisible(00510)]|[string.equals(#tile16plugin.hyperlink,MyVideo)+control.isvisible(00515)]|[string.equals(#tile21plugin.hyperlink,MyVideo)+control.isvisible(00520)]]]
-      [string.equals(#latestMediaHandler.picture.hasnew,true)+[[string.equals(#tile1plugin.hyperlink,Pictures)+control.isvisible(00500)]|[string.equals(#tile6plugin.hyperlink,Pictures)+control.isvisible(00505)]|[string.equals(#tile11plugin.hyperlink,Pictures)+control.isvisible(00510)]|[string.equals(#tile16plugin.hyperlink,Pictures)+control.isvisible(00515)]|[string.equals(#tile21plugin.hyperlink,Pictures)+control.isvisible(00520)]]]
-      [string.equals(#latestMediaHandler.tvseries.hasnew,true)+[[string.equals(#tile1plugin.hyperlink,TVSeries)+control.isvisible(00500)]|[string.equals(#tile6plugin.hyperlink,TVSeries)+control.isvisible(00505)]|[string.equals(#tile11plugin.hyperlink,TVSeries)+control.isvisible(00510)]|[string.equals(#tile16plugin.hyperlink,TVSeries)+control.isvisible(00515)]|[string.equals(#tile21plugin.hyperlink,TVSeries)+control.isvisible(00520)]]]
-      [string.equals(#latestMediaHandler.movingpicture.hasnew,true)+[[string.equals(#tile1plugin.hyperlink,MovPics)+control.isvisible(00500)]|[string.equals(#tile6plugin.hyperlink,MovPics)+control.isvisible(00505)]|[string.equals(#tile11plugin.hyperlink,MovPics)+control.isvisible(00510)]|[string.equals(#tile16plugin.hyperlink,MovPics)+control.isvisible(00515)]|[string.equals(#tile21plugin.hyperlink,MovPics)+control.isvisible(00520)]]]
-      [string.equals(#latestMediaHandler.myfilms.hasnew,true)+[[string.equals(#tile1plugin.hyperlink,MyFilms)+control.isvisible(00500)]|[string.equals(#tile6plugin.hyperlink,MyFilms)+control.isvisible(00505)]|[string.equals(#tile11plugin.hyperlink,MyFilms)+control.isvisible(00510)]|[string.equals(#tile16plugin.hyperlink,MyFilms)+control.isvisible(00515)]|[string.equals(#tile21plugin.hyperlink,MyFilms)+control.isvisible(00520)]]]
-      [string.equals(#latestMediaHandler.mvcentral.hasnew,true)+[[string.equals(#tile1plugin.hyperlink,MvCentral)+control.isvisible(00500)]|[string.equals(#tile6plugin.hyperlink,MvCentral)+control.isvisible(00505)]|[string.equals(#tile11plugin.hyperlink,MvCentral)+control.isvisible(00510)]|[string.equals(#tile16plugin.hyperlink,MvCentral)+control.isvisible(00515)]|[string.equals(#tile21plugin.hyperlink,MvCentral)+control.isvisible(00520)]]]
-      [string.equals(#latestMediaHandler.tvrecordings.hasnew,true)+[[string.equals(#tile1plugin.hyperlink,LiveTV)+control.isvisible(00500)]|[string.equals(#tile6plugin.hyperlink,LiveTV)+control.isvisible(00505)]|[string.equals(#tile11plugin.hyperlink,LiveTV)+control.isvisible(00510)]|[string.equals(#tile16plugin.hyperlink,LiveTV)+control.isvisible(00515)]|[string.equals(#tile21plugin.hyperlink,LiveTV)+control.isvisible(00520)]]]
-   -->
-
-  <control>
-    <description>group element</description>
-    <type>group</type>
-    <dimColor>ffffffff</dimColor>
-    
-    <control Style="HomeButtonMenuNew">
-      <description>BasicHome 1 New</description>
-      <type>image</type>
-      <id>0</id>
-      <posX>40</posX>
-      <posY>405</posY>
-      <visible>[control.isvisible(8011121)|control.isvisible(8011101)|control.isvisible(8011106)|control.isvisible(8011111)|control.isvisible(8011116)|control.isvisible(8011126)]</visible>
-      <animation effect="fade" time="250" condition="[control.isvisible(8011121)|control.isvisible(8011101)|control.isvisible(8011106)|control.isvisible(8011111)|control.isvisible(8011116)|control.isvisible(8011126)]">conditional</animation>
-    </control>
-        
-    <control Style="HomeButtonMenuNew">
-      <description>BasicHome 2 New</description>
-      <type>image</type>
-      <id>0</id>
-      <posX>410</posX>
-      <posY>405</posY>
-      <visible>[control.isvisible(8011122)|control.isvisible(8011102)|control.isvisible(8011107)|control.isvisible(8011112)|control.isvisible(8011117)|control.isvisible(8011127)]</visible>
-      <animation effect="fade" time="250" condition="[control.isvisible(8011122)|control.isvisible(8011102)|control.isvisible(8011107)|control.isvisible(8011112)|control.isvisible(8011117)|control.isvisible(8011127)]">conditional</animation>
-    </control>
-    
-    <control Style="HomeButtonMenuNew">
-      <description>BasicHome 3 New</description>
-      <type>image</type>
-      <id>0</id>
-      <posX>780</posX>
-      <posY>405</posY>
-      <visible>[control.isvisible(8011123)|control.isvisible(8011103)|control.isvisible(8011108)|control.isvisible(8011113)|control.isvisible(8011118)|control.isvisible(8011128)]</visible>
-      <animation effect="fade" time="250" condition="[control.isvisible(8011123)|control.isvisible(8011103)|control.isvisible(8011108)|control.isvisible(8011113)|control.isvisible(8011118)|control.isvisible(8011128)]">conditional</animation>
-    </control>
-            
-    <control Style="HomeButtonMenuNew">
-      <description>BasicHome 4 New</description>
-      <type>image</type>
-      <id>0</id>
-      <posX>1150</posX>
-      <posY>405</posY>
-      <visible>[control.isvisible(8011124)|control.isvisible(8011104)|control.isvisible(8011109)|control.isvisible(8011114)|control.isvisible(8011119)|control.isvisible(8011129)]</visible>
-      <animation effect="fade" time="250" condition="[control.isvisible(8011124)|control.isvisible(8011104)|control.isvisible(8011109)|control.isvisible(8011114)|control.isvisible(8011119)|control.isvisible(8011129)]">conditional</animation>
-    </control>
-      
-    <control Style="HomeButtonMenuNew">
-      <description>BasicHome 5 New</description>
-      <type>image</type>
-      <id>0</id>
-      <posX>1520</posX>
-      <posY>405</posY>
-      <visible>[control.isvisible(8011125)|control.isvisible(8011105)|control.isvisible(8011110)|control.isvisible(8011115)|control.isvisible(8011120)|control.isvisible(8011130)]</visible>
-      <animation effect="fade" time="250" condition="[control.isvisible(8011125)|control.isvisible(8011105)|control.isvisible(8011110)|control.isvisible(8011115)|control.isvisible(8011120)|control.isvisible(8011130)]">conditional</animation>
-    </control>
-      
-  </control>
 
  </controls>
 </window>

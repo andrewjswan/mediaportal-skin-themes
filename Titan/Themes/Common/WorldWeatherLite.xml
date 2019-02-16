@@ -288,7 +288,8 @@
       <align>left</align>
       <label>#WorldWeather.ForecastDay0Date</label>
       <font>font12</font>
-      <textcolor>00b7ff</textcolor>
+      <!--textcolor>00b7ff</textcolor-->
+      <textcolor>FFFFFFFF</textcolor>
 			<animation effect="fade" time="250">WindowOpen</animation>
 			<animation effect="fade" time="250">WindowClose</animation>
     </control>
@@ -316,6 +317,25 @@
         <visible>!string.equals(#WorldWeather.TodayTemperature, )</visible>
       </control>
 			
+      <control>
+        <description>empty label</description>
+        <type>label</type>
+        <id>0</id>
+        <label></label>
+        <font>font12</font>
+        <height>32</height>
+        <visible>!string.equals(#WorldWeather.TodayTemperatureFeelsLike, )</visible>
+      </control>
+
+      <control>
+        <description>empty label</description>
+        <type>label</type>
+        <id>0</id>
+        <label></label>
+        <font>font12</font>
+        <height>32</height>
+      </control>
+
       <!-- :: Current condition label :: -->
 			
       <control>
@@ -425,6 +445,7 @@
         <font>font12</font>
         <height>32</height>
       </control>
+
       <control>
         <description>empty label</description>
         <type>label</type>
@@ -472,12 +493,31 @@
         <description>current temp label</description>
         <type>label</type>
         <id>0</id>
-        <label>#WorldWeather.TodayTemperature - #WorldWeather.TranslationTemperatureFeelsLike #WorldWeather.TodayTemperatureFeelsLike</label>
+        <label>#WorldWeather.TodayTemperature</label>
         <font>font12</font>
         <height>32</height>
         <visible>!string.equals(#WorldWeather.TodayTemperatureFeelsLike, )</visible>
       </control>
 			
+      <control>
+        <description>current temp label</description>
+        <type>label</type>
+        <id>0</id>
+        <label>#WorldWeather.TranslationTemperatureFeelsLike #WorldWeather.TodayTemperatureFeelsLike</label>
+        <font>font12</font>
+        <height>32</height>
+        <visible>!string.equals(#WorldWeather.TodayTemperatureFeelsLike, )</visible>
+      </control>
+
+      <control>
+        <description>empty label</description>
+        <type>label</type>
+        <id>0</id>
+        <label></label>
+        <font>font12</font>
+        <height>32</height>
+      </control>
+
       <control>
         <description>current condition label</description>
         <type>label</type>

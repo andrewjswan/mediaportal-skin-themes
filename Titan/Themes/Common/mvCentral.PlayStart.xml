@@ -130,25 +130,25 @@
       <description>Progress background</description>
       <type>image</type>
       <posX>1525</posX>
-      <posY>1065</posY>
+      <posY>1070</posY>
       <width>250</width>
-      <height>5</height>
-      <texture>osd_progress_simple_background.png</texture>
+      <height>1</height>
+      <texture>simple_pb_background.png</texture>
     </control>
 
     <control>
       <id>0</id>
       <description>progress bar</description>
       <type>progress</type>
-      <posX>1515</posX>
-      <posY>1065</posY>
-      <width>270</width>
-      <height>3</height>
+      <posX>1504</posX>
+      <posY>1044</posY>
+      <width>292</width>
+      <height>26</height>
       <label>#percentage</label>
-      <texturebg>-</texturebg>
-      <lefttexture>osd_progress_simple_left.png</lefttexture>
-      <midtexture>osd_progress_simple_mid.png</midtexture>
-      <righttexture>osd_progress_simple_right.png</righttexture>
+      <texturebg></texturebg>
+      <lefttexture></lefttexture>
+      <midtexture></midtexture>
+      <righttexture>simple_pb_right.png</righttexture>
     </control>
 
     <!-- ClearArt -->

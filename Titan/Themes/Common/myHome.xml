@@ -118,7 +118,7 @@
       <posY>958</posY>
       <width>1820</width>
       <height>84</height>
-      <texture>BasicHomeSubBG.png</texture>  
+      <texture>BasicHomeSubBGFlat.png</texture>  
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
     </control>

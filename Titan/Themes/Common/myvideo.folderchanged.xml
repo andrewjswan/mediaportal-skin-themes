@@ -12,7 +12,7 @@
 		<height>149</height>
 		<keepaspectratio>no</keepaspectratio>
 		<texture>page_updated_left.png</texture>
-		<visible>string.equals(#VideoFolderChanged,true)</visible>
+		<visible>string.equals(#VideoFolderChanged,true)|string.equals(#importer.hasuncomplete,true)</visible>
 	</control>
 
 </controls>

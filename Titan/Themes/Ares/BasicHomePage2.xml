@@ -44,19 +44,20 @@
         <type>button</type>
         <id>00505</id>
 		<posX>40</posX>
-        <posY>405</posY>
-		<height>571</height>
+        <posY>#home.button.posy</posY>
+		<height>#home.button.height</height>
 		<width>367</width>
 		<onfocus>#(skin.setstring('#skin.currentTile','00505'))</onfocus>
         <label>#(iif(eq(#skin.tile6cne,'True'),'#tile6plugin.name','#tile6.name'))</label>
 		<oninfo>#(skin.setfocus(35,240))</oninfo>
 		<hyperlink>#tile6.hyperlink</hyperlink>
+                <hyperlinkParameter>#tile6plugin.parameter</hyperlinkParameter>
 		<textcolorNoFocus>ff888888</textcolorNoFocus>
 		<textcolor>ffffffff</textcolor>
-		<textureFocus overlay="">#(iif(eq(#skin.manualimg,'yes'),'btn\unfocus\#tile6pluginImg.png',iif(and(or(eq(#tile6plugin.hyperlink,'WorldWeather'), eq(#tile6plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#WorldWeather.TodayIconNumber.png','btn\unfocus\#tile6plugin.hyperlink.png')))</textureFocus>
-		<textureNoFocus>#(iif(eq(#skin.manualimg,'yes'),'btn\unfocus\#tile6pluginImg.png',iif(and(or(eq(#tile6plugin.hyperlink,'WorldWeather'), eq(#tile6plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#WorldWeather.TodayIconNumber.png','btn\unfocus\#tile6plugin.hyperlink.png')))</textureNoFocus>
+		<textureFocus overlay="">#(iif(eq(#skin.manualimg,'yes'),'btn\#home.button.type\#tile6pluginImg.png',iif(and(or(eq(#tile6plugin.hyperlink,'WorldWeather'), eq(#tile6plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#home.button.type\#WorldWeather.TodayIconNumber.png','btn\#home.button.type\#tile6plugin.hyperlink.png')))</textureFocus>
+		<textureNoFocus>#(iif(eq(#skin.manualimg,'yes'),'btn\#home.button.type\#tile6pluginImg.png',iif(and(or(eq(#tile6plugin.hyperlink,'WorldWeather'), eq(#tile6plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#home.button.type\#WorldWeather.TodayIconNumber.png','btn\#home.button.type\#tile6plugin.hyperlink.png')))</textureNoFocus>
 		<textalign>center</textalign>
-		<textYOff>230</textYOff>
+		<textYOff>#home.button.textyoff</textYOff>
 		<font>font13</font>
         <onleft>00#skin.page2navleft</onleft>
         <onup>#skin.Anav6</onup>
@@ -72,19 +73,20 @@
         <type>button</type>
         <id>00506</id>
 		<posX>410</posX>
-        <posY>405</posY>
-		<height>571</height>
+        <posY>#home.button.posy</posY>
+		<height>#home.button.height</height>
 		<width>367</width>
 		<onfocus>#(skin.setstring('#skin.currentTile','00506'))</onfocus>
         <label>#(iif(eq(#skin.tile7cne,'True'),'#tile7plugin.name','#tile7.name'))</label>
 		<oninfo>#(skin.setfocus(35,242))</oninfo>
 		<hyperlink>#tile7.hyperlink</hyperlink>
+                <hyperlinkParameter>#tile7plugin.parameter</hyperlinkParameter>
 		<textcolorNoFocus>ff888888</textcolorNoFocus>
 		<textcolor>ffffffff</textcolor>
-		<textureFocus overlay="">#(iif(eq(#skin.manualimg,'yes'),'btn\unfocus\#tile7pluginImg.png',iif(and(or(eq(#tile7plugin.hyperlink,'WorldWeather'), eq(#tile7plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#WorldWeather.TodayIconNumber.png','btn\unfocus\#tile7plugin.hyperlink.png')))</textureFocus>
-		<textureNoFocus>#(iif(eq(#skin.manualimg,'yes'),'btn\unfocus\#tile7pluginImg.png',iif(and(or(eq(#tile7plugin.hyperlink,'WorldWeather'), eq(#tile7plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#WorldWeather.TodayIconNumber.png','btn\unfocus\#tile7plugin.hyperlink.png')))</textureNoFocus>
+		<textureFocus overlay="">#(iif(eq(#skin.manualimg,'yes'),'btn\#home.button.type\#tile7pluginImg.png',iif(and(or(eq(#tile7plugin.hyperlink,'WorldWeather'), eq(#tile7plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#home.button.type\#WorldWeather.TodayIconNumber.png','btn\#home.button.type\#tile7plugin.hyperlink.png')))</textureFocus>
+		<textureNoFocus>#(iif(eq(#skin.manualimg,'yes'),'btn\#home.button.type\#tile7pluginImg.png',iif(and(or(eq(#tile7plugin.hyperlink,'WorldWeather'), eq(#tile7plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#home.button.type\#WorldWeather.TodayIconNumber.png','btn\#home.button.type\#tile7plugin.hyperlink.png')))</textureNoFocus>
 		<textalign>center</textalign>
-		<textYOff>230</textYOff>
+		<textYOff>#home.button.textyoff</textYOff>
 		<font>font13</font>
         <onleft>00505</onleft>
         <onup>#skin.Anav7</onup>
@@ -100,19 +102,20 @@
         <type>button</type>
         <id>00507</id>
 		<posX>780</posX>
-        <posY>405</posY>
-		<height>571</height>
+        <posY>#home.button.posy</posY>
+		<height>#home.button.height</height>
 		<width>367</width>
 		<onfocus>#(skin.setstring('#skin.currentTile','00507'))</onfocus>
         <label>#(iif(eq(#skin.tile8cne,'True'),'#tile8plugin.name','#tile8.name'))</label>
 		<oninfo>#(skin.setfocus(35,244))</oninfo>
 		<hyperlink>#tile8.hyperlink</hyperlink>
+                <hyperlinkParameter>#tile8plugin.parameter</hyperlinkParameter>
 		<textcolorNoFocus>ff888888</textcolorNoFocus>
 		<textcolor>ffffffff</textcolor>
-		<textureFocus overlay="">#(iif(eq(#skin.manualimg,'yes'),'btn\unfocus\#tile8pluginImg.png',iif(and(or(eq(#tile8plugin.hyperlink,'WorldWeather'), eq(#tile8plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#WorldWeather.TodayIconNumber.png','btn\unfocus\#tile8plugin.hyperlink.png')))</textureFocus>
-		<textureNoFocus>#(iif(eq(#skin.manualimg,'yes'),'btn\unfocus\#tile8pluginImg.png',iif(and(or(eq(#tile8plugin.hyperlink,'WorldWeather'), eq(#tile8plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#WorldWeather.TodayIconNumber.png','btn\unfocus\#tile8plugin.hyperlink.png')))</textureNoFocus>
+		<textureFocus overlay="">#(iif(eq(#skin.manualimg,'yes'),'btn\#home.button.type\#tile8pluginImg.png',iif(and(or(eq(#tile8plugin.hyperlink,'WorldWeather'), eq(#tile8plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#home.button.type\#WorldWeather.TodayIconNumber.png','btn\#home.button.type\#tile8plugin.hyperlink.png')))</textureFocus>
+		<textureNoFocus>#(iif(eq(#skin.manualimg,'yes'),'btn\#home.button.type\#tile8pluginImg.png',iif(and(or(eq(#tile8plugin.hyperlink,'WorldWeather'), eq(#tile8plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#home.button.type\#WorldWeather.TodayIconNumber.png','btn\#home.button.type\#tile8plugin.hyperlink.png')))</textureNoFocus>
 		<textalign>center</textalign>
-		<textYOff>230</textYOff>
+		<textYOff>#home.button.textyoff</textYOff>
 		<font>font13</font>
         <onleft>00506</onleft>
         <onup>#skin.Anav8</onup>
@@ -128,19 +131,20 @@
         <type>button</type>
         <id>00508</id>
 		<posX>1150</posX>
-        <posY>405</posY>
-		<height>571</height>
+        <posY>#home.button.posy</posY>
+		<height>#home.button.height</height>
 		<width>367</width>
 		<onfocus>#(skin.setstring('#skin.currentTile','00508'))</onfocus>
         <label>#(iif(eq(#skin.tile9cne,'True'),'#tile9plugin.name','#tile9.name'))</label>
 		<oninfo>#(skin.setfocus(35,246))</oninfo>
 		<hyperlink>#tile9.hyperlink</hyperlink>
+                <hyperlinkParameter>#tile9plugin.parameter</hyperlinkParameter>
 		<textcolorNoFocus>ff888888</textcolorNoFocus>
 		<textcolor>ffffffff</textcolor>
-		<textureFocus overlay="">#(iif(eq(#skin.manualimg,'yes'),'btn\unfocus\#tile9pluginImg.png',iif(and(or(eq(#tile9plugin.hyperlink,'WorldWeather'), eq(#tile9plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#WorldWeather.TodayIconNumber.png','btn\unfocus\#tile9plugin.hyperlink.png')))</textureFocus>
-		<textureNoFocus>#(iif(eq(#skin.manualimg,'yes'),'btn\unfocus\#tile9pluginImg.png',iif(and(or(eq(#tile9plugin.hyperlink,'WorldWeather'), eq(#tile9plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#WorldWeather.TodayIconNumber.png','btn\unfocus\#tile9plugin.hyperlink.png')))</textureNoFocus>
+		<textureFocus overlay="">#(iif(eq(#skin.manualimg,'yes'),'btn\#home.button.type\#tile9pluginImg.png',iif(and(or(eq(#tile9plugin.hyperlink,'WorldWeather'), eq(#tile9plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#home.button.type\#WorldWeather.TodayIconNumber.png','btn\#home.button.type\#tile9plugin.hyperlink.png')))</textureFocus>
+		<textureNoFocus>#(iif(eq(#skin.manualimg,'yes'),'btn\#home.button.type\#tile9pluginImg.png',iif(and(or(eq(#tile9plugin.hyperlink,'WorldWeather'), eq(#tile9plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#home.button.type\#WorldWeather.TodayIconNumber.png','btn\#home.button.type\#tile9plugin.hyperlink.png')))</textureNoFocus>
 		<textalign>center</textalign>
-		<textYOff>230</textYOff>
+		<textYOff>#home.button.textyoff</textYOff>
 		<font>font13</font>
         <onleft>00507</onleft>
         <onup>#skin.Anav9</onup>
@@ -156,19 +160,20 @@
         <type>button</type>
         <id>00509</id>
 		<posX>1520</posX>
-        <posY>405</posY>
-		<height>571</height>
+        <posY>#home.button.posy</posY>
+		<height>#home.button.height</height>
 		<width>367</width>
 		<onfocus>#(skin.setstring('#skin.currentTile','00509'))</onfocus>
         <label>#(iif(eq(#skin.tile10cne,'True'),'#tile10plugin.name','#tile10.name'))</label>
 		<oninfo>#(skin.setfocus(35,248))</oninfo>
 		<hyperlink>#tile10.hyperlink</hyperlink>
+                <hyperlinkParameter>#tile10plugin.parameter</hyperlinkParameter>
 		<textcolorNoFocus>ff888888</textcolorNoFocus>
 		<textcolor>ffffffff</textcolor>
-		<textureFocus overlay="">#(iif(eq(#skin.manualimg,'yes'),'btn\unfocus\#tile10pluginImg.png',iif(and(or(eq(#tile10plugin.hyperlink,'WorldWeather'), eq(#tile10plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#WorldWeather.TodayIconNumber.png','btn\unfocus\#tile10plugin.hyperlink.png')))</textureFocus>
-		<textureNoFocus>#(iif(eq(#skin.manualimg,'yes'),'btn\unfocus\#tile10pluginImg.png',iif(and(or(eq(#tile10plugin.hyperlink,'WorldWeather'), eq(#tile10plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#WorldWeather.TodayIconNumber.png','btn\unfocus\#tile10plugin.hyperlink.png')))</textureNoFocus>
+		<textureFocus overlay="">#(iif(eq(#skin.manualimg,'yes'),'btn\#home.button.type\#tile10pluginImg.png',iif(and(or(eq(#tile10plugin.hyperlink,'WorldWeather'), eq(#tile10plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#home.button.type\#WorldWeather.TodayIconNumber.png','btn\#home.button.type\#tile10plugin.hyperlink.png')))</textureFocus>
+		<textureNoFocus>#(iif(eq(#skin.manualimg,'yes'),'btn\#home.button.type\#tile10pluginImg.png',iif(and(or(eq(#tile10plugin.hyperlink,'WorldWeather'), eq(#tile10plugin.hyperlink,'WorldWeatherLite')),not(eq(string.trim(#WorldWeather.TodayIconNumber),''))),'weather\buttons\#home.button.type\#WorldWeather.TodayIconNumber.png','btn\#home.button.type\#tile10plugin.hyperlink.png')))</textureNoFocus>
 		<textalign>center</textalign>
-		<textYOff>230</textYOff>
+		<textYOff>#home.button.textyoff</textYOff>
 		<font>font13</font>
         <onleft>00508</onleft>
         <onup>#skin.Anav10</onup>

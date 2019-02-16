@@ -7,8 +7,8 @@
 		<description>button group</description>
 		<type>group</type>
         <dimColor>ffffffff</dimColor>
-		<posX>70</posX>
-		<posY>500</posY>
+		<posX>60</posX>
+		<posY>#home.button.settings2.posy</posY>
 		<!-- Remove and Gaps when buttons are not visible -->
 		<layout>StackLayout(0, Horizontal, false)</layout>
 		<visible allowhiddenfocus="true">control.hasfocus(231)|control.hasfocus(230)|control.hasfocus(232)|control.hasfocus(233)|control.hasfocus(234)|control.hasfocus(235)|control.hasfocus(236)|control.hasfocus(237)|control.hasfocus(238)|control.hasfocus(239)|control.hasfocus(330)|control.hasfocus(331)|control.hasfocus(332)|control.hasfocus(333)|control.hasfocus(334)|control.hasfocus(335)|control.hasfocus(400)|control.hasfocus(401)|control.hasfocus(402)|control.hasfocus(403)|control.hasfocus(404)|control.hasfocus(605)|control.hasfocus(604)|control.hasfocus(603)|control.hasfocus(602)|control.hasfocus(601)</visible>   
@@ -32,8 +32,8 @@
         <subitem>#PluginTileList</subitem>
         </subitems>
         <textcolorNoFocus>70ffffff</textcolorNoFocus>
-        <textureFocus>picBtnEdit_focus.png</textureFocus>
-		<textureNoFocus>picBtnEdit.png</textureNoFocus>
+        <textureFocus>basichome_image_focus.png</textureFocus>
+		<textureNoFocus>basichome_image.png</textureNoFocus>
 		<onup>230</onup>
         <onleft>400</onleft>
         <ondown>601</ondown>
@@ -72,8 +72,8 @@
         <subitem>#PluginTileList</subitem>
         </subitems>
         <textcolorNoFocus>70ffffff</textcolorNoFocus>
-        <textureFocus>picBtnEdit_focus.png</textureFocus>
-		<textureNoFocus>picBtnEdit.png</textureNoFocus>
+        <textureFocus>basichome_image_focus.png</textureFocus>
+		<textureNoFocus>basichome_image.png</textureNoFocus>
 		<onup>232</onup>
         <onleft>401</onleft>
         <ondown>602</ondown>
@@ -114,8 +114,8 @@
         <subitem>#PluginTileList</subitem>
         </subitems>
         <textcolorNoFocus>70ffffff</textcolorNoFocus>
-        <textureFocus>picBtnEdit_focus.png</textureFocus>
-		<textureNoFocus>picBtnEdit.png</textureNoFocus>
+        <textureFocus>basichome_image_focus.png</textureFocus>
+		<textureNoFocus>basichome_image.png</textureNoFocus>
 		<onup>234</onup>
         <onleft>402</onleft>
         <ondown>603</ondown>
@@ -156,8 +156,8 @@
         <subitem>#PluginTileList</subitem>
         </subitems>
         <textcolorNoFocus>70ffffff</textcolorNoFocus>
-        <textureFocus>picBtnEdit_focus.png</textureFocus>
-		<textureNoFocus>picBtnEdit.png</textureNoFocus>
+        <textureFocus>basichome_image_focus.png</textureFocus>
+		<textureNoFocus>basichome_image.png</textureNoFocus>
 		<onup>236</onup>
         <onleft>403</onleft>
         <ondown>604</ondown>
@@ -198,8 +198,8 @@
         <subitem>#PluginTileList</subitem>
         </subitems>
         <textcolorNoFocus>70ffffff</textcolorNoFocus>
-        <textureFocus>picBtnEdit_focus.png</textureFocus>
-		<textureNoFocus>picBtnEdit.png</textureNoFocus>
+        <textureFocus>basichome_image_focus.png</textureFocus>
+		<textureNoFocus>basichome_image.png</textureNoFocus>
 		<onup>238</onup>
         <onleft>404</onleft>
         <ondown>605</ondown>
