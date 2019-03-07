@@ -3,5 +3,6 @@
   <main>
      <latestscount>3</latestscount>
      <tvlatestscount>3</tvlatestscount>
+     <facades>no</facades>
   </main>
 </settings>

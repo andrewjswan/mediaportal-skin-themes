@@ -3293,6 +3293,482 @@
               <ZipFileName>Installer{CopyFile}\{4e7357e1-2ce2-407b-ae53-5e0ea7752380}-scrollbar_bar_nib_hor.png</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\scrollbar_bar_nib_hor.png</DestinationFilename>
             </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Cooling-Snow.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{7758c339-3ca0-4d57-9ba7-eacf7f270e7b}-Cooling-Snow.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Cooling-Snow.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Cooling.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{801317ee-c3d7-424a-bba4-2e23c02cfdce}-Cooling.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Cooling.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Warming-Sun.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{3cb6826c-56ef-492a-a55f-8ef1ca8b0ea9}-Warming-Sun.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Warming-Sun.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Warming.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{fa7c6c5e-5694-45c9-a8be-0590c4f9b08e}-Warming.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Warming.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Back.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a52ef2c2-6107-429a-8bb7-03c67b0f21c2}-Weather.Back.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Back.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Fill.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{7b49a365-a630-4239-be8f-741d93c480b5}-Weather.Fill.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Fill.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_000.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e42e8a00-0d32-44be-9ded-74bb36d3c108}-Weather.Percentage_000.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_000.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_005.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{2521271f-76fa-4703-84bd-c28ac2ced69a}-Weather.Percentage_005.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_005.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_010.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{38205c92-e6ed-4f49-86e4-9742d5f256b4}-Weather.Percentage_010.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_010.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_015.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{3e9ab8a6-886e-48dc-91a6-a09ffb763978}-Weather.Percentage_015.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_015.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_020.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{ce260ef1-6971-4f55-8d3f-e0bbb79a415b}-Weather.Percentage_020.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_020.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_025.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{580d4a37-9482-44b4-83fc-21f0ff882458}-Weather.Percentage_025.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_025.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_030.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{b0c0db08-301d-4224-b56d-37c240eea827}-Weather.Percentage_030.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_030.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_035.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{ebe7701d-c2d0-4fe9-8f82-633f642f4514}-Weather.Percentage_035.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_035.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_040.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{8f703c51-e86d-4297-a303-5b4fdfe74690}-Weather.Percentage_040.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_040.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_045.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{590936cd-82b4-408c-9a26-7a2e3c11f6ac}-Weather.Percentage_045.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_045.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_050.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{d927f34c-37e5-407e-b74d-198d16826732}-Weather.Percentage_050.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_050.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_055.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{0bbb9bb8-b30c-4db5-b13c-94162f6fbd3e}-Weather.Percentage_055.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_055.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_060.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{ad1b4346-1d01-4fa2-98ee-755d8d641f9f}-Weather.Percentage_060.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_060.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_065.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{257689e2-758f-4b6e-b08d-b540d2d0477f}-Weather.Percentage_065.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_065.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_070.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{15c89376-b412-4dea-99f2-b42e66136c05}-Weather.Percentage_070.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_070.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_075.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{c7fdf662-7a95-4844-8111-d030cd086003}-Weather.Percentage_075.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_075.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_080.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{222f2289-ce00-4cae-845c-c1ab0de26fe5}-Weather.Percentage_080.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_080.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_085.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{8d4cf4ac-d1f8-4a28-b545-faab31810022}-Weather.Percentage_085.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_085.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_090.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e5f1873a-39c5-4a65-be81-edd3e0995d22}-Weather.Percentage_090.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_090.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_095.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{0c088616-d22d-41d3-b675-9a778afdd7e0}-Weather.Percentage_095.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_095.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_100.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{70698882-874e-4dd0-ae46-1f749f22d8e6}-Weather.Percentage_100.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_100.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Records.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{c8c1eb0e-bf29-4670-87d9-0c64d17aa2c4}-Weather.Records.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Records.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Wind.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{5f754779-8b40-45c0-9d78-356dcc0e1140}-Weather.Wind.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Wind.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Moon\0.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{e280873a-f8d3-4137-895f-b98d5aa37cb9}-0.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Moon\0.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Moon\1.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{1e8e8760-8bc7-43c0-a294-32991cf3dc3e}-1.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Moon\1.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Moon\2.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{dec5e000-1935-4edd-a0d2-3aa4ec095508}-2.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Moon\2.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Moon\3.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{c5acd4e4-7737-4098-a560-41d0dc56fbb0}-3.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Moon\3.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Moon\4.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{887422b5-084d-47ab-9293-ebf41e94d1fd}-4.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Moon\4.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Moon\5.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{acf8325f-9aeb-44e0-ba81-4cb0436c6526}-5.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Moon\5.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Moon\6.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{5a89fb48-7821-43f5-9ecf-cd5f9e4c392e}-6.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Moon\6.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Moon\7.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{4d248cd5-950a-4768-9b79-5e020af26c91}-7.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Moon\7.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Moon\Moonrise.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{577a2fd3-0896-4153-ba4b-83e1abb06da1}-Moonrise.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Moon\Moonrise.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Moon\Moonset.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{3c6a42f2-a6e3-4a64-ae2d-f4c0a1776818}-Moonset.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Moon\Moonset.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Sun\Sunrise.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{c4d5bf31-bcc3-4ff5-a3a6-5a0f4cc3c0fd}-Sunrise.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Sun\Sunrise.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>AlwaysOverwrite</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Media\Weather\Sun\Sunset.png</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{9e3fa537-b148-4768-9742-e7f8c8b92679}-Sunset.png</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Sun\Sunset.png</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\common.time.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{930b20ec-1346-4ccb-9c07-e23f314cbbac}-common.time.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\common.time.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\fonts.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{2b1c54be-4755-4ec2-8e0c-4a3f71021279}-fonts.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\fonts.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\SkinSpectrumAnalyzer.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{b23c6e96-9365-46f6-81cc-0d0bbf015699}-SkinSpectrumAnalyzer.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\SkinSpectrumAnalyzer.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeather.Astronomy.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{eeb63b17-e2d6-405d-83b2-2cb6cf7fc046}-WorldWeather.Astronomy.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.Astronomy.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Worldweather.backgrounds.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{3c1706e8-af0e-4af0-bd00-ffcfbea7fca7}-Worldweather.backgrounds.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Worldweather.backgrounds.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeather.body.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{89ceb01b-02cc-416b-8e68-c94e69b53ab6}-WorldWeather.body.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.body.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeather.buttons.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{9285a980-59ab-47dc-b5ec-5cc01d9ce590}-WorldWeather.buttons.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.buttons.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeather.common.fanart.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{db8ea287-f080-49c8-a821-a9e99056624e}-WorldWeather.common.fanart.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.common.fanart.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeather.common.header.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{f3ddf12f-c754-436b-a7c2-74fc8ff85d00}-WorldWeather.common.header.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.common.header.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeather.gauge.themp.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{dd484960-370f-46f9-bc27-5a201daac82a}-WorldWeather.gauge.themp.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.gauge.themp.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeather.gauge.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{24cfe7e3-2386-4768-85b3-8af635d54179}-WorldWeather.gauge.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.gauge.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeather.GeoClock.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{4b29b6e6-a176-40df-a542-091a2728f809}-WorldWeather.GeoClock.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.GeoClock.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeather.GraphicCondition.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{39f8358c-fd65-46df-9b9d-6397a253631d}-WorldWeather.GraphicCondition.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.GraphicCondition.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\Worldweather.hiddenmenu.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{f2f47d68-803e-4ac0-afb7-f7a7464d73f0}-Worldweather.hiddenmenu.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Worldweather.hiddenmenu.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeather.HistoryCondition.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{9f5482e6-6b8c-4b49-b522-958306085c34}-WorldWeather.HistoryCondition.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.HistoryCondition.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeather.Holidays.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{cdefbdcf-b5a5-450f-b043-079b929f11ce}-WorldWeather.Holidays.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.Holidays.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeather.HourCondition.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{1620cf63-5094-4d9a-a3b5-7745986f2efd}-WorldWeather.HourCondition.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.HourCondition.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeather.Image.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{cee332e5-0341-495d-9d3c-1ea6bf462c34}-WorldWeather.Image.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.Image.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeather.lightbody.feed.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{24fe4a79-3061-4272-b31d-9b7925890502}-WorldWeather.lightbody.feed.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.lightbody.feed.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeather.lightbody.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{f9a42374-8ea5-40b9-bf2f-46205785b055}-WorldWeather.lightbody.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.lightbody.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeather.NormalCondition.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{49bf89f3-4c65-4075-8d19-70e517f012a2}-WorldWeather.NormalCondition.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.NormalCondition.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeather.sunmoon.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a5339656-4f21-429a-973e-96e5adbfdc51}-WorldWeather.sunmoon.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.sunmoon.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldweatherLite.backgrounds.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{402416ed-d0b7-457d-8b14-4ee471becf9e}-WorldweatherLite.backgrounds.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldweatherLite.backgrounds.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeatherLite.body.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{a7817321-8680-4a4a-8658-c508129af826}-WorldWeatherLite.body.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeatherLite.body.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeatherLite.buttons.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{2302845a-760b-4b08-a610-74cde4d5f08d}-WorldWeatherLite.buttons.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeatherLite.buttons.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeatherLite.gauge.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{4fabe59b-9ce4-43e2-a447-6222c3b7f39d}-WorldWeatherLite.gauge.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeatherLite.gauge.xml</DestinationFilename>
+            </FileItem>
+            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+              <Param1 />
+              <UpdateOption>OverwriteIfOlder</UpdateOption>
+              <LocalFileName>..\Titan\Themes\Common\WorldWeatherLite.hiddenmenu.xml</LocalFileName>
+              <ZipFileName>Installer{CopyFile}\{c0f71ec9-b783-4813-9c25-fd7779817b23}-WorldWeatherLite.hiddenmenu.xml</ZipFileName>
+              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeatherLite.hiddenmenu.xml</DestinationFilename>
+            </FileItem>
           </Items>
         </Files>
       </GroupItem>
@@ -3379,13 +3855,6 @@
               <LocalFileName>..\Titan\Themes\ajs Theme\common.time.settings.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{068823e4-989b-4177-bf9a-62ff172215bc}-common.time.settings.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\common.time.settings.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>AlwaysOverwrite</UpdateOption>
-              <LocalFileName>..\Titan\Themes\ajs Theme\common.time.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{09878f47-674f-436f-aa82-d22fb63bd8a2}-common.time.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\common.time.xml</DestinationFilename>
             </FileItem>
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
@@ -5390,7 +5859,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <Major>2</Major>
       <Minor>0</Minor>
       <Build>0</Build>
-      <Revision>7</Revision>
+      <Revision>9</Revision>
     </Version>
     <ExtensionDescription>BasicHome editor
 
@@ -5402,7 +5871,7 @@ bugfixes and more.</ExtensionDescription>
     <VersionDescription>Some cosmetic fixes</VersionDescription>
     <DevelopmentStatus>Rc</DevelopmentStatus>
     <OnlineLocation>https://media.githubusercontent.com/media/andrewjswan/mediaportal-skin-themes/master/build/ajs.Theme.for.Titan.mpe1</OnlineLocation>
-    <ReleaseDate>2019-02-16T14:47:12</ReleaseDate>
+    <ReleaseDate>2019-03-07T14:47:12</ReleaseDate>
     <Tags>ajs, titan, theme</Tags>
     <Location>..\build\ajs.Theme.for.Titan.mpe1</Location>
     <Params>
@@ -8725,6 +9194,482 @@ bugfixes and more.</ExtensionDescription>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
         <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Cooling-Snow.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{7758c339-3ca0-4d57-9ba7-eacf7f270e7b}-Cooling-Snow.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Cooling-Snow.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Cooling.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{801317ee-c3d7-424a-bba4-2e23c02cfdce}-Cooling.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Cooling.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Warming-Sun.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{3cb6826c-56ef-492a-a55f-8ef1ca8b0ea9}-Warming-Sun.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Warming-Sun.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Warming.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{fa7c6c5e-5694-45c9-a8be-0590c4f9b08e}-Warming.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Warming.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Back.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a52ef2c2-6107-429a-8bb7-03c67b0f21c2}-Weather.Back.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Back.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Fill.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{7b49a365-a630-4239-be8f-741d93c480b5}-Weather.Fill.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Fill.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_000.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e42e8a00-0d32-44be-9ded-74bb36d3c108}-Weather.Percentage_000.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_000.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_005.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{2521271f-76fa-4703-84bd-c28ac2ced69a}-Weather.Percentage_005.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_005.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_010.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{38205c92-e6ed-4f49-86e4-9742d5f256b4}-Weather.Percentage_010.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_010.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_015.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{3e9ab8a6-886e-48dc-91a6-a09ffb763978}-Weather.Percentage_015.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_015.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_020.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{ce260ef1-6971-4f55-8d3f-e0bbb79a415b}-Weather.Percentage_020.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_020.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_025.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{580d4a37-9482-44b4-83fc-21f0ff882458}-Weather.Percentage_025.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_025.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_030.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{b0c0db08-301d-4224-b56d-37c240eea827}-Weather.Percentage_030.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_030.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_035.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{ebe7701d-c2d0-4fe9-8f82-633f642f4514}-Weather.Percentage_035.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_035.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_040.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{8f703c51-e86d-4297-a303-5b4fdfe74690}-Weather.Percentage_040.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_040.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_045.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{590936cd-82b4-408c-9a26-7a2e3c11f6ac}-Weather.Percentage_045.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_045.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_050.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{d927f34c-37e5-407e-b74d-198d16826732}-Weather.Percentage_050.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_050.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_055.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{0bbb9bb8-b30c-4db5-b13c-94162f6fbd3e}-Weather.Percentage_055.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_055.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_060.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{ad1b4346-1d01-4fa2-98ee-755d8d641f9f}-Weather.Percentage_060.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_060.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_065.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{257689e2-758f-4b6e-b08d-b540d2d0477f}-Weather.Percentage_065.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_065.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_070.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{15c89376-b412-4dea-99f2-b42e66136c05}-Weather.Percentage_070.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_070.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_075.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{c7fdf662-7a95-4844-8111-d030cd086003}-Weather.Percentage_075.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_075.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_080.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{222f2289-ce00-4cae-845c-c1ab0de26fe5}-Weather.Percentage_080.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_080.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_085.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{8d4cf4ac-d1f8-4a28-b545-faab31810022}-Weather.Percentage_085.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_085.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_090.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e5f1873a-39c5-4a65-be81-edd3e0995d22}-Weather.Percentage_090.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_090.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_095.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{0c088616-d22d-41d3-b675-9a778afdd7e0}-Weather.Percentage_095.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_095.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Percentage_100.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{70698882-874e-4dd0-ae46-1f749f22d8e6}-Weather.Percentage_100.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Percentage_100.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Records.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{c8c1eb0e-bf29-4670-87d9-0c64d17aa2c4}-Weather.Records.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Records.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Gauge\Weather.Wind.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{5f754779-8b40-45c0-9d78-356dcc0e1140}-Weather.Wind.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Gauge\Weather.Wind.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Moon\0.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{e280873a-f8d3-4137-895f-b98d5aa37cb9}-0.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Moon\0.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Moon\1.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{1e8e8760-8bc7-43c0-a294-32991cf3dc3e}-1.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Moon\1.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Moon\2.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{dec5e000-1935-4edd-a0d2-3aa4ec095508}-2.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Moon\2.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Moon\3.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{c5acd4e4-7737-4098-a560-41d0dc56fbb0}-3.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Moon\3.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Moon\4.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{887422b5-084d-47ab-9293-ebf41e94d1fd}-4.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Moon\4.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Moon\5.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{acf8325f-9aeb-44e0-ba81-4cb0436c6526}-5.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Moon\5.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Moon\6.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{5a89fb48-7821-43f5-9ecf-cd5f9e4c392e}-6.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Moon\6.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Moon\7.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{4d248cd5-950a-4768-9b79-5e020af26c91}-7.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Moon\7.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Moon\Moonrise.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{577a2fd3-0896-4153-ba4b-83e1abb06da1}-Moonrise.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Moon\Moonrise.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Moon\Moonset.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{3c6a42f2-a6e3-4a64-ae2d-f4c0a1776818}-Moonset.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Moon\Moonset.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Sun\Sunrise.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{c4d5bf31-bcc3-4ff5-a3a6-5a0f4cc3c0fd}-Sunrise.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Sun\Sunrise.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Media\Weather\Sun\Sunset.png</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{9e3fa537-b148-4768-9742-e7f8c8b92679}-Sunset.png</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\Sun\Sunset.png</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\common.time.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{930b20ec-1346-4ccb-9c07-e23f314cbbac}-common.time.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\common.time.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\fonts.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{2b1c54be-4755-4ec2-8e0c-4a3f71021279}-fonts.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\fonts.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\SkinSpectrumAnalyzer.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{b23c6e96-9365-46f6-81cc-0d0bbf015699}-SkinSpectrumAnalyzer.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\SkinSpectrumAnalyzer.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeather.Astronomy.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{eeb63b17-e2d6-405d-83b2-2cb6cf7fc046}-WorldWeather.Astronomy.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.Astronomy.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Worldweather.backgrounds.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{3c1706e8-af0e-4af0-bd00-ffcfbea7fca7}-Worldweather.backgrounds.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Worldweather.backgrounds.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeather.body.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{89ceb01b-02cc-416b-8e68-c94e69b53ab6}-WorldWeather.body.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.body.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeather.buttons.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{9285a980-59ab-47dc-b5ec-5cc01d9ce590}-WorldWeather.buttons.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.buttons.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeather.common.fanart.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{db8ea287-f080-49c8-a821-a9e99056624e}-WorldWeather.common.fanart.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.common.fanart.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeather.common.header.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{f3ddf12f-c754-436b-a7c2-74fc8ff85d00}-WorldWeather.common.header.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.common.header.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeather.gauge.themp.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{dd484960-370f-46f9-bc27-5a201daac82a}-WorldWeather.gauge.themp.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.gauge.themp.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeather.gauge.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{24cfe7e3-2386-4768-85b3-8af635d54179}-WorldWeather.gauge.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.gauge.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeather.GeoClock.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{4b29b6e6-a176-40df-a542-091a2728f809}-WorldWeather.GeoClock.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.GeoClock.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeather.GraphicCondition.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{39f8358c-fd65-46df-9b9d-6397a253631d}-WorldWeather.GraphicCondition.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.GraphicCondition.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\Worldweather.hiddenmenu.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{f2f47d68-803e-4ac0-afb7-f7a7464d73f0}-Worldweather.hiddenmenu.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Worldweather.hiddenmenu.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeather.HistoryCondition.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{9f5482e6-6b8c-4b49-b522-958306085c34}-WorldWeather.HistoryCondition.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.HistoryCondition.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeather.Holidays.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{cdefbdcf-b5a5-450f-b043-079b929f11ce}-WorldWeather.Holidays.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.Holidays.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeather.HourCondition.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{1620cf63-5094-4d9a-a3b5-7745986f2efd}-WorldWeather.HourCondition.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.HourCondition.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeather.Image.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{cee332e5-0341-495d-9d3c-1ea6bf462c34}-WorldWeather.Image.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.Image.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeather.lightbody.feed.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{24fe4a79-3061-4272-b31d-9b7925890502}-WorldWeather.lightbody.feed.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.lightbody.feed.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeather.lightbody.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{f9a42374-8ea5-40b9-bf2f-46205785b055}-WorldWeather.lightbody.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.lightbody.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeather.NormalCondition.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{49bf89f3-4c65-4075-8d19-70e517f012a2}-WorldWeather.NormalCondition.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.NormalCondition.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeather.sunmoon.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a5339656-4f21-429a-973e-96e5adbfdc51}-WorldWeather.sunmoon.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.sunmoon.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldweatherLite.backgrounds.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{402416ed-d0b7-457d-8b14-4ee471becf9e}-WorldweatherLite.backgrounds.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldweatherLite.backgrounds.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeatherLite.body.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{a7817321-8680-4a4a-8658-c508129af826}-WorldWeatherLite.body.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeatherLite.body.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeatherLite.buttons.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{2302845a-760b-4b08-a610-74cde4d5f08d}-WorldWeatherLite.buttons.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeatherLite.buttons.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeatherLite.gauge.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{4fabe59b-9ce4-43e2-a447-6222c3b7f39d}-WorldWeatherLite.gauge.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeatherLite.gauge.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>OverwriteIfOlder</UpdateOption>
+        <LocalFileName>..\Titan\Themes\Common\WorldWeatherLite.hiddenmenu.xml</LocalFileName>
+        <ZipFileName>Installer{CopyFile}\{c0f71ec9-b783-4813-9c25-fd7779817b23}-WorldWeatherLite.hiddenmenu.xml</ZipFileName>
+        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeatherLite.hiddenmenu.xml</DestinationFilename>
+      </FileItem>
+      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
+        <Param1 />
+        <UpdateOption>AlwaysOverwrite</UpdateOption>
         <LocalFileName>..\Titan\Themes\ajs Theme\BasicHome.Blank.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{b3239b28-ce4e-4f3b-a4d2-16538807f656}-BasicHome.Blank.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\BasicHome.Blank.xml</DestinationFilename>
@@ -8798,13 +9743,6 @@ bugfixes and more.</ExtensionDescription>
         <LocalFileName>..\Titan\Themes\ajs Theme\common.time.settings.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{068823e4-989b-4177-bf9a-62ff172215bc}-common.time.settings.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\common.time.settings.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>AlwaysOverwrite</UpdateOption>
-        <LocalFileName>..\Titan\Themes\ajs Theme\common.time.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{09878f47-674f-436f-aa82-d22fb63bd8a2}-common.time.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\common.time.xml</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
@@ -10588,7 +11526,7 @@ bugfixes and more.</ExtensionDescription>
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>themes.icon.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{10a0d374-6248-43fb-96f3-b134f4a384dd}-themes.icon.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{2e84c0b5-2b93-493a-8e0f-427134ce4b96}-themes.icon.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>

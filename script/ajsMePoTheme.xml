@@ -13,18 +13,10 @@
               <Items />
             </Files>
           </GroupItem>
-          <GroupItem Name="BasicHomeFiles">
-            <DisplayName>BasicHomeFiles</DisplayName>
+          <GroupItem Name="BasicHome">
+            <DisplayName>BasicHome</DisplayName>
             <DefaulChecked>true</DefaulChecked>
-            <Description>BasicHomeFiles</Description>
-            <Files>
-              <Items />
-            </Files>
-          </GroupItem>
-          <GroupItem Name="Editor">
-            <DisplayName>Editor</DisplayName>
-            <DefaulChecked>true</DefaulChecked>
-            <Description>Editor</Description>
+            <Description>BasicHome</Description>
             <Files>
               <Items />
             </Files>
@@ -80,31 +72,30 @@
         <Items />
       </PluginDependencies>
       <GeneralInfo>
-        <Name>ajs Theme for Titan</Name>
-        <Id>715d11d6-337a-4157-9e9f-efbb949416b0</Id>
+        <Name>MePo Theme for Titan by ajs</Name>
+        <Id>eefb93c5-7b8b-41cd-b4a4-8543135c3318</Id>
         <Author>ajs</Author>
         <HomePage>https://github.com/andrewjswan/mediaportal-skin-themes</HomePage>
         <ForumPage>http://forum.team-mediaportal.com/threads/themes-clear-cd-art-support-for-titan-weather-icon-on-screen-bugfixes-and-more.117693/#post-978229</ForumPage>
-        <UpdateUrl>https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/script/ajsTheme.xml</UpdateUrl>
+        <UpdateUrl>https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/script/ajsMePoTheme.xml</UpdateUrl>
         <Version>
           <Major>2</Major>
           <Minor>0</Minor>
           <Build>0</Build>
           <Revision>7</Revision>
         </Version>
-        <ExtensionDescription>BasicHome editor
-
+        <ExtensionDescription>Ares style BasicHome editor
 Clear/CD Art etc. support for Titan, 
-
 Weather icon on screen, 
-
 bugfixes and more.</ExtensionDescription>
-        <VersionDescription>Some cosmetic fixes</VersionDescription>
+        <VersionDescription>New HomeButtons size: (middle, small)
+Bug fixes
+Cosmetic</VersionDescription>
         <DevelopmentStatus>Rc</DevelopmentStatus>
-        <OnlineLocation>https://media.githubusercontent.com/media/andrewjswan/mediaportal-skin-themes/master/build/ajs.Theme.for.Titan.mpe1</OnlineLocation>
+        <OnlineLocation>https://media.githubusercontent.com/media/andrewjswan/mediaportal-skin-themes/master/build/ajs.MePo.Theme.for.Titan.mpe1</OnlineLocation>
         <ReleaseDate>2019-02-16T14:47:12</ReleaseDate>
-        <Tags>ajs, titan, theme</Tags>
-        <Location>..\build\ajs.Theme.for.Titan.mpe1</Location>
+        <Tags>ajs, titan, theme, ares</Tags>
+        <Location>..\build\ajs.MePo.Theme.for.Titan.mpe1</Location>
         <Params>
           <Items>
             <SectionParam Name="Online Icon">
@@ -120,7 +111,7 @@ bugfixes and more.</ExtensionDescription>
  If it has .dll extension it's started like MP plugin configuration.</Description>
             </SectionParam>
             <SectionParam Name="Online Screenshots">
-              <Value>https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/ajs%20Theme.Screenshots/screenshot1.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/ajs%20Theme.Screenshots/screenshot2.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/ajs%20Theme.Screenshots/screenshot3.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/ajs%20Theme.Screenshots/screenshot4.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/ajs%20Theme.Screenshots/screenshot5.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/ajs%20Theme.Screenshots/screenshot6.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/ajs%20Theme.Screenshots/screenshot7.jpg</Value>
+              <Value>https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/MePo.Screenshots/screenshot1.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/MePo.Screenshots/screenshot2.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/MePo.Screenshots/screenshot3.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/MePo.Screenshots/screenshot4.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/MePo.Screenshots/screenshot5.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/MePo.Screenshots/screenshot6.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/MePo.Screenshots/screenshot7.jpg</Value>
               <ValueType>String</ValueType>
               <Description>Online stored screenshot urls separated by ; </Description>
             </SectionParam>
@@ -152,18 +143,10 @@ bugfixes and more.</ExtensionDescription>
               <Items />
             </Files>
           </GroupItem>
-          <GroupItem Name="BasicHomeFiles">
-            <DisplayName>BasicHomeFiles</DisplayName>
+          <GroupItem Name="BasicHome">
+            <DisplayName>BasicHome</DisplayName>
             <DefaulChecked>true</DefaulChecked>
-            <Description>BasicHomeFiles</Description>
-            <Files>
-              <Items />
-            </Files>
-          </GroupItem>
-          <GroupItem Name="Editor">
-            <DisplayName>Editor</DisplayName>
-            <DefaulChecked>true</DefaulChecked>
-            <Description>Editor</Description>
+            <Description>BasicHome</Description>
             <Files>
               <Items />
             </Files>
@@ -219,31 +202,31 @@ bugfixes and more.</ExtensionDescription>
         <Items />
       </PluginDependencies>
       <GeneralInfo>
-        <Name>ajs Theme for Titan</Name>
-        <Id>715d11d6-337a-4157-9e9f-efbb949416b0</Id>
+        <Name>MePo Theme for Titan by ajs</Name>
+        <Id>eefb93c5-7b8b-41cd-b4a4-8543135c3318</Id>
         <Author>ajs</Author>
         <HomePage>https://github.com/andrewjswan/mediaportal-skin-themes</HomePage>
         <ForumPage>http://forum.team-mediaportal.com/threads/themes-clear-cd-art-support-for-titan-weather-icon-on-screen-bugfixes-and-more.117693/#post-978229</ForumPage>
-        <UpdateUrl>https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/script/ajsTheme.xml</UpdateUrl>
+        <UpdateUrl>https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/script/ajsMePoTheme.xml</UpdateUrl>
         <Version>
           <Major>2</Major>
           <Minor>0</Minor>
           <Build>0</Build>
           <Revision>9</Revision>
         </Version>
-        <ExtensionDescription>BasicHome editor
-
+        <ExtensionDescription>Ares style BasicHome editor
 Clear/CD Art etc. support for Titan, 
-
 Weather icon on screen, 
-
 bugfixes and more.</ExtensionDescription>
-        <VersionDescription>Some cosmetic fixes</VersionDescription>
+        <VersionDescription>New Name (Ares -&gt; MePo)
+Cosmetic
+Bug fixes
+</VersionDescription>
         <DevelopmentStatus>Rc</DevelopmentStatus>
-        <OnlineLocation>https://media.githubusercontent.com/media/andrewjswan/mediaportal-skin-themes/master/build/ajs.Theme.for.Titan.mpe1</OnlineLocation>
+        <OnlineLocation>https://media.githubusercontent.com/media/andrewjswan/mediaportal-skin-themes/master/build/ajs.MePo.Theme.for.Titan.mpe1</OnlineLocation>
         <ReleaseDate>2019-03-07T14:47:12</ReleaseDate>
-        <Tags>ajs, titan, theme</Tags>
-        <Location>..\build\ajs.Theme.for.Titan.mpe1</Location>
+        <Tags>ajs, titan, theme, mepo</Tags>
+        <Location>..\build\ajs.MePo.Theme.for.Titan.mpe1</Location>
         <Params>
           <Items>
             <SectionParam Name="Online Icon">
@@ -259,7 +242,7 @@ bugfixes and more.</ExtensionDescription>
  If it has .dll extension it's started like MP plugin configuration.</Description>
             </SectionParam>
             <SectionParam Name="Online Screenshots">
-              <Value>https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/ajs%20Theme.Screenshots/screenshot1.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/ajs%20Theme.Screenshots/screenshot2.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/ajs%20Theme.Screenshots/screenshot3.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/ajs%20Theme.Screenshots/screenshot4.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/ajs%20Theme.Screenshots/screenshot5.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/ajs%20Theme.Screenshots/screenshot6.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/ajs%20Theme.Screenshots/screenshot7.jpg</Value>
+              <Value>https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/MePo.Screenshots/screenshot1.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/MePo.Screenshots/screenshot2.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/MePo.Screenshots/screenshot3.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/MePo.Screenshots/screenshot4.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/MePo.Screenshots/screenshot5.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/MePo.Screenshots/screenshot6.jpg;https://raw.githubusercontent.com/andrewjswan/mediaportal-skin-themes/master/Titan/Themes/MePo.Screenshots/screenshot7.jpg</Value>
               <ValueType>String</ValueType>
               <Description>Online stored screenshot urls separated by ; </Description>
             </SectionParam>
