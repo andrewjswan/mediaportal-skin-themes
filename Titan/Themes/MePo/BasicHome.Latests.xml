@@ -4093,7 +4093,8 @@
         <posY>#home.latest.scroll.posy</posY>
         <width>1750</width>
         <height>90</height>
-        <label>#mpei.updates</label>
+        <!--label>#mpei.updates</label-->
+        <label>#(string.replace(string.replace(#mpei.updates,' : ',':&#xA;'),'.::.','&#xA;'))</label>
         <align>left</align>
         <font>font13</font>
         <textcolor>99ffffff</textcolor>
@@ -4118,6 +4119,8 @@
       <texture mask="">home_shadows.png</texture>
       <colordiffuse>ffffffff</colordiffuse>
       <visible>control.isvisible(010020)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
       <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010020)">conditional</animation>
     </control>	
     <control>
@@ -4131,6 +4134,8 @@
       <texture mask="">home_shadows.png</texture>
       <colordiffuse>ffffffff</colordiffuse>
       <visible>control.isvisible(010008)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
       <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010008)">conditional</animation>
     </control>	
     <control>
@@ -4144,6 +4149,8 @@
       <texture mask="">home_shadows.png</texture>
       <colordiffuse>ffffffff</colordiffuse>
       <visible>control.isvisible(010004)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
       <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010004)">conditional</animation>
     </control>	
     <control>
@@ -4157,6 +4164,8 @@
       <texture mask="">home_shadows2.png</texture>
       <colordiffuse>ffffffff</colordiffuse>
       <visible>control.isvisible(010016)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
       <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010016)">conditional</animation>
     </control>
     <control>
@@ -4170,6 +4179,8 @@
       <texture mask="">home_shadows2.png</texture>
       <colordiffuse>ffffffff</colordiffuse>
       <visible>control.isvisible(010033)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
       <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(010033)">conditional</animation>
     </control>
     <control>
@@ -4183,6 +4194,8 @@
       <texture mask="">home_shadows2.png</texture>
       <colordiffuse>ffffffff</colordiffuse>
       <visible>control.isvisible(013016)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
       <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(013016)">conditional</animation>
     </control>	
 

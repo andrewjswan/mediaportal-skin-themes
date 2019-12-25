@@ -7,13 +7,13 @@
   <allowoverlay>no</allowoverlay>
   <controls>
 
-    <!--            :: BACKGROUNDS ::           	 -->
+    <!--            :: BACKGROUNDS ::                -->
 
     <import>common.default.background.xml</import>
     <import>common.fanart.selected.xml</import>
 
-	<!-- ClearArt -->
-   	<control>
+    <!-- ClearArt -->
+    <control>
       <description>ClearArt</description>
       <type>image</type>
       <id>0</id>
@@ -24,10 +24,10 @@
       <texture>..\..\..\Thumbs\ClearArt\Movies\#(string.trim(#imdbnumber)).png</texture>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
-   	</control>  
+    </control>  
 
-	<!-- ClearLogo -->
-   	<control>
+    <!-- ClearLogo -->
+    <control>
       <description>ClearLogo</description>
       <type>image</type>
       <id>0</id>
@@ -38,9 +38,9 @@
       <texture>..\..\..\Thumbs\ClearLogo\Movies\#(string.trim(#imdbnumber)).png</texture>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
-   	</control>  
+    </control>  
 
-    <!--            :: Overlays ::            -->	
+    <!--            :: Overlays ::            -->   
 
     <control>
       <description>fanart overlay</description>
@@ -87,7 +87,7 @@
       <type>fadelabel</type>
       <label>#Actor.Name</label>
       <id>0</id>
-      <posX>565</posX>
+      <posX>545</posX>
       <posY>358</posY>
       <width>450</width>
       <font>fontB16</font>
@@ -99,26 +99,36 @@
       <animation effect="fade" time="250">WindowClose</animation>
     </control>
 
-    <control Style="InfoLabelDetails">
-      <description>Actor Date of Birth</description>
-      <type>label</type>
-      <label>#(string.rtrim(L(686),':'))</label>
-      <id>0</id>
-      <posX>565</posX>
+    <control>
+      <description>Actor Birth</description>
+      <type>group</type>
+      <layout>StackLayout(10, Horizontal, true)</layout>
+      <posX>545</posX>
       <posY>419</posY>
-      <animation effect="fade" time="250">WindowOpen</animation>
-      <animation effect="fade" time="250">WindowClose</animation>
-    </control>
+      <width>470</width>
+      <dimColor>FFFFFFFF</dimColor>
+      <visible>!control.isvisible(24)</visible>
+      <control Style="InfoLabelDetails">
+        <description>Actor Date of Birth</description>
+        <type>label</type>
+        <label>#(string.rtrim(L(686),':'))</label>
+        <id>0</id>
+        <width>10</width>
+        <maxWidth>150</maxWidth>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
+      </control>
 
-    <control Style="InfoValueSmall">
-      <description>Actor Date of Birth value</description>
-      <type>label</type>
-      <label>#Actor.DateOfBirth</label>
-      <id>0</id>
-      <posX>768</posX>
-      <posY>419</posY>
-      <animation effect="fade" time="250">WindowOpen</animation>
-      <animation effect="fade" time="250">WindowClose</animation>
+      <control Style="InfoValueSmall">
+        <description>Actor Date of Birth value</description>
+        <type>fadelabel</type>
+        <label>#Actor.DateOfBirth</label>
+        <id>0</id>
+        <width>10</width>
+        <maxWidth>310</maxWidth>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
+      </control>
     </control>
 
     <control Style="InfoValueSmall">
@@ -126,9 +136,54 @@
       <type>fadelabel</type>
       <label>#Actor.PlaceOfBirth</label>
       <id>0</id>
-      <posX>565</posX>
+      <posX>545</posX>
       <posY>451</posY>
-      <width>440</width>
+      <width>475</width>
+      <visible>!control.isvisible(24)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
+    </control>
+
+    <control>
+      <description>Actor Death</description>
+      <type>group</type>
+      <layout>StackLayout(5, Horizontal, true)</layout>
+      <posX>545</posX>
+      <posY>483</posY>
+      <width>470</width>
+      <dimColor>FFFFFFFF</dimColor>
+      <visible>!control.isvisible(24)+!string.equals(#Actor.DateOfDeath,)</visible>
+      <control Style="InfoLabelDetails">
+        <description>Actor Date of Birth</description>
+        <type>label</type>
+        <label>#(string.rtrim(L(1277),':'))</label>
+        <id>0</id>
+        <width>10</width>
+        <maxWidth>150</maxWidth>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
+      </control>
+
+      <control Style="InfoValueSmall">
+        <description>Actor Date of Death value</description>
+        <type>fadelabel</type>
+        <label>#Actor.DateOfDeath</label>
+        <id>0</id>
+        <width>10</width>
+        <maxWidth>310</maxWidth>
+        <animation effect="fade" time="250">WindowOpen</animation>
+        <animation effect="fade" time="250">WindowClose</animation>
+      </control>
+    </control>
+
+    <control Style="InfoValueSmall">
+      <description>Actor Place of Death value</description>
+      <type>fadelabel</type>
+      <label>#Actor.PlaceOfDeath</label>
+      <id>0</id>
+      <posX>545</posX>
+      <posY>515</posY>
+      <width>475</width>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
     </control>
@@ -136,14 +191,14 @@
     <control>
       <type>group</type>
       <layout>StackLayout(7, Vertical, true)</layout>
-      <description>group element</description>
+      <description>Buttons group element</description>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>
       <posX>571</posX>
       <posY>796</posY>
 
       <control>
-        <description>Biography</description>
+        <description>Biography button</description>
         <type>checkbutton</type>
         <id>3</id>
         <label>1011</label>
@@ -157,17 +212,32 @@
       </control>
 
       <control>
-        <description>Movies</description>
+        <description>Movies button</description>
         <type>checkbutton</type>
         <id>4</id>
         <label>342</label>
         <onleft>24</onleft>
         <onright>24</onright>
         <onup>3</onup>
-        <ondown>5</ondown>
+        <ondown>4755</ondown>
         <textalign>left</textalign>
         <textcolor>FF000000</textcolor>
         <textcolorNoFocus>ffffffff</textcolorNoFocus>
+      </control>
+
+      <control>
+        <description>IMDb Trailer Button (Online Videos)</description>
+        <type>button</type>
+        <id>4755</id>
+        <width>385</width>
+        <label>#(L(5900))</label>
+        <hyperlink>4755</hyperlink>
+        <hyperlinkParameter>site:IMDb Movie Trailers|search:#(iif(neq(#imdbnumber,''),#imdbnumber,#title))|return:Locked</hyperlinkParameter>
+        <onup>4</onup>
+        <ondown>5</ondown>
+        <onleft>24</onleft>
+        <onright>24</onright>
+        <visible>plugin.isenabled(OnlineVideos)+control.isvisible(24)</visible>
       </control>
     </control>
 
@@ -201,7 +271,7 @@
 
     <control>
       <type>image</type>
-      <description>movie poster</description>
+      <description>Actor Image</description>
       <id>21</id>
       <posX>123</posX>
       <posY>360</posY>
@@ -212,15 +282,36 @@
       <animation effect="fade" time="250">WindowClose</animation>
     </control>
 
+    <!-- CDArt -->
+    <control>
+      <description>CDArt</description>
+      <type>image</type>
+      <id>357951</id>
+      <posX>250</posX>
+      <posY>400</posY>
+      <width>500</width>
+      <height>500</height>
+      <shouldCache>false</shouldCache>
+      <texture>..\..\..\Thumbs\CDArt\Movies\#(string.trim(#imdbnumber)).png</texture>
+      <align>left</align>
+      <valign>top</valign>
+      <keepaspectratio>yes</keepaspectratio>
+      <visible>control.isvisible(24)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
+      <animation effect="fade" time="1000" start= "100" end= "25" condition="Control.HasThumb(357951)">conditional</animation>
+      <animation effect="rotate" time="1000" start= "0" end= "-50" condition="Control.HasThumb(357951)">conditional</animation>
+      <animation effect="rotate" time="5000" end= "-360" condition="Player.HasMedia" loop="true">conditional</animation>
+    </control>  
+
     <control>
       <description>Actor Movie Image</description>
       <type>image</type>
       <id>25</id>
-      <posX>565</posX>
-      <posY>524</posY>
-      <width>158</width>
-      <height>235</height>
-      <keepaspectratio>no</keepaspectratio>
+      <posX>123</posX>
+      <posY>360</posY>
+      <width>379</width>
+      <height>563</height>
       <texture>#Actor.MovieImage</texture>
       <visible>control.isvisible(24)</visible>
       <animation effect="fade" time="250">WindowOpen</animation>
@@ -230,7 +321,7 @@
     <control>
       <description>Movie Title Actor view</description>
       <type>fadelabel</type>
-      <label>#title</label>
+      <label>#title#(iif(eq(#Actor.Movies.Progress,''),'',string.format(' - {0}',#Actor.Movies.Progress)))</label>
       <id>0</id>
       <posX>96</posX>
       <posY>998</posY>
@@ -261,21 +352,51 @@
       <animation effect="fade" time="250">WindowClose</animation>
     </control>
 
+    <control Style="InfoValueSmall">
+      <description>Actor Movie Extra Details</description>
+      <type>fadelabel</type>
+      <label>#Actor.MovieExtraDetails</label>
+      <id>0</id>
+      <posX>545</posX>
+      <posY>419</posY>
+      <width>475</width>
+      <visible>control.isvisible(24)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
+    </control>
+
+    <control>
+      <description>Actor Movie Plot</description>
+      <type>textboxscrollup</type>
+      <id>20</id>
+      <posX>545</posX>
+      <posY>460</posY>
+      <width>475</width>
+      <height>320</height>
+      <label>#Actor.MoviePlot</label>
+      <font>TitanLight12</font>
+      <textcolor>FFFFFFFF</textcolor>
+      <visible>control.isvisible(24)</visible>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation>
+    </control>
+
     <import>common.overlay.xml</import>
 
-	<!-- Awards -->
+    <!-- Awards -->
     <control>
       <description>Awards Logo</description>
       <type>image</type>
       <id>0</id>
-      <posX>75</posX>
-      <posY>380</posY>
-      <width>30</width>
+      <posX>67</posX>
+      <posY>360</posY>
+      <width>50</width>
       <height>560</height>
       <align>center</align>
-      <valign>bottom</valign>
+      <valign>top</valign>
       <keepaspectratio>yes</keepaspectratio>
       <shouldCache>true</shouldCache>
+      <visible>!control.isvisible(24)</visible>
       <texture>#fanarthandler.movie.awards.selected.verticalall</texture>
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation>

@@ -302,8 +302,8 @@
       <type>image</type>
       <id>0</id>
       <texture>#(switch(
-                   eq(#fanarthandler.spotlight.random.available,'true'),#fanarthandler.spotlight.backdrop1.any,
-                   eq(1,1),#fanarthandler.picture.userdef.backdrop1.any)
+                   eq(#fanarthandler.spotlight.random.available,'true'),#fanarthandler.spotlight.backdrop2.any,
+                   eq(1,1),#fanarthandler.picture.userdef.backdrop2.any)
                  )</texture>
 	  <visible>[control.isvisible(7013016)+control.isvisible(91919299)+control.isvisible(91919298)]</visible>
     </control>	
