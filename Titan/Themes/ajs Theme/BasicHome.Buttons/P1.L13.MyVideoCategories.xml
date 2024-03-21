@@ -19,6 +19,7 @@
       <id>6</id>
 	  <posX>#L13lefttext</posX>
 	  <posY>#L13toptext</posY>
+      <textYOff>#textYoff</textYOff>
       <!--hyperlink>6</hyperlink-->
       <onclick>#(skin.setfocus(35,600001))</onclick>
       <label>3</label>

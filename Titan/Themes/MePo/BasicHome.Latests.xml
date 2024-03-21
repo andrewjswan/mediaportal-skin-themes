@@ -2303,7 +2303,7 @@
       <control>
         <type>fadelabel</type>
         <id>0</id>
-        <posX>643</posX>
+        <posX>703</posX>
         <posY>#home.latest.pictures.line3.posy</posY>
         <width>1200</width>
         <height>30</height>
@@ -2333,13 +2333,17 @@
         <description>BasicHome tile1</description>
         <type>image</type>
         <id>0</id>
-        <posX>76</posX>
-        <posY>218</posY>
-        <height>150</height>
-        <width>150</width>
-        <align>center</align>
-        <keepaspectratio>true</keepaspectratio>
-        <texture>#latestMediaHandler.picture.latest1.thumb</texture>
+        <posX>56</posX>
+        <posY>#home.latest.tile.posy</posY>
+        <height>190</height>
+        <width>190</width>
+        <!--align>center</align>
+        <valign>middle</valign>
+        <keepaspectratio>true</keepaspectratio-->
+        <keepaspectratio>yes</keepaspectratio>
+        <centered>yes</centered>
+        <zoom>yes</zoom>
+        <texture mask="MAmask.png">#latestMediaHandler.picture.latest1.thumb</texture>
         <visible>control.isvisible(013016)</visible>
         <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(013016)">conditional</animation>
         <animation effect="zoom" reversible="false" start="10,10" end="100,100" time="1500">Visible</animation>
@@ -2348,12 +2352,16 @@
         <description>BasicHome tile2</description>
         <type>image</type>
         <id>0</id>
-        <posX>266</posX>
-        <posY>218</posY>
-        <height>150</height>
-        <width>150</width>
-        <align>center</align>
-        <keepaspectratio>true</keepaspectratio>
+        <posX>246</posX>
+        <posY>#home.latest.tile.posy</posY>
+        <height>190</height>
+        <width>190</width>
+        <!--align>center</align>
+        <valign>middle</valign>
+        <keepaspectratio>true</keepaspectratio-->
+        <keepaspectratio>yes</keepaspectratio>
+        <centered>yes</centered>
+        <zoom>yes</zoom>
         <texture>#latestMediaHandler.picture.latest2.thumb</texture>
         <visible>control.isvisible(013016)</visible>
         <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(013016)">conditional</animation>
@@ -2363,12 +2371,16 @@
         <description>BasicHome tile3</description>
         <type>image</type>
         <id>0</id>
-        <posX>456</posX>
-        <posY>218</posY>
-        <height>150</height>
-        <width>150</width>
-        <align>center</align>
-        <keepaspectratio>true</keepaspectratio>
+        <posX>436</posX>
+        <posY>#home.latest.tile.posy</posY>
+        <height>190</height>
+        <width>190</width>
+        <!--align>center</align>
+        <valign>middle</valign>
+        <keepaspectratio>true</keepaspectratio-->
+        <keepaspectratio>yes</keepaspectratio>
+        <centered>yes</centered>
+        <zoom>yes</zoom>
         <texture>#latestMediaHandler.picture.latest3.thumb</texture>
         <visible>control.isvisible(013016)</visible>
         <animation effect="fade" time="350" delay="2000" reversible="false" condition="control.isvisible(013016)">conditional</animation>
@@ -2379,8 +2391,8 @@
         <description>BasicHome New tile1</description>
         <type>image</type>
         <id>0</id>
-        <posX>76</posX>
-        <posY>218</posY>
+        <posX>56</posX>
+        <posY>#home.latest.tile.posy</posY>
         <height>50</height>
         <width>50</width>
         <align>left</align>
@@ -2395,8 +2407,8 @@
         <description>BasicHome New tile2</description>
         <type>image</type>
         <id>0</id>
-        <posX>266</posX>
-        <posY>218</posY>
+        <posX>246</posX>
+        <posY>#home.latest.tile.posy</posY>
         <height>50</height>
         <width>50</width>
         <align>left</align>
@@ -2411,8 +2423,8 @@
         <description>BasicHome New tile3</description>
         <type>image</type>
         <id>0</id>
-        <posX>456</posX>
-        <posY>218</posY>
+        <posX>436</posX>
+        <posY>#home.latest.tile.posy</posY>
         <height>50</height>
         <width>50</width>
         <align>left</align>
@@ -2429,7 +2441,7 @@
         <type>button</type>
         <id>91919971</id>
         <posX>76</posX>
-        <posY>318</posY>
+        <posY>#home.latest.play.posy</posY>
         <width>50</width>
         <height>50</height>
         <textureFocus>play_btn_white.png</textureFocus>
@@ -2450,7 +2462,7 @@
         <type>button</type>
         <id>91919972</id>
         <posX>266</posX>
-        <posY>318</posY>
+        <posY>#home.latest.play.posy</posY>
         <width>50</width>
         <height>50</height>
         <textureFocus>play_btn_white.png</textureFocus>
@@ -2471,7 +2483,7 @@
         <type>button</type>
         <id>91919973</id>
         <posX>436</posX>
-        <posY>318</posY>
+        <posY>#home.latest.play.posy</posY>
         <width>50</width>
         <height>50</height>
         <textureFocus>play_btn_white.png</textureFocus>

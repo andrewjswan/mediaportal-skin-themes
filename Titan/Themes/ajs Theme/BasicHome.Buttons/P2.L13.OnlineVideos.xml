@@ -19,6 +19,7 @@
       	<id>600</id>
 		<posX>#L13lefttext</posX>
 	    <posY>#L13toptext</posY>
+        <textYOff>#textYoff</textYOff>
         <hyperlink>4755</hyperlink>
         <label>#OnlineVideos.HomeScreenName</label>
 		<onright>#P2L13ToRight</onright>

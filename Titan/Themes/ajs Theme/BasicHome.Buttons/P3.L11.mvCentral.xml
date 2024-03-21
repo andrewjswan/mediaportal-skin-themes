@@ -19,8 +19,9 @@
         <id>250</id>
         <posX>#L11lefttext</posX>
         <posY>#L11toptext</posY>
+        <textYOff>#textYoff</textYOff>
         <hyperlink>112011</hyperlink>
-        <label>mvCentral</label>
+        <label>#mvCentral.Settings.HomeScreenName</label>
         <onright>450</onright>
         <onleft>600</onleft>
         <onup>250</onup>

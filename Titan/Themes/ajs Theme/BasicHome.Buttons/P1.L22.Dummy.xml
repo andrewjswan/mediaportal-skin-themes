@@ -18,6 +18,7 @@
       	<id>5</id>
 		<posX>#L22lefttext</posX>
 	    <posY>#L22toptext</posY>
+        <textYOff>#textYoff</textYOff>
 		<onright>7</onright>
 		<onleft>3</onleft>
       	<onup>4</onup>

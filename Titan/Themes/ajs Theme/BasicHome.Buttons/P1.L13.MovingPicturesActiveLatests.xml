@@ -19,6 +19,7 @@
       <id>6</id>
 	  <posX>#L13lefttext</posX>
 	  <posY>#L13toptext</posY>
+      <textYOff>#textYoff</textYOff>
       <label>#MovingPictures.Settings.HomeScreenName</label>
 	  <onright>200</onright>
 	  <onleft>4</onleft>

@@ -101,6 +101,20 @@
       <animation effect="fade" time="250">WindowOpen</animation>
       <animation effect="fade" time="250">WindowClose</animation> 
     </control>
+    <control>
+      <description>Plugins label</description>
+      <type>label</type>
+      <id>0</id>
+      <posX>1100</posX>
+      <posY>995</posY>
+      <width>620</width>
+      <font>TitanLight14</font>
+      <label>913</label>
+      <visible>control.hasfocus(8001125)|control.hasfocus(8101125)|control.hasfocus(8201125)|control.hasfocus(8301125)|control.hasfocus(8401125)</visible>
+      <animation effect="fade" time="450" delay="250">Visible</animation>
+      <animation effect="fade" time="250">WindowOpen</animation>
+      <animation effect="fade" time="250">WindowClose</animation> 
+    </control>
 
  </controls>
 </window>

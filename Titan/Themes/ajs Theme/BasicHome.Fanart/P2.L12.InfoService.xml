@@ -8,7 +8,7 @@
         <description>Info service Background</description>
         <type>image</type>
         <id>0</id>
-        <visible>control.hasfocus(500)</visible>
+        <visible>control.hasfocus(400)</visible>
         <texture>hover_infoservice.png</texture>
     </control> 
 </controls>

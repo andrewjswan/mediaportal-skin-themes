@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<window>
-  <id>2016</id>
-  <defaultcontrol>4</defaultcontrol>
-  <allowoverlay>no</allowoverlay>
-  <controls>
-    <include condition="#(window.isvisible(2007))" otherwise="DialogNotify.generic.xml">DialogNotify.slideshow.xml</include>
-  </controls>
-</window>

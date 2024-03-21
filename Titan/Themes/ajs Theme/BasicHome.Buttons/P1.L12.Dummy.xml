@@ -16,6 +16,7 @@
     	<description>BasicHome DUMMY</description>
       	<type>button</type>
       	<id>4</id>
+        <textYOff>#textYoff</textYOff>
 		<posX>#L12lefttext</posX>
 	    <posY>#L12toptext</posY>
 		<onright>6</onright>

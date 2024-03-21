@@ -19,6 +19,7 @@
         <id>250</id>
         <posX>#L11lefttext</posX>
         <posY>#L11toptext</posY>
+        <textYOff>#textYoff</textYOff>
         <hyperlink>165654465</hyperlink>
         <label>Clickfinder</label>
         <onright>450</onright>

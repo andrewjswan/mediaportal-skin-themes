@@ -13,62 +13,6 @@
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\common.facade.video.default.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{c71bb7a7-cc3e-4836-994e-eb2ec898f8a7}-common.facade.video.default.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\common.facade.video.default.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\common.window.pictures.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{e86071b9-e03d-46ca-8834-b9fb5ed8b46d}-common.window.pictures.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\common.window.pictures.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\common.window.radio.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{c53eee56-280f-4be0-b77b-45d66372a76d}-common.window.radio.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\common.window.radio.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\common.window.radiotime.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{37dd8f66-6589-4d8a-b21b-d8a4759aaf46}-common.window.radiotime.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\common.window.radiotime.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\DialogNotify.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{860e3ddc-f8b4-43ee-9463-676748cb3ffb}-DialogNotify.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\DialogNotify.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\DialogVideoArtistInfo.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{f509d759-aa9c-4246-9b85-fb0d6c45da4f}-DialogVideoArtistInfo.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\DialogVideoArtistInfo.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\DialogVideoInfo.watchedCount.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{155d9b5e-9507-450c-948f-28012278e22e}-DialogVideoInfo.watchedCount.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\DialogVideoInfo.watchedCount.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\DialogVideoInfo.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{216b6b5b-a997-4449-90ed-5c76eb34a8d8}-DialogVideoInfo.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\DialogVideoInfo.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>..\Titan\Themes\Common\movingpictures.details.lite.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{eaa44c53-9d16-4acc-93c1-23f56371550b}-movingpictures.details.lite.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\MePo\movingpictures.details.lite.xml</DestinationFilename>
@@ -93,20 +37,6 @@
               <LocalFileName>..\Titan\Themes\Common\movingpictures.views.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{f68b87a2-6595-43a8-8e6f-c94c0613729f}-movingpictures.views.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\MePo\movingpictures.views.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\mvCentral.Playlist.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{a1f89e92-0790-4aad-aad7-4663dea13b1d}-mvCentral.Playlist.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\mvCentral.Playlist.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\mvCentral.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{908284e1-8131-4380-a137-178ea74e7878}-mvCentral.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\mvCentral.xml</DestinationFilename>
             </FileItem>
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
@@ -160,44 +90,9 @@
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\myHomePlugIns.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{937a60eb-4df5-471e-81e4-89ea586cfd1d}-myHomePlugIns.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\myHomePlugIns.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>..\Titan\Themes\Common\MyLyrics.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{9e7a2e5d-5de5-4b29-a55f-7b51996e3b32}-MyLyrics.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\MePo\MyLyrics.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\mymusic.hiddenmenu.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{4462c36a-0943-4588-a28e-021c470ea083}-mymusic.hiddenmenu.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\mymusic.hiddenmenu.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\mymusicgenres.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{885a9df6-1268-4725-9350-a10e55e5e9c7}-mymusicgenres.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\mymusicgenres.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\mymusicplaylist.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{97946ce5-a2ed-4247-82c7-8d4fdf99ec61}-mymusicplaylist.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\mymusicplaylist.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\mymusicsongs.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{03c6c2ff-f2ef-46fb-8012-a8bd8f9c6eba}-mymusicsongs.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\mymusicsongs.xml</DestinationFilename>
             </FileItem>
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
@@ -244,20 +139,6 @@
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\mypics.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{3930dbdb-bbf1-4d77-8e92-31fb865011e0}-mypics.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\mypics.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\myradio.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{06052393-3e74-45dc-a1bb-2b3b56a51c62}-myradio.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\myradio.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>..\Titan\Themes\Common\mystreamradio.hiddenmenu.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{9b2ca94d-b70e-4830-81c6-6de518f7363f}-mystreamradio.hiddenmenu.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\MePo\mystreamradio.hiddenmenu.xml</DestinationFilename>
@@ -279,65 +160,9 @@
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\myvideo.views.default.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{ae232bf3-c820-444a-950c-1b1c825d084a}-myvideo.views.default.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\myvideo.views.default.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\myvideo.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{12cccb29-ce32-4a73-9a25-37fa90aa06e5}-myvideo.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\myvideo.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\myvideoTitle.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{09c6b5ea-8f96-47bc-98b5-64b3778d4387}-myvideoTitle.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\myvideoTitle.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>..\Titan\Themes\Common\PandoraMusicBox.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{40ee28e6-dcac-44d1-aa5d-27f605ff89bc}-PandoraMusicBox.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\MePo\PandoraMusicBox.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\PlayingNow.Body.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{7d8283c0-b3ac-44e3-b628-88e37d3f5660}-PlayingNow.Body.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\PlayingNow.Body.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\RadioTime.hiddenmenu.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{60074920-a907-4d0c-9e07-5b7fc8e9a8eb}-RadioTime.hiddenmenu.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\RadioTime.hiddenmenu.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\RadioTime.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{db3b3d0a-50de-45cc-b0c1-377ff3c5c4ac}-RadioTime.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\RadioTime.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\RadioTimeNowPlaying.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{0fab81d7-9573-4f67-98da-81757376b204}-RadioTimeNowPlaying.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\RadioTimeNowPlaying.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\RadioTimePresets.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{a9c6edeb-ffeb-42a7-834a-5319542292da}-RadioTimePresets.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\RadioTimePresets.xml</DestinationFilename>
             </FileItem>
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
@@ -440,20 +265,6 @@
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\WorldNews.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{18aeaea9-6e9b-4c10-b2a1-cd51072395c9}-WorldNews.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\WorldNews.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\WorldWeather.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{908a6a0e-3e1b-4325-a714-89d02e660532}-WorldWeather.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\WorldWeather.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>..\Titan\Themes\Common\Media\hiddentab_fh_update.png</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{86fde799-8b10-4cde-8b52-77744ef6ae2a}-hiddentab_fh_update.png</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\MePo\Media\hiddentab_fh_update.png</DestinationFilename>
@@ -506,20 +317,6 @@
               <LocalFileName>..\Titan\Themes\Common\Media\tvseries_unWatchedNA.png</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{3a6ac8c2-5f8c-4d01-95f3-d7f2499f853a}-tvseries_unWatchedNA.png</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\MePo\Media\tvseries_unWatchedNA.png</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\wma.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{335b6ce0-3957-41f7-9658-9b4b231019ba}-wma.png</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\Media\Logos\audio\wma.png</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\wmahd.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{2e3c719d-4ab6-4bfe-8e41-e0e76e269fb7}-wmahd.png</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\Media\Logos\audio\wmahd.png</DestinationFilename>
             </FileItem>
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
@@ -874,13 +671,6 @@
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\WorldWeather.common.fanart.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{e50418f4-4c9a-4acc-a237-e35cd1a19e33}-WorldWeather.common.fanart.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\WorldWeather.common.fanart.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>..\Titan\Themes\Common\Media\Spectrum\Spectrum.old.png</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{20df3731-9389-44c3-9144-35f5b5f0b178}-Spectrum.old.png</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\MePo\Media\Spectrum\Spectrum.old.png</DestinationFilename>
@@ -905,20 +695,6 @@
               <LocalFileName>..\Titan\Themes\Common\Media\Spectrum\SpectrumPeak.png</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{49997ffa-d3f3-462a-ac0a-d0c42ceef3b6}-SpectrumPeak.png</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\MePo\Media\Spectrum\SpectrumPeak.png</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\eac3atmos.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{390259f5-8fb2-42c0-a3d3-4449a1b12b84}-eac3atmos.png</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\Media\Logos\audio\eac3atmos.png</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\truehdatmos.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{33c2ac1c-1c7f-4908-9855-a65f07352093}-truehdatmos.png</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\MePo\Media\Logos\audio\truehdatmos.png</DestinationFilename>
             </FileItem>
           </Items>
         </Files>
@@ -3822,7 +3598,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <Major>2</Major>
       <Minor>0</Minor>
       <Build>0</Build>
-      <Revision>11</Revision>
+      <Revision>13</Revision>
     </Version>
     <ExtensionDescription>Ares style BasicHome editor
 Clear/CD Art etc. support for Titan, 
@@ -3831,7 +3607,7 @@ bugfixes and more.</ExtensionDescription>
     <VersionDescription>MP 1.23 Support (Not compatible with 1.22 and older)</VersionDescription>
     <DevelopmentStatus>Stable</DevelopmentStatus>
     <OnlineLocation>https://media.githubusercontent.com/media/andrewjswan/mediaportal-skin-themes/master/build/ajs.MePo.Theme.for.Titan.mpe1</OnlineLocation>
-    <ReleaseDate>2019-12-25T14:47:12</ReleaseDate>
+    <ReleaseDate>2019-12-29T14:47:12</ReleaseDate>
     <Tags>ajs, titan, theme, mepo</Tags>
     <Location>..\build\ajs.MePo.Theme.for.Titan.mpe1</Location>
     <Params>
@@ -3871,62 +3647,6 @@ bugfixes and more.</ExtensionDescription>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\common.facade.video.default.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{c71bb7a7-cc3e-4836-994e-eb2ec898f8a7}-common.facade.video.default.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\common.facade.video.default.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\common.window.pictures.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{e86071b9-e03d-46ca-8834-b9fb5ed8b46d}-common.window.pictures.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\common.window.pictures.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\common.window.radio.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{c53eee56-280f-4be0-b77b-45d66372a76d}-common.window.radio.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\common.window.radio.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\common.window.radiotime.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{37dd8f66-6589-4d8a-b21b-d8a4759aaf46}-common.window.radiotime.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\common.window.radiotime.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\DialogNotify.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{860e3ddc-f8b4-43ee-9463-676748cb3ffb}-DialogNotify.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\DialogNotify.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\DialogVideoArtistInfo.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{f509d759-aa9c-4246-9b85-fb0d6c45da4f}-DialogVideoArtistInfo.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\DialogVideoArtistInfo.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\DialogVideoInfo.watchedCount.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{155d9b5e-9507-450c-948f-28012278e22e}-DialogVideoInfo.watchedCount.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\DialogVideoInfo.watchedCount.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\DialogVideoInfo.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{216b6b5b-a997-4449-90ed-5c76eb34a8d8}-DialogVideoInfo.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\DialogVideoInfo.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\Titan\Themes\Common\movingpictures.details.lite.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{eaa44c53-9d16-4acc-93c1-23f56371550b}-movingpictures.details.lite.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\MePo\movingpictures.details.lite.xml</DestinationFilename>
@@ -3951,20 +3671,6 @@ bugfixes and more.</ExtensionDescription>
         <LocalFileName>..\Titan\Themes\Common\movingpictures.views.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{f68b87a2-6595-43a8-8e6f-c94c0613729f}-movingpictures.views.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\MePo\movingpictures.views.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\mvCentral.Playlist.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{a1f89e92-0790-4aad-aad7-4663dea13b1d}-mvCentral.Playlist.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\mvCentral.Playlist.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\mvCentral.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{908284e1-8131-4380-a137-178ea74e7878}-mvCentral.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\mvCentral.xml</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
@@ -4018,44 +3724,9 @@ bugfixes and more.</ExtensionDescription>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\myHomePlugIns.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{937a60eb-4df5-471e-81e4-89ea586cfd1d}-myHomePlugIns.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\myHomePlugIns.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\Titan\Themes\Common\MyLyrics.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{9e7a2e5d-5de5-4b29-a55f-7b51996e3b32}-MyLyrics.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\MePo\MyLyrics.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\mymusic.hiddenmenu.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{4462c36a-0943-4588-a28e-021c470ea083}-mymusic.hiddenmenu.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\mymusic.hiddenmenu.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\mymusicgenres.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{885a9df6-1268-4725-9350-a10e55e5e9c7}-mymusicgenres.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\mymusicgenres.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\mymusicplaylist.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{97946ce5-a2ed-4247-82c7-8d4fdf99ec61}-mymusicplaylist.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\mymusicplaylist.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\mymusicsongs.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{03c6c2ff-f2ef-46fb-8012-a8bd8f9c6eba}-mymusicsongs.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\mymusicsongs.xml</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
@@ -4102,20 +3773,6 @@ bugfixes and more.</ExtensionDescription>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\mypics.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{3930dbdb-bbf1-4d77-8e92-31fb865011e0}-mypics.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\mypics.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\myradio.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{06052393-3e74-45dc-a1bb-2b3b56a51c62}-myradio.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\myradio.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\Titan\Themes\Common\mystreamradio.hiddenmenu.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{9b2ca94d-b70e-4830-81c6-6de518f7363f}-mystreamradio.hiddenmenu.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\MePo\mystreamradio.hiddenmenu.xml</DestinationFilename>
@@ -4137,65 +3794,9 @@ bugfixes and more.</ExtensionDescription>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\myvideo.views.default.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{ae232bf3-c820-444a-950c-1b1c825d084a}-myvideo.views.default.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\myvideo.views.default.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\myvideo.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{12cccb29-ce32-4a73-9a25-37fa90aa06e5}-myvideo.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\myvideo.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\myvideoTitle.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{09c6b5ea-8f96-47bc-98b5-64b3778d4387}-myvideoTitle.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\myvideoTitle.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\Titan\Themes\Common\PandoraMusicBox.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{40ee28e6-dcac-44d1-aa5d-27f605ff89bc}-PandoraMusicBox.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\MePo\PandoraMusicBox.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\PlayingNow.Body.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{7d8283c0-b3ac-44e3-b628-88e37d3f5660}-PlayingNow.Body.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\PlayingNow.Body.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\RadioTime.hiddenmenu.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{60074920-a907-4d0c-9e07-5b7fc8e9a8eb}-RadioTime.hiddenmenu.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\RadioTime.hiddenmenu.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\RadioTime.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{db3b3d0a-50de-45cc-b0c1-377ff3c5c4ac}-RadioTime.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\RadioTime.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\RadioTimeNowPlaying.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{0fab81d7-9573-4f67-98da-81757376b204}-RadioTimeNowPlaying.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\RadioTimeNowPlaying.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\RadioTimePresets.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{a9c6edeb-ffeb-42a7-834a-5319542292da}-RadioTimePresets.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\RadioTimePresets.xml</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
@@ -4298,20 +3899,6 @@ bugfixes and more.</ExtensionDescription>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\WorldNews.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{18aeaea9-6e9b-4c10-b2a1-cd51072395c9}-WorldNews.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\WorldNews.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\WorldWeather.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{908a6a0e-3e1b-4325-a714-89d02e660532}-WorldWeather.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\WorldWeather.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\Titan\Themes\Common\Media\hiddentab_fh_update.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{86fde799-8b10-4cde-8b52-77744ef6ae2a}-hiddentab_fh_update.png</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\MePo\Media\hiddentab_fh_update.png</DestinationFilename>
@@ -4364,20 +3951,6 @@ bugfixes and more.</ExtensionDescription>
         <LocalFileName>..\Titan\Themes\Common\Media\tvseries_unWatchedNA.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{3a6ac8c2-5f8c-4d01-95f3-d7f2499f853a}-tvseries_unWatchedNA.png</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\MePo\Media\tvseries_unWatchedNA.png</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\wma.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{335b6ce0-3957-41f7-9658-9b4b231019ba}-wma.png</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\Media\Logos\audio\wma.png</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\wmahd.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{2e3c719d-4ab6-4bfe-8e41-e0e76e269fb7}-wmahd.png</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\Media\Logos\audio\wmahd.png</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
@@ -4732,13 +4305,6 @@ bugfixes and more.</ExtensionDescription>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\WorldWeather.common.fanart.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{e50418f4-4c9a-4acc-a237-e35cd1a19e33}-WorldWeather.common.fanart.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\WorldWeather.common.fanart.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\Titan\Themes\Common\Media\Spectrum\Spectrum.old.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{20df3731-9389-44c3-9144-35f5b5f0b178}-Spectrum.old.png</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\MePo\Media\Spectrum\Spectrum.old.png</DestinationFilename>
@@ -4763,20 +4329,6 @@ bugfixes and more.</ExtensionDescription>
         <LocalFileName>..\Titan\Themes\Common\Media\Spectrum\SpectrumPeak.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{49997ffa-d3f3-462a-ac0a-d0c42ceef3b6}-SpectrumPeak.png</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\MePo\Media\Spectrum\SpectrumPeak.png</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\eac3atmos.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{390259f5-8fb2-42c0-a3d3-4449a1b12b84}-eac3atmos.png</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\Media\Logos\audio\eac3atmos.png</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\truehdatmos.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{33c2ac1c-1c7f-4908-9855-a65f07352093}-truehdatmos.png</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\MePo\Media\Logos\audio\truehdatmos.png</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
@@ -7484,7 +7036,7 @@ bugfixes and more.</ExtensionDescription>
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>themes.icon.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{d188ceb7-17ff-40d2-8fd3-95e6fa168588}-themes.icon.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{96b3bf34-d7be-45fb-b4e1-85ccfdc6395e}-themes.icon.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>

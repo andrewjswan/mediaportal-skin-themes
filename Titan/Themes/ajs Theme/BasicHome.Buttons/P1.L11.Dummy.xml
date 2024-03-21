@@ -18,6 +18,7 @@
       	<id>2</id>
 		<posX>#L11lefttext</posX>
 	    <posY>#L11toptext</posY>
+        <textYOff>#textYoff</textYOff>
 		<onleft>#P1L11ToLeft</onleft>
       	<onup>2</onup>
 		<ondown>3</ondown>  

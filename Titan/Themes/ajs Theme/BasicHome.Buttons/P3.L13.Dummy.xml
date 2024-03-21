@@ -18,6 +18,7 @@
       	<id>650</id>
 		<posX>#L13lefttext</posX>
 	    <posY>#L13toptext</posY>
+        <textYOff>#textYoff</textYOff>
 		<onright>2</onright>
 		<onleft>450</onleft>
       	<onup>650</onup>

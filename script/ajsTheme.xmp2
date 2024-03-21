@@ -13,20 +13,6 @@
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
               <UpdateOption>AlwaysOverwrite</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\wma.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{87bcd977-3a5c-456f-8b2f-17aa603fbf80}-wma.png</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\wma.png</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>AlwaysOverwrite</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\wmahd.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{ed52e17c-e91b-4b3f-bc68-214680b84e18}-wmahd.png</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\wmahd.png</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>AlwaysOverwrite</UpdateOption>
               <LocalFileName>..\Titan\Themes\Common\Media\Weather\BG\0.jpg</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{29315a0f-64cb-4534-ae75-f7dd73a7ec40}-0.jpg</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Weather\BG\0.jpg</DestinationFilename>
@@ -370,62 +356,6 @@
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\common.facade.video.default.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{3d05c29b-914d-4b8d-a8f4-767d64e39437}-common.facade.video.default.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\common.facade.video.default.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\common.window.pictures.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{20ad347e-1409-4862-a835-e9b64fb7e01b}-common.window.pictures.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\common.window.pictures.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\common.window.radio.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{3a904505-f04a-4e56-bac4-a655803480b1}-common.window.radio.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\common.window.radio.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\common.window.radiotime.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{99773aaa-f56c-4436-8e20-8ad744e66e1f}-common.window.radiotime.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\common.window.radiotime.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\DialogNotify.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{23077636-5a56-459e-a1ac-3d05b8db7db0}-DialogNotify.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\DialogNotify.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\DialogVideoArtistInfo.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{2219e093-b722-426f-bf02-b0320b253242}-DialogVideoArtistInfo.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\DialogVideoArtistInfo.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\DialogVideoInfo.watchedCount.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{e4d150cb-a87d-4290-89a0-d31927f87eff}-DialogVideoInfo.watchedCount.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\DialogVideoInfo.watchedCount.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\DialogVideoInfo.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{82ac6549-ea65-4113-bdbf-7b5407463818}-DialogVideoInfo.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\DialogVideoInfo.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>..\Titan\Themes\Common\movingpictures.details.lite.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{49061713-d1b8-48b8-928f-0e74d2548589}-movingpictures.details.lite.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\movingpictures.details.lite.xml</DestinationFilename>
@@ -450,20 +380,6 @@
               <LocalFileName>..\Titan\Themes\Common\movingpictures.views.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{29a78aad-5033-4c4d-82b8-3d36a949c8e0}-movingpictures.views.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\movingpictures.views.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\mvCentral.Playlist.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{ad3d2c62-9869-4e88-aba3-c122cceb7860}-mvCentral.Playlist.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\mvCentral.Playlist.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\mvCentral.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{8eb33f62-7473-4319-8022-d0883d76a388}-mvCentral.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\mvCentral.xml</DestinationFilename>
             </FileItem>
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
@@ -517,44 +433,9 @@
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\myHomePlugIns.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{c696f465-55d3-4544-9b4b-301593a57e73}-myHomePlugIns.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\myHomePlugIns.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>..\Titan\Themes\Common\MyLyrics.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{54551376-775d-4464-ba8a-3610cf60a034}-MyLyrics.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\MyLyrics.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\mymusic.hiddenmenu.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{23b601c3-1934-42fe-8acf-22ea7e4b83a6}-mymusic.hiddenmenu.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\mymusic.hiddenmenu.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\mymusicgenres.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{1dc05183-80db-43fd-8f33-09ab70f5430e}-mymusicgenres.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\mymusicgenres.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\mymusicplaylist.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{33f9af69-0ba6-45b2-b046-d96dc7d9130d}-mymusicplaylist.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\mymusicplaylist.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\mymusicsongs.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{b60f4068-1afc-455b-8005-fa9ecaf79c08}-mymusicsongs.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\mymusicsongs.xml</DestinationFilename>
             </FileItem>
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
@@ -601,20 +482,6 @@
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\mypics.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{a005d61c-5643-4bb9-9aa8-a65dc2ca18aa}-mypics.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\mypics.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\myradio.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{296717c9-7213-4ef6-9b47-9998afd02943}-myradio.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\myradio.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>..\Titan\Themes\Common\mystreamradio.hiddenmenu.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{02ea173d-40ef-4e9b-b008-b7aa0bd9badd}-mystreamradio.hiddenmenu.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\mystreamradio.hiddenmenu.xml</DestinationFilename>
@@ -636,65 +503,9 @@
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\myvideo.views.default.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{2e0288fc-5143-4d9c-8f2b-52d603cf7a18}-myvideo.views.default.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\myvideo.views.default.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\myvideo.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{7af535ac-88ed-47f7-a287-4667f8bf6231}-myvideo.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\myvideo.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\myvideoTitle.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{46566932-6cfe-4277-bb92-5b6dcd5bb04c}-myvideoTitle.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\myvideoTitle.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>..\Titan\Themes\Common\PandoraMusicBox.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{4c9d7570-7685-488e-8365-925aa935ac13}-PandoraMusicBox.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\PandoraMusicBox.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\PlayingNow.Body.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{13dbd296-a11a-4fed-aa42-197c5522f525}-PlayingNow.Body.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\PlayingNow.Body.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\RadioTime.hiddenmenu.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{348df06c-2210-4365-bc7b-7c8c7b24dea8}-RadioTime.hiddenmenu.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\RadioTime.hiddenmenu.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\RadioTime.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{9f082121-9ab3-40d7-8828-9e0f55d4f391}-RadioTime.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\RadioTime.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\RadioTimeNowPlaying.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{a8e2281b-8b5a-4579-813d-afec9b482026}-RadioTimeNowPlaying.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\RadioTimeNowPlaying.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\RadioTimePresets.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{76ac3154-6d60-4029-9731-a7012c78881a}-RadioTimePresets.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\RadioTimePresets.xml</DestinationFilename>
             </FileItem>
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
@@ -797,20 +608,6 @@
             <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
               <Param1 />
               <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\WorldNews.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{3f1045b4-239e-4907-bb01-93c5abfa9459}-WorldNews.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldNews.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\WorldWeather.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{57ed94d8-8f64-4a62-a32b-1e4a4c0f99d1}-WorldWeather.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
               <LocalFileName>..\Titan\Themes\Common\Media\hiddentab_fh_update.png</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{3e55c4b5-7d48-4055-9b7b-7a1758b10a13}-hiddentab_fh_update.png</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\hiddentab_fh_update.png</DestinationFilename>
@@ -870,27 +667,6 @@
               <LocalFileName>..\Titan\Themes\Common\SkinSpectrumAnalyzer.xml</LocalFileName>
               <ZipFileName>Installer{CopyFile}\{b23c6e96-9365-46f6-81cc-0d0bbf015699}-SkinSpectrumAnalyzer.xml</ZipFileName>
               <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\SkinSpectrumAnalyzer.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>OverwriteIfOlder</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\WorldWeather.common.fanart.xml</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{db8ea287-f080-49c8-a821-a9e99056624e}-WorldWeather.common.fanart.xml</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.common.fanart.xml</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>AlwaysOverwrite</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\eac3atmos.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{74778496-2cc5-4e81-b64a-2f407a0165be}-eac3atmos.png</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\eac3atmos.png</DestinationFilename>
-            </FileItem>
-            <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-              <Param1 />
-              <UpdateOption>AlwaysOverwrite</UpdateOption>
-              <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\truehdatmos.png</LocalFileName>
-              <ZipFileName>Installer{CopyFile}\{545cc25f-7f1a-4443-ab1d-478f424f6b5f}-truehdatmos.png</ZipFileName>
-              <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\truehdatmos.png</DestinationFilename>
             </FileItem>
           </Items>
         </Files>
@@ -3008,7 +2784,7 @@ Click Next to continue or Cancel to exit Setup.</Value>
       <Major>2</Major>
       <Minor>0</Minor>
       <Build>0</Build>
-      <Revision>11</Revision>
+      <Revision>13</Revision>
     </Version>
     <ExtensionDescription>BasicHome editor
 
@@ -3020,7 +2796,7 @@ bugfixes and more.</ExtensionDescription>
     <VersionDescription>MP 1.23 Support (Not compatible with 1.22 and older)</VersionDescription>
     <DevelopmentStatus>Rc</DevelopmentStatus>
     <OnlineLocation>https://media.githubusercontent.com/media/andrewjswan/mediaportal-skin-themes/master/build/ajs.Theme.for.Titan.mpe1</OnlineLocation>
-    <ReleaseDate>2019-12-25T14:47:12</ReleaseDate>
+    <ReleaseDate>2019-12-29T14:47:12</ReleaseDate>
     <Tags>ajs, titan, theme</Tags>
     <Location>..\build\ajs.Theme.for.Titan.mpe1</Location>
     <Params>
@@ -3057,20 +2833,6 @@ bugfixes and more.</ExtensionDescription>
   </GeneralInfo>
   <UniqueFileList>
     <Items>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>AlwaysOverwrite</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\wma.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{87bcd977-3a5c-456f-8b2f-17aa603fbf80}-wma.png</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\wma.png</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>AlwaysOverwrite</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\wmahd.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{ed52e17c-e91b-4b3f-bc68-214680b84e18}-wmahd.png</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\wmahd.png</DestinationFilename>
-      </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
         <UpdateOption>AlwaysOverwrite</UpdateOption>
@@ -3417,62 +3179,6 @@ bugfixes and more.</ExtensionDescription>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\common.facade.video.default.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{3d05c29b-914d-4b8d-a8f4-767d64e39437}-common.facade.video.default.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\common.facade.video.default.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\common.window.pictures.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{20ad347e-1409-4862-a835-e9b64fb7e01b}-common.window.pictures.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\common.window.pictures.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\common.window.radio.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{3a904505-f04a-4e56-bac4-a655803480b1}-common.window.radio.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\common.window.radio.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\common.window.radiotime.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{99773aaa-f56c-4436-8e20-8ad744e66e1f}-common.window.radiotime.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\common.window.radiotime.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\DialogNotify.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{23077636-5a56-459e-a1ac-3d05b8db7db0}-DialogNotify.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\DialogNotify.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\DialogVideoArtistInfo.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{2219e093-b722-426f-bf02-b0320b253242}-DialogVideoArtistInfo.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\DialogVideoArtistInfo.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\DialogVideoInfo.watchedCount.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{e4d150cb-a87d-4290-89a0-d31927f87eff}-DialogVideoInfo.watchedCount.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\DialogVideoInfo.watchedCount.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\DialogVideoInfo.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{82ac6549-ea65-4113-bdbf-7b5407463818}-DialogVideoInfo.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\DialogVideoInfo.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\Titan\Themes\Common\movingpictures.details.lite.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{49061713-d1b8-48b8-928f-0e74d2548589}-movingpictures.details.lite.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\movingpictures.details.lite.xml</DestinationFilename>
@@ -3497,20 +3203,6 @@ bugfixes and more.</ExtensionDescription>
         <LocalFileName>..\Titan\Themes\Common\movingpictures.views.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{29a78aad-5033-4c4d-82b8-3d36a949c8e0}-movingpictures.views.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\movingpictures.views.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\mvCentral.Playlist.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{ad3d2c62-9869-4e88-aba3-c122cceb7860}-mvCentral.Playlist.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\mvCentral.Playlist.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\mvCentral.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{8eb33f62-7473-4319-8022-d0883d76a388}-mvCentral.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\mvCentral.xml</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
@@ -3564,44 +3256,9 @@ bugfixes and more.</ExtensionDescription>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\myHomePlugIns.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{c696f465-55d3-4544-9b4b-301593a57e73}-myHomePlugIns.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\myHomePlugIns.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\Titan\Themes\Common\MyLyrics.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{54551376-775d-4464-ba8a-3610cf60a034}-MyLyrics.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\MyLyrics.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\mymusic.hiddenmenu.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{23b601c3-1934-42fe-8acf-22ea7e4b83a6}-mymusic.hiddenmenu.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\mymusic.hiddenmenu.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\mymusicgenres.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{1dc05183-80db-43fd-8f33-09ab70f5430e}-mymusicgenres.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\mymusicgenres.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\mymusicplaylist.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{33f9af69-0ba6-45b2-b046-d96dc7d9130d}-mymusicplaylist.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\mymusicplaylist.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\mymusicsongs.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{b60f4068-1afc-455b-8005-fa9ecaf79c08}-mymusicsongs.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\mymusicsongs.xml</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
@@ -3648,20 +3305,6 @@ bugfixes and more.</ExtensionDescription>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\mypics.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{a005d61c-5643-4bb9-9aa8-a65dc2ca18aa}-mypics.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\mypics.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\myradio.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{296717c9-7213-4ef6-9b47-9998afd02943}-myradio.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\myradio.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\Titan\Themes\Common\mystreamradio.hiddenmenu.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{02ea173d-40ef-4e9b-b008-b7aa0bd9badd}-mystreamradio.hiddenmenu.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\mystreamradio.hiddenmenu.xml</DestinationFilename>
@@ -3683,65 +3326,9 @@ bugfixes and more.</ExtensionDescription>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\myvideo.views.default.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{2e0288fc-5143-4d9c-8f2b-52d603cf7a18}-myvideo.views.default.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\myvideo.views.default.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\myvideo.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{7af535ac-88ed-47f7-a287-4667f8bf6231}-myvideo.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\myvideo.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\myvideoTitle.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{46566932-6cfe-4277-bb92-5b6dcd5bb04c}-myvideoTitle.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\myvideoTitle.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\Titan\Themes\Common\PandoraMusicBox.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{4c9d7570-7685-488e-8365-925aa935ac13}-PandoraMusicBox.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\PandoraMusicBox.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\PlayingNow.Body.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{13dbd296-a11a-4fed-aa42-197c5522f525}-PlayingNow.Body.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\PlayingNow.Body.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\RadioTime.hiddenmenu.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{348df06c-2210-4365-bc7b-7c8c7b24dea8}-RadioTime.hiddenmenu.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\RadioTime.hiddenmenu.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\RadioTime.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{9f082121-9ab3-40d7-8828-9e0f55d4f391}-RadioTime.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\RadioTime.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\RadioTimeNowPlaying.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{a8e2281b-8b5a-4579-813d-afec9b482026}-RadioTimeNowPlaying.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\RadioTimeNowPlaying.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\RadioTimePresets.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{76ac3154-6d60-4029-9731-a7012c78881a}-RadioTimePresets.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\RadioTimePresets.xml</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
@@ -3844,20 +3431,6 @@ bugfixes and more.</ExtensionDescription>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\WorldNews.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{3f1045b4-239e-4907-bb01-93c5abfa9459}-WorldNews.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldNews.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\WorldWeather.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{57ed94d8-8f64-4a62-a32b-1e4a4c0f99d1}-WorldWeather.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>..\Titan\Themes\Common\Media\hiddentab_fh_update.png</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{3e55c4b5-7d48-4055-9b7b-7a1758b10a13}-hiddentab_fh_update.png</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media.Theme\hiddentab_fh_update.png</DestinationFilename>
@@ -3917,27 +3490,6 @@ bugfixes and more.</ExtensionDescription>
         <LocalFileName>..\Titan\Themes\Common\SkinSpectrumAnalyzer.xml</LocalFileName>
         <ZipFileName>Installer{CopyFile}\{b23c6e96-9365-46f6-81cc-0d0bbf015699}-SkinSpectrumAnalyzer.xml</ZipFileName>
         <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\SkinSpectrumAnalyzer.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>OverwriteIfOlder</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\WorldWeather.common.fanart.xml</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{db8ea287-f080-49c8-a821-a9e99056624e}-WorldWeather.common.fanart.xml</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\WorldWeather.common.fanart.xml</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>AlwaysOverwrite</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\eac3atmos.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{74778496-2cc5-4e81-b64a-2f407a0165be}-eac3atmos.png</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\eac3atmos.png</DestinationFilename>
-      </FileItem>
-      <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
-        <Param1 />
-        <UpdateOption>AlwaysOverwrite</UpdateOption>
-        <LocalFileName>..\Titan\Themes\Common\Media\Logos\audio\truehdatmos.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{545cc25f-7f1a-4443-ab1d-478f424f6b5f}-truehdatmos.png</ZipFileName>
-        <DestinationFilename>%Skin%\Titan\Themes\ajs Theme\Media\Logos\audio\truehdatmos.png</DestinationFilename>
       </FileItem>
       <FileItem InstallType="CopyFile" SystemFile="false" Modified="false">
         <Param1 />
@@ -5805,7 +5357,7 @@ bugfixes and more.</ExtensionDescription>
         <Param1 />
         <UpdateOption>OverwriteIfOlder</UpdateOption>
         <LocalFileName>themes.icon.png</LocalFileName>
-        <ZipFileName>Installer{CopyFile}\{b38adbdc-4543-48d0-88c4-578e455699a4}-themes.icon.png</ZipFileName>
+        <ZipFileName>Installer{CopyFile}\{158a9b61-bb63-4275-8cf8-2b2208d45b97}-themes.icon.png</ZipFileName>
         <DestinationFilename />
       </FileItem>
     </Items>

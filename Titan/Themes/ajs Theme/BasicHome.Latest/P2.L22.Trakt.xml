@@ -38,7 +38,7 @@
         <id>0</id>
         <posX>87</posX>
         <posY>230</posY>
-        <width>550</width>
+        <width>490</width>
         <label>#Trakt.Translation.TrendingMovies.Label</label>
         <font>TitanLight20</font>
         <textcolor>FFFFFFFF</textcolor>
@@ -49,7 +49,7 @@
         <id>0</id>
         <posX>1474</posX>
         <posY>230</posY>
-        <width>550</width>
+        <width>490</width>
         <label>#Trakt.Translation.TrendingShows.Label</label>
         <font>TitanLight20</font>
         <textcolor>FFFFFFFF</textcolor>

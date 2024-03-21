@@ -71,7 +71,7 @@
        <posY>#home.menu.indicator.posy</posY>
        <width>30</width>
        <height>149</height>
-       <visible>[control.hasfocus(00504)|control.hasfocus(00509)|control.hasfocus(00514)|control.hasfocus(00519)|control.hasfocus(00524)]</visible>
+       <visible>[control.hasfocus(00504)|control.hasfocus(00509)|control.hasfocus(00514)|control.hasfocus(00519)|control.hasfocus(00524)]+!string.equals(#skin.pages,one)</visible>
        <texture>basichome_nextpage_right.png</texture>
        <animation effect="slide" start="60,0" end="0,0" tween="quadratic" easing="in" time="250" delay="0">visible</animation>
        <animation effect="slide" start="0,0" end="60,0" tween="quadratic" easing="in" time="250" delay="0">hidden</animation>
@@ -88,7 +88,7 @@
        <width>30</width>
        <height>149</height>
        <texture>basichome_nextpage_left.png</texture>
-       <visible>[control.hasfocus(00500)|control.hasfocus(00505)|control.hasfocus(00510)|control.hasfocus(00515)|control.hasfocus(00520)]</visible>
+       <visible>[control.hasfocus(00500)|control.hasfocus(00505)|control.hasfocus(00510)|control.hasfocus(00515)|control.hasfocus(00520)]+!string.equals(#skin.pages,one)</visible>
        <animation effect="slide" start="-60,0" end="0,0" tween="quadratic" easing="in" time="250" delay="0">visible</animation>
        <animation effect="slide" start="0,0" end="-60,0" tween="quadratic" easing="in" time="250" delay="0">hidden</animation>
        <animation effect="fade" time="250">WindowOpen</animation>

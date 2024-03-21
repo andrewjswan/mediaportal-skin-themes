@@ -19,6 +19,7 @@
       	<id>400</id>
 		<posX>#L12lefttext</posX>
 	    <posY>#L12toptext</posY>
+        <textYOff>#textYoff</textYOff>
         <hyperlink>7979</hyperlink>
         <label>WorldNews</label>
 		<onright>600</onright>

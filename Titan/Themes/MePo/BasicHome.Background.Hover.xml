@@ -17,7 +17,7 @@
       <type>image</type>
       <id>99066</id>
       <texture>background_settings.png</texture>
-      <visible>control.hasfocus(8201123)|control.hasfocus(8205555)|control.hasfocus(8206555)|control.hasfocus(8101123)|control.hasfocus(8105555)|control.hasfocus(8106555)|control.hasfocus(8001123)|control.hasfocus(8005555)|control.hasfocus(8006555)|control.hasfocus(8301123)|control.hasfocus(8305555)|control.hasfocus(8306555)|control.hasfocus(8401123)|control.hasfocus(8405555)|control.hasfocus(8406555)</visible>
+      <visible>control.hasfocus(8201123)|control.hasfocus(8201125)|control.hasfocus(8205555)|control.hasfocus(8206555)|control.hasfocus(8101123)|control.hasfocus(8101125)|control.hasfocus(8105555)|control.hasfocus(8106555)|control.hasfocus(8001123)|control.hasfocus(8001125)|control.hasfocus(8005555)|control.hasfocus(8006555)|control.hasfocus(8301123)|control.hasfocus(8301125)|control.hasfocus(8305555)|control.hasfocus(8306555)|control.hasfocus(8401123)|control.hasfocus(8401125)|control.hasfocus(8405555)|control.hasfocus(8406555)</visible>
     </control>
 
     <control Style="HomeBasicFanart">

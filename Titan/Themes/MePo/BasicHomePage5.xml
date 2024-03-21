@@ -37,7 +37,7 @@
       <description>group element</description>
       <type>group</type>
       <dimColor>ffffffff</dimColor>
-	  <!--visible allowhiddenfocus="true">control.hasfocus(00520)|control.hasfocus(00521)|control.hasfocus(00522)|control.hasfocus(00523)|control.hasfocus(00524)|control.hasfocus(270)|control.hasfocus(271)|control.hasfocus(272)|control.hasfocus(273)|control.hasfocus(274)|control.hasfocus(275)|control.hasfocus(276)|control.hasfocus(277)|control.hasfocus(278)|control.hasfocus(279)|control.hasfocus(370)|control.hasfocus(371)|control.hasfocus(372)|control.hasfocus(373)|control.hasfocus(374)|control.hasfocus(375)|control.hasfocus(8001125)|control.hasfocus(421)|control.hasfocus(422)|control.hasfocus(423)|control.hasfocus(424)|control.hasfocus(425)|control.hasfocus(621)|control.hasfocus(622)|control.hasfocus(623)|control.hasfocus(624)|control.hasfocus(625)|control.hasfocus(8406555)|control.hasfocus(8405555)|control.hasfocus(8401123)|string.equals(#skin.currentTile,00520)|string.equals(#skin.currentTile,00521)|string.equals(#skin.currentTile,00522)|string.equals(#skin.currentTile,00523)|string.equals(#skin.currentTile,00524)</visible-->
+	  <!--visible allowhiddenfocus="true">control.hasfocus(00520)|control.hasfocus(00521)|control.hasfocus(00522)|control.hasfocus(00523)|control.hasfocus(00524)|control.hasfocus(270)|control.hasfocus(271)|control.hasfocus(272)|control.hasfocus(273)|control.hasfocus(274)|control.hasfocus(275)|control.hasfocus(276)|control.hasfocus(277)|control.hasfocus(278)|control.hasfocus(279)|control.hasfocus(370)|control.hasfocus(371)|control.hasfocus(372)|control.hasfocus(373)|control.hasfocus(374)|control.hasfocus(375)|control.hasfocus(421)|control.hasfocus(422)|control.hasfocus(423)|control.hasfocus(424)|control.hasfocus(425)|control.hasfocus(621)|control.hasfocus(622)|control.hasfocus(623)|control.hasfocus(624)|control.hasfocus(625)|control.hasfocus(8406555)|control.hasfocus(8405555)|control.hasfocus(8401123)|string.equals(#skin.currentTile,00520)|string.equals(#skin.currentTile,00521)|string.equals(#skin.currentTile,00522)|string.equals(#skin.currentTile,00523)|string.equals(#skin.currentTile,00524)</visible-->
 	  <visible allowhiddenfocus="true">string.equals(#skin.currentTile,00520)|string.equals(#skin.currentTile,00521)|string.equals(#skin.currentTile,00522)|string.equals(#skin.currentTile,00523)|string.equals(#skin.currentTile,00524)</visible>
 	  <control>
         <description>BasicHome btn1</description>
@@ -186,6 +186,34 @@
 	  
 	  
      <control Style="BasicHomeButton">
+        <description>BasicHome Plugins</description>
+        <type>button</type>
+        <id>8401125</id>
+        <posX>795</posX>
+        <posY>995</posY>
+		<hyperlink>34</hyperlink>
+		<height>40</height>
+		<width>40</width>
+        <label></label>
+		<textcolorNoFocus>ff6c7880</textcolorNoFocus>
+		<textcolor>ffffffff</textcolor>
+		<textureFocus>plugins.png</textureFocus>
+		<textureNoFocus>plugins.png</textureNoFocus>
+		<align>center</align>
+		<font>font14</font>
+        <onleft>8401125</onleft>
+        <onup>#skin.currentTile</onup>
+		<ondown>8401125</ondown>
+		<onright>8401123</onright>
+        <animation effect="fade" delay="0" reversible="false" time="200">focus</animation>
+		<animation effect="fade" delay="0" reversible="false" time="100">Hidden</animation>
+		<animation effect="slide" end="70,0" time="150">Hidden</animation>
+		<animation effect="slide" start="70,0" time="200">Visible</animation>
+        <animation effect="zoom" start="100,100" end="110,110" time="1000" condition="control.hasFocus(8401125)" pulse="true">conditional</animation>
+		<visible allowhiddenfocus="true">control.hasfocus(8401123)|control.hasfocus(8401125)|control.hasfocus(8405555)|control.hasfocus(8406555)</visible>
+	 </control> 
+
+     <control Style="BasicHomeButton">
         <description>BasicHome settings</description>
         <type>button</type>
         <id>8401123</id>
@@ -201,7 +229,7 @@
 		<textureNoFocus>setting.png</textureNoFocus>
 		<align>center</align>
 		<font>font14</font>
-        <onleft>8401123</onleft>
+        <onleft>8401125</onleft>
         <onup>#skin.currentTile</onup>
 		<ondown>8401123</ondown>
 		<onright>8406555</onright>
@@ -210,7 +238,7 @@
 		<animation effect="slide" end="70,0" time="150">Hidden</animation>
 		<animation effect="slide" start="70,0" time="200">Visible</animation>
         <animation effect="zoom" start="100,100" end="110,110" time="1000" condition="control.hasFocus(8401123)" pulse="true">conditional</animation>
-		<visible allowhiddenfocus="true">control.hasfocus(8401123)|control.hasfocus(8405555)|control.hasfocus(8406555)</visible>
+		<visible allowhiddenfocus="true">control.hasfocus(8401123)|control.hasfocus(8401125)|control.hasfocus(8405555)|control.hasfocus(8406555)</visible>
 	 </control> 
 
 	 <control Style="BasicHomeButton">
@@ -237,7 +265,7 @@
 		<animation effect="slide" end="-70,0" time="150">Hidden</animation>
 		<animation effect="slide" start="-70,0" time="200">Visible</animation>
         <animation effect="zoom" start="100,100" end="110,110" time="1000" condition="control.hasFocus(8405555)" pulse="true">conditional</animation>
-		<visible allowhiddenfocus="true">control.hasfocus(8401123)|control.hasfocus(8405555)|control.hasfocus(8406555)</visible>
+		<visible allowhiddenfocus="true">control.hasfocus(8401123)|control.hasfocus(8401125)|control.hasfocus(8405555)|control.hasfocus(8406555)</visible>
 	 </control> 	
 
 	 <control Style="BasicHomeButton">
@@ -262,7 +290,7 @@
     	<animation effect="fade" delay="0" reversible="false" time="300">Visible</animation>
 		<animation effect="fade" delay="0" reversible="false" time="200">Hidden</animation>
         <animation effect="zoom" start="100,100" end="110,110" time="1000" condition="control.hasFocus(8406555)" pulse="true">conditional</animation>
-    	<visible allowhiddenfocus="true">control.hasfocus(8401123)|control.hasfocus(8405555)|control.hasfocus(8406555)</visible>
+		<visible allowhiddenfocus="true">control.hasfocus(8401123)|control.hasfocus(8401125)|control.hasfocus(8405555)|control.hasfocus(8406555)</visible>
 	 </control> 
 
 	  

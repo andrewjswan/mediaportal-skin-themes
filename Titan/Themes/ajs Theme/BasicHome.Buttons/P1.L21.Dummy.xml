@@ -18,6 +18,7 @@
       	<id>3</id>
 		<posX>#L21lefttext</posX>
 	    <posY>#L21toptext</posY>
+        <textYOff>#textYoff</textYOff>
         <label>1</label>
         <onright>5</onright>
         <onleft>#P1L21ToLeft</onleft>

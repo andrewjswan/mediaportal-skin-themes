@@ -19,6 +19,7 @@
       <id>7</id>
 	  <posX>#L23lefttext</posX>
 	  <posY>#L23toptext</posY>
+      <textYOff>#textYoff</textYOff>
       <hyperlink>34</hyperlink>        
       <label>100034</label>
       <onright>300</onright>

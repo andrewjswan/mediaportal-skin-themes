@@ -21,6 +21,22 @@
     </control> 
 
     <control Style="HomeBasicFanart">
+	  <description>TVSeries Selected Fanart</description>
+      <type>image</type>
+      <id>0</id>
+      <visible>[control.hasfocus(7) | control.IsVisible(70001)] + control.isvisible(91919297)</visible>
+      <texture>#fanarthandler.tvseries.latests.backdrop1.any</texture>
+    </control> 
+		
+    <control Style="HomeBasicFanart">
+	  <description>TVSeries Selected Fanart</description>
+      <type>image</type>
+      <id>0</id>
+      <visible>[control.hasfocus(7) | control.IsVisible(70001)] + control.isvisible(91919298)</visible>
+      <texture>#fanarthandler.tvseries.latests.backdrop2.any</texture>
+    </control> 
+
+    <control Style="HomeBasicFanart">
       <description>TVSeries Latests Fanart</description>
       <type>image</type>
       <id>0</id>

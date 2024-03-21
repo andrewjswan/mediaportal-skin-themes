@@ -19,6 +19,9 @@
       	<id>400</id>
 		<posX>#L12lefttext</posX>
 	    <posY>#L12toptext</posY>
+        <hyperlink>16000</hyperlink>
+        <textYOff>#textYoff</textYOff>
+        <label>InfoService</label>
 		<onright>600</onright>
 		<onleft>200</onleft>
       	<onup>400</onup>

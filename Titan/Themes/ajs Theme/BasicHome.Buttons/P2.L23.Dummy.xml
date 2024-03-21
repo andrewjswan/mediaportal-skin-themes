@@ -18,6 +18,7 @@
       	<id>700</id>
 		<posX>#L23lefttext</posX>
 	    <posY>#L23toptext</posY>
+        <textYOff>#textYoff</textYOff>
 		<onright>#P2L23ToRight</onright>
 		<onleft>500</onleft>
       	<onup>600</onup>

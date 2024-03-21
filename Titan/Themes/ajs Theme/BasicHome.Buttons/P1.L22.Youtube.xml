@@ -19,6 +19,7 @@
       	<id>5</id>
 		<posX>#L22lefttext</posX>
 	    <posY>#L22toptext</posY>
+        <textYOff>#textYoff</textYOff>
         <hyperlink>4755</hyperlink>
         <hyperlinkParameter>site:YouTube|return:Locked</hyperlinkParameter>
         <label>YouTube</label>

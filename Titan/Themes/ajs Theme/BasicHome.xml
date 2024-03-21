@@ -6,17 +6,17 @@
   <disabletopbar>no</disabletopbar>
   <rememberLastFocusedControl>yes</rememberLastFocusedControl>
 
-  <!--[P3D]define>#P1L11ToLeft:600</define[P3D]-->
-  <!--[P3D]define>#P1L21ToLeft:700</define[P3D]-->
+  <define>#P1L11ToLeft:600</define>
+  <define>#P1L21ToLeft:700</define>
 
-  <!--[P3D]define>#P2L13ToRight:2</define[P3D]-->
-  <!--[P3D]define>#P2L23ToRight:3</define[P3D]-->
+  <define>#P2L13ToRight:2</define>
+  <define>#P2L23ToRight:3</define>
 
-  <define>#P1L11ToLeft:650</define>
-  <define>#P1L21ToLeft:750</define>
+  <!--[P3E]define>#P1L11ToLeft:650</define[P3E]-->
+  <!--[P3E]define>#P1L21ToLeft:750</define[P3E]-->
 
-  <define>#P2L13ToRight:250</define>
-  <define>#P2L23ToRight:350</define>
+  <!--[P3E]define>#P2L13ToRight:250</define[P3E]-->
+  <!--[P3E]define>#P2L23ToRight:350</define[P3E]-->
 
 <controls>  
 
@@ -51,8 +51,8 @@
 
   <!-- :::::::::: GROUP 1 L2-1 ::::::::::  -->
 
-  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\P1.L21.PicturesActiveLatests.xml</include[background]--> 
-  <include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\P1.L21.PicturesActiveLatests.xml</include>
+  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\P1.L21.Radio.xml</include[background]--> 
+  <include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\P1.L21.Radio.xml</include>
 
   <!-- :::::::::: GROUP 1 L1-2 ::::::::::  -->
 
@@ -61,8 +61,8 @@
 
   <!-- :::::::::: GROUP 1 L2-2 ::::::::::  -->
 
-  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\P1.L22.RadioTime.xml</include[background]--> 
-  <include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\P1.L22.RadioTime.xml</include>
+  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\P1.L22.Pictures.xml</include[background]--> 
+  <include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\P1.L22.Pictures.xml</include>
 
   <!-- :::::::::: GROUP 1 L1-3 ::::::::::  -->
 
@@ -71,8 +71,8 @@
 
   <!-- :::::::::: GROUP 1 L2-3 ::::::::::  -->
 
-  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\P1.L23.TVSeriesActiveLatests.xml</include[background]--> 
-  <include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\P1.L23.TVSeriesActiveLatests.xml</include>
+  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\P1.L23.Plugins.xml</include[background]--> 
+  <include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\P1.L23.Plugins.xml</include>
       
   <!-- :::::::::: GROUP 2 ::::::::::  -->
 
@@ -88,55 +88,55 @@
 
   <!-- :::::::::: GROUP 2 L1-2 ::::::::::  -->
 
-  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\P2.L12.WorldWeatherLite.xml</include[background]--> 
-  <include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\P2.L12.WorldWeatherLite.xml</include>
+  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\[P2.L12.Blank].xml</include[background]--> 
+  <!--[fanart]include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\[P2.L12.Blank].xml</include[fanart]-->
 
   <!-- :::::::::: GROUP 2 L2-2 ::::::::::  -->
 
-  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\P2.L22.Trakt.xml</include[background]--> 
-  <include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\P2.L22.Trakt.xml</include>
+  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\[P2.L22.Blank].xml</include[background]--> 
+  <!--[fanart]include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\[P2.L22.Blank].xml</include[fanart]-->
 
   <!-- :::::::::: GROUP 2 L1-3 ::::::::::  -->
 
-  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\P2.L13.OnlineVideos.xml</include[background]--> 
-  <include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\P2.L13.OnlineVideos.xml</include>
+  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\[P2.L13.Blank].xml</include[background]--> 
+  <!--[fanart]include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\[P2.L13.Blank].xml</include[fanart]-->
 
   <!-- :::::::::: GROUP 2 L2-3 ::::::::::  -->
 
-  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\P2.L23.Extensions.xml</include[background]--> 
-  <include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\P2.L23.Extensions.xml</include>
+  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\[P2.L23.Blank].xml</include[background]--> 
+  <!--[fanart]include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\[P2.L23.Blank].xml</include[fanart]-->
 
   <!-- :::::::::: GROUP 3 ::::::::::  -->
 
   <!-- :::::::::: GROUP 3 L1-1 ::::::::::  -->
 
-  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\P3.L11.CPG.xml</include[background]--> 
-  <include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\P3.L11.CPG.xml</include>
+  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\[P3.L11.Blank].xml</include[background]--> 
+  <!--[fanart]include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\[P3.L11.Blank].xml</include[fanart]-->
 
   <!-- :::::::::: GROUP 3 L2-1 ::::::::::  -->
 
-  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\P3.L21.mvCentral.xml</include[background]--> 
-  <include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\P3.L21.mvCentral.xml</include>
+  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\[P3.L21.Blank].xml</include[background]--> 
+  <!--[fanart]include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\[P3.L21.Blank].xml</include[fanart]-->
 
   <!-- :::::::::: GROUP 3 L1-2 ::::::::::  -->
 
-  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\P3.L12.Infoservice.xml</include[background]--> 
-  <include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\P3.L12.Infoservice.xml</include>
+  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\[P3.L12.Blank].xml</include[background]--> 
+  <!--[fanart]include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\[P3.L12.Blank].xml</include[fanart]-->
 
   <!-- :::::::::: GROUP 3 L2-2 ::::::::::  -->
 
-  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\P3.L22.MyEmulator.xml</include[background]--> 
-  <include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\P3.L22.MyEmulator.xml</include>
+  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\[P3.L22.Blank].xml</include[background]--> 
+  <!--[fanart]include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\[P3.L22.Blank].xml</include[fanart]-->
 
   <!-- :::::::::: GROUP 3 L1-3 ::::::::::  -->
 
-  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\P3.L13.Pandora.xml</include[background]--> 
-  <include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\P3.L13.Pandora.xml</include>
+  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\[P3.L13.Blank].xml</include[background]--> 
+  <!--[fanart]include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\[P3.L13.Blank].xml</include[fanart]-->
 
   <!-- :::::::::: GROUP 3 L2-3 ::::::::::  -->
 
-  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\P3.L23.MPSteam.xml</include[background]--> 
-  <include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\P3.L23.MPSteam.xml</include>
+  <!--[background]include condition="#(eq(#skin.basichome.background,'default'))">BasicHome.Background\[P3.L23.Blank].xml</include[background]--> 
+  <!--[fanart]include condition="#(eq(#skin.basichome.background,'FanartHandler'))">BasicHome.Fanart\[P3.L23.Blank].xml</include[fanart]-->
 
   <!-- :::::::::: Play Fanart ::::::::::  -->
 
@@ -187,11 +187,11 @@
   <!-- :::::::::: GROUP 1 Latests ::::::::::  -->
 
   <include>BasicHome.Latest\P1.L11.MusicActiveLatests.xml</include> 
-  <include>BasicHome.Latest\P1.L21.PicturesActiveLatests.xml</include> 
-  <!--[latest]include>BasicHome.Latest\[P1.L12.Blank].xml</include[latest]--> 
+  <!--[latest]include>BasicHome.Latest\[P1.L21.Blank].xml</include[latest]--> 
+  <include>BasicHome.Latest\P1.L12.TV.xml</include> 
   <!--[latest]include>BasicHome.Latest\[P1.L22.Blank].xml</include[latest]--> 
   <include>BasicHome.Latest\P1.L13.MyVideoActiveLatests.xml</include> 
-  <include>BasicHome.Latest\P1.L23.TVSeriesActiveLatests.xml</include> 
+  <!--[latest]include>BasicHome.Latest\[P1.L23.Blank].xml</include[latest]--> 
 
   <!-- :::::::::: GROUP 1 L1-1 ::::::::::  -->
 
@@ -199,7 +199,7 @@
 
   <!-- :::::::::: GROUP 1 L2-1 ::::::::::  -->
 
-  <include>BasicHome.Buttons\P1.L21.PicturesActiveLatests.xml</include> 
+  <include>BasicHome.Buttons\P1.L21.Radio.xml</include> 
 
   <!-- :::::::::: GROUP 1 L1-2 ::::::::::  -->
 
@@ -207,7 +207,7 @@
 
   <!-- :::::::::: GROUP 1 L2-2 ::::::::::  -->
 
-  <include>BasicHome.Buttons\P1.L22.RadioTime.xml</include> 
+  <include>BasicHome.Buttons\P1.L22.Pictures.xml</include> 
 
   <!-- :::::::::: GROUP 1 L1-3 ::::::::::  -->
 
@@ -215,7 +215,7 @@
 
   <!-- :::::::::: GROUP 1 L2-3 ::::::::::  -->
       
-  <include>BasicHome.Buttons\P1.L23.TVSeriesActiveLatests.xml</include> 
+  <include>BasicHome.Buttons\P1.L23.Plugins.xml</include> 
 
   <!-- :::::::::: GROUP 2 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::  -->
 
@@ -223,9 +223,9 @@
 
   <!--[latest]include>BasicHome.Latest\[P2.L11.Blank].xml</include[latest]--> 
   <!--[latest]include>BasicHome.Latest\[P2.L21.Blank].xml</include[latest]--> 
-  <include>BasicHome.Latest\P2.L12.WorldWeatherLite.xml</include> 
-  <include>BasicHome.Latest\P2.L22.Trakt.xml</include> 
-  <include>BasicHome.Latest\P2.L13.OnlineVideos.xml</include> 
+  <!--[latest]include>BasicHome.Latest\[P2.L12.Blank].xml</include[latest]--> 
+  <!--[latest]include>BasicHome.Latest\[P2.L22.Blank].xml</include[latest]--> 
+  <!--[latest]include>BasicHome.Latest\[P2.L13.Blank].xml</include[latest]--> 
   <!--[latest]include>BasicHome.Latest\[P2.L23.Blank].xml</include[latest]--> 
 
   <!-- :::::::::: GROUP 2 L1-1 ::::::::::  -->
@@ -238,19 +238,19 @@
 
   <!-- :::::::::: GROUP 2 L1-2 ::::::::::  -->
 
-  <include>BasicHome.Buttons\P2.L12.WorldWeatherLite.xml</include> 
+  <include>BasicHome.Buttons\P2.L12.Dummy.xml</include> 
 
   <!-- :::::::::: GROUP 2 L2-2 ::::::::::  -->
 
-  <include>BasicHome.Buttons\P2.L22.Trakt.xml</include> 
+  <include>BasicHome.Buttons\P2.L22.Dummy.xml</include> 
 
   <!-- :::::::::: GROUP 2 L1-3 ::::::::::  -->
 
-  <include>BasicHome.Buttons\P2.L13.OnlineVideos.xml</include> 
+  <include>BasicHome.Buttons\P2.L13.Dummy.xml</include> 
 
   <!-- :::::::::: GROUP 2 L2-3 ::::::::::  -->
 
-  <include>BasicHome.Buttons\P2.L23.Extensions.xml</include> 
+  <include>BasicHome.Buttons\P2.L23.Dummy.xml</include> 
 
   <!-- :::::::::: GROUP 3 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::  -->
 
@@ -265,27 +265,27 @@
 
   <!-- :::::::::: GROUP 3 L1-1 ::::::::::  -->
 
-  <include>BasicHome.Buttons\P3.L11.CPG.xml</include> 
+  <!--[button]include>BasicHome.Buttons\[P3.L11.Blank].xml</include[button]--> 
 
   <!-- :::::::::: GROUP 3 L2-1 ::::::::::  -->
 
-  <include>BasicHome.Buttons\P3.L21.mvCentral.xml</include> 
+  <!--[button]include>BasicHome.Buttons\[P3.L21.Blank].xml</include[button]--> 
 
   <!-- :::::::::: GROUP 3 L1-2 ::::::::::  -->
 
-  <include>BasicHome.Buttons\P3.L12.Infoservice.xml</include> 
+  <!--[button]include>BasicHome.Buttons\[P3.L12.Blank].xml</include[button]--> 
 
   <!-- :::::::::: GROUP 3 L2-2 ::::::::::  -->
 
-  <include>BasicHome.Buttons\P3.L22.MyEmulator.xml</include> 
+  <!--[button]include>BasicHome.Buttons\[P3.L22.Blank].xml</include[button]--> 
 
   <!-- :::::::::: GROUP 3 L1-3 ::::::::::  -->
 
-  <include>BasicHome.Buttons\P3.L13.Pandora.xml</include> 
+  <!--[button]include>BasicHome.Buttons\[P3.L13.Blank].xml</include[button]--> 
 
   <!-- :::::::::: GROUP 3 L2-3 ::::::::::  -->
 
-  <include>BasicHome.Buttons\P3.L23.MPSteam.xml</include> 
+  <!--[button]include>BasicHome.Buttons\[P3.L23.Blank].xml</include[button]--> 
 
   <!--            :: FOCUS FRAMES ::            -->
     

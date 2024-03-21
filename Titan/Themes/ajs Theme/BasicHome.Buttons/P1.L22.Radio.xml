@@ -19,6 +19,7 @@
       	<id>5</id>
 		<posX>#L22lefttext</posX>
 	    <posY>#L22toptext</posY>
+        <textYOff>#textYoff</textYOff>
       	<hyperlink>30</hyperlink>
       	<label>665</label>
 		<onright>7</onright>

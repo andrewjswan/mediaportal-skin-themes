@@ -18,6 +18,7 @@
       	<id>300</id>
 		<posX>#L21lefttext</posX>
 	    <posY>#L21toptext</posY>
+        <textYOff>#textYoff</textYOff>
 		<onright>500</onright>
 		<onleft>7</onleft>
       	<onup>200</onup>

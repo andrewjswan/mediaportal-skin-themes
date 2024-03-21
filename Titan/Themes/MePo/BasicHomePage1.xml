@@ -188,6 +188,34 @@
 	  
 	  
      <control Style="BasicHomeButton">
+        <description>BasicHome Plugins</description>
+        <type>button</type>
+        <id>8201125</id>
+        <posX>795</posX>
+        <posY>995</posY>
+		<hyperlink>34</hyperlink>
+		<height>40</height>
+		<width>40</width>
+        <label></label>
+		<textcolorNoFocus>ff6c7880</textcolorNoFocus>
+		<textcolor>ffffffff</textcolor>
+		<textureFocus>plugins.png</textureFocus>
+		<textureNoFocus>plugins.png</textureNoFocus>
+		<align>center</align>
+		<font>font14</font>
+        <onleft>8201125</onleft>
+        <onup>#skin.currentTile</onup>
+		<ondown>8201125</ondown>
+		<onright>8201123</onright>
+        <animation effect="fade" delay="0" reversible="false" time="200">focus</animation>
+		<animation effect="fade" delay="0" reversible="false" time="100">Hidden</animation>
+		<animation effect="slide" end="70,0" time="150">Hidden</animation>
+		<animation effect="slide" start="70,0" time="200">Visible</animation>
+        <animation effect="zoom" start="100,100" end="110,110" time="1000" condition="control.hasFocus(8201125)" pulse="true">conditional</animation>
+		<visible allowhiddenfocus="true">control.hasfocus(8201123)|control.hasfocus(8201125)|control.hasfocus(8205555)|control.hasfocus(8206555)</visible>
+	 </control> 
+
+     <control Style="BasicHomeButton">
         <description>BasicHome settings</description>
         <type>button</type>
         <id>8201123</id>
@@ -203,7 +231,7 @@
 		<textureNoFocus>setting.png</textureNoFocus>
 		<align>center</align>
 		<font>font14</font>
-        <onleft>8201123</onleft>
+        <onleft>8201125</onleft>
         <onup>#skin.currentTile</onup>
 		<ondown>8201123</ondown>
 		<onright>8206555</onright>
@@ -212,7 +240,7 @@
 		<animation effect="slide" end="70,0" time="150">Hidden</animation>
 		<animation effect="slide" start="70,0" time="200">Visible</animation>
         <animation effect="zoom" start="100,100" end="110,110" time="1000" condition="control.hasFocus(8201123)" pulse="true">conditional</animation>
-		<visible allowhiddenfocus="true">control.hasfocus(8201123)|control.hasfocus(8205555)|control.hasfocus(8206555)</visible>
+		<visible allowhiddenfocus="true">control.hasfocus(8201123)|control.hasfocus(8201125)|control.hasfocus(8205555)|control.hasfocus(8206555)</visible>
 	 </control> 
 
 	 <control Style="BasicHomeButton">
@@ -239,7 +267,7 @@
 		<animation effect="slide" end="-70,0" time="150">Hidden</animation>
 		<animation effect="slide" start="-70,0" time="200">Visible</animation>
         <animation effect="zoom" start="100,100" end="110,110" time="1000" condition="control.hasFocus(8205555)" pulse="true">conditional</animation>
-		<visible allowhiddenfocus="true">control.hasfocus(8201123)|control.hasfocus(8205555)|control.hasfocus(8206555)</visible>
+		<visible allowhiddenfocus="true">control.hasfocus(8201123)|control.hasfocus(8201125)|control.hasfocus(8205555)|control.hasfocus(8206555)</visible>
 	 </control> 	
 
 	 <control Style="BasicHomeButton">
@@ -264,7 +292,7 @@
     	<animation effect="fade" delay="0" reversible="false" time="300">Visible</animation>
 		<animation effect="fade" delay="0" reversible="false" time="200">Hidden</animation>
         <animation effect="zoom" start="100,100" end="110,110" time="1000" condition="control.hasFocus(8206555)" pulse="true">conditional</animation>
-    	<visible allowhiddenfocus="true">control.hasfocus(8201123)|control.hasfocus(8205555)|control.hasfocus(8206555)</visible>
+    	<visible allowhiddenfocus="true">control.hasfocus(8201123)|control.hasfocus(8201123)|control.hasfocus(8205555)|control.hasfocus(8206555)</visible>
 	 </control> 
 	  	
 	  

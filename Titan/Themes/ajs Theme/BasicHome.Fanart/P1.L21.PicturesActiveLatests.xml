@@ -9,7 +9,10 @@
       <type>image</type>
       <id>0</id>
       <visible>[control.hasfocus(3) | control.IsVisible(30001)] + control.isvisible(91919297)</visible>
-      <texture>#fanarthandler.picture.userdef.backdrop1.any</texture>
+      <texture>#(switch(
+                   eq(#fanarthandler.spotlight.random.available,'true'),#fanarthandler.spotlight.backdrop1.any,
+                   eq(1,1),#fanarthandler.picture.userdef.backdrop1.any)
+                 )</texture>
     </control> 
 		
     <control Style="HomeBasicFanart">
@@ -17,7 +20,10 @@
       <type>image</type>
       <id>0</id>
       <visible>[control.hasfocus(3) | control.IsVisible(30001)] + control.isvisible(91919298)</visible>
-      <texture>#fanarthandler.picture.userdef.backdrop2.any</texture>
+      <texture>#(switch(
+                   eq(#fanarthandler.spotlight.random.available,'true'),#fanarthandler.spotlight.backdrop2.any,
+                   eq(1,1),#fanarthandler.picture.userdef.backdrop2.any)
+                 )</texture>
     </control> 
 
     <control Style="HomeBasicFanart">

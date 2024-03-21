@@ -15,6 +15,8 @@
 <define>#useRandomTVSeriesFanart:Yes</define>
 <define>#usePlayFanart:Yes</define>
 
+<define>#textYoff:175</define>
+
 <define>#L11top:447</define>
 <define>#L11left:42</define>
 <define>#L11toptext:453</define>

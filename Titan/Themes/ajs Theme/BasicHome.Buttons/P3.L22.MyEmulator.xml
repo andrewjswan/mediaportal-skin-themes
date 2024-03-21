@@ -19,6 +19,7 @@
       	<id>550</id>
 		<posX>#L22lefttext</posX>
 	    <posY>#L22toptext</posY>
+        <textYOff>#textYoff</textYOff>
         <label>My Emulator</label>
         <hyperlink>7942</hyperlink>
 		<onright>750</onright>

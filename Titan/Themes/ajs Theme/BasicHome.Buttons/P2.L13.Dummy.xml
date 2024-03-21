@@ -18,6 +18,7 @@
       	<id>600</id>
 		<posX>#L13lefttext</posX>
 	    <posY>#L13toptext</posY>
+        <textYOff>#textYoff</textYOff>
 		<onright>#P2L13ToRight</onright>
 		<onleft>400</onleft>
       	<onup>600</onup>

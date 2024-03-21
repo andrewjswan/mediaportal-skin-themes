@@ -36,6 +36,7 @@
       	<id>4</id>
 		<posX>#L12lefttext</posX>
 	    <posY>#L12toptext</posY>
+        <textYOff>#textYoff</textYOff>
         <label>605</label>
         <onup>4</onup>
         <ondown>5</ondown>

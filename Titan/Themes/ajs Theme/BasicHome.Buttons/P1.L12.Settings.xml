@@ -17,6 +17,7 @@
     	<description>BasicHome Settings</description>
       	<type>button</type>
       	<id>4</id>
+        <textYOff>#textYoff</textYOff>
 		<posX>#L12lefttext</posX>
 	    <posY>#L12toptext</posY>
         <hyperlink>4</hyperlink>
